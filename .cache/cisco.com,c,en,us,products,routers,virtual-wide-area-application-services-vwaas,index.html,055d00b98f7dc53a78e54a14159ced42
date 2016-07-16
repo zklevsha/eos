@@ -1,0 +1,18 @@
+status: 301
+content-length: 309
+-x-permanent-redirect-url: http://www.cisco.com/c/en/us/products/routers/virtual-wide-area-application-services-vwaas/index.html
+content-type: text/html; charset=iso-8859-1
+content-location: http://cisco.com//c/en/us/products/routers/virtual-wide-area-application-services-vwaas/index.html
+cache-control: max-age=0
+date: Sat, 16 Jul 2016 21:17:41 GMT
+location: http://www.cisco.com/c/en/us/products/routers/virtual-wide-area-application-services-vwaas/index.html
+expires: Sat, 16 Jul 2016 21:17:41 GMT
+server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.cisco.com/c/en/us/products/routers/virtual-wide-area-application-services-vwaas/index.html">here</a>.</p>
+</body></html>

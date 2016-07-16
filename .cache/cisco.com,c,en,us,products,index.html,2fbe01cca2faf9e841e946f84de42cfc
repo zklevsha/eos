@@ -1,0 +1,21 @@
+status: 301
+location: http://www.cisco.com/c/en/us/products/index.html
+cache-control: max-age=0
+-content-encoding: gzip
+content-location: http://cisco.com/c/en/us/products/index.html
+server: Apache
+vary: Accept-Encoding
+content-length: 256
+content-type: text/html; charset=iso-8859-1
+date: Sat, 16 Jul 2016 20:02:53 GMT
+-x-permanent-redirect-url: http://www.cisco.com/c/en/us/products/index.html
+expires: Sat, 16 Jul 2016 20:02:53 GMT
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.cisco.com/c/en/us/products/index.html">here</a>.</p>
+</body></html>

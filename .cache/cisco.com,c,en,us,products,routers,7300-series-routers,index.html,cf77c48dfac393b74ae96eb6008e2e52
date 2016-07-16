@@ -1,0 +1,21 @@
+status: 301
+location: http://www.cisco.com/c/en/us/products/routers/7300-series-routers/index.html
+-content-encoding: gzip
+-x-permanent-redirect-url: http://www.cisco.com/c/en/us/products/routers/7300-series-routers/index.html
+content-type: text/html; charset=iso-8859-1
+server: Apache
+content-length: 284
+cache-control: max-age=0
+vary: Accept-Encoding
+content-location: http://cisco.com/c/en/us/products/routers/7300-series-routers/index.html
+expires: Sat, 16 Jul 2016 20:14:19 GMT
+date: Sat, 16 Jul 2016 20:14:19 GMT
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.cisco.com/c/en/us/products/routers/7300-series-routers/index.html">here</a>.</p>
+</body></html>
