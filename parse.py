@@ -34,4 +34,10 @@ for eos in all_eos:
 			arr_table.append(cols)
 		arr_tables.append(arr_table)
 
-		print arr_tables
+	dates = arr_tables[0]
+	devices = arr_tables[1]
+	pns = [device[0].replace(" ", "").replace('\n','') for device in devices]
+	pns.pop(0)
+	dates.pop(0)
+
+	print(dates)
