@@ -67,5 +67,5 @@ for device in devices:
 		print('')
 		
 
-print all_eos
+print(all_eos)
 pickle.dump(all_eos,open('eos.p','wb'))
