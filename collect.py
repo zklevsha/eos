@@ -43,7 +43,7 @@ for device in devices:
 			try:
 				content = requests.get(page,timeout=10)
 			except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
-				print "Error. Repeat"
+				print ("Error. Repeat")
 				error_log.write('url_timeout' + page+'\t')
 			else:
 				break
@@ -69,3 +69,5 @@ for device in devices:
 
 print(all_eos)
 pickle.dump(all_eos,open('eos.p','wb'))
+
+error_log.close()
