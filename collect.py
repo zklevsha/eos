@@ -57,7 +57,7 @@ for device in devices:
 		for link in alllinks:
 			#print (link.text)
 			#print('cheking ' + link['href'])
-			if  "notice" in link['href'] and 'listing' not in link['href']:
+			if  "notice" in link['href'] and 'listing' not in link['href'] and 'fr.html' not in link['href']:
 				#print ('added')
 				all_eos.append(link['href'])
 			

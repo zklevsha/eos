@@ -1,23 +1,12 @@
 #!/usr/bin/python3
-import httplib2
-from bs4 import BeautifulSoup
+import pickle
 import re
+all_eos = pickle.load(open("eos.p",'rb'))
 
-h = httplib2.Http(".cache")
-page = 'http://cisco.com/c/en/us/products/switches/data-center-switches/eos-eol-notice-listing.html'
+pattern = re.compile('7200')
 
-resp, content = h.request(page, "GET")
-if resp['status'] != '200' :
-	print ('Error code :' + str(resp['status']))
-	
-soup = BeautifulSoup(content)
-alllinks = soup.findAll('a', href=True)
-eos_listing = [ link['href'] for link in alllinks if 'notice' in link['href'] and 'listing' not in link['href']  and '-fr' not in link['href']]
-
-if len(eos_listing) == 0:
-	print ("No eos")
-
-
-
+for eos in all_eos:
+	if pattern.search(eos):
+		print(eos)
 
 	#framework-column-center
