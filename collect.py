@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import httplib2
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup,SoupStrainer
 import re
 import time
 import pickle
@@ -52,14 +52,13 @@ for device in devices:
 			print ('Error code :' + str(content.status_code))
 			continue
 
-		soup = BeautifulSoup(content.text)
+		strainer = SoupStrainer("ul",{'class':'listing'})
+		soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer) 
 		alllinks = soup.findAll('a', href=True)
 		for link in alllinks:
-			#print (link.text)
-			#print('cheking ' + link['href'])
-			if  "notice" in link['href'] and 'listing' not in link['href'] and 'fr.html' not in link['href']:
-				#print ('added')
+			if 'fr.html' not in link['href']:
 				all_eos.append(link['href'])
+
 			
 		print('Eos lenght:' + str(len(all_eos)))
 		print('Done')
