@@ -85,8 +85,9 @@ print("")
 print('------------- PHASE II: PARSING END OF SALE PAGES ------------- ')
 eos_listing = pickle.load(open('eos_listing','rb'))
 for page in eos_listing: # parsing eos listing
+	print (page)
 	content = get_page(page)
-	strainer = SoupStrainer("table",{'id':'framework-base-content'})
+	strainer = SoupStrainer("ul",{'class':'listing'})
 	soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
 	eos_docs = [(link.text,header+link['href']) for link in soup.find_all('a', href=True) if "Relocation content" not in link.text and '-fr' not in link['href'] and "Frequently Asked Questions" not in link.text]
 
@@ -130,9 +131,8 @@ for page in eos_listing: # parsing eos listing
 				devices.append(arr)
 		
 
-
+		
 		if len(devices) == 0:
-
 			if('Cisco IOS XE' in content.text ): #some eos ( somftware mainly) not have pn
 				ios_no_pn.append(doc)
 				continue
@@ -149,14 +149,15 @@ for page in eos_listing: # parsing eos listing
 		if len(devices) > 1:
 			multile_devices.append((doc,devices))
 			continue
-
-		pns = [device[0].replace(" ", "").replace('\n','') for device in devices]
+		devices = devices[0]
+		pns = [device.replace(" ", "").replace('\n','') for device in devices]
 		pns.pop(0)
-
 		for pn in pns:
 			if pn not in data.keys():
 				data[pn] = []
-				data[pn].append({'title':doc[0],'url':doc[1],'date':document_date})
+			data[pn].append({'title':doc[0],'url':doc[1],'date':document_date})
+	pickle.dump(data,open('data.p','wb'))
+	sys.exit()
 
 
 pickle.dump(data,open('data.p','wb'))
@@ -168,6 +169,6 @@ if len(multile_devices) != 0:
 
 
 if len(ios_no_pn) != 0:
-	pickle.dump(ios_no_pn,open('ios_no_pn.append.p','wb'))
+	pickle.dump(ios_no_pn,open('ios_no_pn.p','wb'))
 	print('Some eos have no PN')
-	print('Please check "ios_no_pn.append.p')
+	print('Please check "ios_no_pn.p')
