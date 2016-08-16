@@ -6,6 +6,8 @@ import requests
 import sys
 import pickle
 import re
+import os
+
 header = 'https://www.cisco.com'
 eos_listing = []
 data = {}
@@ -16,23 +18,26 @@ cant_find_listing = []
 multile_devices = []
 ios_no_pn = []
 
-
-# accepted_header = ['End-of-Sale Product PartNumber','End-of-Sale Product Part Number',
-# 					'End-of-Sale Product Part\xa0Number','Product ID','Product Number',
-# 					'End-of-Sale Product','End-of-Sale Product  Part Number']
 accepted_header = ['EndofSaleProductPartNumber','ProductID','ProductNumber',
 					'EndofSaleProduct']
 def get_page(url):
+	i = 0
 	while True:
+		if i == 10:
+			cant_get_page.append(url)
+			content = (500,'cant get page '+url)
+			break
 		try:
 			content = requests.get(url,timeout=10)
 		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
 			print ("Connection Error. Repeat")
+			i = i+1
 		else:
 			break
 	return content
 
-if False:
+os.system('chcp 65001')
+if False: #debugging
 	index_page = get_page("http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all")
 
 	strainer = SoupStrainer("div",{'class':'list-section'})
@@ -130,8 +135,6 @@ for page in eos_listing: # parsing eos listing
 				arr = [row[0] for row in table ]
 				devices.append(arr)
 		
-
-		
 		if len(devices) == 0:
 			if('Cisco IOS XE' in content.text ): #some eos ( somftware mainly) not have pn
 				ios_no_pn.append(doc)
@@ -156,9 +159,6 @@ for page in eos_listing: # parsing eos listing
 			if pn not in data.keys():
 				data[pn] = []
 			data[pn].append({'title':doc[0],'url':doc[1],'date':document_date})
-	pickle.dump(data,open('data.p','wb'))
-	sys.exit()
-
 
 pickle.dump(data,open('data.p','wb'))
 
@@ -172,3 +172,8 @@ if len(ios_no_pn) != 0:
 	pickle.dump(ios_no_pn,open('ios_no_pn.p','wb'))
 	print('Some eos have no PN')
 	print('Please check "ios_no_pn.p')
+
+if len(cant_get_page) != 0:
+	print('Coudl not get some of pages')
+	print('Please check cant_get_page.p')
+	pickle.dump(cant_get_page,open('cant_get_page.p','wb'))
