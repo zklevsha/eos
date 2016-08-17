@@ -4,11 +4,11 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
-os.system('dir')
+
 
 rb = xlrd.open_workbook('old.xlsx')
-data = pickle.load(open('data_2.p','rb'))
-multiple_devices = ickle.load(open('multile_devices.p','rb'))
+data = pickle.load(open('data.p','rb'))
+multiple_devices = pickle.load(open('multile_devices.p','rb'))
 sheet = rb.sheet_by_index(0)
 vals = [sheet.row_values(rownum) for rownum in range(sheet.nrows)]
 vals.pop(0)

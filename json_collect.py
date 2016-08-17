@@ -133,4 +133,4 @@ for eos_page in all_eos_pages:
 			data[pn]={}
 			data[pn]['url'] = {'link':eos_page,'date':document_date} 
 
-pickle.dump(data,open('data.p','wb'))
+pickle.dump(data,open('eos_json.p','wb'))

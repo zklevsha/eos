@@ -7,6 +7,10 @@ import sys
 import pickle
 import re
 import os
+import logging
+import datetime
+import platform
+
 
 header = 'https://www.cisco.com'
 eos_listing = []
@@ -20,39 +24,66 @@ ios_no_pn = []
 
 accepted_header = ['EndofSaleProductPartNumber','ProductID','ProductNumber',
 					'EndofSaleProduct']
+
+class Object(object):
+	pass
+
 def get_page(url):
 	i = 0
 	while True:
-		if i == 10:
+		if i == 5:
 			cant_get_page.append(url)
-			content = (500,'cant get page '+url)
+			content = Object()
+			content.text = 'Cant open url '+ url
+			content.status_code = 504
 			break
 		try:
-			content = requests.get(url,timeout=10)
+			content = requests.get(url,timeout=5)
 		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
-			print ("Connection Error. Repeat")
+			log.info ("Connection Error. Repeat")
 			i = i+1
 		else:
 			break
 	return content
 
-os.system('chcp 65001')
+def get_logger(filename):
+	logger = logging.getLogger()
+	logger.setLevel(logging.DEBUG)
+
+	# create console handler and set level to info
+	handler = logging.StreamHandler()
+	handler.setLevel(logging.INFO)
+	formatter = logging.Formatter(" %(message)s")
+	handler.setFormatter(formatter)
+	logger.addHandler(handler)
+
+	handler = logging.FileHandler(filename)
+	handler.setLevel(logging.INFO)
+	formatter = logging.Formatter("%(message)s")
+	handler.setFormatter(formatter)
+	logger.addHandler(handler)
+	return logger
+
+log = get_logger('collect_log.txt')	
+log.info('Starting script at' + str(datetime.datetime.now()))
+if platform.name = "Windows":
+	os.system('chcp 65001') # for windows systems only
 if False: #debugging
 	index_page = get_page("http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all")
 
 	strainer = SoupStrainer("div",{'class':'list-section'})
 	soup = BeautifulSoup(index_page.content,parse_only=strainer)
 
-	#print (soup)
+	#log.info (soup)
 
 	links = [ (link.text,header+link['href']) for link in soup.find_all('a',href=True) ]
 
 
-	print('------------- PHASE I: COLLECTING END OF SALE  PAGES ------------- ')
+	log.info('------------- PHASE I: COLLECTING END OF SALE  PAGES ------------- ')
 
-	print("\nStep 1 gathering listings")
+	log.info("\nStep 1 gathering listings")
 	for link in links:
-		print(link[0])
+		log.info(link[0])
 		content = get_page(link[1])
 
 		if content.status_code != 200 :
@@ -69,38 +100,38 @@ if False: #debugging
 			cant_find_listing.append(link)
 
 
-	print("Found eos for " + str(len(eos_listing)) + 'pages')
+	log.info("Found Eos for " + str(len(eos_listing)) + 'pages')
 	pickle.dump(eos_listing,open('eos_listing','wb'))
 
-	print("Cant open  " + str(len(cant_get_page)) + 'pages')
+	log.info("Cant open  " + str(len(cant_get_page)) + 'pages')
 	with open("cant_open.txt","w") as w:
 			for item in cant_get_page:
 				w.write(item[0])
 				w.write(item[1])
 				w.write("")
 
-	print("Cand find Eos " + str(len(cant_find_listing)) + 'pages')
+	log.info("Cand find Eos for " + str(len(cant_find_listing)) + 'pages')
 	with open("no_eos.txt","w") as w:
 			for item in cant_find_listing:
 				w.write(item[0] + " " + item[1])
 
 
 
-print("")
-print('------------- PHASE II: PARSING END OF SALE PAGES ------------- ')
+log.info("")
+log.info('------------- PHASE II: PARSING END OF SALE PAGES ------------- ')
 eos_listing = pickle.load(open('eos_listing','rb'))
 for page in eos_listing: # parsing eos listing
-	print (page)
+	log.info (page)
 	content = get_page(page)
 	strainer = SoupStrainer("ul",{'class':'listing'})
 	soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
 	eos_docs = [(link.text,header+link['href']) for link in soup.find_all('a', href=True) if "Relocation content" not in link.text and '-fr' not in link['href'] and "Frequently Asked Questions" not in link.text]
 
 	for doc in eos_docs:#parsing eos docs
-		print('')
-		print('Title: '+doc[0])
-		print("Url: "+doc[1])
-		print("Index: "+ str(eos_docs.index(doc)) )
+		log.info('')
+		log.info('Title: '+doc[0])
+		log.info("Url: "+doc[1])
+		log.info("Index: "+ str(eos_docs.index(doc)) )
 		content = get_page(doc[1])
 		soup = BeautifulSoup(content.text,"html.parser")
 		tables = soup.findAll("table")
@@ -127,7 +158,7 @@ for page in eos_listing: # parsing eos listing
 		for table in arr_tables:
 			try:
 				th = table[0][0].replace(" ", "").replace('\n','').replace('\xa0','').replace('-','')
-				#print(repr(th))
+				#log.info(repr(th))
 			except(IndexError):
 				continue
 
@@ -141,11 +172,11 @@ for page in eos_listing: # parsing eos listing
 				continue
 			#some documents were replaced
 			if 'was replaced by' in content.text:
-				print('OK')
+				log.info('OK')
 			continue
 
-			print("Cant find table with devices")
-			print("url: "+doc[1])
+			log.info("Cant find table with devices")
+			log.info("url: "+doc[1])
 			sys.exit()
 			continue
 
@@ -162,18 +193,20 @@ for page in eos_listing: # parsing eos listing
 
 pickle.dump(data,open('data.p','wb'))
 
+log.info('============================== Done ==================================')
+
 if len(multile_devices) != 0:
 	pickle.dump(multile_devices,open('multile_devices.p','wb'))
-	print('There are more then 1 table with pn for some documents')
-	print('Please check multile_devices.p')
+	log.info('There are more then 1 table with pn for some documents')
+	log.info('Please check multile_devices.p')
 
 
 if len(ios_no_pn) != 0:
 	pickle.dump(ios_no_pn,open('ios_no_pn.p','wb'))
-	print('Some eos have no PN')
-	print('Please check "ios_no_pn.p')
+	log.info('Some eos have no PN')
+	log.info('Please check "ios_no_pn.p')
 
 if len(cant_get_page) != 0:
-	print('Coudl not get some of pages')
-	print('Please check cant_get_page.p')
+	log.info('Coudl not get some of pages')
+	log.info('Please check cant_get_page.p')
 	pickle.dump(cant_get_page,open('cant_get_page.p','wb'))
