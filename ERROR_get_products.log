@@ -1,6 +1,5 @@
-2016-08-18 17:27:10,605 ERROR: Number of tables with dates 2
-2016-08-18 17:27:10,605 ERROR url: https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice09186a00801eb0ae.html
-2016-08-18 17:27:10,610 This one was in strange_links. I cannot parse it properly
-2016-08-18 17:27:10,610  
-2016-08-18 17:27:30,700 Multiple devices tables
-2016-08-18 17:27:30,700 url https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_489759.html
+2016-08-19 17:26:43,712 This one was in strange_links. I cannot parse it properly
+2016-08-19 17:26:43,712  
+2016-08-19 17:28:06,834 This one was in strange_links. I cannot parse it properly
+2016-08-19 17:28:06,834  
+2016-08-19 17:28:09,264 Cant parse devices

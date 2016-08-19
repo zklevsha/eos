@@ -1,0 +1,1535 @@
+2016-08-19 16:58:19,425 Starting script at2016-08-19 16:58:19.425847
+2016-08-19 16:58:19,595 Starting new HTTP connection (1): www.cisco.com
+2016-08-19 16:58:19,965 Starting new HTTP connection (1): www.cisco.com
+2016-08-19 16:58:20,355 Device Type: switches
+2016-08-19 16:58:20,555 Checking if there are end of sale devices:
+2016-08-19 16:58:20,565 Starting new HTTP connection (1): www.cisco.com
+2016-08-19 16:58:20,976 Found eos devices. Adding them to list
+2016-08-19 16:58:21,076 Done.
+2016-08-19 16:58:21,076  
+2016-08-19 16:58:21,076 Parsing Cisco Blade Switches for Dell
+2016-08-19 16:58:21,086 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:22,676 Found some End-of-Sale listing
+2016-08-19 16:58:22,686 url:https://www.cisco.com/c/en/us/products/switches/blade-switches-dell/eos-eol-notice-listing.html
+2016-08-19 16:58:22,686 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:23,186 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3130 for Dell M1000E
+2016-08-19 16:58:23,186 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-dell/eos-eol-notice-c51-733652.html
+2016-08-19 16:58:23,196 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:23,907 This page have 1 dv dt pairs
+2016-08-19 16:58:23,907 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:23,907 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3130 for Dell M1000E
+2016-08-19 16:58:23,917 Adding pn to dictionary
+2016-08-19 16:58:23,917 pn:3130-ACC-KIT
+2016-08-19 16:58:23,917 pn:3130-IPS-DEL
+2016-08-19 16:58:23,917 pn:CAB-STK-DEL-0.5M=
+2016-08-19 16:58:23,917 pn:CAB-STK-DEL-1M=
+2016-08-19 16:58:23,927 pn:CAB-STK-DEL-3M=
+2016-08-19 16:58:23,927 pn:CBS-DEL-SFP-LX=
+2016-08-19 16:58:23,927 pn:CBS-DEL-SFP-SX14=
+2016-08-19 16:58:23,927 pn:CBS-DEL-SFP-SX=
+2016-08-19 16:58:23,927 pn:CBS-DEL-SFP-T14=
+2016-08-19 16:58:23,927 pn:CBS-DEL-SFP-T=
+2016-08-19 16:58:23,927 pn:CBS-DEL-X2-CX4=
+2016-08-19 16:58:23,927 pn:CBS-DEL-X2-LRM=
+2016-08-19 16:58:23,927 pn:CBS-DEL-X2-SR=
+2016-08-19 16:58:23,937 pn:WS-CBS3130G-S
+2016-08-19 16:58:23,937 pn:WS-CBS3130G-S-F
+2016-08-19 16:58:23,937 pn:WS-CBS3130X-S
+2016-08-19 16:58:23,937 pn:WS-CBS3130X-S-F
+2016-08-19 16:58:23,937 
+2016-08-19 16:58:23,937 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3032 for Dell
+2016-08-19 16:58:23,937 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-dell/eol_C51-728536.html
+2016-08-19 16:58:23,947 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:24,988 This page have 1 dv dt pairs
+2016-08-19 16:58:24,998 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:24,998 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3032 for Dell 
+2016-08-19 16:58:24,998 Adding pn to dictionary
+2016-08-19 16:58:24,998 pn:WS-CBS3032-DEL
+2016-08-19 16:58:24,998 pn:WS-CBS3032-DEL-F
+2016-08-19 16:58:24,998 
+2016-08-19 16:58:24,998 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3032 for Dell
+2016-08-19 16:58:25,008 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eol_C51-728536.html
+2016-08-19 16:58:25,008 This one was parsed before.Skiping
+2016-08-19 16:58:25,008  
+2016-08-19 16:58:25,008 Title:End-of-Sale and End-of-Life Announcement for the Advanced IP Services Software License for CBS3130
+2016-08-19 16:58:25,008 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-dell/eol_c51_522945.html
+2016-08-19 16:58:25,018 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:25,608 This page have 1 dv dt pairs
+2016-08-19 16:58:25,608 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:25,618 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Advanced IP Services Software License for CBS3130
+2016-08-19 16:58:25,618 Adding pn to dictionary
+2016-08-19 16:58:25,618 pn:3130-AISK9-DEL
+2016-08-19 16:58:25,618 pn:3130-AISK9-LIC
+2016-08-19 16:58:25,618 pn:3130-AISK9-LIC=
+2016-08-19 16:58:25,618 
+2016-08-19 16:58:25,618 Title:End-of-Sale and End-of-Life Announcement for the Advanced IP Services Software License for CBS3130
+2016-08-19 16:58:25,628 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eol_c51_522945.html
+2016-08-19 16:58:25,628 This one was parsed before.Skiping
+2016-08-19 16:58:25,628  
+2016-08-19 16:58:25,628 Title:Cisco Catalyst Blade Switch 3030 for Dell
+2016-08-19 16:58:25,628 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-blade-switch-3030-dell/prod_end-of-life_notice0900aecd8071eefd.html
+2016-08-19 16:58:25,638 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:26,248 This page have 1 dv dt pairs
+2016-08-19 16:58:26,248 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:26,248 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3030 for Dell 
+2016-08-19 16:58:26,248 Adding pn to dictionary
+2016-08-19 16:58:26,248 pn:WS-CBS3030-DEL-S
+2016-08-19 16:58:26,248 
+2016-08-19 16:58:26,248 Title:Cisco Catalyst Blade Switch 3030 for Dell (factory pre-installed by Dell)
+2016-08-19 16:58:26,248 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-blade-switch-3030-dell/prod_end-of-life_notice0900aecd8071eedb.html
+2016-08-19 16:58:26,258 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:26,718 This page have 1 dv dt pairs
+2016-08-19 16:58:26,718 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:26,728 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3030 for Dell (factory pre-installed by Dell) 
+2016-08-19 16:58:26,728 Adding pn to dictionary
+2016-08-19 16:58:26,728 pn:WS-CBS3030-DEL-F
+2016-08-19 16:58:26,728 
+2016-08-19 16:58:26,728 Parsing Cisco Blade Switches for FSC
+2016-08-19 16:58:26,738 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:27,238 Found some End-of-Sale listing
+2016-08-19 16:58:27,238 url:https://www.cisco.com/c/en/us/products/switches/blade-switches-fsc/eos-eol-notice-listing.html
+2016-08-19 16:58:27,248 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:27,728 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3040 for Fujitsu
+2016-08-19 16:58:27,728 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-fsc/eol_c51_636891.html
+2016-08-19 16:58:27,738 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:28,108 This page have 1 dv dt pairs
+2016-08-19 16:58:28,108 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:28,108 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3040 for Fujitsu 
+2016-08-19 16:58:28,118 Adding pn to dictionary
+2016-08-19 16:58:28,118 pn:WS-CBS3040-FSC
+2016-08-19 16:58:28,118 pn:WS-CBS3040-FSC-10
+2016-08-19 16:58:28,118 pn:WS-CBS3040-FSC-I
+2016-08-19 16:58:28,128 
+2016-08-19 16:58:28,128 Parsing Cisco Blade Switches for HP
+2016-08-19 16:58:28,128 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:28,408 Found some End-of-Sale listing
+2016-08-19 16:58:28,408 url:https://www.cisco.com/c/en/us/products/switches/blade-switches-hp/eos-eol-notice-listing.html
+2016-08-19 16:58:28,418 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:28,659 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3120 for HP
+2016-08-19 16:58:28,659 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eos-eol-notice-c51-733651.html
+2016-08-19 16:58:28,669 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:29,069 This page have 1 dv dt pairs
+2016-08-19 16:58:29,069 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:29,079 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3120 for HP
+2016-08-19 16:58:29,079 Adding pn to dictionary
+2016-08-19 16:58:29,079 pn:3120-IPS-LIC
+2016-08-19 16:58:29,079 pn:WS-CBS3120G-S
+2016-08-19 16:58:29,079 pn:WS-CBS3120X-S
+2016-08-19 16:58:29,079 pn:WS-CBS3125G-S
+2016-08-19 16:58:29,079 pn:WS-CBS3125X-S
+2016-08-19 16:58:29,089 
+2016-08-19 16:58:29,089 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Blade Switch 3020 for HP
+2016-08-19 16:58:29,089 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eol_C51-728247.html
+2016-08-19 16:58:29,099 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:29,499 This page have 1 dv dt pairs
+2016-08-19 16:58:29,499 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:29,499 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst Blade Switch 3020 for HP 
+2016-08-19 16:58:29,509 Adding pn to dictionary
+2016-08-19 16:58:29,509 pn:WS-CBS3020-HPQ
+2016-08-19 16:58:29,509 
+2016-08-19 16:58:29,509 Title:End-of-Sale and End-of-Life Announcement for the Advanced IP Services Software License for CBS3120
+2016-08-19 16:58:29,509 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eol_c51_522961.html
+2016-08-19 16:58:29,519 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:29,899 This page have 1 dv dt pairs
+2016-08-19 16:58:29,899 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:29,899 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Advanced IP Services Software License for CBS3120
+2016-08-19 16:58:29,899 Adding pn to dictionary
+2016-08-19 16:58:29,909 pn:3120-AISK9-LIC
+2016-08-19 16:58:29,909 pn:3125-AISK9-LIC
+2016-08-19 16:58:29,909 
+2016-08-19 16:58:29,909 Parsing Cisco Nexus 4000 Series Switches
+2016-08-19 16:58:29,919 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:30,199 Found some End-of-Sale listing
+2016-08-19 16:58:30,199 url:https://www.cisco.com/c/en/us/products/switches/nexus-4000-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:58:30,199 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:30,439 Title:End-of-Sale and End-of-Life Announcement for the Cisco Nexus 4000 Series Switch Modules for IBM BladeCenter
+2016-08-19 16:58:30,439 Url:https://www.cisco.com/c/en/us/products/collateral/switches/nexus-4000-series-switches/eos-eol-notice-c51-733205.html
+2016-08-19 16:58:30,449 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:30,890 This page have 1 dv dt pairs
+2016-08-19 16:58:30,890 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:30,890 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco Nexus 4000 Series Switch Modules for IBM BladeCenter
+2016-08-19 16:58:30,890 Adding pn to dictionary
+2016-08-19 16:58:30,890 pn:CAB-CON-RJ45-I
+2016-08-19 16:58:30,890 pn:N4K-4001I-SSK9
+2016-08-19 16:58:30,900 pn:N4K-4001I-XPX
+2016-08-19 16:58:30,900 pn:N4K-4001I-XPX-F
+2016-08-19 16:58:30,900 pn:N4K-4005I-SSK9
+2016-08-19 16:58:30,900 pn:N4K-4005I-XPX
+2016-08-19 16:58:30,900 
+2016-08-19 16:58:30,900 Parsing Cisco Switch Modules for IBM
+2016-08-19 16:58:30,910 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:31,200 Found some End-of-Sale listing
+2016-08-19 16:58:31,200 url:https://www.cisco.com/c/en/us/products/switches/switch-modules-ibm/eos-eol-notice-listing.html
+2016-08-19 16:58:31,210 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:31,450 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst Switch Modules 3012 and 3110 for IBM BladeCenter
+2016-08-19 16:58:31,450 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eos-eol-notice-c51-733650.html
+2016-08-19 16:58:31,460 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:31,840 This page have 1 dv dt pairs
+2016-08-19 16:58:31,840 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:31,840 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the  Cisco Catalyst Switch Modules 3012 and 3110 for IBM BladeCenter
+2016-08-19 16:58:31,850 Adding pn to dictionary
+2016-08-19 16:58:31,850 pn:3110-IPS-LIC-I
+2016-08-19 16:58:31,850 pn:CAB-STK-IBM-1M=
+2016-08-19 16:58:31,850 pn:WS-CBS3012-IBM
+2016-08-19 16:58:31,850 pn:WS-CBS3012-IBM-F
+2016-08-19 16:58:31,850 pn:WS-CBS3012-IBM-I
+2016-08-19 16:58:31,850 pn:WS-CBS3110G-S
+2016-08-19 16:58:31,850 pn:WS-CBS3110G-S-F
+2016-08-19 16:58:31,850 pn:WS-CBS3110G-S-I
+2016-08-19 16:58:31,860 pn:WS-CBS3110X-S
+2016-08-19 16:58:31,860 pn:WS-CBS3110X-S-F
+2016-08-19 16:58:31,860 pn:WS-CBS3110X-S-I
+2016-08-19 16:58:31,860 
+2016-08-19 16:58:31,860 Title:EOL/EOS for the Cisco CIGESM Blade Switch for IBM
+2016-08-19 16:58:31,860 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/end_of_life_c51-686505.html
+2016-08-19 16:58:31,870 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:32,280 This page have 1 dv dt pairs
+2016-08-19 16:58:32,290 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:32,290 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco CIGESM Blade Switch for IBM 
+2016-08-19 16:58:32,290 Adding pn to dictionary
+2016-08-19 16:58:32,290 pn:OS-CIGESM-18SFP-E
+2016-08-19 16:58:32,290 pn:OS-CIGESM-18TT-E
+2016-08-19 16:58:32,300 pn:OS-CIGESM-18TT-SFP
+2016-08-19 16:58:32,300 
+2016-08-19 16:58:32,300 Title:End-of-Sale and End-of-Life Announcement for the Advanced IP Services Software License for CBS3110
+2016-08-19 16:58:32,300 Url:https://www.cisco.com/c/en/us/products/collateral/switches/blade-switches-hp/eol_c51_522966.html
+2016-08-19 16:58:32,300 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:32,661 This page have 1 dv dt pairs
+2016-08-19 16:58:32,661 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:32,661 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Advanced IP Services Software License for CBS3110
+2016-08-19 16:58:32,661 Adding pn to dictionary
+2016-08-19 16:58:32,661 pn:3110-AISK9-LIC
+2016-08-19 16:58:32,661 pn:3110-AISK9-LIC-I
+2016-08-19 16:58:32,661 
+2016-08-19 16:58:32,671 Parsing Cisco Catalyst 4500 Series Switches
+2016-08-19 16:58:32,671 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:33,011 Found some End-of-Sale listing
+2016-08-19 16:58:33,011 url:https://www.cisco.com/c/en/us/products/switches/catalyst-4500-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:58:33,021 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:33,321 Title:End-of-Sale and End-of-Life Announcement for the Cisco UPOE Power Splitter
+2016-08-19 16:58:33,321 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-737203.html
+2016-08-19 16:58:33,331 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:33,711 This page have 1 dv dt pairs
+2016-08-19 16:58:33,711 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:33,711 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco UPOE Power Splitter
+2016-08-19 16:58:33,711 Adding pn to dictionary
+2016-08-19 16:58:33,711 pn:WS-UPOE-12VPSPL
+2016-08-19 16:58:33,711 pn:WS-UPOE-12VPSPL=
+2016-08-19 16:58:33,711 
+2016-08-19 16:58:33,711 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE Software 3.7.0E for Cisco Catalyst 4500-E/X Series Switches and Cisco IOS 15.2(3)E for Cisco Catalyst 2960-X/XR, 2960-Plus, 2960 C/CX, 3750-X, 3560-X/CX, and 4900 Series Switches
+2016-08-19 16:58:33,721 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-737186.html
+2016-08-19 16:58:33,721 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:34,001 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:34,001  
+2016-08-19 16:58:34,001 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500E Line Cards
+2016-08-19 16:58:34,001 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-737185.html
+2016-08-19 16:58:34,011 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:34,531 This page have 1 dv dt pairs
+2016-08-19 16:58:34,531 Device title Table 2.       Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:34,541 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 4500E Line Cards
+2016-08-19 16:58:34,541 Adding pn to dictionary
+2016-08-19 16:58:34,541 pn:C4500E-S7L-DEFAULT
+2016-08-19 16:58:34,551 pn:ME-X4248-FE-SFP
+2016-08-19 16:58:34,551 pn:ME-X4248-FE-SFP=
+2016-08-19 16:58:34,551 pn:WS-450096V
+2016-08-19 16:58:34,551 pn:WS-C4506E-S7L+96
+2016-08-19 16:58:34,551 pn:WS-C4507RE-S7L+96
+2016-08-19 16:58:34,551 pn:WS-X4148-FX-MT
+2016-08-19 16:58:34,551 pn:WS-X4148-FX-MT++=
+2016-08-19 16:58:34,551 pn:WS-X4148-FX-MT=
+2016-08-19 16:58:34,551 pn:WS-X4248-FE-SFP
+2016-08-19 16:58:34,551 pn:WS-X4248-FE-SFP++=
+2016-08-19 16:58:34,561 pn:WS-X4248-FE-SFP=
+2016-08-19 16:58:34,561 pn:WS-X4606-X2-E
+2016-08-19 16:58:34,561 pn:WS-X4606-X2-E++=
+2016-08-19 16:58:34,561 pn:WS-X4606-X2-E=
+2016-08-19 16:58:34,561 pn:WS-X4612-SFP-E
+2016-08-19 16:58:34,561 pn:WS-X4612-SFP-E++=
+2016-08-19 16:58:34,561 pn:WS-X4612-SFP-E=
+2016-08-19 16:58:34,561 pn:WS-X4624-SFP-E
+2016-08-19 16:58:34,561 pn:WS-X4624-SFP-E++=
+2016-08-19 16:58:34,561 pn:WS-X4624-SFP-E=
+2016-08-19 16:58:34,561 pn:WS-X4648-RJ45-E
+2016-08-19 16:58:34,571 pn:WS-X4648-RJ45-E++=
+2016-08-19 16:58:34,571 pn:WS-X4648-RJ45-E=
+2016-08-19 16:58:34,571 pn:WS-X4648-RJ45V+E
+2016-08-19 16:58:34,571 pn:WS-X4648-RJ45V+E=
+2016-08-19 16:58:34,571 pn:WS-X4648-RJ45VE++=
+2016-08-19 16:58:34,571 
+2016-08-19 16:58:34,571 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE 3.3.0XO
+2016-08-19 16:58:34,571 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-736507.html
+2016-08-19 16:58:34,581 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:34,881 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:34,891  
+2016-08-19 16:58:34,891 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS 15.1(2)SG and Cisco IOS XE 3.4.0SG for the Cisco Catalyst 4500E, 4500-X, and 4900 Series Switches
+2016-08-19 16:58:34,891 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-736474.html
+2016-08-19 16:58:34,901 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:35,231 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:35,231  
+2016-08-19 16:58:35,231 Title:Cisco Catalyst 4003 Chassis, Supervisor Engine I & III
+2016-08-19 16:58:35,231 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice09186a00801eb0ae.html
+2016-08-19 16:58:35,241 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:35,792 This page have 2 dv dt pairs
+2016-08-19 16:58:35,792 Device title  Table 1b. Product Part Numbers Associated to Table 1a 
+2016-08-19 16:58:35,802 Assosiate dates title  Table 1a. End-of-Life Milestones and Dates including the Cisco Catalyst 4003, Catalyst 4000 Supervisor Engine I, Catalyst 4000/4500 Supervisor Engine III, and Cisco IOS Software Release 12.1(12c)EW. Please see Table 1b for the complete list of products. 
+2016-08-19 16:58:35,802 Device title  Table 2b. Product Part Numbers Associated to Table 2a 
+2016-08-19 16:58:35,802 Assosiate dates title  Table 2a. End-of-Life Milestones and Dates for WS-C4003-S1-DC and WS-C4006-S3-DC. Please refer to Table 2b for more information on the related products. 
+2016-08-19 16:58:35,802 Adding pn to dictionary
+2016-08-19 16:58:35,802 pn:WS-C4003-S1-DC
+2016-08-19 16:58:35,802 pn:WS-C4006-S3-DC
+2016-08-19 16:58:35,802 
+2016-08-19 16:58:35,812 Title:EOL For Cisco Catalyst OS for the Catalyst 4000 Series, 4912G, 2948G and 2980G-A
+2016-08-19 16:58:35,812 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html
+2016-08-19 16:58:35,812 This one was in strange_links. I cannot parse it properly
+2016-08-19 16:58:35,812  
+2016-08-19 16:58:35,812 Title:EOS/EOL for Catalyst 4000 Series HW Accessories & IOS Software Rel 12.1(13)EW
+2016-08-19 16:58:35,812 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd80199950.html
+2016-08-19 16:58:35,822 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:36,262 This page have 1 dv dt pairs
+2016-08-19 16:58:36,262 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:36,262 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco 4000 and 4500 Series Products and Accessories 
+2016-08-19 16:58:36,262 Adding pn to dictionary
+2016-08-19 16:58:36,272 pn:WS-X4004=
+2016-08-19 16:58:36,272 pn:WS-X4005=
+2016-08-19 16:58:36,272 pn:WS-X4019
+2016-08-19 16:58:36,272 pn:WS-4092=
+2016-08-19 16:58:36,272 pn:WS-X4098=
+2016-08-19 16:58:36,272 pn:WS-X4099=
+2016-08-19 16:58:36,272 pn:S4KL3-12113EW
+2016-08-19 16:58:36,272 pn:S4KL3-12113EW=
+2016-08-19 16:58:36,272 pn:S4KL3E-12113EW
+2016-08-19 16:58:36,272 pn:S4KL3E-12113EW=
+2016-08-19 16:58:36,272 pn:S4KL3EK2-12113EW
+2016-08-19 16:58:36,282 pn:S4KL3EK2-12113EW=
+2016-08-19 16:58:36,282 pn:S4KL3K2-12113EW
+2016-08-19 16:58:36,282 pn:S4KL3K2-12113EW=
+2016-08-19 16:58:36,282 
+2016-08-19 16:58:36,282 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 Supervisor Engine 6L-E
+2016-08-19 16:58:36,282 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-732500.html
+2016-08-19 16:58:36,292 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:36,802 This page have 1 dv dt pairs
+2016-08-19 16:58:36,802 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:36,812 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Supervisor Engine 6L-E
+2016-08-19 16:58:36,812 Adding pn to dictionary
+2016-08-19 16:58:36,812 pn:WS-X45-SUP6L-E=
+2016-08-19 16:58:36,812 pn:WS-X45-SUP6L-E/2
+2016-08-19 16:58:36,812 pn:WS-X45-SUP6L-E
+2016-08-19 16:58:36,812 pn:WS-C4507RES6L+96V+
+2016-08-19 16:58:36,822 pn:WS-C4506E-S6L-96V+
+2016-08-19 16:58:36,822 pn:WS-C4506E-S6L-4200
+2016-08-19 16:58:36,822 pn:WS-C4506E-S6L-2800
+2016-08-19 16:58:36,822 pn:WS-C4506E-S6L-1300
+2016-08-19 16:58:36,822 pn:WS-C4503E-S6L-48VE
+2016-08-19 16:58:36,822 pn:WS-C4503E-S6L-48V+
+2016-08-19 16:58:36,822 pn:WS-C4503E-S6L-1300
+2016-08-19 16:58:36,822 pn:MEM-X45-1GB-LE=
+2016-08-19 16:58:36,822 pn:MEM-X45-1GB-LE
+2016-08-19 16:58:36,822 pn:C4507+2S6L-C
+2016-08-19 16:58:36,822 pn:C4507+1S6L-C
+2016-08-19 16:58:36,822 pn:C4506-S6L-C
+2016-08-19 16:58:36,822 pn:C4503-S6L-C
+2016-08-19 16:58:36,822 pn:C4500E-S6L-S7
+2016-08-19 16:58:36,832 pn:C4500E-S6L-DEFAULT
+2016-08-19 16:58:36,832 
+2016-08-19 16:58:36,832 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 (Non-E Series) 48-Port 802.3afPoE and 802.3atPoEP 10/100/1000 (RJ45) Line Card
+2016-08-19 16:58:36,832 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-730044.html
+2016-08-19 16:58:36,832 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:37,182 This page have 1 dv dt pairs
+2016-08-19 16:58:37,182 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:37,182 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 (Non-E Series) 48-Port 802.3afPoE and 802.3atPoEP 10/100/1000 (RJ45) Line Card 
+2016-08-19 16:58:37,182 Adding pn to dictionary
+2016-08-19 16:58:37,182 pn:WS-X4548-RJ45V+
+2016-08-19 16:58:37,182 pn:WS-X4548-RJ45V+=
+2016-08-19 16:58:37,182 
+2016-08-19 16:58:37,182 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 Supervisor Engine 6-E
+2016-08-19 16:58:37,192 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol__C51-726869.html
+2016-08-19 16:58:37,192 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:37,552 This page have 1 dv dt pairs
+2016-08-19 16:58:37,552 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:37,552 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Supervisor Engine 6-E
+2016-08-19 16:58:37,552 Adding pn to dictionary
+2016-08-19 16:58:37,552 pn:WS-X45-SUP6-E
+2016-08-19 16:58:37,562 pn:WS-X45-SUP6-E/2
+2016-08-19 16:58:37,562 pn:WS-X45-SUP6-E=
+2016-08-19 16:58:37,562 
+2016-08-19 16:58:37,562 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE Software Release 3.2.0SG and Cisco IOS Software Release 15.0(2)SG for Cisco Catalyst 4500 Series and Cisco Catalyst 4900 Series Fixed-Configuration Switches
+2016-08-19 16:58:37,562 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-731750.html
+2016-08-19 16:58:37,572 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:37,903 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:37,903  
+2016-08-19 16:58:37,903 Title:Cisco Catalyst 4500 Series 32-Port 10/100BASE-T Line and 4-Port 100BASE-FX Cards
+2016-08-19 16:58:37,903 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd8065b070.html
+2016-08-19 16:58:37,913 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:38,413 This page have 1 dv dt pairs
+2016-08-19 16:58:38,413 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:38,423 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Series 32-port 10/100BASE-T line card and 4-port 100BASE-FX daughter card. 
+2016-08-19 16:58:38,423 Adding pn to dictionary
+2016-08-19 16:58:38,423 pn:WS-U4504-FX-MT
+2016-08-19 16:58:38,423 pn:WS-U4504-FX-MT=
+2016-08-19 16:58:38,423 pn:WS-X4232-RJ-XX
+2016-08-19 16:58:38,423 pn:WS-X4232-RJ-XX=
+2016-08-19 16:58:38,423 
+2016-08-19 16:58:38,423 Title:EOS/EOL for Catalyst 4500 Prestandard PoE linecard (WS-X4148-RJ45V) & IOS 12.2(18)EW
+2016-08-19 16:58:38,423 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd804be204.html
+2016-08-19 16:58:38,433 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:39,053 This page have 1 dv dt pairs
+2016-08-19 16:58:39,053 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:39,063 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Prestandard PoE Line Card (WS-X4148-RJ45V) and  Cisco IOS Software Release 12.2(18)EW 
+2016-08-19 16:58:39,073 Adding pn to dictionary
+2016-08-19 16:58:39,073 pn:S4KL3-12218EW
+2016-08-19 16:58:39,073 pn:S4KL3-12218EW=
+2016-08-19 16:58:39,073 pn:S4KL3E-12218EW
+2016-08-19 16:58:39,073 pn:S4KL3E-12218EW=
+2016-08-19 16:58:39,073 pn:S4KL3EK91-12218EW
+2016-08-19 16:58:39,073 pn:S4KL3EK91-12218EW=
+2016-08-19 16:58:39,073 pn:S4KL3K91-12218EW
+2016-08-19 16:58:39,073 pn:S4KL3K91-12218EW=
+2016-08-19 16:58:39,073 pn:WS-X4148-RJ45V
+2016-08-19 16:58:39,083 pn:WS-X4148-RJ45V=
+2016-08-19 16:58:39,083 
+2016-08-19 16:58:39,083 Title:EOL/EOS Cisco Catalyst 4500 Series 48-Port 100Base-LX10 FE Line Card
+2016-08-19 16:58:39,083 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd804ff027.html
+2016-08-19 16:58:39,083 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:39,493 This page have 1 dv dt pairs
+2016-08-19 16:58:39,493 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:39,493 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Series 48-Port 100BASE-LX10 Fast Ethernet Line Card (MT-RJ) for single-mode fiber. 
+2016-08-19 16:58:39,493 Adding pn to dictionary
+2016-08-19 16:58:39,493 pn:WS-X4148-FE-LX-MT
+2016-08-19 16:58:39,493 pn:WS-X4148-FE-LX-MT=
+2016-08-19 16:58:39,493 
+2016-08-19 16:58:39,503 Title:EOS/EOL Cisco Cat 4500 Series 48-Port 1000Base-LX Line Card & Cat 4000 POE HW
+2016-08-19 16:58:39,503 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd802f8b74.html
+2016-08-19 16:58:39,503 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:39,914 This page have 1 dv dt pairs
+2016-08-19 16:58:39,914 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:39,924 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Series 48-Port 1000BASE-LX (with SFP Optics Included) Line Card and Catalyst 4000 Series PoE Hardware Accessories 
+2016-08-19 16:58:39,924 Adding pn to dictionary
+2016-08-19 16:58:39,924 pn:WS-X4448-GB-LX(=)
+2016-08-19 16:58:39,924 pn:WS-P4603-2PSU
+2016-08-19 16:58:39,924 pn:WS-X4608(=)
+2016-08-19 16:58:39,924 pn:CAB-P4603-DC=
+2016-08-19 16:58:39,924 pn:WS-X4095-PEM(=)
+2016-08-19 16:58:39,924 
+2016-08-19 16:58:39,934 Title:EOS/EOS for Cisco 1000BASE-CWDM Line of CWDM Passive Devices
+2016-08-19 16:58:39,934 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd8016fb77.html
+2016-08-19 16:58:39,934 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:40,404 This page have 1 dv dt pairs
+2016-08-19 16:58:40,414 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:40,414 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco 1000BASE-CWDM  
+2016-08-19 16:58:40,414 Adding pn to dictionary
+2016-08-19 16:58:40,424 pn:CWDM-MUX-8=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-4=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1470=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1490=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1510=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1530=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1550=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1570=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1590=
+2016-08-19 16:58:40,424 pn:CWDM-MUX-AD-1610=
+2016-08-19 16:58:40,434 
+2016-08-19 16:58:40,434 Title:Cisco  Catalyst  4500  Series  48-Port  10/100/1000-Mbps
+2016-08-19 16:58:40,434 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd80701579.html
+2016-08-19 16:58:40,444 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:40,795 This page have 1 dv dt pairs
+2016-08-19 16:58:40,795 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:40,795 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Series 48-Port 10/100/1000-Mbps (RJ45) Line Card
+2016-08-19 16:58:40,805 Adding pn to dictionary
+2016-08-19 16:58:40,805 pn:WS-X4448-GB-RJ45
+2016-08-19 16:58:40,805 pn:WS-X4448-GB-RJ45=
+2016-08-19 16:58:40,805 
+2016-08-19 16:58:40,805 Title:EOS/EOL for Cisco IOS SW Releases 12.1(19) EW and 12.1(20) EW
+2016-08-19 16:58:40,805 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd80256100.html
+2016-08-19 16:58:40,815 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:41,235 This page have 1 dv dt pairs
+2016-08-19 16:58:41,235 Device title Table 2.      Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:41,245 Assosiate dates title Table 1.      End-of-Life Milestones and Dates for Cisco IOS Software Releases 12.1(19)EW and 12.1(20)EW on the Cisco Catalyst 4000 and Catalyst 4500 Series
+2016-08-19 16:58:41,245 Adding pn to dictionary
+2016-08-19 16:58:41,245 pn:S4KL3-12119EW
+2016-08-19 16:58:41,245 pn:S4KL3-12119EW=
+2016-08-19 16:58:41,245 pn:S4KL3E-12119EW
+2016-08-19 16:58:41,245 pn:S4KL3E-12119EW=
+2016-08-19 16:58:41,245 pn:S4KL3K2-12119EW
+2016-08-19 16:58:41,245 pn:S4KL3K2-12119EW=
+2016-08-19 16:58:41,255 pn:S4KL3EK2-12119EW
+2016-08-19 16:58:41,255 pn:S4KL3EK2-12119EW=
+2016-08-19 16:58:41,255 pn:S4KL3-12120EW
+2016-08-19 16:58:41,255 pn:S4KL3-12120EW=
+2016-08-19 16:58:41,255 pn:S4KL3E-12120EW
+2016-08-19 16:58:41,255 pn:S4KL3E-12120EW=
+2016-08-19 16:58:41,255 pn:S4KL3K2-12120EW
+2016-08-19 16:58:41,255 pn:S4KL3K2-12120EW=
+2016-08-19 16:58:41,255 pn:S4KL3EK2-12120EW
+2016-08-19 16:58:41,255 pn:S4KL3EK2-12120EW=
+2016-08-19 16:58:41,255 
+2016-08-19 16:58:41,255 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500E Core Foundation Bundles
+2016-08-19 16:58:41,255 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_C51-715448.html
+2016-08-19 16:58:41,265 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:41,625 This page have 1 dv dt pairs
+2016-08-19 16:58:41,625 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:41,625 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500E Core Foundation Bundles 
+2016-08-19 16:58:41,625 Adding pn to dictionary
+2016-08-19 16:58:41,635 pn:BN-CF2-SBA+K9
+2016-08-19 16:58:41,635 pn:BN-CF2-SBA-K9
+2016-08-19 16:58:41,635 
+2016-08-19 16:58:41,635 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(53)SG
+2016-08-19 16:58:41,635 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_C51-721118.html
+2016-08-19 16:58:41,645 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:42,345 This page have 1 dv dt pairs
+2016-08-19 16:58:42,355 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:42,365 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Release 12.2(53)SG 
+2016-08-19 16:58:42,365 Adding pn to dictionary
+2016-08-19 16:58:42,365 pn:S45EES-12253SG
+2016-08-19 16:58:42,365 pn:S45EES-12253SG=
+2016-08-19 16:58:42,375 pn:S45EESK9-12253SG
+2016-08-19 16:58:42,375 pn:S45EESK9-12253SG=
+2016-08-19 16:58:42,375 pn:S45EESU-12253SG
+2016-08-19 16:58:42,375 pn:S45EESU-12253SG=
+2016-08-19 16:58:42,375 pn:S45EESUK9-12253SG
+2016-08-19 16:58:42,375 pn:S45EESUK9-12253SG=
+2016-08-19 16:58:42,375 pn:S45EIBUK9-12253SG
+2016-08-19 16:58:42,375 pn:S45EIBUK9-12253SG=
+2016-08-19 16:58:42,375 pn:S45EIPB-12253SG
+2016-08-19 16:58:42,375 pn:S45EIPB-12253SG=
+2016-08-19 16:58:42,375 pn:S45EIPBK9-12253SG
+2016-08-19 16:58:42,375 pn:S45EIPBK9-12253SG=
+2016-08-19 16:58:42,385 pn:S45EIPBU-12253SG
+2016-08-19 16:58:42,385 pn:S45EIPBU-12253SG=
+2016-08-19 16:58:42,385 pn:S45ELB-12253SG
+2016-08-19 16:58:42,385 pn:S45ELB-12253SG=
+2016-08-19 16:58:42,385 pn:S45ELBK9-12253SG
+2016-08-19 16:58:42,385 pn:S45ELBK9-12253SG=
+2016-08-19 16:58:42,385 pn:S45ES-12253SG
+2016-08-19 16:58:42,385 pn:S45ES-12253SG=
+2016-08-19 16:58:42,385 pn:S45ESK9-12253SG
+2016-08-19 16:58:42,385 pn:S45ESK9-12253SG=
+2016-08-19 16:58:42,385 pn:S45IPB-12253SG
+2016-08-19 16:58:42,385 pn:S45IPB-12253SG=
+2016-08-19 16:58:42,385 pn:S45IPBK9-12253SG
+2016-08-19 16:58:42,395 pn:S45IPBK9-12253SG=
+2016-08-19 16:58:42,395 pn:S45IPBU-12253SG
+2016-08-19 16:58:42,395 pn:S45IPBU-12253SG=
+2016-08-19 16:58:42,395 pn:S45IPBUK9-12253SG
+2016-08-19 16:58:42,395 pn:S45IPBUK9-12253SG=
+2016-08-19 16:58:42,395 pn:S45LB-12253SG
+2016-08-19 16:58:42,395 pn:S45LB-12253SG=
+2016-08-19 16:58:42,395 pn:S45LBK9-12253SG
+2016-08-19 16:58:42,395 pn:S45LBK9-12253SG=
+2016-08-19 16:58:42,395 
+2016-08-19 16:58:42,395 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(50)SGs
+2016-08-19 16:58:42,405 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_593690.html
+2016-08-19 16:58:42,405 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:43,066 This page have 1 dv dt pairs
+2016-08-19 16:58:43,066 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:43,076 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Release 12.2(50)SG 
+2016-08-19 16:58:43,086 Adding pn to dictionary
+2016-08-19 16:58:43,086 pn:S45EES-12250SG
+2016-08-19 16:58:43,086 pn:S45EES-12250SG=
+2016-08-19 16:58:43,086 pn:S45EESK9-12250SG
+2016-08-19 16:58:43,086 pn:S45EESK9-12250SG=
+2016-08-19 16:58:43,086 pn:S45EIPB-12250SG
+2016-08-19 16:58:43,086 pn:S45EIPB-12250SG=
+2016-08-19 16:58:43,086 pn:S45EIPBK9-12250SG
+2016-08-19 16:58:43,086 pn:S45EIPBK9-12250SG=
+2016-08-19 16:58:43,086 pn:S45ES-12250SG
+2016-08-19 16:58:43,086 pn:S45ES-12250SG=
+2016-08-19 16:58:43,086 pn:S45ESK9-12250SG
+2016-08-19 16:58:43,086 pn:S45ESK9-12250SG=
+2016-08-19 16:58:43,096 pn:S45IPB-12250SG
+2016-08-19 16:58:43,096 pn:S45IPB-12250SG=
+2016-08-19 16:58:43,096 pn:S45IPBK9-12250SG
+2016-08-19 16:58:43,096 pn:S45IPBK9-12250SG=
+2016-08-19 16:58:43,096 pn:S45IPBU-12250SG
+2016-08-19 16:58:43,096 pn:S45IPBU-12250SG=
+2016-08-19 16:58:43,096 pn:S45IPBUK9-12250SG
+2016-08-19 16:58:43,096 pn:S45IPBUK9-12250SG=
+2016-08-19 16:58:43,096 pn:S45LB-12250SG
+2016-08-19 16:58:43,096 pn:S45LB-12250SG=
+2016-08-19 16:58:43,096 pn:S49ES-12250SG
+2016-08-19 16:58:43,106 pn:S49ES-12250SG=
+2016-08-19 16:58:43,106 pn:S49ESK9-12250SG
+2016-08-19 16:58:43,106 pn:S49ESK9-12250SG=
+2016-08-19 16:58:43,106 pn:S49IPB-12250SG
+2016-08-19 16:58:43,106 pn:S49IPB-12250SG=
+2016-08-19 16:58:43,106 pn:S49IPBK9-12250SG
+2016-08-19 16:58:43,106 pn:S49IPBK9-12250SG=
+2016-08-19 16:58:43,106 pn:S49MES-12250SG
+2016-08-19 16:58:43,106 pn:S49MES-12250SG=
+2016-08-19 16:58:43,106 pn:S49MESK9-12250SG
+2016-08-19 16:58:43,106 pn:S49MESK9-12250SG=
+2016-08-19 16:58:43,106 pn:S49MIPB-12250SG
+2016-08-19 16:58:43,106 pn:S49MIPB-12250SG=
+2016-08-19 16:58:43,106 pn:S49MIPBK9-12250SG
+2016-08-19 16:58:43,116 pn:S49MIPBK9-12250SG=
+2016-08-19 16:58:43,116 
+2016-08-19 16:58:43,116 Title:End-of-Sale and End-of-Life Announcement for the Select Cisco Catalyst 4500 Non-E-Series Line Cards
+2016-08-19 16:58:43,116 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_574038.html
+2016-08-19 16:58:43,126 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:43,746 This page have 1 dv dt pairs
+2016-08-19 16:58:43,746 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:43,746 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Select Cisco Catalyst 4500 Non-E-Series Line Cards 
+2016-08-19 16:58:43,756 Adding pn to dictionary
+2016-08-19 16:58:43,756 pn:WS-X4124-FX-MT
+2016-08-19 16:58:43,756 pn:WS-X4124-FX-MT=
+2016-08-19 16:58:43,756 pn:WS-X4124-RJ45
+2016-08-19 16:58:43,756 pn:WS-X4124-RJ45=
+2016-08-19 16:58:43,756 pn:WS-X4148-RJ21
+2016-08-19 16:58:43,756 pn:WS-X4148-RJ21=
+2016-08-19 16:58:43,756 pn:WS-X4224-RJ45V
+2016-08-19 16:58:43,766 pn:WS-X4224-RJ45V=
+2016-08-19 16:58:43,766 pn:WS-X4232-GB-RJ
+2016-08-19 16:58:43,766 pn:WS-X4232-GB-RJ=
+2016-08-19 16:58:43,766 pn:WS-X4248-RJ21V
+2016-08-19 16:58:43,766 pn:WS-X4248-RJ21V=
+2016-08-19 16:58:43,766 pn:WS-X4302-GB
+2016-08-19 16:58:43,766 pn:WS-X4302-GB=
+2016-08-19 16:58:43,766 pn:WS-X4424-GB-RJ45
+2016-08-19 16:58:43,776 pn:WS-X4424-GB-RJ45=
+2016-08-19 16:58:43,776 pn:WS-X4524-GB-RJ45V
+2016-08-19 16:58:43,776 pn:WS-X4524-GB-RJ45V=
+2016-08-19 16:58:43,776 
+2016-08-19 16:58:43,776 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 Non-E-Series Chassis
+2016-08-19 16:58:43,776 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_574042.html
+2016-08-19 16:58:43,786 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:44,436 This page have 1 dv dt pairs
+2016-08-19 16:58:44,436 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:44,446 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Non-E-Series Chassis 
+2016-08-19 16:58:44,446 Adding pn to dictionary
+2016-08-19 16:58:44,446 pn:C4K-SLOT-CVR
+2016-08-19 16:58:44,446 pn:C4K-SLOT-CVR=
+2016-08-19 16:58:44,456 pn:C4K-UPLINK-CVR
+2016-08-19 16:58:44,456 pn:C4K-UPLINK-CVR=
+2016-08-19 16:58:44,456 pn:WS-C4503
+2016-08-19 16:58:44,456 pn:WS-C4503-E-S2+48
+2016-08-19 16:58:44,456 pn:WS-C4503-E-S2+48V
+2016-08-19 16:58:44,456 pn:WS-C4503-S2+48
+2016-08-19 16:58:44,456 pn:WS-C4506
+2016-08-19 16:58:44,456 pn:WS-C4506-S2+96
+2016-08-19 16:58:44,456 pn:WS-C4506-S4-AP25
+2016-08-19 16:58:44,456 pn:WS-C4506-S4-AP50
+2016-08-19 16:58:44,456 pn:WS-C4506E-GE-96V
+2016-08-19 16:58:44,456 pn:WS-C4507R
+2016-08-19 16:58:44,456 pn:WS-C4507R-E-S2+96
+2016-08-19 16:58:44,456 pn:WS-C4507R-E-S2+96V
+2016-08-19 16:58:44,456 pn:WS-C4510R
+2016-08-19 16:58:44,456 pn:WS-X4503-23CNTR=
+2016-08-19 16:58:44,466 pn:WS-X4506-23CNTR=
+2016-08-19 16:58:44,466 pn:WS-X4507-23CNTR=
+2016-08-19 16:58:44,466 pn:WS-X4510-23CNTR=
+2016-08-19 16:58:44,466 pn:WS-X4581=
+2016-08-19 16:58:44,466 pn:WS-X4582=
+2016-08-19 16:58:44,466 pn:WS-X4583=
+2016-08-19 16:58:44,466 pn:WS-X4584=
+2016-08-19 16:58:44,466 pn:WS-X4585=
+2016-08-19 16:58:44,466 pn:WS-X4586=
+2016-08-19 16:58:44,466 pn:WS-X4587=
+2016-08-19 16:58:44,466 pn:WS-X4588=
+2016-08-19 16:58:44,466 pn:WS-X4590=
+2016-08-19 16:58:44,466 pn:WS-X4593=
+2016-08-19 16:58:44,466 pn:WS-X4596=
+2016-08-19 16:58:44,476 pn:WS-X4597=
+2016-08-19 16:58:44,476 pn:WS-X4598=
+2016-08-19 16:58:44,476 
+2016-08-19 16:58:44,476 Title:EOL/EOS for the Cisco IOS Software Releases 12.2(20)EWA and 12.2(25)EWA for the Cisco Catalyst 4500 Series Supervisor Engine
+2016-08-19 16:58:44,476 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_477279.html
+2016-08-19 16:58:44,476 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:44,956 This page have 1 dv dt pairs
+2016-08-19 16:58:44,956 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:44,966 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Releases 12.2(20)EWA and 12.2(25)EWA for the Cisco Catalyst 4500 Series Supervisor Engine 
+2016-08-19 16:58:44,966 Adding pn to dictionary
+2016-08-19 16:58:44,966 pn:S4KL3-12220EWA
+2016-08-19 16:58:44,966 pn:S4KL3-12220EWA=
+2016-08-19 16:58:44,966 pn:S4KL3-12225EWA
+2016-08-19 16:58:44,966 pn:S4KL3-12225EWA=
+2016-08-19 16:58:44,966 pn:S4KL3E-12220EWA
+2016-08-19 16:58:44,966 pn:S4KL3E-12220EWA=
+2016-08-19 16:58:44,966 pn:S4KL3E-12225EWA
+2016-08-19 16:58:44,966 pn:S4KL3E-12225EWA=
+2016-08-19 16:58:44,976 pn:S4KL3EK9-12220EWA
+2016-08-19 16:58:44,976 pn:S4KL3EK9-12220EWA=
+2016-08-19 16:58:44,976 pn:S4KL3EK9-12225EWA
+2016-08-19 16:58:44,976 pn:S4KL3EK9-12225EWA=
+2016-08-19 16:58:44,976 pn:S4KL3K9-12220EWA
+2016-08-19 16:58:44,976 pn:S4KL3K9-12220EWA=
+2016-08-19 16:58:44,976 pn:S4KL3K9-12225EWA
+2016-08-19 16:58:44,976 pn:S4KL3K9-12225EWA=
+2016-08-19 16:58:44,976 
+2016-08-19 16:58:44,976 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 GE 6-Port (GBIC) Non-E-Series Line Card
+2016-08-19 16:58:44,976 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol__C51-726362.html
+2016-08-19 16:58:44,986 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:45,386 This page have 1 dv dt pairs
+2016-08-19 16:58:45,396 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:45,396 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 GE 6-Port (GBIC) Non-E-Series Line Card 
+2016-08-19 16:58:45,396 Adding pn to dictionary
+2016-08-19 16:58:45,396 pn:WS-X4306-GB
+2016-08-19 16:58:45,396 pn:WS-X4306-GB=
+2016-08-19 16:58:45,396 
+2016-08-19 16:58:45,396 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4507R-E and 4510R-E Spare Fan Tray
+2016-08-19 16:58:45,406 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol__C51-726867.html
+2016-08-19 16:58:45,406 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:45,796 This page have 1 dv dt pairs
+2016-08-19 16:58:45,796 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:45,796 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4507R-E and 4510R-E Spare Fan Tray 
+2016-08-19 16:58:45,796 Adding pn to dictionary
+2016-08-19 16:58:45,796 pn:WS-X4582-E=
+2016-08-19 16:58:45,806 pn:WS-X4597-E=
+2016-08-19 16:58:45,806 
+2016-08-19 16:58:45,806 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500E Series Supervisor Engine V—10GE
+2016-08-19 16:58:45,806 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol__C51-715812.html
+2016-08-19 16:58:45,806 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:46,216 This page have 1 dv dt pairs
+2016-08-19 16:58:46,216 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:46,216 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500E Series Supervisor Engine V-10GE 
+2016-08-19 16:58:46,226 Adding pn to dictionary
+2016-08-19 16:58:46,226 pn:WS-X4516-10GE/2
+2016-08-19 16:58:46,226 
+2016-08-19 16:58:46,226 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(52)SG
+2016-08-19 16:58:46,226 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_C51-722614.html
+2016-08-19 16:58:46,236 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:46,767 This page have 1 dv dt pairs
+2016-08-19 16:58:46,767 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:46,777 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Release 12.2(52)SG 
+2016-08-19 16:58:46,777 Adding pn to dictionary
+2016-08-19 16:58:46,777 pn:S45EES-12252SG
+2016-08-19 16:58:46,777 pn:S45EES-12252SG=
+2016-08-19 16:58:46,777 pn:S45EESK9-12252SG
+2016-08-19 16:58:46,777 pn:S45EESK9-12252SG=
+2016-08-19 16:58:46,777 pn:S45EIPB-12252SG
+2016-08-19 16:58:46,787 pn:S45EIPB-12252SG=
+2016-08-19 16:58:46,787 pn:S45EIPBK9-12252SG
+2016-08-19 16:58:46,787 pn:S45EIPBK9-12252SG=
+2016-08-19 16:58:46,787 pn:S45ES-12252SG
+2016-08-19 16:58:46,787 pn:S45ES-12252SG=
+2016-08-19 16:58:46,787 pn:S45ESK9-12252SG
+2016-08-19 16:58:46,787 pn:S45ESK9-12252SG=
+2016-08-19 16:58:46,787 pn:S45IPB-12252SG
+2016-08-19 16:58:46,787 pn:S45IPB-12252SG=
+2016-08-19 16:58:46,787 pn:S45IPBK9-12252SG
+2016-08-19 16:58:46,797 pn:S45IPBK9-12252SG=
+2016-08-19 16:58:46,797 pn:S45IPBU-12252SG
+2016-08-19 16:58:46,797 pn:S45IPBU-12252SG=
+2016-08-19 16:58:46,797 pn:S45LB-12252SG
+2016-08-19 16:58:46,797 pn:S45LB-12252SG=
+2016-08-19 16:58:46,797 
+2016-08-19 16:58:46,797 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500E Chassis Spare Parts
+2016-08-19 16:58:46,797 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_C51-715893.html
+2016-08-19 16:58:46,807 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:47,207 This page have 1 dv dt pairs
+2016-08-19 16:58:47,207 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:47,207 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500E Chassis Spare Parts 
+2016-08-19 16:58:47,217 Adding pn to dictionary
+2016-08-19 16:58:47,217 pn:MEMC4K-512D-SDRAM=
+2016-08-19 16:58:47,217 pn:WS-X4590-E=
+2016-08-19 16:58:47,217 pn:WS-X4K-CLOCK-E=
+2016-08-19 16:58:47,217 
+2016-08-19 16:58:47,217 Title:EOL/EOS for the Cisco Catalyst 4500 Non-E-Series Fiber Line Cards and NetFlow Daughter Card
+2016-08-19 16:58:47,217 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51-658769.html
+2016-08-19 16:58:47,227 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:47,657 This page have 1 dv dt pairs
+2016-08-19 16:58:47,667 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:47,667 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Non-E-Series Fiber Line Cards and NetFlow Daughter Card
+2016-08-19 16:58:47,677 Adding pn to dictionary
+2016-08-19 16:58:47,677 pn:WS-F4531
+2016-08-19 16:58:47,677 pn:WS-F4531=
+2016-08-19 16:58:47,677 pn:WS-X4418-GB
+2016-08-19 16:58:47,677 pn:WS-X4418-GB=
+2016-08-19 16:58:47,677 pn:WS-X4506-GB-T
+2016-08-19 16:58:47,677 pn:WS-X4506-GB-T=
+2016-08-19 16:58:47,677 
+2016-08-19 16:58:47,677 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 Auxiliary Power Shelf
+2016-08-19 16:58:47,677 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_574540.html
+2016-08-19 16:58:47,687 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:48,087 This page have 1 dv dt pairs
+2016-08-19 16:58:48,087 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:48,097 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Auxiliary Power Shelf 
+2016-08-19 16:58:48,097 Adding pn to dictionary
+2016-08-19 16:58:48,097 pn:PWR-4502
+2016-08-19 16:58:48,097 pn:PWR-4502=
+2016-08-19 16:58:48,097 pn:WS-P4502-1PSU
+2016-08-19 16:58:48,097 
+2016-08-19 16:58:48,097 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Releases 12.2(20)EW and 12.2(25)EW for the Cisco Catalyst 4500 Series Supervisor Engine
+2016-08-19 16:58:48,097 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_472862.html
+2016-08-19 16:58:48,107 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:48,587 This page have 1 dv dt pairs
+2016-08-19 16:58:48,587 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:48,597 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Releases 12.2(20)EW and 12.2(25)EW for the Cisco Catalyst 4500 Series Supervisor Engine 
+2016-08-19 16:58:48,597 Adding pn to dictionary
+2016-08-19 16:58:48,597 pn:S4KL3-12220EW
+2016-08-19 16:58:48,597 pn:S4KL3-12220EW=
+2016-08-19 16:58:48,597 pn:S4KL3-12225EW
+2016-08-19 16:58:48,597 pn:S4KL3-12225EW=
+2016-08-19 16:58:48,597 pn:S4KL3E-12220EW
+2016-08-19 16:58:48,597 pn:S4KL3E-12220EW=
+2016-08-19 16:58:48,597 pn:S4KL3E-12225EW
+2016-08-19 16:58:48,597 pn:S4KL3E-12225EW=
+2016-08-19 16:58:48,597 pn:S4KL3EK9-12225EW
+2016-08-19 16:58:48,597 pn:S4KL3EK9-12225EW=
+2016-08-19 16:58:48,607 pn:S4KL3EK91-12220EW
+2016-08-19 16:58:48,607 pn:S4KL3EK91-12220EW=
+2016-08-19 16:58:48,607 pn:S4KL3K9-12225EW
+2016-08-19 16:58:48,607 pn:S4KL3K9-12225EW=
+2016-08-19 16:58:48,607 pn:S4KL3K91-12220EW
+2016-08-19 16:58:48,607 pn:S4KL3K91-12220EW=
+2016-08-19 16:58:48,607 
+2016-08-19 16:58:48,607 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(31)SGA
+2016-08-19 16:58:48,607 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/end_of_life_notice_c51-551230.html
+2016-08-19 16:58:48,617 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:48,968 This page have 1 dv dt pairs
+2016-08-19 16:58:48,968 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:48,968 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Release 12.2(31)SGA 
+2016-08-19 16:58:48,968 Adding pn to dictionary
+2016-08-19 16:58:48,978 pn:S45ES-12231SGA
+2016-08-19 16:58:48,978 pn:S45ES-12231SGA=
+2016-08-19 16:58:48,978 pn:S45ESK9-12231SGA
+2016-08-19 16:58:48,978 pn:S45ESK9-12231SGA=
+2016-08-19 16:58:48,978 pn:S45IPB-12231SGA
+2016-08-19 16:58:48,978 pn:S45IPB-12231SGA=
+2016-08-19 16:58:48,978 pn:S45IPBK9-12231SGA
+2016-08-19 16:58:48,978 pn:S45IPBK9-12231SGA=
+2016-08-19 16:58:48,978 
+2016-08-19 16:58:48,978 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 Series 48-port 100BASE-BX10-D Fast Ethernet Line Card
+2016-08-19 16:58:48,978 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/end_of_life_notice_c51-528164.html
+2016-08-19 16:58:48,988 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:49,388 This page have 1 dv dt pairs
+2016-08-19 16:58:49,388 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:49,388 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 Series 48-port 100BASE-BX10-D Fast Ethernet Line Card 
+2016-08-19 16:58:49,388 Adding pn to dictionary
+2016-08-19 16:58:49,388 pn:WS-X4148-FE-BD-LC
+2016-08-19 16:58:49,388 pn:WS-X4148-FE-BD-LC=
+2016-08-19 16:58:49,388 
+2016-08-19 16:58:49,398 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 FE (10/100) 48-Port RJ45 Non-E-Series PoE IEEE 802.3af Line Card
+2016-08-19 16:58:49,398 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-730045.html
+2016-08-19 16:58:49,398 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:49,808 This page have 1 dv dt pairs
+2016-08-19 16:58:49,808 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:49,818 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 FE (10/100) 48-Port RJ45 Non-E-Series PoE IEEE 802.3af Line Card 
+2016-08-19 16:58:49,818 Adding pn to dictionary
+2016-08-19 16:58:49,818 pn:WS-X4248-RJ45V
+2016-08-19 16:58:49,828 pn:WS-X4248-RJ45V=
+2016-08-19 16:58:49,828 
+2016-08-19 16:58:49,828 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 48-Port Non-E Series 1000BASE-X Fiber Line Card
+2016-08-19 16:58:49,828 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-730031.html
+2016-08-19 16:58:49,828 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:50,238 This page have 1 dv dt pairs
+2016-08-19 16:58:50,238 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:50,248 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 48-Port Non-E Series 1000BASE-X Fiber Line Card 
+2016-08-19 16:58:50,248 Adding pn to dictionary
+2016-08-19 16:58:50,248 pn:ME-X4448-GB-BDL=
+2016-08-19 16:58:50,248 pn:WS-X4448-GB-SFP
+2016-08-19 16:58:50,248 pn:WS-X4448-GB-SFP=
+2016-08-19 16:58:50,248 
+2016-08-19 16:58:50,248 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500 FE (10/100) 48-Port Non-E-Series Line Card
+2016-08-19 16:58:50,248 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-730030.html
+2016-08-19 16:58:50,258 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:50,658 This page have 1 dv dt pairs
+2016-08-19 16:58:50,658 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:50,658 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500 FE (10/100) 48-Port Non-E-Series Line Card 
+2016-08-19 16:58:50,668 Adding pn to dictionary
+2016-08-19 16:58:50,668 pn:WS-X4148-RJ
+2016-08-19 16:58:50,668 pn:WS-X4148-RJ=
+2016-08-19 16:58:50,668 
+2016-08-19 16:58:50,668 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 4500E Series Supervisor Engine V-10GE and Select Line Cards
+2016-08-19 16:58:50,668 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51-706250.html
+2016-08-19 16:58:50,678 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:51,338 This page have 1 dv dt pairs
+2016-08-19 16:58:51,338 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:51,348 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 4500E Series Supervisor Engine V-10GE and Select Line Cards 
+2016-08-19 16:58:51,348 Adding pn to dictionary
+2016-08-19 16:58:51,348 pn:WS-X4516-10GE
+2016-08-19 16:58:51,358 pn:WS-X4516-10GE=
+2016-08-19 16:58:51,358 pn:WS-X4548-GB-RJ45
+2016-08-19 16:58:51,358 pn:WS-X4548-GB-RJ45=
+2016-08-19 16:58:51,358 pn:WS-X4548-GB-RJ45V
+2016-08-19 16:58:51,358 pn:WS-X4548-GB-RJ45V=
+2016-08-19 16:58:51,358 pn:WS-X4648-RJ45V-E
+2016-08-19 16:58:51,358 pn:WS-X4648-RJ45V-E=
+2016-08-19 16:58:51,358 
+2016-08-19 16:58:51,358 Title:End-of-Sale and End-of-Life Announcement for the Select Cisco Catalyst 4500E Series Chassis
+2016-08-19 16:58:51,358 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51-706059.html
+2016-08-19 16:58:51,378 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:51,829 This page have 1 dv dt pairs
+2016-08-19 16:58:51,829 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:51,829 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Select Cisco Catalyst 4500E Series Chassis 
+2016-08-19 16:58:51,829 Adding pn to dictionary
+2016-08-19 16:58:51,829 pn:WS-C4507R-E
+2016-08-19 16:58:51,829 pn:WS-C4507R-E=
+2016-08-19 16:58:51,839 pn:WS-C4507RES6L-96V+
+2016-08-19 16:58:51,839 pn:WS-C4510R-E
+2016-08-19 16:58:51,839 pn:WS-C4510R-E=
+2016-08-19 16:58:51,839 pn:WS-C4510RE-S6-96V+
+2016-08-19 16:58:51,839 
+2016-08-19 16:58:51,839 Title:End-of-Sale and End-of-Life Announcement for the Select Cisco Catalyst 4500 Non-E-Series Supervisor Engines
+2016-08-19 16:58:51,839 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_c51_574542.html
+2016-08-19 16:58:51,849 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:52,699 This page have 1 dv dt pairs
+2016-08-19 16:58:52,699 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:52,709 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Select Cisco Catalyst 4500 Non-E-Series Supervisor Engines 
+2016-08-19 16:58:52,719 Adding pn to dictionary
+2016-08-19 16:58:52,719 pn:WS-X4013+
+2016-08-19 16:58:52,719 pn:WS-X4013+/2
+2016-08-19 16:58:52,719 pn:WS-X4013+10GE
+2016-08-19 16:58:52,719 pn:WS-X4013+10GE/2
+2016-08-19 16:58:52,719 pn:WS-X4013+10GE=
+2016-08-19 16:58:52,719 pn:WS-X4013+=
+2016-08-19 16:58:52,729 pn:WS-X4013+TS
+2016-08-19 16:58:52,729 pn:WS-X4013+TS=
+2016-08-19 16:58:52,729 pn:WS-X4515
+2016-08-19 16:58:52,729 pn:WS-X4515/2
+2016-08-19 16:58:52,729 pn:WS-X4515=
+2016-08-19 16:58:52,729 pn:WS-X4516
+2016-08-19 16:58:52,729 pn:WS-X4516/2
+2016-08-19 16:58:52,729 pn:WS-X4516=
+2016-08-19 16:58:52,729 
+2016-08-19 16:58:52,729 Parsing Cisco Catalyst 3850 Series Switches
+2016-08-19 16:58:52,740 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:53,050 Found some End-of-Sale listing
+2016-08-19 16:58:53,050 url:https://www.cisco.com/c/en/us/products/switches/catalyst-3850-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:58:53,060 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:53,300 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE 16.2.1
+2016-08-19 16:58:53,300 Url:https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-737081.html
+2016-08-19 16:58:53,310 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:53,660 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:53,660  
+2016-08-19 16:58:53,660 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE 16.1.1
+2016-08-19 16:58:53,660 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-736680.html
+2016-08-19 16:58:53,670 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:54,021 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:54,021  
+2016-08-19 16:58:54,021 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS XE 3.3.0SE for Cisco Catalyst Switches
+2016-08-19 16:58:54,021 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-736492.html
+2016-08-19 16:58:54,031 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:54,351 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:54,351  
+2016-08-19 16:58:54,351 Parsing Cisco Catalyst 3750 Series Switches
+2016-08-19 16:58:54,361 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:54,601 Found some End-of-Sale listing
+2016-08-19 16:58:54,601 url:https://www.cisco.com/c/en/us/products/switches/catalyst-3750-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:58:54,611 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:54,831 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 15.0(2)SE for Cisco Catalyst 3750-X, 3560-X, 3750-E, 3560-E, 3750G, 3560G, 3750V2, 3560V2, 2960, 2960-S, 3560-C, and 2960-C Series Switches
+2016-08-19 16:58:54,831 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-736302.html
+2016-08-19 16:58:54,841 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:55,171 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:55,171  
+2016-08-19 16:58:55,171 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560V2 and 3750V2 Switches
+2016-08-19 16:58:55,171 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html
+2016-08-19 16:58:55,181 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:55,971 This page have 1 dv dt pairs
+2016-08-19 16:58:55,971 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:58:55,981 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 3560V2 and 3750V2 Switches
+2016-08-19 16:58:55,981 Adding pn to dictionary
+2016-08-19 16:58:55,981 pn:CH-C3560-24TS-S-24
+2016-08-19 16:58:55,981 pn:CH-C3560-48TS-S-24
+2016-08-19 16:58:55,981 pn:RCKMNT-E-1RU=
+2016-08-19 16:58:55,981 pn:WS-C3560V2-24PS-E
+2016-08-19 16:58:55,981 pn:WS-C3560V2-24PS-S
+2016-08-19 16:58:55,981 pn:WS-C3560V2-24TS-E
+2016-08-19 16:58:55,981 pn:WS-C3560V2-24TS-S
+2016-08-19 16:58:55,981 pn:WS-C3560V2-24TS-SD
+2016-08-19 16:58:55,991 pn:WS-C3560V2-48PS-E
+2016-08-19 16:58:55,991 pn:WS-C3560V2-48PS-S
+2016-08-19 16:58:55,991 pn:WS-C3560V2-48PS-SM
+2016-08-19 16:58:55,991 pn:WS-C3560V2-48TS-E
+2016-08-19 16:58:55,991 pn:WS-C3560V2-48TS-S
+2016-08-19 16:58:55,991 pn:WS-C3750V2-24FS-S
+2016-08-19 16:58:55,991 pn:WS-C3750V2-24PS-E
+2016-08-19 16:58:55,991 pn:WS-C3750V2-24PS-S
+2016-08-19 16:58:55,991 pn:WS-C3750V2-24TS-E
+2016-08-19 16:58:55,991 pn:WS-C3750V2-24TS-S
+2016-08-19 16:58:55,991 pn:WS-C3750V2-48PS-E
+2016-08-19 16:58:55,991 pn:WS-C3750V2-48PS-S
+2016-08-19 16:58:55,991 pn:WS-C3750V2-48TS-E
+2016-08-19 16:58:55,991 pn:WS-C3750V2-48TS-S
+2016-08-19 16:58:55,991 
+2016-08-19 16:58:56,001 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(55)SE for Cisco Catalyst 3750-X, 3750, 3750-E, 3750G, 3750V2, 3560-X, 3560, 3560-E, 3560-C, 3560G, 3560V2, 2960-S, 2960-C, and 2960 Series Switches
+2016-08-19 16:58:56,001 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-731425.html
+2016-08-19 16:58:56,001 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:57,132 Looks like this is software page, so no PN for this one
+2016-08-19 16:58:57,132  
+2016-08-19 16:58:57,132 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750G-24TS 1.5 Rack-Unit Stackable Switch
+2016-08-19 16:58:57,132 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_489759.html
+2016-08-19 16:58:57,142 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:57,862 This page have 1 dv dt pairs
+2016-08-19 16:58:57,862 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:57,862 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750G-24TS 1.5 Rack-Unit Stackable Switch 
+2016-08-19 16:58:57,872 Adding pn to dictionary
+2016-08-19 16:58:57,872 pn:WS-C3750G-24TS-E
+2016-08-19 16:58:57,872 pn:WS-C3750G-24TS-S
+2016-08-19 16:58:57,872 
+2016-08-19 16:58:57,872 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 12.2(50)SE for Cisco Catalyst 3750, 3560, 2960, and ME 3400 Series Switches
+2016-08-19 16:58:57,872 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_C51-723166.html
+2016-08-19 16:58:57,882 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:58:59,142 This page have 1 dv dt pairs
+2016-08-19 16:58:59,142 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:58:59,152 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Release 12.2(50)SE for Cisco Catalyst 3750, 3560, 2960, and ME 3400 Series Switches 
+2016-08-19 16:58:59,152 Adding pn to dictionary
+2016-08-19 16:58:59,152 pn:S340XAK9T-12250SE
+2016-08-19 16:58:59,152 pn:S340XAT-12250SE
+2016-08-19 16:58:59,162 pn:S340XBK9T-12250SE
+2016-08-19 16:58:59,162 pn:S340XBT-12250SE
+2016-08-19 16:58:59,162 pn:S340XIK9T-12250SE
+2016-08-19 16:58:59,162 pn:S340XIT-12250SE
+2016-08-19 16:58:59,162 pn:S3560EVK9T-12250SE
+2016-08-19 16:58:59,162 pn:S3560EVT-12250SE
+2016-08-19 16:58:59,162 pn:S3750EVK9T-12250SE
+2016-08-19 16:58:59,162 pn:S3750EVT-12250SE
+2016-08-19 16:58:59,172 
+2016-08-19 16:58:59,172 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750G, 3560G, 3750-E, and 3560-E Series Switches
+2016-08-19 16:58:59,172 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html
+2016-08-19 16:58:59,172 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:00,242 This page have 1 dv dt pairs
+2016-08-19 16:59:00,242 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:00,262 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750G, 3560G, 3750-E, and 3560-E Series Switches 
+2016-08-19 16:59:00,262 Adding pn to dictionary
+2016-08-19 16:59:00,262 pn:WS-C3560E-12SD-E
+2016-08-19 16:59:00,262 pn:WS-C3560E-12SD-E=
+2016-08-19 16:59:00,262 pn:WS-C3560E-12SD-S
+2016-08-19 16:59:00,262 pn:WS-C3560E-12SD-S=
+2016-08-19 16:59:00,262 pn:WS-C3560E-24PD-E
+2016-08-19 16:59:00,262 pn:WS-C3560E-24PD-S
+2016-08-19 16:59:00,272 pn:WS-C3560E-24TD-E
+2016-08-19 16:59:00,272 pn:WS-C3560E-24TD-S
+2016-08-19 16:59:00,272 pn:WS-C3560E-24TD-SD
+2016-08-19 16:59:00,272 pn:WS-C3560E-48PD-E
+2016-08-19 16:59:00,272 pn:WS-C3560E-48PD-EF
+2016-08-19 16:59:00,272 pn:WS-C3560E-48PD-S
+2016-08-19 16:59:00,272 pn:WS-C3560E-48PD-SF
+2016-08-19 16:59:00,272 pn:WS-C3560E-48TD-E
+2016-08-19 16:59:00,272 pn:WS-C3560E-48TD-S
+2016-08-19 16:59:00,282 pn:WS-C3560E-48TD-SD
+2016-08-19 16:59:00,282 pn:WS-C3560G-24PS-E
+2016-08-19 16:59:00,282 pn:WS-C3560G-24PS-S
+2016-08-19 16:59:00,282 pn:WS-C3560G-24TS-E
+2016-08-19 16:59:00,282 pn:WS-C3560G-24TS-S
+2016-08-19 16:59:00,282 pn:WS-C3560G-48PS-E
+2016-08-19 16:59:00,282 pn:WS-C3560G-48PS-S
+2016-08-19 16:59:00,282 pn:WS-C3560G-48TS-E
+2016-08-19 16:59:00,282 pn:WS-C3560G-48TS-S
+2016-08-19 16:59:00,282 pn:WS-C3750E-24PD-E
+2016-08-19 16:59:00,282 pn:WS-C3750E-24PD-S
+2016-08-19 16:59:00,282 pn:WS-C3750E-24TD-E
+2016-08-19 16:59:00,292 pn:WS-C3750E-24TD-S
+2016-08-19 16:59:00,292 pn:WS-C3750E-24TD-SD
+2016-08-19 16:59:00,292 pn:WS-C3750E-48PD-E
+2016-08-19 16:59:00,292 pn:WS-C3750E-48PD-EF
+2016-08-19 16:59:00,292 pn:WS-C3750E-48PD-S
+2016-08-19 16:59:00,292 pn:WS-C3750E-48PD-SF
+2016-08-19 16:59:00,292 pn:WS-C3750E-48TD-E
+2016-08-19 16:59:00,292 pn:WS-C3750E-48TD-S
+2016-08-19 16:59:00,292 pn:WS-C3750E-48TD-SD
+2016-08-19 16:59:00,292 pn:WS-C3750G-12S-E
+2016-08-19 16:59:00,302 pn:WS-C3750G-12S-S
+2016-08-19 16:59:00,302 pn:WS-C3750G-12S-SD
+2016-08-19 16:59:00,302 pn:WS-C3750G-24PS-E
+2016-08-19 16:59:00,302 pn:WS-C3750G-24PS-S
+2016-08-19 16:59:00,302 pn:WS-C3750G-24T-E
+2016-08-19 16:59:00,302 pn:WS-C3750G-24T-S
+2016-08-19 16:59:00,302 pn:WS-C3750G-24TS-E1U
+2016-08-19 16:59:00,302 pn:WS-C3750G-24TS-S1U
+2016-08-19 16:59:00,302 pn:WS-C3750G-48PS-E
+2016-08-19 16:59:00,302 pn:WS-C3750G-48PS-S
+2016-08-19 16:59:00,302 pn:WS-C3750G-48TS-E
+2016-08-19 16:59:00,312 pn:WS-C3750G-48TS-S
+2016-08-19 16:59:00,312 
+2016-08-19 16:59:00,312 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Releases 12.2(18)SE, 12.2(20)SE, and 12.2(25)SEA through 12.2(25)SEG for Cisco Catalyst 3750, 3560, 2960, 2970, ME-2400, ME-3400, ME-3750, CGESM & Express 500 Series Switches
+2016-08-19 16:59:00,312 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-692952.html
+2016-08-19 16:59:00,312 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:01,553 This page have 1 dv dt pairs
+2016-08-19 16:59:01,553 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:01,553 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco IOS Software Releases 12.2(18)SE, 12.2(20)SE, and 12.2(25)SEA through 12.2(25)SEG for Cisco Catalyst 3750, 3560, 2960, 2970, ME-2400, ME-3400, ME-3750, CGESM & Express 500 Series Switches 
+2016-08-19 16:59:01,553 Adding pn to dictionary
+2016-08-19 16:59:01,553 pn:S340XAK9T-12225SEG
+2016-08-19 16:59:01,563 pn:S340XAT-12225SEG
+2016-08-19 16:59:01,563 pn:S340XBK9T-12225SEG
+2016-08-19 16:59:01,563 pn:S340XBT-12225SEG
+2016-08-19 16:59:01,563 pn:S340XIK9T-12225SEG
+2016-08-19 16:59:01,563 pn:S340XIT-12225SEG
+2016-08-19 16:59:01,563 
+2016-08-19 16:59:01,563 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750-24FS Switch
+2016-08-19 16:59:01,563 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_c51-687707.html
+2016-08-19 16:59:01,573 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:02,243 This page have 1 dv dt pairs
+2016-08-19 16:59:02,243 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:02,243 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750-24FS Switch 
+2016-08-19 16:59:02,253 Adding pn to dictionary
+2016-08-19 16:59:02,253 pn:WS-C3750-24FS-S
+2016-08-19 16:59:02,253 
+2016-08-19 16:59:02,253 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750 24- and 48-Port 10/100, 3560 24- and 48-Port 10/100 Switches
+2016-08-19 16:59:02,253 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html
+2016-08-19 16:59:02,263 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:03,063 This page have 1 dv dt pairs
+2016-08-19 16:59:03,063 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:03,063 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750 24- and 48-Port 10/100, 3560 24- and 48-Port 10/100 Switches 
+2016-08-19 16:59:03,073 Adding pn to dictionary
+2016-08-19 16:59:03,073 pn:WS-C3560-24PS-E
+2016-08-19 16:59:03,073 pn:WS-C3560-24PS-S
+2016-08-19 16:59:03,073 pn:WS-C3560-24TS-E
+2016-08-19 16:59:03,073 pn:WS-C3560-24TS-S
+2016-08-19 16:59:03,073 pn:WS-C3560-48PS-E
+2016-08-19 16:59:03,073 pn:WS-C3560-48PS-S
+2016-08-19 16:59:03,073 pn:WS-C3560-48TS-E
+2016-08-19 16:59:03,083 pn:WS-C3560-48TS-S
+2016-08-19 16:59:03,083 pn:WS-C3750-24PS-E
+2016-08-19 16:59:03,083 pn:WS-C3750-24PS-S
+2016-08-19 16:59:03,083 pn:WS-C3750-24TS-E
+2016-08-19 16:59:03,083 pn:WS-C3750-24TS-S
+2016-08-19 16:59:03,083 pn:WS-C3750-48PS-E
+2016-08-19 16:59:03,083 pn:WS-C3750-48PS-S
+2016-08-19 16:59:03,083 pn:WS-C3750-48TS-E
+2016-08-19 16:59:03,083 pn:WS-C3750-48TS-S
+2016-08-19 16:59:03,083 
+2016-08-19 16:59:03,083 Title:End-of-Sale and End-of-Life Announcement for the Cisco Wireless LAN Controller Software Versions 3.0, 3.1, 3.2, 4.0, 4.1, 5.0, and 5.1
+2016-08-19 16:59:03,083 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-624769.html
+2016-08-19 16:59:03,093 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:03,933 This page have 1 dv dt pairs
+2016-08-19 16:59:03,933 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:03,943 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Wireless LAN Controller Software Versions 3.0, 3.1, 3.2, 4.0, 4.1, 5.0, and 5.1 
+2016-08-19 16:59:03,953 Adding pn to dictionary
+2016-08-19 16:59:03,953 pn:SWISMK9-32-ER
+2016-08-19 16:59:03,953 pn:SWISMK9-40-ER
+2016-08-19 16:59:03,953 pn:SWISMK9-41
+2016-08-19 16:59:03,953 pn:SWISMK9-41-ER
+2016-08-19 16:59:03,953 pn:SWISMK9-50
+2016-08-19 16:59:03,953 pn:SWISMK9-50-ER
+2016-08-19 16:59:03,953 pn:SWISMK9-51
+2016-08-19 16:59:03,953 pn:SWISMK9-51-ER
+2016-08-19 16:59:03,953 pn:SWLC-OFF-EXT-AP
+2016-08-19 16:59:03,953 pn:SWLC2100K9-51
+2016-08-19 16:59:03,963 pn:SWLC2100K9-51-ER
+2016-08-19 16:59:03,963 pn:SWLC2106K9-40
+2016-08-19 16:59:03,963 pn:SWLC2106K9-40=
+2016-08-19 16:59:03,963 pn:SWLC2106K9-50
+2016-08-19 16:59:03,963 pn:SWLC2106K9-50-ER
+2016-08-19 16:59:03,963 pn:SWLC4400K9-50
+2016-08-19 16:59:03,963 pn:SWLC4400K9-50-ER
+2016-08-19 16:59:03,963 pn:SWLC4400K9-51
+2016-08-19 16:59:03,963 pn:SWLC4400K9-51-ER
+2016-08-19 16:59:03,963 pn:SWLC6K9-41
+2016-08-19 16:59:03,973 pn:SWLC6K9-51
+2016-08-19 16:59:03,973 pn:SWLC6K9-51-ER
+2016-08-19 16:59:03,973 pn:SWLCEK9-41
+2016-08-19 16:59:03,973 pn:SWLCEK9-41-ER
+2016-08-19 16:59:03,973 pn:SWLCEK9-50
+2016-08-19 16:59:03,973 pn:SWLCEK9-50-ER
+2016-08-19 16:59:03,973 pn:SWLCEK9-51
+2016-08-19 16:59:03,973 pn:SWLCEK9-51-ER
+2016-08-19 16:59:03,973 
+2016-08-19 16:59:03,973 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750-E IOS Advanced IP Services Feature Set
+2016-08-19 16:59:03,983 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_519629.html
+2016-08-19 16:59:03,983 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:04,613 This page have 1 dv dt pairs
+2016-08-19 16:59:04,613 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:04,613 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750-E IOS Advanced IP Services Feature Set 
+2016-08-19 16:59:04,613 Adding pn to dictionary
+2016-08-19 16:59:04,613 pn:3750E-AISK9LCBQTY
+2016-08-19 16:59:04,623 pn:3750E-AISK9LCSQTY
+2016-08-19 16:59:04,623 pn:3750E48-AISK9LCBQ
+2016-08-19 16:59:04,623 pn:3750E48-AISK9LCSQ
+2016-08-19 16:59:04,623 pn:LL-3750E-AIS=
+2016-08-19 16:59:04,623 
+2016-08-19 16:59:04,623 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750 IOS Advanced IP Services Feature Set
+2016-08-19 16:59:04,623 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_519635.html
+2016-08-19 16:59:04,633 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:05,253 This page have 1 dv dt pairs
+2016-08-19 16:59:05,253 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:59:05,263 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 3750 IOS Advanced IP Services Feature Set
+2016-08-19 16:59:05,263 Adding pn to dictionary
+2016-08-19 16:59:05,263 pn:3750-AISK9-LIC-B
+2016-08-19 16:59:05,263 pn:3750-AISK9-LIC-B=
+2016-08-19 16:59:05,263 pn:3750-AISK9-LIC-S
+2016-08-19 16:59:05,273 pn:3750-AISK9-LIC-S=
+2016-08-19 16:59:05,273 pn:3750G-AISK9-LIC-B
+2016-08-19 16:59:05,273 pn:3750G-AISK9-LIC-B=
+2016-08-19 16:59:05,273 pn:3750G-AISK9-LIC-S
+2016-08-19 16:59:05,273 pn:3750G-AISK9-LIC-S=
+2016-08-19 16:59:05,273 pn:3750G48-AISK9LC-B=
+2016-08-19 16:59:05,273 pn:3750G48-AISK9LC-S=
+2016-08-19 16:59:05,273 
+2016-08-19 16:59:05,273 Title:End-of-Sale Notice Cisco Catalyst 3750G-16TD Switch
+2016-08-19 16:59:05,273 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/prod_end-of-life_notice0900aecd806228c3.html
+2016-08-19 16:59:05,283 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:05,983 This page have 1 dv dt pairs
+2016-08-19 16:59:05,983 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:05,983 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3750G-16TD Switch. 
+2016-08-19 16:59:05,983 Adding pn to dictionary
+2016-08-19 16:59:05,983 pn:WS-C3750G-16TD-E
+2016-08-19 16:59:05,983 pn:WS-C3750G-16TD-S
+2016-08-19 16:59:05,983 
+2016-08-19 16:59:05,983 Title:EOS/EOS for Cisco 1000BASE-CWDM Line of CWDM Passive Devices
+2016-08-19 16:59:05,983 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd8016fb77.html
+2016-08-19 16:59:05,993 This one was parsed before.Skiping
+2016-08-19 16:59:05,993  
+2016-08-19 16:59:05,993 Parsing Cisco Catalyst 3750-X Series Switches
+2016-08-19 16:59:05,993 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:06,543 Found some End-of-Sale listing
+2016-08-19 16:59:06,543 url:https://www.cisco.com/c/en/us/products/switches/catalyst-3750-x-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:59:06,553 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:07,063 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560-X and 3750-X Power Supplies, Cables, and Other Accessories
+2016-08-19 16:59:07,063 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-x-series-switches/eos-eol-notice-c51-737191.html
+2016-08-19 16:59:07,073 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:08,164 This page have 1 dv dt pairs
+2016-08-19 16:59:08,164 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:59:08,184 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 3560-X and 3750-X Power Supplies, Cables, and Other Accessories
+2016-08-19 16:59:08,194 Adding pn to dictionary
+2016-08-19 16:59:08,194 pn:C3560X-24-IOS-S-E
+2016-08-19 16:59:08,194 pn:C3560X-24-L-E
+2016-08-19 16:59:08,194 pn:C3560X-24-L-S
+2016-08-19 16:59:08,194 pn:C3560X-24-S-E
+2016-08-19 16:59:08,194 pn:C3560X-24P-10G
+2016-08-19 16:59:08,194 pn:C3560X-24T-10G
+2016-08-19 16:59:08,194 pn:C3560X-48-IOS-S-E
+2016-08-19 16:59:08,204 pn:C3560X-48-L-E
+2016-08-19 16:59:08,204 pn:C3560X-48-L-S
+2016-08-19 16:59:08,204 pn:C3560X-48-S-E
+2016-08-19 16:59:08,204 pn:C3560X-48P-10G
+2016-08-19 16:59:08,204 pn:C3560X-48PF-10G
+2016-08-19 16:59:08,204 pn:C3560X-48T-10G
+2016-08-19 16:59:08,204 pn:C3560X-LIC=
+2016-08-19 16:59:08,204 pn:C3750X-12S-S-E
+2016-08-19 16:59:08,204 pn:C3750X-24-IOS-S-E
+2016-08-19 16:59:08,204 pn:C3750X-24-L-E
+2016-08-19 16:59:08,204 pn:C3750X-24-L-S
+2016-08-19 16:59:08,204 pn:C3750X-24-S-E
+2016-08-19 16:59:08,204 pn:C3750X-24P-10G
+2016-08-19 16:59:08,204 pn:C3750X-24S-S-E
+2016-08-19 16:59:08,204 pn:C3750X-24T-10G
+2016-08-19 16:59:08,204 pn:C3750X-48-IOS-S-E
+2016-08-19 16:59:08,204 pn:C3750X-48-L-E
+2016-08-19 16:59:08,214 pn:C3750X-48-L-S
+2016-08-19 16:59:08,214 pn:C3750X-48-S-E
+2016-08-19 16:59:08,214 pn:C3750X-48P-10G
+2016-08-19 16:59:08,214 pn:C3750X-48PF-10G
+2016-08-19 16:59:08,214 pn:C3750X-48T-10G
+2016-08-19 16:59:08,214 pn:C3750X-LIC=
+2016-08-19 16:59:08,214 pn:C3KX-4PT-KIT
+2016-08-19 16:59:08,214 pn:C3KX-4PT-KIT=
+2016-08-19 16:59:08,214 pn:C3KX-ACC-KIT
+2016-08-19 16:59:08,214 pn:C3KX-ACC-KIT=
+2016-08-19 16:59:08,214 pn:C3KX-FAN-23CFM
+2016-08-19 16:59:08,224 pn:C3KX-FAN-23CFM=
+2016-08-19 16:59:08,224 pn:C3KX-FIPS-KIT=
+2016-08-19 16:59:08,224 pn:C3KX-PS-BLANK
+2016-08-19 16:59:08,224 pn:C3KX-PS-BLANK=
+2016-08-19 16:59:08,224 pn:C3KX-PWR-1100WAC
+2016-08-19 16:59:08,224 pn:C3KX-PWR-1100WAC/2
+2016-08-19 16:59:08,224 pn:C3KX-PWR-1100WAC=
+2016-08-19 16:59:08,224 pn:C3KX-PWR-350WAC
+2016-08-19 16:59:08,224 pn:C3KX-PWR-350WAC/2
+2016-08-19 16:59:08,224 pn:C3KX-PWR-350WAC=
+2016-08-19 16:59:08,224 pn:C3KX-PWR-440WDC
+2016-08-19 16:59:08,224 pn:C3KX-PWR-440WDC/2
+2016-08-19 16:59:08,224 pn:C3KX-PWR-440WDC=
+2016-08-19 16:59:08,224 pn:C3KX-PWR-715WAC
+2016-08-19 16:59:08,224 pn:C3KX-PWR-715WAC/2
+2016-08-19 16:59:08,234 pn:C3KX-PWR-715WAC=
+2016-08-19 16:59:08,234 pn:C3KX-RACK-KIT
+2016-08-19 16:59:08,234 pn:C3KX-RACK-KIT=
+2016-08-19 16:59:08,234 pn:CAB-3KX-250VAC-JP
+2016-08-19 16:59:08,234 pn:CAB-3KX-250VAC-JP=
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-AP
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-AP=
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-AR
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-AR=
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-CN
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-CN=
+2016-08-19 16:59:08,234 pn:CAB-3KX-AC-DN
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-DN=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-EU
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-EU=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IN
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IN=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IS
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IS=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IT
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-IT=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-JP
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-JP=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-SW
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-SW=
+2016-08-19 16:59:08,244 pn:CAB-3KX-AC-UK
+2016-08-19 16:59:08,254 pn:CAB-3KX-AC-UK=
+2016-08-19 16:59:08,254 pn:CAB-3KX-AC=
+2016-08-19 16:59:08,254 pn:CAT-3KX-10G-NM-LRM
+2016-08-19 16:59:08,254 pn:CAT-3KX-10G-NM-SR
+2016-08-19 16:59:08,254 pn:CAT-3KX-10G-SM-SR
+2016-08-19 16:59:08,254 pn:L-C3560X-24-L-E
+2016-08-19 16:59:08,254 pn:L-C3560X-24-L-E=
+2016-08-19 16:59:08,254 pn:L-C3560X-24-L-S
+2016-08-19 16:59:08,254 pn:L-C3560X-24-L-S=
+2016-08-19 16:59:08,254 pn:L-C3560X-24-S-E
+2016-08-19 16:59:08,254 pn:L-C3560X-24-S-E=
+2016-08-19 16:59:08,254 pn:L-C3560X-48-L-E
+2016-08-19 16:59:08,254 pn:L-C3560X-48-L-E=
+2016-08-19 16:59:08,254 pn:L-C3560X-48-L-S
+2016-08-19 16:59:08,254 pn:L-C3560X-48-L-S=
+2016-08-19 16:59:08,264 pn:L-C3560X-48-S-E
+2016-08-19 16:59:08,264 pn:L-C3560X-48-S-E=
+2016-08-19 16:59:08,264 pn:L-C3560X-LIC=
+2016-08-19 16:59:08,264 pn:L-C3750X-12S-S-E
+2016-08-19 16:59:08,264 pn:L-C3750X-24-L-E
+2016-08-19 16:59:08,264 pn:L-C3750X-24-L-E=
+2016-08-19 16:59:08,264 pn:L-C3750X-24-L-S
+2016-08-19 16:59:08,264 pn:L-C3750X-24-L-S=
+2016-08-19 16:59:08,264 pn:L-C3750X-24-S-E
+2016-08-19 16:59:08,264 pn:L-C3750X-24-S-E=
+2016-08-19 16:59:08,264 pn:L-C3750X-24S-S-E
+2016-08-19 16:59:08,264 pn:L-C3750X-48-L-E
+2016-08-19 16:59:08,274 pn:L-C3750X-48-L-E=
+2016-08-19 16:59:08,274 pn:L-C3750X-48-L-S
+2016-08-19 16:59:08,274 pn:L-C3750X-48-L-S=
+2016-08-19 16:59:08,274 pn:L-C3750X-48-S-E
+2016-08-19 16:59:08,274 pn:L-C3750X-48-S-E=
+2016-08-19 16:59:08,274 pn:L-C3750X-LIC=
+2016-08-19 16:59:08,274 pn:LL-C3560X-24-L-E=
+2016-08-19 16:59:08,274 pn:LL-C3560X-24-L-S=
+2016-08-19 16:59:08,274 pn:LL-C3560X-24-S-E=
+2016-08-19 16:59:08,274 pn:LL-C3560X-48-L-E=
+2016-08-19 16:59:08,274 pn:LL-C3560X-48-L-S=
+2016-08-19 16:59:08,274 pn:LL-C3560X-48-S-E=
+2016-08-19 16:59:08,274 pn:LL-C3750X-24-L-E=
+2016-08-19 16:59:08,284 pn:LL-C3750X-24-L-S=
+2016-08-19 16:59:08,284 pn:LL-C3750X-24-S-E=
+2016-08-19 16:59:08,284 pn:LL-C3750X-48-L-E=
+2016-08-19 16:59:08,284 pn:LL-C3750X-48-L-S=
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24P-E
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24P-L
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24P-S
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24T-E
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24T-L
+2016-08-19 16:59:08,284 pn:NAL-C3560X-24T-S
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48P-E
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48P-L
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48P-S
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48PF-L
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48PF-S
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48T-E
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48T-L
+2016-08-19 16:59:08,294 pn:NAL-C3560X-48T-S
+2016-08-19 16:59:08,294 pn:NAL-C3750X-24P-E
+2016-08-19 16:59:08,294 pn:NAL-C3750X-24P-L
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24P-S
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24T-E
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24T-L
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24T-S
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24U-E
+2016-08-19 16:59:08,304 pn:NAL-C3750X-24U-L
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48P-E
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48P-L
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48P-S
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48PF-E
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48PF-L
+2016-08-19 16:59:08,304 pn:NAL-C3750X-48PF-S
+2016-08-19 16:59:08,314 pn:NAL-C3750X-48T-E
+2016-08-19 16:59:08,314 pn:NAL-C3750X-48T-L
+2016-08-19 16:59:08,314 pn:NAL-C3750X-48T-S
+2016-08-19 16:59:08,314 pn:NAL-C3750X-48U-L
+2016-08-19 16:59:08,314 pn:WS-C3560X-24T-IND
+2016-08-19 16:59:08,314 pn:WS-C3560X-48T-IND
+2016-08-19 16:59:08,314 pn:WS-C3750X-24T-IND
+2016-08-19 16:59:08,314 pn:WS-C3750X-48T-IND
+2016-08-19 16:59:08,314 
+2016-08-19 16:59:08,314 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560-X and 3750-X Series Switches
+2016-08-19 16:59:08,324 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html
+2016-08-19 16:59:08,324 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:09,324 This page have 1 dv dt pairs
+2016-08-19 16:59:09,324 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:59:09,334 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 3560-X and 3750-X Series Switches
+2016-08-19 16:59:09,334 Adding pn to dictionary
+2016-08-19 16:59:09,344 pn:C3KX-NM-10G
+2016-08-19 16:59:09,344 pn:C3KX-NM-10G=
+2016-08-19 16:59:09,344 pn:C3KX-NM-10GT
+2016-08-19 16:59:09,344 pn:C3KX-NM-10GT=
+2016-08-19 16:59:09,344 pn:C3KX-NM-1G
+2016-08-19 16:59:09,344 pn:C3KX-NM-1G=
+2016-08-19 16:59:09,344 pn:C3KX-NM-BLANK=
+2016-08-19 16:59:09,344 pn:C3KX-SM-10G
+2016-08-19 16:59:09,344 pn:C3KX-SM-10G=
+2016-08-19 16:59:09,344 pn:WS-C3560X-24P-E
+2016-08-19 16:59:09,344 pn:WS-C3560X-24P-L
+2016-08-19 16:59:09,344 pn:WS-C3560X-24P-S
+2016-08-19 16:59:09,344 pn:WS-C3560X-24T-E
+2016-08-19 16:59:09,344 pn:WS-C3560X-24T-L
+2016-08-19 16:59:09,344 pn:WS-C3560X-24T-S
+2016-08-19 16:59:09,344 pn:WS-C3560X-24U-E
+2016-08-19 16:59:09,354 pn:WS-C3560X-24U-L
+2016-08-19 16:59:09,354 pn:WS-C3560X-24U-S
+2016-08-19 16:59:09,354 pn:WS-C3560X-48P-E
+2016-08-19 16:59:09,354 pn:WS-C3560X-48P-L
+2016-08-19 16:59:09,354 pn:WS-C3560X-48P-S
+2016-08-19 16:59:09,354 pn:WS-C3560X-48PF-E
+2016-08-19 16:59:09,354 pn:WS-C3560X-48PF-L
+2016-08-19 16:59:09,354 pn:WS-C3560X-48PF-S
+2016-08-19 16:59:09,354 pn:WS-C3560X-48T-E
+2016-08-19 16:59:09,354 pn:WS-C3560X-48T-L
+2016-08-19 16:59:09,354 pn:WS-C3560X-48T-S
+2016-08-19 16:59:09,354 pn:WS-C3560X-48U-E
+2016-08-19 16:59:09,354 pn:WS-C3560X-48U-L
+2016-08-19 16:59:09,364 pn:WS-C3560X-48U-S
+2016-08-19 16:59:09,364 pn:WS-C3750X-12S-E
+2016-08-19 16:59:09,364 pn:WS-C3750X-12S-S
+2016-08-19 16:59:09,364 pn:WS-C3750X-24P-E
+2016-08-19 16:59:09,364 pn:WS-C3750X-24P-L
+2016-08-19 16:59:09,364 pn:WS-C3750X-24P-S
+2016-08-19 16:59:09,364 pn:WS-C3750X-24S-E
+2016-08-19 16:59:09,364 pn:WS-C3750X-24S-S
+2016-08-19 16:59:09,364 pn:WS-C3750X-24T-E
+2016-08-19 16:59:09,364 pn:WS-C3750X-24T-L
+2016-08-19 16:59:09,364 pn:WS-C3750X-24T-S
+2016-08-19 16:59:09,374 pn:WS-C3750X-24U-E
+2016-08-19 16:59:09,374 pn:WS-C3750X-24U-L
+2016-08-19 16:59:09,374 pn:WS-C3750X-24U-S
+2016-08-19 16:59:09,374 pn:WS-C3750X-48P-E
+2016-08-19 16:59:09,374 pn:WS-C3750X-48P-L
+2016-08-19 16:59:09,374 pn:WS-C3750X-48P-S
+2016-08-19 16:59:09,374 pn:WS-C3750X-48PF-E
+2016-08-19 16:59:09,374 pn:WS-C3750X-48PF-L
+2016-08-19 16:59:09,374 pn:WS-C3750X-48PF-S
+2016-08-19 16:59:09,374 pn:WS-C3750X-48T-E
+2016-08-19 16:59:09,374 pn:WS-C3750X-48T-L
+2016-08-19 16:59:09,374 pn:WS-C3750X-48T-S
+2016-08-19 16:59:09,374 pn:WS-C3750X-48U-E
+2016-08-19 16:59:09,384 pn:WS-C3750X-48U-L
+2016-08-19 16:59:09,384 pn:WS-C3750X-48U-S
+2016-08-19 16:59:09,384 
+2016-08-19 16:59:09,384 Title:Retracted: Change in Product Part Number Announcement for the Cisco Catalyst 3560-X and 3750-X Power Supplies and Cables
+2016-08-19 16:59:09,384 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/end_of_life_notice_c51-729195.html
+2016-08-19 16:59:09,384 This one not EOS page but only information about EoS change. Skiping
+2016-08-19 16:59:09,384  
+2016-08-19 16:59:09,384 Parsing Cisco Catalyst 3650 Series Switches
+2016-08-19 16:59:09,394 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:10,605 No End-of-Sale for Cisco Catalyst 3650 Series Switches
+2016-08-19 16:59:10,605  
+2016-08-19 16:59:10,605 Parsing Cisco Catalyst 3560 Series Switches
+2016-08-19 16:59:10,615 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:11,615 Found some End-of-Sale listing
+2016-08-19 16:59:11,615 url:https://www.cisco.com/c/en/us/products/switches/catalyst-3560-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:59:11,625 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:12,125 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560V2 and 3750V2 Switches
+2016-08-19 16:59:12,125 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html
+2016-08-19 16:59:12,125 This one was parsed before.Skiping
+2016-08-19 16:59:12,125  
+2016-08-19 16:59:12,125 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750G, 3560G, 3750-E, and 3560-E Series Switches
+2016-08-19 16:59:12,125 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html
+2016-08-19 16:59:12,125 This one was parsed before.Skiping
+2016-08-19 16:59:12,135  
+2016-08-19 16:59:12,135 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3750 24- and 48-Port 10/100, 3560 24- and 48-Port 10/100 Switches
+2016-08-19 16:59:12,135 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html
+2016-08-19 16:59:12,135 This one was parsed before.Skiping
+2016-08-19 16:59:12,135  
+2016-08-19 16:59:12,135 Title: End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560 IOS Advanced IP Services Feature Set
+2016-08-19 16:59:12,135 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-series-switches/eol_c51_519208.html
+2016-08-19 16:59:12,145 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:12,795 This page have 1 dv dt pairs
+2016-08-19 16:59:12,795 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:12,795 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 3560 IOS Advanced IP Services Feature Set 
+2016-08-19 16:59:12,805 Adding pn to dictionary
+2016-08-19 16:59:12,805 pn:3560-AISK9-LIC-B
+2016-08-19 16:59:12,805 pn:3560-AISK9-LIC-B=
+2016-08-19 16:59:12,805 pn:3560-AISK9-LIC-S
+2016-08-19 16:59:12,805 pn:3560-AISK9-LIC-S=
+2016-08-19 16:59:12,805 pn:3560G-AISK9-LIC-B
+2016-08-19 16:59:12,805 pn:3560G-AISK9-LIC-B=
+2016-08-19 16:59:12,805 pn:3560G-AISK9-LIC-S
+2016-08-19 16:59:12,805 pn:3560G-AISK9-LIC-S=
+2016-08-19 16:59:12,815 
+2016-08-19 16:59:12,815 Parsing Cisco Catalyst 3560-X Series Switches
+2016-08-19 16:59:12,815 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:13,336 Found some End-of-Sale listing
+2016-08-19 16:59:13,336 url:https://www.cisco.com/c/en/us/products/switches/catalyst-3560-x-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:59:13,346 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:13,846 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560-X and 3750-X Series Switches
+2016-08-19 16:59:13,846 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html
+2016-08-19 16:59:13,846 This one was parsed before.Skiping
+2016-08-19 16:59:13,846  
+2016-08-19 16:59:13,846 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 3560-X and 3750-X Power Supplies, Cables, and Other Accessories
+2016-08-19 16:59:13,856 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-x-series-switches/eos-eol-notice-c51-737191.html
+2016-08-19 16:59:13,856 This one was parsed before.Skiping
+2016-08-19 16:59:13,856  
+2016-08-19 16:59:13,856 Title:Retracted: Change in Product Part Number Announcement for the Cisco Catalyst 3560-X and 3750-X Power Supplies and Cables
+2016-08-19 16:59:13,856 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/end_of_life_notice_c51-729195.html
+2016-08-19 16:59:13,856 This one not EOS page but only information about EoS change. Skiping
+2016-08-19 16:59:13,856  
+2016-08-19 16:59:13,856 Parsing Cisco Catalyst 2960-Plus Series Switches
+2016-08-19 16:59:13,866 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:14,846 No End-of-Sale for Cisco Catalyst 2960-Plus Series Switches
+2016-08-19 16:59:14,846  
+2016-08-19 16:59:14,846 Parsing Cisco Catalyst 2960-S Series Switches
+2016-08-19 16:59:14,857 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:15,407 Found some End-of-Sale listing
+2016-08-19 16:59:15,407 url:https://www.cisco.com/c/en/us/products/switches/catalyst-2960-s-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:59:15,417 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:16,457 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 2960-S Series and 2960-SF Series Switches
+2016-08-19 16:59:16,457 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-733348.html
+2016-08-19 16:59:16,467 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:17,457 This page have 1 dv dt pairs
+2016-08-19 16:59:17,457 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:59:17,467 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Catalyst 2960-S Series and 2960-SF Series Switches
+2016-08-19 16:59:17,467 Adding pn to dictionary
+2016-08-19 16:59:17,467 pn:C2960S-F-STACK
+2016-08-19 16:59:17,467 pn:C2960S-F-STACK=
+2016-08-19 16:59:17,467 pn:C2960S-STACK
+2016-08-19 16:59:17,467 pn:C2960S-STACK=
+2016-08-19 16:59:17,477 pn:WS-C2960S-24PD-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-24PS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-24TD-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-24TS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-24TS-S
+2016-08-19 16:59:17,477 pn:WS-C2960S-48FPD-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48FPS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48LPD-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48LPS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48TD-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48TS-J1
+2016-08-19 16:59:17,477 pn:WS-C2960S-48TS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-48TS-S
+2016-08-19 16:59:17,477 pn:WS-C2960S-F24PS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-F24TS-L
+2016-08-19 16:59:17,477 pn:WS-C2960S-F24TS-S
+2016-08-19 16:59:17,487 pn:WS-C2960S-F48FPS-L
+2016-08-19 16:59:17,487 pn:WS-C2960S-F48LPS-L
+2016-08-19 16:59:17,487 pn:WS-C2960S-F48TS-L
+2016-08-19 16:59:17,487 pn:WS-C2960S-F48TS-S
+2016-08-19 16:59:17,487 
+2016-08-19 16:59:17,487 Title:End-of-Sale and End-of-Life Announcement for the Cisco Catalyst 2960G 24 and 48-Port Switches
+2016-08-19 16:59:17,487 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/end_of_life_c51-674040.html
+2016-08-19 16:59:17,487 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:18,157 This page have 1 dv dt pairs
+2016-08-19 16:59:18,157 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-19 16:59:18,157 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 2960G 24- and 48-Port Switches 
+2016-08-19 16:59:18,167 Adding pn to dictionary
+2016-08-19 16:59:18,167 pn:WS-C2960G-24TC-L
+2016-08-19 16:59:18,167 pn:WS-C2960G-48TC-L
+2016-08-19 16:59:18,167 
+2016-08-19 16:59:18,177 Parsing Cisco Catalyst 2960-SF Series Switches
+2016-08-19 16:59:18,177 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:18,747 No End-of-Sale for Cisco Catalyst 2960-SF Series Switches
+2016-08-19 16:59:18,757  
+2016-08-19 16:59:18,757 Parsing Cisco Catalyst 2960-X Series Switches
+2016-08-19 16:59:18,757 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:19,827 Found some End-of-Sale listing
+2016-08-19 16:59:19,827 url:https://www.cisco.com/c/en/us/products/switches/catalyst-2960-x-series-switches/eos-eol-notice-listing.html
+2016-08-19 16:59:19,837 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:20,738 Title:End-of-Sale and End-of-Life Announcement for the Cisco IOS Software Release 15.0(2)EX for Cisco Catalyst 2960-S, 2960-X/XR Switches
+2016-08-19 16:59:20,748 Url:https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-x-series-switches/eos-eol-notice-c51-736509.html
+2016-08-19 16:59:20,748 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:21,358 Looks like this is software page, so no PN for this one
+2016-08-19 16:59:21,358  
+2016-08-19 16:59:21,358 Parsing Cisco Edge Series
+2016-08-19 16:59:21,368 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:21,928 Found some End-of-Sale listing
+2016-08-19 16:59:21,928 url:https://www.cisco.com/c/en/us/products/switches/edge-300-series/eos-eol-notice-listing.html
+2016-08-19 16:59:21,938 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:22,408 Title:End-of-Sale and End-of-Life Announcement for the Cisco Edge 300 for HSJC
+2016-08-19 16:59:22,418 Url:https://www.cisco.com/c/en/us/products/collateral/switches/edge-300-series/eos-eol-notice-c51-733204.html
+2016-08-19 16:59:22,418 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 16:59:23,058 This page have 1 dv dt pairs
+2016-08-19 16:59:23,058 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-19 16:59:23,058 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Edge 300 for HSJC
+2016-08-19 16:59:23,058 Adding pn to dictionary
+2016-08-19 16:59:23,068 pn:HS-E300-AP-K9
+2016-08-19 16:59:23,068 pn:HS-E300-AP-K9-SW
+2016-08-19 16:59:23,068 pn:HS-E300-K9
+2016-08-19 16:59:23,068 pn:HS-E300-K9-SW
+2016-08-19 16:59:23,068 
+2016-08-19 16:59:23,068 Parsing Cisco Meraki Cloud Managed Switches
+2016-08-19 16:59:23,078 Starting new HTTPS connection (1): www.cisco.com

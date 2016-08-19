@@ -14,6 +14,15 @@ def get_tables(soup):
 		arr_tables.append(arr_table)
 	return arr_tables
 
+def get_table(soup):
+	for table in soup:
+		arr_table = []
+		rows = table.findAll('tr')
+		for row in rows:
+			cols = row.findAll('td')
+			cols = [ele.text.strip() for ele in cols]
+			arr_table.append(cols)
+	return arr_table
 
 def get_page(url):
 	i = 0
@@ -27,7 +36,7 @@ def get_page(url):
 		try:
 			content = requests.get(url,timeout=5)
 		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
-			log.info ("Connection Error. Repeat")
+			print("Connection Error. Repeat")
 			i = i+1
 		else:
 			break

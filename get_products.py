@@ -5,10 +5,11 @@ import datetime
 import platform
 import os
 import sys
-from  mylibs.utils import  get_page,get_logger,get_cisco_links,get_tables
+from  mylibs.utils import  get_page,get_logger,get_cisco_links,get_table
 
 
-strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html']
+strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html',
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html']
 
 header = "https://www.cisco.com"
 log = get_logger('get_products.log')
@@ -96,27 +97,28 @@ for device_type in device_types:
 
 			content = get_page(eos[1])
 			soup = BeautifulSoup(content.text,"html.parser")
-			tables = soup.findAll("table")
-			arr_tables = get_tables(tables)
-			devices_table = []
-			dates_table = []
-			
-			for table in arr_tables:
-				try:
-					th = table[0][0].replace(" ", "").replace('\n','').replace('\xa0','').replace('-','')
-					#log.info(repr(th))
-				except(IndexError):
-					continue
+			p = soup.find_all('p')
 
-				if  th in devices_header:
-					arr = [row[0] for row in table ]
-					devices_table.append(arr)
-				if th == 'Milestone':
-					dates_table.append(table)
-			
-			if len(devices_table) == 0:
-				if('Cisco IOS XE' in content.text ): #some eos ( somftware mainly) not have pn
-					#ios_no_pn.append(doc)
+			dates = {}
+			devices = {}
+			dv_dt = []
+
+			for item in p:
+				#print(item.text)
+				if "Milestones" in item.text:
+					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
+				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text:
+					devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
+
+		
+			if len(dates) == 0:
+				log.error('Cant parse dates')
+				sys.exit()
+
+
+			if len(devices) == 0:
+				#some eos ( somftware mainly) not have pn
+				if'Cisco IOS XE' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
 					log.info('Looks like this is software page, so no PN for this one')
 					log.info(' ')
 					continue
@@ -124,72 +126,76 @@ for device_type in device_types:
 				if 'was replaced by' in content.text:
 					log.info('This doc was replaced')
 					log.info('')
-				continue
-
-				log.info("Cant find table with devices")
-				log.warning("url: "+eos[1])
+					continue
+				log.error('Cant parse devices')
 				sys.exit()
-				continue
 
-			if len(dates_table) == 0 or len(dates_table) > 1:
-				success_parse_dates = False
-				tf = ""
-				log.warning("ERROR: Number of tables with dates " + str(len(dates_table)))
-				log.warning('ERROR url: ' + eos[1])
-				error_parse.append( ("dates_table =" +str(len(dates_table)),eos[1]) )
-				for dt in devices_table:
-					dt.pop(0)
-					if tf == "":
-						tf = dt
+
+			if len(dates) != len(devices):
+				log.error('Number of dates and devices not equal')
+				sys.exit()
+
+
+			if len(dates) == 1:
+				dv = [i for i  in devices.keys()][0]
+				dt = [i for i  in dates.keys()][0]
+				dv_dt.append((dv,dt))
+			else:	
+				for devk in devices.keys():
+					st = devk[-3:].replace(' ','')
+					for datk in dates.keys():
+						# print(datk)
+						if st in datk: 
+							dv_dt.append((devk,datk))
+
+			if len(dates) != len(dv_dt):
+				log.error('Error creating dv_dt')
+				sys.exit()
+
+			log.info('This page have '+ str(len(dates)) + ' dv dt pairs')
+			for dvk,dtk in dv_dt:
+				log.info('Device title ' + dvk)
+				dv = get_table(devices[dvk])
+				log.info('Assosiate dates title ' + dtk)
+				dt = get_table(dates[dtk])
+				dt.pop(0)
+			
+
+				pns = [i[0] for i in dv]
+				pns.pop(0)
+
+				new_pns = []
+				for pn in pns:
+					if pn not in new_pns and 'Change' not in pn :
+						new_pns.append(pn.replace(" ", "").replace('\n',''))
+				pns = new_pns
+			
+				log.info('Adding pn to dictionary')
+				for pn in pns:
+					log.info("pn:" + str(pn))
+
+					# check for duplicate keys
+					if pn  in data.keys():
+						log.warning('Dublicate PN ' + str(pn))
+						log.warning(data[pn])
+						sys.exit()
 					else:
-						tf = tf+dt
-				devices_table = [tf]
-
-			else:
-				success_parse_dates = True
-
-			if len(devices_table) != 1 and success_parse_dates:
-				log.warning('Multiple devices tables')
-				log.warning('url ' + str(eos[1]))
-				sys.exit()
-
-			dates_table = dates_table[0]
-			dates_table.pop(0)
-			devices_table = devices_table[0]
-			pns = [device.replace(" ", "").replace('\n','') for device in devices_table]
-			new_pns = []
-			for pn in pns:
-				if pn not in new_pns and 'Change' not in pn :
-					new_pns.append(pn)
-			pns = new_pns
-			pns.pop(0)	
-			#print (dates_table)
-
-			
-			
-			for pn in pns:
-				log.info("pn:" + str(pn))
-
-				# check for duplicate keys
-				if pn  in data.keys():
-					log.warning('Dublicate PN ' + str(pn))
-					log.warning(data[pn])
-					sys.exit()
-				else:
-					data[pn] = {}
-				
-				if success_parse_dates:
-					for item in dates_table:
-						data[pn][item[0]]=item[2]
+						data[pn] = {}
 					
-				data[pn]['doc'] = eos
-				data[pn]['success_parse_dates'] = success_parse_dates
-			parsed_eos.append(eos[0])
-			log.info('')		
+					for item in dt:
+						data[pn][item[0]]=item[2]	
+					data[pn]['doc'] = eos
+
+				parsed_eos.append(eos[0])
+				log.info('')
+
+	log.info(data)
 	sys.exit()
+			
 
 # Check interfaces and modules separatly
-
+# dont forget about strange_links
+# you are skiping "softare pages" check them seperatly
 #interface_page =get_page('http://www.cisco.com/c/en/us/products/interfaces-modules/index.html')
 #strainer = SoupStrainer("div",{'class':'listing-ungrouped'},)
 #soup = BeautifulSoup(get_page('http://www.cisco.com/c/en/us/products/index.html').content,parse_only=strainer)

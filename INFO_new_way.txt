@@ -1,0 +1,22 @@
+2016-08-19 17:14:39,554 Parsing: https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice09186a00801eb0ae.html
+2016-08-19 17:14:39,584 Starting new HTTPS connection (1): www.cisco.com
+2016-08-19 17:14:41,285 This page have 2 dv dt pairs
+2016-08-19 17:14:41,285 Device title  Table 1b. Product Part Numbers Associated to Table 1a 
+2016-08-19 17:14:41,285 Assosiate dates title  Table 1a. End-of-Life Milestones and Dates including the Cisco Catalyst 4003, Catalyst 4000 Supervisor Engine I, Catalyst 4000/4500 Supervisor Engine III, and Cisco IOS Software Release 12.1(12c)EW. Please see Table 1b for the complete list of products. 
+2016-08-19 17:14:41,285 Adding pn to dictionary
+2016-08-19 17:14:41,295 pn:WS-X4012=
+2016-08-19 17:14:41,295 pn:WS-X4014
+2016-08-19 17:14:41,295 pn:WS-X4014=
+2016-08-19 17:14:41,295 pn:WS-C4003-S1
+2016-08-19 17:14:41,295 pn:WS-C4003-S1-82
+2016-08-19 17:14:41,295 pn:WS-C4003=
+2016-08-19 17:14:41,295 pn:WS-C4006-S3*
+2016-08-19 17:14:41,295 pn:S4KL3-12112EW
+2016-08-19 17:14:41,295 pn:S4KL3-12112EW=
+2016-08-19 17:14:41,295 pn:S4KL3E-12112EW
+2016-08-19 17:14:41,295 pn:S4KL3E-12112EW=
+2016-08-19 17:14:41,305 Device title  Table 2b. Product Part Numbers Associated to Table 2a 
+2016-08-19 17:14:41,305 Assosiate dates title  Table 2a. End-of-Life Milestones and Dates for WS-C4003-S1-DC and WS-C4006-S3-DC. Please refer to Table 2b for more information on the related products. 
+2016-08-19 17:14:41,305 Adding pn to dictionary
+2016-08-19 17:14:41,305 pn:WS-C4003-S1-DC
+2016-08-19 17:14:41,305 pn:WS-C4006-S3-DC
