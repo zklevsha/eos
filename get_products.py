@@ -10,7 +10,9 @@ from dateutil.parser import parse
 
 strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html',
 'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html',
-'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html']
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html',
+'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice0900aecd8029e9fb.html',
+'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice09186a008032d42c.html']
 
 header = "https://www.cisco.com"
 log = get_logger('get_products.log')
@@ -108,12 +110,7 @@ for device_type in device_types:
 			content = get_page(eos[1].replace('.pdf','.html'))
 
 			if content.status_code != 200:
-				log.warning('cant parse url. Skiping' )
-				continue
-
-			if "THIS ANNOUNCEMENT WAS REPLACED"  in content.text:
-				log.info('This EOS was replaced. Skiping')
-				log.info(' ')
+				log.warning('cant open url ' + eos[1] +  ' Skiping' )
 				continue
 
 			soup = BeautifulSoup(content.text,"html.parser")
@@ -124,7 +121,6 @@ for device_type in device_types:
 			dv_dt = []
 
 			for item in p:
-				#print(item.text)
 				if "Milestones" in item.text:
 					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 					log.info("Added to Dates "+ item.text)
@@ -133,6 +129,9 @@ for device_type in device_types:
 					log.info("Added to Devices " + item.text)
 				
 			if len(dates) == 0:
+				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text:
+					log.info('This EOS was replaced. Skiping')
+					continue 
 				log.error('Cant parse dates')
 				sys.exit()
 
