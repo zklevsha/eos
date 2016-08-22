@@ -1,5 +1,204 @@
-2016-08-19 17:26:43,712 This one was in strange_links. I cannot parse it properly
-2016-08-19 17:26:43,712  
-2016-08-19 17:28:06,834 This one was in strange_links. I cannot parse it properly
-2016-08-19 17:28:06,834  
-2016-08-19 17:28:09,264 Cant parse devices
+2016-08-22 17:25:09,608 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:25:09,608  
+2016-08-22 17:26:02,660 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:26:02,660  
+2016-08-22 17:26:30,066 Dublicate PN WS-C6509-NEB-FAN=
+2016-08-22 17:26:30,066 Document date(stored):2004-06-16 00:00:00
+2016-08-22 17:26:30,076 Document date(new): 2008-07-27 00:00:00
+2016-08-22 17:26:30,076 Stored document is older. Updating
+2016-08-22 17:26:42,559 Cant parse this string
+2016-08-22 17:26:42,559 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
+2016-08-22 17:26:42,559 Skiping
+2016-08-22 17:26:42,559 Cant parse this string
+2016-08-22 17:26:42,569 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
+2016-08-22 17:26:42,569 Skiping
+2016-08-22 17:26:42,569 Cant parse this string
+2016-08-22 17:26:42,569 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
+2016-08-22 17:26:42,579 Skiping
+2016-08-22 17:26:42,579 Cant parse this string
+2016-08-22 17:26:42,579 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
+2016-08-22 17:26:42,579 Skiping
+2016-08-22 17:26:42,589 Cant parse this string
+2016-08-22 17:26:42,589 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
+2016-08-22 17:26:42,589 Skiping
+2016-08-22 17:26:42,589 Cant parse this string
+2016-08-22 17:26:42,589 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
+2016-08-22 17:26:42,589 Skiping
+2016-08-22 17:26:42,599 Cant parse this string
+2016-08-22 17:26:42,599 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
+2016-08-22 17:26:42,599 Skiping
+2016-08-22 17:26:42,599 Cant parse this string
+2016-08-22 17:26:42,599 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
+2016-08-22 17:26:42,609 Skiping
+2016-08-22 17:26:42,609 Dublicate PN WS-SUP720-3B
+2016-08-22 17:26:42,609 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:42,609 Document date(new): 2013-01-30 00:00:00
+2016-08-22 17:26:42,609 Stored document is newer. Sciping new values
+2016-08-22 17:26:42,609 Dublicate PN WS-SUP720-3B=
+2016-08-22 17:26:42,619 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:42,619 Document date(new): 2013-01-30 00:00:00
+2016-08-22 17:26:42,619 Stored document is newer. Sciping new values
+2016-08-22 17:26:42,619 Dublicate PN WS-SUP720-3BXL
+2016-08-22 17:26:42,619 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:42,619 Document date(new): 2013-01-30 00:00:00
+2016-08-22 17:26:42,619 Stored document is newer. Sciping new values
+2016-08-22 17:26:42,619 Dublicate PN WS-SUP720-3BXL=
+2016-08-22 17:26:42,619 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:42,629 Document date(new): 2013-01-30 00:00:00
+2016-08-22 17:26:42,629 Stored document is newer. Sciping new values
+2016-08-22 17:26:44,730 Dublicate PN WS-X6148E-GE-45AT
+2016-08-22 17:26:44,730 Document date(stored):2013-09-13 00:00:00
+2016-08-22 17:26:44,740 Document date(new): 2013-09-17 00:00:00
+2016-08-22 17:26:44,740 Stored document is older. Updating
+2016-08-22 17:26:44,740 Dublicate PN WS-X6148E-GE-45AT=
+2016-08-22 17:26:44,740 Document date(stored):2013-09-13 00:00:00
+2016-08-22 17:26:44,740 Document date(new): 2013-09-17 00:00:00
+2016-08-22 17:26:44,740 Stored document is older. Updating
+2016-08-22 17:26:45,880 Dublicate PN WS-X6148-FE-SFP
+2016-08-22 17:26:45,880 Document date(stored):2013-10-31 00:00:00
+2016-08-22 17:26:45,880 Document date(new): 2012-07-30 00:00:00
+2016-08-22 17:26:45,880 Stored document is newer. Sciping new values
+2016-08-22 17:26:45,890 Dublicate PN WS-X6148-FE-SFP=
+2016-08-22 17:26:45,890 Document date(stored):2013-10-31 00:00:00
+2016-08-22 17:26:45,890 Document date(new): 2012-07-30 00:00:00
+2016-08-22 17:26:45,890 Stored document is newer. Sciping new values
+2016-08-22 17:26:45,920 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:26:45,920  
+2016-08-22 17:26:46,690 Dublicate PN VS-S720-10G-3CXL
+2016-08-22 17:26:46,690 Document date(stored):2015-01-06 00:00:00
+2016-08-22 17:26:46,690 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,690 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,700 Dublicate PN WS-SUP720-3B
+2016-08-22 17:26:46,700 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:46,700 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,700 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,700 Dublicate PN WS-SUP720-3BXL
+2016-08-22 17:26:46,700 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:46,700 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,700 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,710 Dublicate PN VS-S720-10G-3CXL=
+2016-08-22 17:26:46,710 Document date(stored):2015-01-06 00:00:00
+2016-08-22 17:26:46,710 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,710 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,710 Dublicate PN WS-SUP720-3B=
+2016-08-22 17:26:46,710 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:46,720 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,720 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,720 Dublicate PN WS-SUP720-3BXL=
+2016-08-22 17:26:46,720 Document date(stored):2014-01-07 00:00:00
+2016-08-22 17:26:46,720 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,720 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,730 Dublicate PN WS-F6700-DFC3BXL
+2016-08-22 17:26:46,730 Document date(stored):2013-09-17 00:00:00
+2016-08-22 17:26:46,730 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,730 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,730 Dublicate PN WS-F6700-DFC3C
+2016-08-22 17:26:46,730 Document date(stored):2016-02-02 00:00:00
+2016-08-22 17:26:46,730 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,740 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,740 Dublicate PN WS-F6700-DFC3CXL
+2016-08-22 17:26:46,740 Document date(stored):2016-02-02 00:00:00
+2016-08-22 17:26:46,740 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,740 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,740 Dublicate PN WS-F6700-DFC3BXL=
+2016-08-22 17:26:46,750 Document date(stored):2013-09-17 00:00:00
+2016-08-22 17:26:46,750 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,750 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,750 Dublicate PN WS-F6700-DFC3C=
+2016-08-22 17:26:46,750 Document date(stored):2016-02-02 00:00:00
+2016-08-22 17:26:46,750 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,750 Stored document is newer. Sciping new values
+2016-08-22 17:26:46,750 Dublicate PN WS-F6700-DFC3CXL=
+2016-08-22 17:26:46,760 Document date(stored):2016-02-02 00:00:00
+2016-08-22 17:26:46,760 Document date(new): 2008-12-22 00:00:00
+2016-08-22 17:26:46,760 Stored document is newer. Sciping new values
+2016-08-22 17:26:55,093 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:26:55,103  
+2016-08-22 17:27:42,792 cant parse url. Skiping
+2016-08-22 17:27:58,222 Dublicate PN SFS7008P-MFM-K9=
+2016-08-22 17:27:58,222 Document date(stored):2008-10-14 00:00:00
+2016-08-22 17:27:58,222 Document date(new): 2008-05-29 00:00:00
+2016-08-22 17:27:58,222 Stored document is newer. Sciping new values
+2016-08-22 17:27:59,823 Dublicate PN SFS-7000-4X024-SK9
+2016-08-22 17:27:59,823 Document date(stored):0100-06-01 00:00:00
+2016-08-22 17:27:59,833 Document date(new): 2006-05-30 00:00:00
+2016-08-22 17:27:59,833 Stored document is older. Updating
+2016-08-22 17:27:59,833 Dublicate PN SFS-7008-4X048-SK9
+2016-08-22 17:27:59,833 Document date(stored):0100-06-01 00:00:00
+2016-08-22 17:27:59,833 Document date(new): 2006-05-30 00:00:00
+2016-08-22 17:27:59,833 Stored document is older. Updating
+2016-08-22 17:27:59,833 Dublicate PN SFS-7008-4X072-SK9
+2016-08-22 17:27:59,833 Document date(stored):0100-06-01 00:00:00
+2016-08-22 17:27:59,833 Document date(new): 2006-05-30 00:00:00
+2016-08-22 17:27:59,843 Stored document is older. Updating
+2016-08-22 17:27:59,843 Dublicate PN SFS-7008-4X096-SK9
+2016-08-22 17:27:59,843 Document date(stored):0100-06-01 00:00:00
+2016-08-22 17:27:59,843 Document date(new): 2006-05-30 00:00:00
+2016-08-22 17:27:59,843 Stored document is older. Updating
+2016-08-22 17:28:02,933 Dublicate PN SFS-3001-4X012-SK9
+2016-08-22 17:28:02,933 Document date(stored):2006-05-30 00:00:00
+2016-08-22 17:28:02,943 Document date(new): 2007-07-11 00:00:00
+2016-08-22 17:28:02,943 Stored document is older. Updating
+2016-08-22 17:28:44,222 Dublicate PN SGE2000
+2016-08-22 17:28:44,222 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:44,232 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:44,232 Stored document is newer. Sciping new values
+2016-08-22 17:28:44,232 Dublicate PN SGE2000-AR
+2016-08-22 17:28:44,232 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:44,232 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:44,232 Stored document is newer. Sciping new values
+2016-08-22 17:28:44,232 Dublicate PN SGE2000-AU
+2016-08-22 17:28:44,242 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:44,242 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:44,242 Stored document is newer. Sciping new values
+2016-08-22 17:28:44,242 Dublicate PN SGE2000-G5
+2016-08-22 17:28:44,242 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:44,252 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:44,252 Stored document is newer. Sciping new values
+2016-08-22 17:28:44,252 Dublicate PN SGE2000-KR
+2016-08-22 17:28:44,252 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:44,252 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:44,252 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,052 Dublicate PN SFE2000
+2016-08-22 17:28:45,052 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,052 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,052 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,052 Dublicate PN SFE2000-AR
+2016-08-22 17:28:45,052 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,052 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,062 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,062 Dublicate PN SFE2000-AU
+2016-08-22 17:28:45,062 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,062 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,062 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,062 Dublicate PN SFE2000-G5
+2016-08-22 17:28:45,062 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,062 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,072 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,072 Dublicate PN SFE2000-KR
+2016-08-22 17:28:45,072 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,072 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,072 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,722 Dublicate PN SGE2000P
+2016-08-22 17:28:45,722 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,722 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,722 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,722 Dublicate PN SGE2000P-AR
+2016-08-22 17:28:45,722 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,732 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,732 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,732 Dublicate PN SGE2000P-AU
+2016-08-22 17:28:45,732 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,732 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,732 Stored document is newer. Sciping new values
+2016-08-22 17:28:45,732 Dublicate PN SGE2000P-G5
+2016-08-22 17:28:45,742 Document date(stored):2012-09-28 00:00:00
+2016-08-22 17:28:45,742 Document date(new): 2012-09-04 00:00:00
+2016-08-22 17:28:45,742 Stored document is newer. Sciping new values
+2016-08-22 17:29:27,829 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:29:27,829  
+2016-08-22 17:29:29,069 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:29:29,069  
+2016-08-22 17:29:30,920 This one was in strange_links. I cannot parse it properly
+2016-08-22 17:29:30,920  
+2016-08-22 17:29:43,032 Cant parse dates

@@ -2,15 +2,22 @@ from mylibs.utils import  get_page,get_logger,get_table
 from bs4 import BeautifulSoup
 import re
 import sys
+from dateutil.parser import parse
 
-url_list = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice09186a00801eb0ae.html']
+url_list = [('title','http://www.cisco.com/c/dam/en/us/products/collateral/switches/energywise-technology/end_of_availability_for_verdiem.pdf')]
 log = get_logger('new_way.txt')	
 with open('out.html', "w"):
         pass
 data = {}
-for url in url_list:
-	log.info('Parsing: ' + url)
-	content = get_page(url)
+for eos in url_list:
+	log.info('Parsing: ' + eos[0])
+
+	content = get_page(eos[1].replace('.pdf','.html'))
+
+	if content.status_code != 200:
+		log.error('cant open url. Skiping' )
+		continue
+
 	soup = BeautifulSoup(content.text,"html.parser")
 
 	p = soup.find_all('p')
@@ -23,9 +30,10 @@ for url in url_list:
 		#print(item.text)
 		if "Milestones" in item.text:
 			dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-		if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text:
+			log.info("Added to Dates "+ item.text)
+		if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
 			devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-	
+			log.info("Added to Devices " + item.text)
 
 	if len(dates) != len(devices):
 		log.error('Number of dates and devices not equal')
@@ -59,7 +67,13 @@ for url in url_list:
 		log.error('Error creating dv_dt')
 		sys.exit()
 
+	document_date = soup.find("div",{"class":"updatedDate"})
+	if document_date is None:
+		document_date = parse ("jun 1 100")
+	else:
+		document_date = parse(document_date.text.replace("Updated:",""))
 
+	eos = (eos[0],eos[1],document_date)
 
 	log.info('This page have '+ str(len(dates)) + ' dv dt pairs')
 	for dvk,dtk in dv_dt:
@@ -85,16 +99,27 @@ for url in url_list:
 
 			# check for duplicate keys
 			if pn  in data.keys():
-				log.warning('Dublicate PN ' + str(pn))
-				log.warning(data[pn])
+				log.error('Dublicate PN ' + str(pn))
+				log.error("Document date(stored):"  + str(data[pn]['doc'][2]))
+				log.error("Document date(new): " + str(document_date))
+
+				if data[pn]['doc'][2] > document_date:
+					log.error('Stored document is newer. Sciping new values')
+				else:
+					log.error('Stored document is older. Updating')
+
 				sys.exit()
 			else:
 				data[pn] = {}
 			
 			for item in dt:
-				data[pn][item[0]]=item[2]	
-			data[pn]['doc'] = url
-
+				if len(item) != 3:
+					log.error('Cant parse this string')
+					log.error(item)
+					log.error('Skiping')
+				else: 
+					data[pn][item[0]]=item[2]	
+			data[pn]['doc'] = eos
 
 print(data)
 

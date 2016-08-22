@@ -6,10 +6,11 @@ import platform
 import os
 import sys
 from  mylibs.utils import  get_page,get_logger,get_cisco_links,get_table
-
+from dateutil.parser import parse
 
 strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html',
-'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html']
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html',
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html']
 
 header = "https://www.cisco.com"
 log = get_logger('get_products.log')
@@ -19,9 +20,17 @@ parsed_eos = [] # some of docs may be reachable via several places
 dates_header = []
 data ={}
 error_parse = []
+start_date = datetime.datetime.now()
 log.info('Starting script at' + str(datetime.datetime.now()))
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
+
+
+#modules and interfaces page has different html tags so parse them separatly
+page = get_page('http://www.cisco.com/c/en/us/products/interfaces-modules/index.html')
+s = BeautifulSoup(page.text)
+int_and_mod = [ (link.text,header+link['href']) for link in s.find_all('a', {'class':'contentBoldLink'}) ]
+
 
 # Parse all products page
 strainer = SoupStrainer("div",{'class':'product-content'},)
@@ -87,7 +96,7 @@ for device_type in device_types:
 				log.info(' ')
 				continue
 			if eos[1] in strange_links:
-				log.error('This one was in strange_links. I cannot parse it properly')
+				log.warning('This one was in strange_links. I cannot parse it properly')
 				log.error(' ')
 				continue
 			if "Change in Product Part Number Announcement" in eos[0]:
@@ -95,7 +104,18 @@ for device_type in device_types:
 				log.info(' ')
 				continue
 
-			content = get_page(eos[1])
+
+			content = get_page(eos[1].replace('.pdf','.html'))
+
+			if content.status_code != 200:
+				log.warning('cant parse url. Skiping' )
+				continue
+
+			if "THIS ANNOUNCEMENT WAS REPLACED"  in content.text:
+				log.info('This EOS was replaced. Skiping')
+				log.info(' ')
+				continue
+
 			soup = BeautifulSoup(content.text,"html.parser")
 			p = soup.find_all('p')
 
@@ -107,10 +127,11 @@ for device_type in device_types:
 				#print(item.text)
 				if "Milestones" in item.text:
 					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text:
+					log.info("Added to Dates "+ item.text)
+				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
 					devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-
-		
+					log.info("Added to Devices " + item.text)
+				
 			if len(dates) == 0:
 				log.error('Cant parse dates')
 				sys.exit()
@@ -123,10 +144,10 @@ for device_type in device_types:
 					log.info(' ')
 					continue
 				#some documents were replaced
-				if 'was replaced by' in content.text:
-					log.info('This doc was replaced')
-					log.info('')
-					continue
+				#if 'was replaced by' in content.text:
+				#	log.info('This doc was replaced')
+				#	log.info('')
+				#	continue
 				log.error('Cant parse devices')
 				sys.exit()
 
@@ -151,6 +172,15 @@ for device_type in device_types:
 			if len(dates) != len(dv_dt):
 				log.error('Error creating dv_dt')
 				sys.exit()
+
+
+			document_date = soup.find("div",{"class":"updatedDate"})
+			if document_date is None:
+				document_date = parse ("jun 1 100")
+			else:
+				document_date = parse(document_date.text.replace("Updated:",""))
+
+			eos = (eos[0],eos[1],document_date)
 
 			log.info('This page have '+ str(len(dates)) + ' dv dt pairs')
 			for dvk,dtk in dv_dt:
@@ -177,19 +207,32 @@ for device_type in device_types:
 					# check for duplicate keys
 					if pn  in data.keys():
 						log.warning('Dublicate PN ' + str(pn))
-						log.warning(data[pn])
-						sys.exit()
+						log.warning("Document date(stored):"  + str(data[pn]['doc'][2]))
+						log.warning("Document date(new): " + str(document_date))
+						if data[pn]['doc'][2] > document_date:
+							log.warning('Stored document is newer. Sciping new values')
+							continue
+						else:
+							log.warning('Stored document is older. Updating')
 					else:
 						data[pn] = {}
 					
 					for item in dt:
-						data[pn][item[0]]=item[2]	
+						if len(item) != 3:
+							log.warning('Cant parse this string')
+							log.warning(item)
+							log.warning('Skiping')
+						else:	
+							data[pn][item[0]]=item[2]	
+
 					data[pn]['doc'] = eos
 
 				parsed_eos.append(eos[0])
+				log.info(len(data))
 				log.info('')
 
-	log.info(data)
+	log.info(len(data))
+	log.info(datetime.datetime.now() - start_date)
 	sys.exit()
 			
 
@@ -202,3 +245,4 @@ for device_type in device_types:
 #links = [ (link.text,header+link['href'].replace('index','product-listing')) for link in soup.find_all('a',href=True) ]
 
 
+# some pages have tables with affected sowftware PN . Script ignores it for now
