@@ -7,13 +7,16 @@ import os
 import sys
 from  mylibs.utils import  get_page,get_logger,get_cisco_links,get_table
 from dateutil.parser import parse
+import pickle
 
-strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html',
-'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html',
-'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html',
+strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html', # multiple tables / no 1a 1b
+'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html', # 1 mtable with dates, 2 tables with devices
 'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice0900aecd8029e9fb.html',
-'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice09186a008032d42c.html']
-
+'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice09186a008032d42c.html', 
+'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd80294909.html',
+'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd8029fe0d.html',
+'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/100vg-port-adapter/prod_end-of-life_notice0900aecd8029d2c5.html']
 header = "https://www.cisco.com"
 log = get_logger('get_products.log')
 devices_header = ['EndofSaleProductPartNumber','ProductID','ProductNumber',
@@ -41,7 +44,7 @@ device_types = [ (link.text,header+link['href'].replace('index','product-listing
 
 # Parse specific product page
 for device_type in device_types:
-	device_type = ('switches','http://www.cisco.com/c/en/us/products/switches/product-listing.html')
+	#device_type = ('switches','http://www.cisco.com/c/en/us/products/switches/product-listing.html')
 	content = get_page(device_type[1])
 	if content.status_code != 200:
 		log.info('No product listing for ' + device_type[0])
@@ -53,20 +56,21 @@ for device_type in device_types:
 	devices = [ (link.text,header+link['href']) for link in soup.find_all('a', href=True) ]
 	if len(devices) == 0:
 		log.error('No devices for' + str(device_type[0]))
+	devices = int_and_mod #DEBUG
 
-	# Checking end of sale devices
-	log.info('Checking if there are end of sale devices:')
-	content = get_page(device_type[1].replace('product-listing.html','eos-eol-listing.html'))
-	if content.status_code == 200:
-		log.info('Found eos devices. Adding them to list')
-		strainer = SoupStrainer("table",{'id':'framework-base-content'})
-		soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-		eos_devices = [ (link.text,header+link['href']) for link in soup.find_all('a', href=True)  if 'End-of-Life Policy' not in link.text]
-		if len(eos_devices) != 0:
-			devices = devices + eos_devices
-			log.info('Done.')
-	else:
-		log.info ("No end of sales devices for " + str(device_type[0]))
+	# Checking end of sale devices DISABLED FOR THE MOMENT
+	# log.info('Checking if there are end of sale devices:')
+	# content = get_page(device_type[1].replace('product-listing.html','eos-eol-listing.html'))
+	# if content.status_code == 200:
+	# 	log.info('Found eos devices. Adding them to list')
+	# 	strainer = SoupStrainer("table",{'id':'framework-base-content'})
+	# 	soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
+	# 	eos_devices = [ (link.text,header+link['href']) for link in soup.find_all('a', href=True)  if 'End-of-Life Policy' not in link.text]
+	# 	if len(eos_devices) != 0:
+	# 		devices = devices + eos_devices
+	# 		log.info('Done.')
+	# else:
+	# 	log.info ("No end of sales devices for " + str(device_type[0]))
 
 	log.info(' ')
 	# Parse specific device for eos listing
@@ -124,21 +128,23 @@ for device_type in device_types:
 				if "Milestones" in item.text:
 					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 					log.info("Added to Dates "+ item.text)
-				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
+				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text or "Product Part Number Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
 					devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 					log.info("Added to Devices " + item.text)
 				
 			if len(dates) == 0:
-				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text:
+				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
 					log.info('This EOS was replaced. Skiping')
 					continue 
 				log.error('Cant parse dates')
+				log.error('url:' + eos[1])
+				continue
 				sys.exit()
 
 
 			if len(devices) == 0:
 				#some eos ( somftware mainly) not have pn
-				if'Cisco IOS XE' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
+				if 'Cisco IOS XE' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
 					log.info('Looks like this is software page, so no PN for this one')
 					log.info(' ')
 					continue
@@ -195,7 +201,7 @@ for device_type in device_types:
 
 				new_pns = []
 				for pn in pns:
-					if pn not in new_pns and 'Change' not in pn :
+					if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
 						new_pns.append(pn.replace(" ", "").replace('\n',''))
 				pns = new_pns
 			
@@ -205,7 +211,8 @@ for device_type in device_types:
 
 					# check for duplicate keys
 					if pn  in data.keys():
-						log.warning('Dublicate PN ' + str(pn))
+						log.warning('Duplicate PN ' + str(pn))
+						log.warning('Stored doc url :'+ data[pn]['doc'][1])
 						log.warning("Document date(stored):"  + str(data[pn]['doc'][2]))
 						log.warning("Document date(new): " + str(document_date))
 						if data[pn]['doc'][2] > document_date:
@@ -230,9 +237,14 @@ for device_type in device_types:
 				log.info(len(data))
 				log.info('')
 
-	log.info(len(data))
-	log.info(datetime.datetime.now() - start_date)
+	log.info("dictionary length: " + str(len(data)))
+	log.info("Execution time:" + str(datetime.datetime.now() - start_date))
+	log.info(data)
+	pickle.dump(data,open('data.p' ,'wb'))
 	sys.exit()
+
+
+
 			
 
 # Check interfaces and modules separatly

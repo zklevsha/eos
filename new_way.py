@@ -4,7 +4,7 @@ import re
 import sys
 from dateutil.parser import parse
 
-url_list = [('title','http://www.cisco.com/c/dam/en/us/products/collateral/switches/energywise-technology/end_of_availability_for_verdiem.pdf')]
+url_list = [('title','https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-500212.html')]
 log = get_logger('new_way.txt')	
 with open('out.html', "w"):
         pass
@@ -34,6 +34,8 @@ for eos in url_list:
 		if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
 			devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 			log.info("Added to Devices " + item.text)
+
+	
 
 	if len(dates) != len(devices):
 		log.error('Number of dates and devices not equal')
@@ -82,16 +84,14 @@ for eos in url_list:
 		log.info('Assosiate dates title ' + dtk)
 		dt = get_table(dates[dtk])
 		dt.pop(0)
-	
-
+		
 		pns = [i[0] for i in dv]
 		pns.pop(0)
 		new_pns = []
 		for pn in pns:
-			if pn not in new_pns and 'Change' not in pn :
+			if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
 				new_pns.append(pn.replace(" ", "").replace('\n',''))
 		pns = new_pns
-
 		
 		log.info('Adding pn to dictionary')
 		for pn in pns:
@@ -108,7 +108,6 @@ for eos in url_list:
 				else:
 					log.error('Stored document is older. Updating')
 
-				sys.exit()
 			else:
 				data[pn] = {}
 			

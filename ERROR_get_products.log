@@ -1,224 +1,97 @@
-2016-08-22 19:00:17,484 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:00:17,484  
-2016-08-22 19:01:48,818 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:01:48,819  
-2016-08-22 19:02:16,630 Dublicate PN WS-C6509-NEB-FAN=
-2016-08-22 19:02:16,635 Document date(stored):2004-06-16 00:00:00
-2016-08-22 19:02:16,636 Document date(new): 2008-07-27 00:00:00
-2016-08-22 19:02:16,637 Stored document is older. Updating
-2016-08-22 19:02:29,570 Cant parse this string
-2016-08-22 19:02:29,575 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
-2016-08-22 19:02:29,578 Skiping
-2016-08-22 19:02:29,579 Cant parse this string
-2016-08-22 19:02:29,580 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
-2016-08-22 19:02:29,585 Skiping
-2016-08-22 19:02:29,588 Cant parse this string
-2016-08-22 19:02:29,589 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
-2016-08-22 19:02:29,590 Skiping
-2016-08-22 19:02:29,591 Cant parse this string
-2016-08-22 19:02:29,593 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
-2016-08-22 19:02:29,596 Skiping
-2016-08-22 19:02:29,598 Cant parse this string
-2016-08-22 19:02:29,598 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
-2016-08-22 19:02:29,601 Skiping
-2016-08-22 19:02:29,603 Cant parse this string
-2016-08-22 19:02:29,604 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
-2016-08-22 19:02:29,608 Skiping
-2016-08-22 19:02:29,611 Cant parse this string
-2016-08-22 19:02:29,612 ['The last date that Cisco Engineering may release any final software maintenance releases or bug fixes on 12.2(33)SXJ . After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software. Support will be on a follow on release in IOS 15.X train.', 'December 1, 2013']
-2016-08-22 19:02:29,613 Skiping
-2016-08-22 19:02:29,615 Cant parse this string
-2016-08-22 19:02:29,616 ['Note: From the End of Software Maintenance Releases Date to the End of Software Maintenance Release through follow on release ("Extended Period of Support"), Cisco will provide only Critical Software Support defined as network services impacting bugs or security vulnerabilities that have been identified by the customer to Cisco TAC and subsequently qualified via Cisco\'s normal evaluation process. Critical Software Support will be provided according to the following terms and conditions:   \n\n         • Cisco TAC will first use commercially reasonable efforts to work with the Customer to determine the locality of impact and to find a workaround for the problem. \n         \n\n         • If an alternative workaround is not possible during the Extended Period of Support, then Cisco will make commercially reasonable efforts to provide a bug fix solution to remedy the problem. \n         \n\n         • If despite commercially reasonable efforts Cisco is unable to provide a software based solution, it may be necessary for the Customer to remove or upgrade the impacted software based systems to correct the problem.', '']
-2016-08-22 19:02:29,627 Skiping
-2016-08-22 19:02:29,630 Dublicate PN WS-SUP720-3B
-2016-08-22 19:02:29,631 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:29,632 Document date(new): 2013-01-30 00:00:00
-2016-08-22 19:02:29,639 Stored document is newer. Sciping new values
-2016-08-22 19:02:29,641 Dublicate PN WS-SUP720-3B=
-2016-08-22 19:02:29,643 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:29,644 Document date(new): 2013-01-30 00:00:00
-2016-08-22 19:02:29,645 Stored document is newer. Sciping new values
-2016-08-22 19:02:29,647 Dublicate PN WS-SUP720-3BXL
-2016-08-22 19:02:29,648 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:29,649 Document date(new): 2013-01-30 00:00:00
-2016-08-22 19:02:29,655 Stored document is newer. Sciping new values
-2016-08-22 19:02:29,657 Dublicate PN WS-SUP720-3BXL=
-2016-08-22 19:02:29,658 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:29,659 Document date(new): 2013-01-30 00:00:00
-2016-08-22 19:02:29,660 Stored document is newer. Sciping new values
-2016-08-22 19:02:32,003 Dublicate PN WS-X6148E-GE-45AT
-2016-08-22 19:02:32,004 Document date(stored):2013-09-13 00:00:00
-2016-08-22 19:02:32,005 Document date(new): 2013-09-17 00:00:00
-2016-08-22 19:02:32,006 Stored document is older. Updating
-2016-08-22 19:02:32,008 Dublicate PN WS-X6148E-GE-45AT=
-2016-08-22 19:02:32,009 Document date(stored):2013-09-13 00:00:00
-2016-08-22 19:02:32,010 Document date(new): 2013-09-17 00:00:00
-2016-08-22 19:02:32,014 Stored document is older. Updating
-2016-08-22 19:02:33,265 Dublicate PN WS-X6148-FE-SFP
-2016-08-22 19:02:33,266 Document date(stored):2013-10-31 00:00:00
-2016-08-22 19:02:33,267 Document date(new): 2012-07-30 00:00:00
-2016-08-22 19:02:33,268 Stored document is newer. Sciping new values
-2016-08-22 19:02:33,273 Dublicate PN WS-X6148-FE-SFP=
-2016-08-22 19:02:33,275 Document date(stored):2013-10-31 00:00:00
-2016-08-22 19:02:33,276 Document date(new): 2012-07-30 00:00:00
-2016-08-22 19:02:33,277 Stored document is newer. Sciping new values
-2016-08-22 19:02:33,312 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:02:33,313  
-2016-08-22 19:02:34,095 Dublicate PN VS-S720-10G-3CXL
-2016-08-22 19:02:34,097 Document date(stored):2015-01-06 00:00:00
-2016-08-22 19:02:34,098 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,099 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,102 Dublicate PN WS-SUP720-3B
-2016-08-22 19:02:34,102 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:34,103 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,104 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,107 Dublicate PN WS-SUP720-3BXL
-2016-08-22 19:02:34,108 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:34,110 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,115 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,118 Dublicate PN VS-S720-10G-3CXL=
-2016-08-22 19:02:34,119 Document date(stored):2015-01-06 00:00:00
-2016-08-22 19:02:34,120 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,121 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,123 Dublicate PN WS-SUP720-3B=
-2016-08-22 19:02:34,124 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:34,124 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,126 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,128 Dublicate PN WS-SUP720-3BXL=
-2016-08-22 19:02:34,131 Document date(stored):2014-01-07 00:00:00
-2016-08-22 19:02:34,132 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,133 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,136 Dublicate PN WS-F6700-DFC3BXL
-2016-08-22 19:02:34,137 Document date(stored):2013-09-17 00:00:00
-2016-08-22 19:02:34,138 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,139 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,146 Dublicate PN WS-F6700-DFC3C
-2016-08-22 19:02:34,148 Document date(stored):2016-02-02 00:00:00
-2016-08-22 19:02:34,149 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,150 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,154 Dublicate PN WS-F6700-DFC3CXL
-2016-08-22 19:02:34,155 Document date(stored):2016-02-02 00:00:00
-2016-08-22 19:02:34,156 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,161 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,165 Dublicate PN WS-F6700-DFC3BXL=
-2016-08-22 19:02:34,166 Document date(stored):2013-09-17 00:00:00
-2016-08-22 19:02:34,167 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,168 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,171 Dublicate PN WS-F6700-DFC3C=
-2016-08-22 19:02:34,173 Document date(stored):2016-02-02 00:00:00
-2016-08-22 19:02:34,175 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,176 Stored document is newer. Sciping new values
-2016-08-22 19:02:34,178 Dublicate PN WS-F6700-DFC3CXL=
-2016-08-22 19:02:34,179 Document date(stored):2016-02-02 00:00:00
-2016-08-22 19:02:34,180 Document date(new): 2008-12-22 00:00:00
-2016-08-22 19:02:34,181 Stored document is newer. Sciping new values
-2016-08-22 19:02:43,836 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:02:43,837  
-2016-08-22 19:03:41,136 cant open url https://www.cisco.com/c/dam/en/us/products/collateral/switches/energywise-technology/end_of_availability_for_verdiem.pdf Skiping
-2016-08-22 19:03:56,520 Dublicate PN SFS7008P-MFM-K9=
-2016-08-22 19:03:56,523 Document date(stored):2008-10-14 00:00:00
-2016-08-22 19:03:56,524 Document date(new): 2008-05-29 00:00:00
-2016-08-22 19:03:56,525 Stored document is newer. Sciping new values
-2016-08-22 19:03:58,598 Dublicate PN SFS-7000-4X024-SK9
-2016-08-22 19:03:58,604 Document date(stored):0100-06-01 00:00:00
-2016-08-22 19:03:58,605 Document date(new): 2006-05-30 00:00:00
-2016-08-22 19:03:58,607 Stored document is older. Updating
-2016-08-22 19:03:58,611 Dublicate PN SFS-7008-4X048-SK9
-2016-08-22 19:03:58,612 Document date(stored):0100-06-01 00:00:00
-2016-08-22 19:03:58,613 Document date(new): 2006-05-30 00:00:00
-2016-08-22 19:03:58,614 Stored document is older. Updating
-2016-08-22 19:03:58,622 Dublicate PN SFS-7008-4X072-SK9
-2016-08-22 19:03:58,624 Document date(stored):0100-06-01 00:00:00
-2016-08-22 19:03:58,625 Document date(new): 2006-05-30 00:00:00
-2016-08-22 19:03:58,626 Stored document is older. Updating
-2016-08-22 19:03:58,628 Dublicate PN SFS-7008-4X096-SK9
-2016-08-22 19:03:58,630 Document date(stored):0100-06-01 00:00:00
-2016-08-22 19:03:58,631 Document date(new): 2006-05-30 00:00:00
-2016-08-22 19:03:58,632 Stored document is older. Updating
-2016-08-22 19:04:01,852 Dublicate PN SFS-3001-4X012-SK9
-2016-08-22 19:04:01,853 Document date(stored):2006-05-30 00:00:00
-2016-08-22 19:04:01,854 Document date(new): 2007-07-11 00:00:00
-2016-08-22 19:04:01,857 Stored document is older. Updating
-2016-08-22 19:04:44,952 Dublicate PN SGE2000
-2016-08-22 19:04:44,953 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:44,954 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:44,955 Stored document is newer. Sciping new values
-2016-08-22 19:04:44,957 Dublicate PN SGE2000-AR
-2016-08-22 19:04:44,958 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:44,962 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:44,964 Stored document is newer. Sciping new values
-2016-08-22 19:04:44,967 Dublicate PN SGE2000-AU
-2016-08-22 19:04:44,968 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:44,969 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:44,970 Stored document is newer. Sciping new values
-2016-08-22 19:04:44,973 Dublicate PN SGE2000-G5
-2016-08-22 19:04:44,974 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:44,976 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:44,981 Stored document is newer. Sciping new values
-2016-08-22 19:04:44,983 Dublicate PN SGE2000-KR
-2016-08-22 19:04:44,984 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:44,985 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:44,987 Stored document is newer. Sciping new values
-2016-08-22 19:04:45,813 Dublicate PN SFE2000
-2016-08-22 19:04:45,818 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:45,819 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:45,820 Stored document is newer. Sciping new values
-2016-08-22 19:04:45,822 Dublicate PN SFE2000-AR
-2016-08-22 19:04:45,823 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:45,824 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:45,825 Stored document is newer. Sciping new values
-2016-08-22 19:04:45,827 Dublicate PN SFE2000-AU
-2016-08-22 19:04:45,828 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:45,828 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:45,830 Stored document is newer. Sciping new values
-2016-08-22 19:04:45,834 Dublicate PN SFE2000-G5
-2016-08-22 19:04:45,835 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:45,837 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:45,838 Stored document is newer. Sciping new values
-2016-08-22 19:04:45,840 Dublicate PN SFE2000-KR
-2016-08-22 19:04:45,841 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:45,842 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:45,843 Stored document is newer. Sciping new values
-2016-08-22 19:04:46,577 Dublicate PN SGE2000P
-2016-08-22 19:04:46,578 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:46,579 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:46,580 Stored document is newer. Sciping new values
-2016-08-22 19:04:46,581 Dublicate PN SGE2000P-AR
-2016-08-22 19:04:46,582 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:46,591 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:46,593 Stored document is newer. Sciping new values
-2016-08-22 19:04:46,595 Dublicate PN SGE2000P-AU
-2016-08-22 19:04:46,595 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:46,596 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:46,598 Stored document is newer. Sciping new values
-2016-08-22 19:04:46,600 Dublicate PN SGE2000P-G5
-2016-08-22 19:04:46,602 Document date(stored):2012-09-28 00:00:00
-2016-08-22 19:04:46,603 Document date(new): 2012-09-04 00:00:00
-2016-08-22 19:04:46,604 Stored document is newer. Sciping new values
-2016-08-22 19:05:31,349 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:05:31,350  
-2016-08-22 19:05:33,382 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:05:33,384  
-2016-08-22 19:05:36,393 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:05:36,396  
-2016-08-22 19:06:10,770 Dublicate PN IGXPowerSupplies
-2016-08-22 19:06:10,771 Document date(stored):2005-12-02 00:00:00
-2016-08-22 19:06:10,772 Document date(new): 2005-12-02 00:00:00
-2016-08-22 19:06:10,773 Stored document is older. Updating
-2016-08-22 19:06:10,793 Dublicate PN IGXTrunkGroups
-2016-08-22 19:06:10,794 Document date(stored):2005-12-02 00:00:00
-2016-08-22 19:06:10,794 Document date(new): 2005-12-02 00:00:00
-2016-08-22 19:06:10,795 Stored document is older. Updating
-2016-08-22 19:06:10,820 Dublicate PN IGXPortGroups
-2016-08-22 19:06:10,821 Document date(stored):2005-12-02 00:00:00
-2016-08-22 19:06:10,822 Document date(new): 2005-12-02 00:00:00
-2016-08-22 19:06:10,823 Stored document is older. Updating
-2016-08-22 19:06:10,854 Dublicate PN IGXCables
-2016-08-22 19:06:10,855 Document date(stored):2005-12-02 00:00:00
-2016-08-22 19:06:10,856 Document date(new): 2005-12-02 00:00:00
-2016-08-22 19:06:10,856 Stored document is older. Updating
-2016-08-22 19:06:10,889 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:06:10,890  
-2016-08-22 19:06:10,892 This one was in strange_links. I cannot parse it properly
-2016-08-22 19:06:10,894  
-2016-08-22 19:06:21,434 Cant parse dates
+2016-08-23 16:53:25,810 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:53:25,820  
+2016-08-23 16:53:29,852 Duplicate PN NM-CEM-4SER
+2016-08-23 16:53:29,852 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51_561543.html
+2016-08-23 16:53:29,852 Document date(stored):2015-03-13 00:00:00
+2016-08-23 16:53:29,852 Document date(new): 2015-03-13 00:00:00
+2016-08-23 16:53:29,852 Stored document is older. Updating
+2016-08-23 16:53:29,852 Duplicate PN NM-CEM-4SER=
+2016-08-23 16:53:29,852 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51_561543.html
+2016-08-23 16:53:29,852 Document date(stored):2015-03-13 00:00:00
+2016-08-23 16:53:29,852 Document date(new): 2015-03-13 00:00:00
+2016-08-23 16:53:29,852 Stored document is older. Updating
+2016-08-23 16:53:29,852 Duplicate PN NM-CEM-4TE1
+2016-08-23 16:53:29,852 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51_561543.html
+2016-08-23 16:53:29,862 Document date(stored):2015-03-13 00:00:00
+2016-08-23 16:53:29,862 Document date(new): 2015-03-13 00:00:00
+2016-08-23 16:53:29,862 Stored document is older. Updating
+2016-08-23 16:53:29,862 Duplicate PN NM-CEM-4TE1=
+2016-08-23 16:53:29,862 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51_561543.html
+2016-08-23 16:53:29,862 Document date(stored):2015-03-13 00:00:00
+2016-08-23 16:53:29,862 Document date(new): 2015-03-13 00:00:00
+2016-08-23 16:53:29,862 Stored document is older. Updating
+2016-08-23 16:53:31,362 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:53:31,372  
+2016-08-23 16:53:43,217 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:53:43,217  
+2016-08-23 16:53:46,687 Cant parse dates
+2016-08-23 16:53:46,687 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd80294b2a.html
+2016-08-23 16:53:51,788 Cant parse dates
+2016-08-23 16:53:51,788 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd802958b6.html
+2016-08-23 16:53:52,208 Cant parse dates
+2016-08-23 16:53:52,208 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd80294ae4.html
+2016-08-23 16:53:52,638 Duplicate PN PA-A3-E3
+2016-08-23 16:53:52,638 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html
+2016-08-23 16:53:52,638 Document date(stored):2007-09-17 00:00:00
+2016-08-23 16:53:52,638 Document date(new): 2006-03-23 00:00:00
+2016-08-23 16:53:52,638 Stored document is newer. Sciping new values
+2016-08-23 16:53:52,648 Duplicate PN PA-A3-OC3MM
+2016-08-23 16:53:52,648 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html
+2016-08-23 16:53:52,648 Document date(stored):2007-09-17 00:00:00
+2016-08-23 16:53:52,648 Document date(new): 2006-03-23 00:00:00
+2016-08-23 16:53:52,648 Stored document is newer. Sciping new values
+2016-08-23 16:53:52,648 Duplicate PN PA-A3-OC3SMI
+2016-08-23 16:53:52,648 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html
+2016-08-23 16:53:52,648 Document date(stored):2007-09-17 00:00:00
+2016-08-23 16:53:52,648 Document date(new): 2006-03-23 00:00:00
+2016-08-23 16:53:52,658 Stored document is newer. Sciping new values
+2016-08-23 16:53:52,658 Duplicate PN PA-A3-OC3SML
+2016-08-23 16:53:52,658 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html
+2016-08-23 16:53:52,658 Document date(stored):2007-09-17 00:00:00
+2016-08-23 16:53:52,658 Document date(new): 2006-03-23 00:00:00
+2016-08-23 16:53:52,658 Stored document is newer. Sciping new values
+2016-08-23 16:53:52,658 Duplicate PN PA-A3-T3
+2016-08-23 16:53:52,658 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html
+2016-08-23 16:53:52,658 Document date(stored):2007-09-17 00:00:00
+2016-08-23 16:53:52,658 Document date(new): 2006-03-23 00:00:00
+2016-08-23 16:53:52,658 Stored document is newer. Sciping new values
+2016-08-23 16:54:29,166 Duplicate PN SC-SVC-NAM-3.1
+2016-08-23 16:54:29,166 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-6500-series-network-analysis-module-nam-1-nam-2/end_of_life_notice_c51-625482.html
+2016-08-23 16:54:29,166 Document date(stored):2015-03-13 00:00:00
+2016-08-23 16:54:29,166 Document date(new): 2005-01-04 00:00:00
+2016-08-23 16:54:29,166 Stored document is newer. Sciping new values
+2016-08-23 16:54:30,056 cant open url https://www.cisco.com/c/dam/en/us/products/collateral/interfaces-modules/catalyst-6500-series-intrusion-detection-system-idsm-1-services-module/prod_end-of-life_notice0900aecd80098567.pdf Skiping
+2016-08-23 16:55:06,879 Duplicate PN DS-C9513-2K9
+2016-08-23 16:55:06,879 Stored doc url :https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/storage-networking-modules/end_of_life_notice_c51-514383.html
+2016-08-23 16:55:06,879 Document date(stored):2009-04-08 00:00:00
+2016-08-23 16:55:06,879 Document date(new): 2011-02-10 00:00:00
+2016-08-23 16:55:06,879 Stored document is older. Updating
+2016-08-23 16:55:31,913 Cant parse dates
+2016-08-23 16:55:31,915 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/versatile-interface-processors/prod_end-of-life_notice0900aecd80294b76.html
+2016-08-23 16:55:32,457 Cant parse dates
+2016-08-23 16:55:32,458 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/versatile-interface-processors/prod_end-of-life_notice0900aecd80294b5d.html
+2016-08-23 16:55:43,845 Cant parse dates
+2016-08-23 16:55:43,845 url:https://www.cisco.com/c/en/us/products/collateral/routers/3900-series-integrated-services-routers-isr/end-of-life-notice-c51-729829.html
+2016-08-23 16:55:44,235 Cant parse dates
+2016-08-23 16:55:44,235 url:https://www.cisco.com/c/en/us/products/collateral/routers/3900-series-integrated-services-routers-isr/end-of-life-notice-c51-729828.html
+2016-08-23 16:55:52,342 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:55:52,342  
+2016-08-23 16:55:52,452 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:55:52,452  
+2016-08-23 16:55:54,102 This one was in strange_links. I cannot parse it properly
+2016-08-23 16:55:54,102  
+2016-08-23 16:55:54,292 Cant parse dates
+2016-08-23 16:55:54,292 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd80294b2a.html
+2016-08-23 16:55:54,493 Cant parse dates
+2016-08-23 16:55:54,493 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd802958b6.html
+2016-08-23 16:55:54,673 Cant parse dates
+2016-08-23 16:55:54,673 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd80294ae4.html
+2016-08-23 16:55:57,434 cant open url https://www.cisco.com/c/dam/en/us/products/collateral/interfaces-modules/catalyst-6500-series-intrusion-detection-system-idsm-1-services-module/prod_end-of-life_notice0900aecd80098567.pdf Skiping
+2016-08-23 16:56:03,662 Cant parse dates
+2016-08-23 16:56:03,662 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/versatile-interface-processors/prod_end-of-life_notice0900aecd80294b76.html
+2016-08-23 16:56:03,922 Cant parse dates
+2016-08-23 16:56:03,922 url:https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/versatile-interface-processors/prod_end-of-life_notice0900aecd80294b5d.html
+2016-08-23 16:56:04,756 Cant parse dates
+2016-08-23 16:56:04,756 url:https://www.cisco.com/c/en/us/products/collateral/routers/3900-series-integrated-services-routers-isr/end-of-life-notice-c51-729829.html
+2016-08-23 16:56:04,996 Cant parse dates
+2016-08-23 16:56:04,996 url:https://www.cisco.com/c/en/us/products/collateral/routers/3900-series-integrated-services-routers-isr/end-of-life-notice-c51-729828.html

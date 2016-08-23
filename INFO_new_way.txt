@@ -1,3 +1,12 @@
-2016-08-22 18:26:28,743 Parsing: title
-2016-08-22 18:26:28,763 Starting new HTTP connection (1): www.cisco.com
-2016-08-22 18:26:29,223 cant open url. Skiping
+2016-08-23 14:12:47,733 Parsing: title
+2016-08-23 14:12:47,743 Starting new HTTPS connection (1): www.cisco.com
+2016-08-23 14:12:48,427 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 6500 Series/7600 Series Supervisor Engine 720-3A 
+2016-08-23 14:12:48,445 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-23 14:12:48,451 This page have 1 dv dt pairs
+2016-08-23 14:12:48,452 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-23 14:12:48,454 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 6500 Series/7600 Series Supervisor Engine 720-3A 
+2016-08-23 14:12:48,455 Adding pn to dictionary
+2016-08-23 14:12:48,455 pn:WS-SUP720
+2016-08-23 14:12:48,456 pn:WS-SUP720=
+2016-08-23 14:12:48,456 pn:WS-F6700-DFC3A
+2016-08-23 14:12:48,457 pn:WS-F6700-DFC3A=

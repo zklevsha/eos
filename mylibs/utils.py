@@ -18,9 +18,15 @@ def get_table(soup):
 	for table in soup:
 		arr_table = []
 		rows = table.findAll('tr')
+		header = table.find('tr').text.strip().split('\n')
 		for row in rows:
 			cols = row.findAll('td')
+			#cols = [ele.text.strip() for ele in cols]
 			cols = [ele.text.strip() for ele in cols]
+			if len(header) > len(cols):
+				for i in range(len(header) - len(cols)):
+					cols.insert(0,'null')
+
 			arr_table.append(cols)
 	return arr_table
 
