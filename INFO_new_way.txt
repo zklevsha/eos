@@ -1,12 +1,12 @@
-2016-08-23 14:12:47,733 Parsing: title
-2016-08-23 14:12:47,743 Starting new HTTPS connection (1): www.cisco.com
-2016-08-23 14:12:48,427 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 6500 Series/7600 Series Supervisor Engine 720-3A 
-2016-08-23 14:12:48,445 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
-2016-08-23 14:12:48,451 This page have 1 dv dt pairs
-2016-08-23 14:12:48,452 Device title  Table 2. Product Part Numbers Affected by This Announcement 
-2016-08-23 14:12:48,454 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Catalyst 6500 Series/7600 Series Supervisor Engine 720-3A 
-2016-08-23 14:12:48,455 Adding pn to dictionary
-2016-08-23 14:12:48,455 pn:WS-SUP720
-2016-08-23 14:12:48,456 pn:WS-SUP720=
-2016-08-23 14:12:48,456 pn:WS-F6700-DFC3A
-2016-08-23 14:12:48,457 pn:WS-F6700-DFC3A=
+2016-08-26 17:29:04,237 Parsing: title
+2016-08-26 17:29:04,247 Starting new HTTPS connection (1): www.cisco.com
+2016-08-26 17:29:05,187 Added to Dates  Table 1. End-of-Life Milestone Dates for the Dual Width OC-12c/STM-4DPT Port Adapter Supported on the Cisco 7500 and 7200 Series Routers and Cisco uBR7246VXR Universal Broadband Router 
+2016-08-26 17:29:05,187 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-26 17:29:05,197 This page have 1 dv dt pairs
+2016-08-26 17:29:05,197 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-26 17:29:05,197 Assosiate dates title  Table 1. End-of-Life Milestone Dates for the Dual Width OC-12c/STM-4DPT Port Adapter Supported on the Cisco 7500 and 7200 Series Routers and Cisco uBR7246VXR Universal Broadband Router 
+2016-08-26 17:29:05,197 Adding pn to dictionary
+2016-08-26 17:29:05,197 pn:PA-SRP-OC12MM
+2016-08-26 17:29:05,197 pn:PA-SRP-OC12SMI
+2016-08-26 17:29:05,197 pn:PA-SRP-OC12SML
+2016-08-26 17:29:05,197 pn:PA-SRP-OC12SMX

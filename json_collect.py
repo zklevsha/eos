@@ -10,7 +10,7 @@ all_eos_listing_pages = []
 all_eos_pages = []
 error_log = open('error.log','w')
 data = {}
-
+import sys
 
 def get_page(url):
 	while True:
@@ -33,7 +33,15 @@ for device in deviceTypes:
 
 	for subcat in diction['subCats']:
 		for model in  subcat['series']:
-			all_device_support_page.append(header + model['url'])
+			all_device_support_page.append( (model['title'],header + model['url']) )
+
+
+
+for i in all_device_support_page:
+	print(i)
+
+sys.exit()
+
 
 # Gathering eos pages
 print('PHASE 2: COLLECTING END OF SALE  PAGES')

@@ -4,7 +4,7 @@ import re
 import sys
 from dateutil.parser import parse
 
-url_list = [('title','https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-500212.html')]
+url_list = [('title','https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd8020bacc.html')]
 log = get_logger('new_way.txt')	
 with open('out.html', "w"):
         pass
@@ -20,7 +20,7 @@ for eos in url_list:
 
 	soup = BeautifulSoup(content.text,"html.parser")
 
-	p = soup.find_all('p')
+	p = soup.find_all('p',{'class':'pTableCaptionCMT'})
 
 	dates = {}
 	devices = {}
@@ -28,26 +28,36 @@ for eos in url_list:
 
 	for item in p:
 		#print(item.text)
-		if "Milestones" in item.text:
+		if "milestone" in item.text.lower().replace(' ','').replace('-','').replace('\n',''):
 			dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 			log.info("Added to Dates "+ item.text)
 		if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
 			devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 			log.info("Added to Devices " + item.text)
 
-	
-
-	if len(dates) != len(devices):
-		log.error('Number of dates and devices not equal')
-		sys.exit()
 
 	if len(dates) == 0:
+		if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
+			log.info('This EOS was replaced. Skiping')
+			continue 
+
+		
+		if 'retraction'in soup.find('h1',{'id':'fw-pagetitle'}).text.lower():
+			log.info('This is page about retraction of some PN. Skiping')
+			continue
+
 		log.error('Cant parse dates')
-		sys.exit()
+		log.error('url:' + eos[1])
+		continue
 
 
 	if len(devices) == 0:
 		log.error('Cant parse devices')
+		sys.exit()
+
+
+	if len(dates) != len(devices):
+		log.error('Number of dates and devices not equal')
 		sys.exit()
 
 

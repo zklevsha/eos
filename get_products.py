@@ -16,7 +16,12 @@ strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/cat
 'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice09186a008032d42c.html', 
 'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd80294909.html',
 'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd8029fe0d.html',
-'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/100vg-port-adapter/prod_end-of-life_notice0900aecd8029d2c5.html']
+'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/100vg-port-adapter/prod_end-of-life_notice0900aecd8029d2c5.html',
+'https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html',
+'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice09186a008032d6ad.html', # empty page
+'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
+'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice09186a008032d6ad.html' # pn и даты в одной таблице
+]
 header = "https://www.cisco.com"
 log = get_logger('get_products.log')
 devices_header = ['EndofSaleProductPartNumber','ProductID','ProductNumber',
@@ -44,7 +49,7 @@ device_types = [ (link.text,header+link['href'].replace('index','product-listing
 
 # Parse specific product page
 for device_type in device_types:
-	#device_type = ('switches','http://www.cisco.com/c/en/us/products/switches/product-listing.html')
+	device_type = ('security','https://www.cisco.com/c/en/us/products/security/product-listing.html')
 	content = get_page(device_type[1])
 	if content.status_code != 200:
 		log.info('No product listing for ' + device_type[0])
@@ -56,7 +61,7 @@ for device_type in device_types:
 	devices = [ (link.text,header+link['href']) for link in soup.find_all('a', href=True) ]
 	if len(devices) == 0:
 		log.error('No devices for' + str(device_type[0]))
-	devices = int_and_mod #DEBUG
+
 
 	# Checking end of sale devices DISABLED FOR THE MOMENT
 	# log.info('Checking if there are end of sale devices:')
@@ -79,7 +84,7 @@ for device_type in device_types:
 		content=get_page(device[1])
 		strainer = SoupStrainer("a",{'class':'contentLink'})
 		soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-		listing = [ header+link['href'] for link in soup.find_all('a', href=True) if "End-of-Life and End-of-Sale Notices" in link.text]
+		listing = [ header+link['href'] for link in soup.find_all('a', href=True) if "End-of-Life and End-of-Sale Notices" in link.text ]
 
 		if len(listing) == 0:
 			log.info("No End-of-Sale for "+ device[0])
@@ -92,7 +97,7 @@ for device_type in device_types:
 		content = get_page(listing[0])
 		strainer = SoupStrainer("ul",{'class':'listing'})
 		soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-		eos_docs = [(link.text,header+link['href']) for link in soup.find_all('a', href=True) if "Relocation content" not in link.text and '-fr' not in link['href'] and "Frequently Asked Questions" not in link.text]
+		eos_docs = [(link.text,header+link['href']) for link in soup.find_all('a', href=True) if "Relocation content" not in link.text and '-fr' not in link['href'] and "Frequently Asked Questions" not in link.text and 'Retracted' not in link.text]
 		for eos in eos_docs:
 			log.info('Title:' + str(eos[0]))
 			log.info('Url:' + str(eos[1]))
@@ -102,6 +107,7 @@ for device_type in device_types:
 				log.info(' ')
 				continue
 			if eos[1] in strange_links:
+				log.warning('url: '+ eos[1])
 				log.warning('This one was in strange_links. I cannot parse it properly')
 				log.error(' ')
 				continue
@@ -118,41 +124,47 @@ for device_type in device_types:
 				continue
 
 			soup = BeautifulSoup(content.text,"html.parser")
-			p = soup.find_all('p')
+			p = soup.find_all('p',{'class':'pTableCaptionCMT'})
 
 			dates = {}
 			devices = {}
 			dv_dt = []
 
 			for item in p:
-				if "Milestones" in item.text:
+				if "milestone" in item.text.lower().replace(' ','').replace('-','').replace('\n',''):
 					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 					log.info("Added to Dates "+ item.text)
-				if "Product Part Numbers Associated" in item.text or "Product Part Numbers Affected" in item.text or "Product Part Number Affected" in item.text and "Software" not in item.text and "Milestone" not in item.text:
+
+				devices_caption = ['productpartnumbersassociated','productpartnumbersaffected',
+				'productpartnumberaffected','productpartnumbersbeingaffected','endofsalepartnumbers']
+				search = item.text.lower().replace('-','').replace(' ','').replace('\n','')\
+
+				if any( i in search for i in devices_caption) and "Software" not in item.text and "Milestone" not in item.text:
 					devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
 					log.info("Added to Devices " + item.text)
+
 				
 			if len(dates) == 0:
 				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
 					log.info('This EOS was replaced. Skiping')
 					continue 
+
+				if 'retraction'in soup.find('h1',{'id':'fw-pagetitle'}).text.lower().replace(' ','').replace('-','').replace('\n',''):
+					log.info('This is page about retraction of some PN. Skiping')
+					continue
+
 				log.error('Cant parse dates')
 				log.error('url:' + eos[1])
 				continue
-				sys.exit()
-
+				#sys.exit()
 
 			if len(devices) == 0:
 				#some eos ( somftware mainly) not have pn
-				if 'Cisco IOS XE' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
+				if 'Cisco IOS' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
 					log.info('Looks like this is software page, so no PN for this one')
 					log.info(' ')
 					continue
-				#some documents were replaced
-				#if 'was replaced by' in content.text:
-				#	log.info('This doc was replaced')
-				#	log.info('')
-				#	continue
+			
 				log.error('Cant parse devices')
 				sys.exit()
 
@@ -239,7 +251,7 @@ for device_type in device_types:
 
 	log.info("dictionary length: " + str(len(data)))
 	log.info("Execution time:" + str(datetime.datetime.now() - start_date))
-	log.info(data)
+	log.info(len(data))
 	pickle.dump(data,open('data.p' ,'wb'))
 	sys.exit()
 
@@ -257,3 +269,4 @@ for device_type in device_types:
 
 
 # some pages have tables with affected sowftware PN . Script ignores it for now
+# 26/08/2016 - пробегись еще раз по свичам и интерфейсам. Ты менял фильтры
