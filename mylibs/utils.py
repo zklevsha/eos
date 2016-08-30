@@ -34,11 +34,11 @@ def get_page(url):
 	i = 0
 	while True:
 		if i == 5:
-			cant_get_page.append(url)
 			content = Object()
 			content.text = 'Cant open url '+ url
 			content.status_code = 504
 			break
+			
 		try:
 			content = requests.get(url,timeout=5)
 		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
