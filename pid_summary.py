@@ -2,8 +2,9 @@ from mylibs.utils import *
 from bs4 import BeautifulSoup,SoupStrainer
 
 
-
-content = get_page('http://www.cisco.com/c/en/us/support/switches/nexus-1010-virtual-services-appliance/model.html')
+pid_summary = {}
+pid_info = {}
+content = get_page('http://www.cisco.com/c/en/us/support/security/identity-services-engine-1-4/model.html')
 
 strainer = SoupStrainer("ul",{'id':'birth-cert-pids'})
 soup = BeautifulSoup(content.text,'html.parser',parse_only=strainer)
@@ -12,21 +13,28 @@ soup = BeautifulSoup(content.text,'html.parser',parse_only=strainer)
 if soup is not None:
 	pids = [ li.text for li in soup.findAll('li') ]
 else: 
-	continue
+	pass
 
 strainer = SoupStrainer("table",{'class':'birth-cert-table'})
 soup = BeautifulSoup(content.text,'html.parser',parse_only=strainer)
 
-what_we_need = ['Series:','Product ID:','Status:','End-of-Sale Date:','End-of-Support Date:']
-result_arr
+what_we_need = ['Series:','Status:','End-of-Sale Date:','End-of-Support Date:']
+result_arr = []
 for row in soup.findAll('tr'):
 	try:
-		k_w = (row.find('th').getText,row.find('td').getText().strip().replace('\n','')
+		k = row.find('th').text
+		v = row.find('td').text
+		if any(k == i for i in what_we_need):
+			#result_arr.append( (k,' '.join(v.split())) ) 
+			pid_info[k] = ' '.join(v.split())
 	except:
 		pass
 
-	if any(k_w[0] == i in what_we_need):
-		result_arr = append(k_w) 
 
 
-print (result_arr)
+for p in pids:
+	pid_summary[p] =  pid_info
+
+
+
+print (pid_summary)

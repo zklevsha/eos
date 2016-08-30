@@ -8,8 +8,10 @@ from mylibs.utils import *
 import datetime
 import platform
 import os
-deviceTypes = ['routers','switches','security','wireless','serversunifiedcomputing',
-'applicationnetworkingservices','cloudandsystemsmanagement',
+#deviceTypes = ['routers','switches',
+#deviceTypes = ['security','wireless','serversunifiedcomputing',
+#'applicationnetworkingservices',
+deviceTypes = ['cloudandsystemsmanagement',
 'collaborationendpoints','conferencing','connectedsafetyandsecurity',
 'customercollaboration','ciscointerfacesandmodules',
 'opticalnetworking','serviceexchange','storagenetworking',
@@ -43,8 +45,9 @@ strange_links = ['prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
 'prod_end-of-life_notice09186a008032d6ad.html', # empty page
 'prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
 'prod_end-of-life_notice09186a008032d6ad.html' ,# pn и даты в одной таблице
-'prod_end-of-life_notice0900aecd801bd0f7.html']
-
+'prod_end-of-life_notice0900aecd801bd0f7.html',
+'prod_end-of-life_notice0900aecd8010bfa2.html', # нет captions для таблицы с устройствами
+'eos-eol-notice-c51-732026.html'] # Вместо таблицы с устройствами линк на pdf
 
 header = "http://www.cisco.com"
 all_device_support_page = []
@@ -53,7 +56,7 @@ parsed_eos = []
 
 
 data = {}
-data_part = {}
+pid_summary = {}
 log = get_logger('json_collect.txt')
 
 startTime = str(datetime.datetime.now())
@@ -122,6 +125,37 @@ for device in all_device_support_page:
 		log.info('Parsing ' + model[0])
 		log.info(model[1])
 		content = get_page(model[1])
+
+
+		log.info('Gathering PN assosiated with this device and some eos info')
+		strainer = SoupStrainer("ul",{'id':'birth-cert-pids'})
+		soup = BeautifulSoup(content.text,'html.parser',parse_only=strainer)
+
+		if soup is not None:
+			pids = [ li.text for li in soup.findAll('li') ]
+		else: 
+			pass
+
+		strainer = SoupStrainer("table",{'class':'birth-cert-table'})
+		soup = BeautifulSoup(content.text,'html.parser',parse_only=strainer)
+
+		what_we_need = ['Series:','Status:','End-of-Sale Date:','End-of-Support Date:']
+		pid_info = {}
+		for row in soup.findAll('tr'):
+			try:
+				k = row.find('th').text
+				v = row.find('td').text
+				if any(k == i for i in what_we_need):
+					#result_arr.append( (k,' '.join(v.split())) ) 
+					pid_info[k] = ' '.join(v.split())
+			except:
+				pass
+
+		for p in pids:pid_summary[p] =  pid_info
+		log.info('Done. Found ' + str(len(pids)) + ' pids' )
+
+
+		log.info('Searching for EOS documents')
 		soup = BeautifulSoup(content.text,"html.parser")
 		a = soup.find('a',{'id':'End-of-LifeandEnd-of-SaleNotices'})
 		if a is None:
@@ -132,15 +166,13 @@ for device in all_device_support_page:
 		
 		eos_pages = [(link.text,link['href']) for link in uls.findAll('a', href=True) if '-fr' not in link['href']]
 
-
-
 		log.info('Found'+ str(len(eos_pages)) + 'docs')
 		log.info('Begin parsing them.')
 			
 		#parsing eos-listing
 		for eos in eos_pages:
 			if eos[1][0] == '/':eos = (eos[0],header+eos[1])
-			 
+
 			log.info('Title:' + str(eos[0]))
 			log.info('Url:' + str(eos[1]))
 
@@ -162,7 +194,7 @@ for device in all_device_support_page:
 			content = get_page(eos[1].replace('.pdf','.html'))
 
 			if content.status_code != 200:
-				log.warning('cant open url ' + eos[1] +  ' Skiping' )
+				log.error('cant open url ' + eos[1] +  ' Skiping' )
 				continue
 
 			soup = BeautifulSoup(content.text,"html.parser")
@@ -190,10 +222,13 @@ for device in all_device_support_page:
 				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
 					log.info('This EOS was replaced. Skiping')
 					continue 
-
-				if 'retraction'in soup.find('h1',{'id':'fw-pagetitle'}).text.lower().replace(' ','').replace('-','').replace('\n',''):
-					log.info('This is page about retraction of some PN. Skiping')
-					continue
+				try:
+					if 'retraction'in soup.find('h1',{'id':'fw-pagetitle'}).text.lower().replace(' ','').replace('-','').replace('\n',''):
+						log.info('This is page about retraction of some PN. Skiping')
+						continue
+				except:
+					log.error('Error parsing page. Cant find header(id=fw-pagetitle):')
+					log.error('url:' + eos[1])
 
 				log.error('Cant parse dates')
 				log.error('url:' + eos[1])
@@ -291,9 +326,10 @@ for device in all_device_support_page:
 				log.info(len(data))
 				log.info('')
 
-log.info("dictionary length: " + str(len(data)))
+log.info("data length: " + str(len(data)))
+log.info("pid_summary length: " + str(len(pid_summary))  )
 log.info("Execution time:" + str(datetime.datetime.now() - start_date))
-log.info(len(data))
 pickle.dump(data,open('data.p' ,'wb'))
-
+pickle.dump(pid_summary,open('pid_summary.p' ,'wb'))
 #не забудь вернуть devicetypes в исходное состояние
+# не забудь попытаться вынуть pn из таблицы 

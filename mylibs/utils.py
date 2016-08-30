@@ -2,6 +2,10 @@ import requests
 import logging
 from py_bing_search import PyBingWebSearch
 
+
+class Object(object):
+    pass
+
 def get_tables(soup):
 	arr_tables = []
 	for table in soup:
@@ -38,7 +42,7 @@ def get_page(url):
 			content.text = 'Cant open url '+ url
 			content.status_code = 504
 			break
-			
+
 		try:
 			content = requests.get(url,timeout=5)
 		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
