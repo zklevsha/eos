@@ -2070,3 +2070,1291 @@
 2016-08-30 20:31:21,416 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
 2016-08-30 20:31:21,422 Starting new HTTP connection (1): www.cisco.com
 2016-08-30 20:31:22,267 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Tidal Enterprise Orchestrator 2.1 
+2016-08-30 20:31:22,592 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:22,602 This page have 1 dv dt pairs
+2016-08-30 20:31:22,604 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:22,624 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Tidal Enterprise Orchestrator 2.1 
+2016-08-30 20:31:22,632 Adding pn to dictionary
+2016-08-30 20:31:22,633 pn:L-TEO210FWS-K9=
+2016-08-30 20:31:22,634 pn:L-TEO21AE-K9=
+2016-08-30 20:31:22,635 pn:L-TEO21AEPF-K9=
+2016-08-30 20:31:22,635 pn:L-TEO21AH-K9=
+2016-08-30 20:31:22,636 pn:L-TEO21AHPF-K9=
+2016-08-30 20:31:22,637 pn:L-TEO21AN-K9=
+2016-08-30 20:31:22,640 pn:L-TEO21ANPF-K9=
+2016-08-30 20:31:22,647 pn:L-TEO21AP-K9=
+2016-08-30 20:31:22,653 pn:L-TEO21ASPF-K9=
+2016-08-30 20:31:22,661 pn:L-TEO21BF-K9
+2016-08-30 20:31:22,663 pn:L-TEO21BF-K9=
+2016-08-30 20:31:22,664 pn:L-TEO21BNS-K9
+2016-08-30 20:31:22,665 pn:L-TEO21BNS-K9=
+2016-08-30 20:31:22,678 pn:L-TEO21BWP-K9=
+2016-08-30 20:31:22,679 pn:L-TEO21C4P1-K9=
+2016-08-30 20:31:22,682 pn:L-TEO21C4P2-K9=
+2016-08-30 20:31:22,693 pn:L-TEO21C4P3-K9=
+2016-08-30 20:31:22,698 pn:L-TEO21C4P4-K9=
+2016-08-30 20:31:22,700 pn:L-TEO21CAP-K9=
+2016-08-30 20:31:22,703 pn:L-TEO21CP1-K9=
+2016-08-30 20:31:22,708 pn:L-TEO21CP2-K9=
+2016-08-30 20:31:22,710 pn:L-TEO21CP3-K9=
+2016-08-30 20:31:22,720 pn:L-TEO21CP4-K9=
+2016-08-30 20:31:22,721 pn:L-TEO21CRP-K9=
+2016-08-30 20:31:22,722 pn:L-TEO21DB2-K9=
+2016-08-30 20:31:22,723 pn:L-TEO21DGN-K9=
+2016-08-30 20:31:22,724 pn:L-TEO21DGPF-K9=
+2016-08-30 20:31:22,725 pn:L-TEO21DL-K9=
+2016-08-30 20:31:22,763 pn:L-TEO21DLPF-K9=
+2016-08-30 20:31:22,768 pn:L-TEO21DOR-K9=
+2016-08-30 20:31:22,774 pn:L-TEO21DSQ-K9=
+2016-08-30 20:31:22,776 pn:L-TEO21FAS-K9=
+2016-08-30 20:31:22,777 pn:L-TEO21FASPF-K9=
+2016-08-30 20:31:22,778 pn:L-TEO21FAST-K9=
+2016-08-30 20:31:22,779 pn:L-TEO21FAUT-K9=
+2016-08-30 20:31:22,782 pn:L-TEO21FAWT-K9=
+2016-08-30 20:31:22,783 pn:L-TEO21FDBPF-K9=
+2016-08-30 20:31:22,784 pn:L-TEO21FDOPF-K9=
+2016-08-30 20:31:22,787 pn:L-TEO21FDSPF-K9=
+2016-08-30 20:31:22,788 pn:L-TEO21IA-K9=
+2016-08-30 20:31:22,789 pn:L-TEO21IAP-K9=
+2016-08-30 20:31:22,790 pn:L-TEO21IHL-K9=
+2016-08-30 20:31:22,791 pn:L-TEO21MADA-K9=
+2016-08-30 20:31:22,792 pn:L-TEO21MDPF-K9=
+2016-08-30 20:31:22,793 pn:L-TEO21MFEX-K9=
+2016-08-30 20:31:22,794 pn:L-TEO21MFPF-K9=
+2016-08-30 20:31:22,795 pn:L-TEO21MWPF-K9=
+2016-08-30 20:31:22,796 pn:L-TEO21OM-K9=
+2016-08-30 20:31:22,801 pn:L-TEO21OUPF-K9=
+2016-08-30 20:31:22,802 pn:L-TEO21OVPF-K9=
+2016-08-30 20:31:22,804 pn:L-TEO21RBT-K9
+2016-08-30 20:31:22,805 pn:L-TEO21RBT-K9=
+2016-08-30 20:31:22,806 pn:L-TEO21RMA-K9=
+2016-08-30 20:31:22,807 pn:L-TEO21RMAT-K9=
+2016-08-30 20:31:22,808 pn:L-TEO21RP1-K9=
+2016-08-30 20:31:22,809 pn:L-TEO21RP2-K9=
+2016-08-30 20:31:22,810 pn:L-TEO21RP3-K9=
+2016-08-30 20:31:22,811 pn:L-TEO21RP4-K9=
+2016-08-30 20:31:22,811 pn:L-TEO21SAA-K9=
+2016-08-30 20:31:22,812 pn:L-TEO21SAPC-K9
+2016-08-30 20:31:22,813 pn:L-TEO21SAPC-K9=
+2016-08-30 20:31:22,820 pn:L-TEO21SAPE-K9
+2016-08-30 20:31:22,823 pn:L-TEO21SAPE-K9=
+2016-08-30 20:31:22,829 pn:L-TEO21SIA-K9=
+2016-08-30 20:31:22,836 pn:L-TEO21TAP-K9=
+2016-08-30 20:31:22,838 pn:L-TEO21VMA-K9=
+2016-08-30 20:31:22,839 pn:L-TEO21VMAT-K9=
+2016-08-30 20:31:22,841 pn:L-TEO21WA-K9=
+2016-08-30 20:31:22,841 pn:L-TEO21WAST-K9=
+2016-08-30 20:31:22,842 pn:L-TEO21WKPF-K9=
+2016-08-30 20:31:22,843 pn:L-TEO2TRM1-K9=
+2016-08-30 20:31:22,844 pn:L-TEO2TRM2-K9=
+2016-08-30 20:31:22,845 pn:L-TEO2UCS-K9=
+2016-08-30 20:31:22,846 pn:L-TEO2UCSPF-K9=
+2016-08-30 20:31:22,847 791
+2016-08-30 20:31:22,848 
+2016-08-30 20:31:22,849 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:22,852 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:22,859 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:23,315 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Tidal Enterprise Orchestrator 2.1 NFR 
+2016-08-30 20:31:23,328 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:23,336 This page have 1 dv dt pairs
+2016-08-30 20:31:23,337 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:23,339 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Tidal Enterprise Orchestrator 2.1 NFR 
+2016-08-30 20:31:23,341 Adding pn to dictionary
+2016-08-30 20:31:23,342 pn:L-TEO21BF-NFR-K9
+2016-08-30 20:31:23,343 pn:L-TEO21BNS-NFR-K9
+2016-08-30 20:31:23,344 pn:L-TEO21RBT-NFR-K9
+2016-08-30 20:31:23,345 pn:L-TEO21SAPC-NFR-K9
+2016-08-30 20:31:23,345 pn:L-TEO21SAPE-NFR-K9
+2016-08-30 20:31:23,346 796
+2016-08-30 20:31:23,347 
+2016-08-30 20:31:23,348 Parsing Process Orchestrator 3.0
+2016-08-30 20:31:23,348 http://www.cisco.com/c/en/us/support/cloud-systems-management/process-orchestrator-3-0/model.html
+2016-08-30 20:31:23,354 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:23,632 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:23,966 Done. Found 0 pids
+2016-08-30 20:31:23,967 Searching for EOS documents
+2016-08-30 20:31:24,308 Found8docs
+2016-08-30 20:31:24,309 Begin parsing them.
+2016-08-30 20:31:24,310 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:24,311 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:24,312 This one was parsed before.Skiping
+2016-08-30 20:31:24,313  
+2016-08-30 20:31:24,314 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:24,315 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:24,316 This one was parsed before.Skiping
+2016-08-30 20:31:24,317  
+2016-08-30 20:31:24,318 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:24,319 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:24,320 This one was parsed before.Skiping
+2016-08-30 20:31:24,322  
+2016-08-30 20:31:24,323 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:24,324 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:24,325 This one was parsed before.Skiping
+2016-08-30 20:31:24,326  
+2016-08-30 20:31:24,327 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:24,328 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:24,329 This one was parsed before.Skiping
+2016-08-30 20:31:24,330  
+2016-08-30 20:31:24,331 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:24,332 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:24,333 This one was parsed before.Skiping
+2016-08-30 20:31:24,334  
+2016-08-30 20:31:24,335 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:24,336 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:24,337 This one was parsed before.Skiping
+2016-08-30 20:31:24,339  
+2016-08-30 20:31:24,340 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:24,341 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:24,342 This one was parsed before.Skiping
+2016-08-30 20:31:24,342  
+2016-08-30 20:31:24,343 Parsing Process Orchestrator 3.1
+2016-08-30 20:31:24,344 http://www.cisco.com/c/en/us/support/cloud-systems-management/process-orchestrator-3-1/model.html
+2016-08-30 20:31:24,352 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:24,638 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:24,931 Done. Found 0 pids
+2016-08-30 20:31:24,932 Searching for EOS documents
+2016-08-30 20:31:25,112 Found8docs
+2016-08-30 20:31:25,113 Begin parsing them.
+2016-08-30 20:31:25,113 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:25,114 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:25,115 This one was parsed before.Skiping
+2016-08-30 20:31:25,116  
+2016-08-30 20:31:25,117 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:25,118 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:25,119 This one was parsed before.Skiping
+2016-08-30 20:31:25,120  
+2016-08-30 20:31:25,121 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:25,122 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:25,123 This one was parsed before.Skiping
+2016-08-30 20:31:25,124  
+2016-08-30 20:31:25,124 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:25,126 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:25,127 This one was parsed before.Skiping
+2016-08-30 20:31:25,127  
+2016-08-30 20:31:25,128 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:25,128 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:25,129 This one was parsed before.Skiping
+2016-08-30 20:31:25,129  
+2016-08-30 20:31:25,130 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:25,131 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:25,133 This one was parsed before.Skiping
+2016-08-30 20:31:25,133  
+2016-08-30 20:31:25,134 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:25,135 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:25,136 This one was parsed before.Skiping
+2016-08-30 20:31:25,137  
+2016-08-30 20:31:25,137 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:25,138 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:25,139 This one was parsed before.Skiping
+2016-08-30 20:31:25,140  
+2016-08-30 20:31:25,141 Parsing Process Orchestrator 3.2
+2016-08-30 20:31:25,142 http://www.cisco.com/c/en/us/support/cloud-systems-management/process-orchestrator-3-2/model.html
+2016-08-30 20:31:25,149 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:25,393 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:25,739 Done. Found 0 pids
+2016-08-30 20:31:25,740 Searching for EOS documents
+2016-08-30 20:31:25,951 Found8docs
+2016-08-30 20:31:25,952 Begin parsing them.
+2016-08-30 20:31:25,953 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:25,954 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:25,955 This one was parsed before.Skiping
+2016-08-30 20:31:25,956  
+2016-08-30 20:31:25,957 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:25,958 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:25,959 This one was parsed before.Skiping
+2016-08-30 20:31:25,959  
+2016-08-30 20:31:25,960 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:25,961 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:25,962 This one was parsed before.Skiping
+2016-08-30 20:31:25,963  
+2016-08-30 20:31:25,964 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:25,965 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:25,966 This one was parsed before.Skiping
+2016-08-30 20:31:25,967  
+2016-08-30 20:31:25,968 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:25,969 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:25,970 This one was parsed before.Skiping
+2016-08-30 20:31:25,971  
+2016-08-30 20:31:25,971 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:25,972 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:25,973 This one was parsed before.Skiping
+2016-08-30 20:31:25,974  
+2016-08-30 20:31:25,975 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:25,976 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:25,977 This one was parsed before.Skiping
+2016-08-30 20:31:25,978  
+2016-08-30 20:31:25,979 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:25,981 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:25,981 This one was parsed before.Skiping
+2016-08-30 20:31:25,982  
+2016-08-30 20:31:25,982 Parsing Process Orchestrator 3.3
+2016-08-30 20:31:25,983 http://www.cisco.com/c/en/us/support/cloud-systems-management/process-orchestrator-3-3/model.html
+2016-08-30 20:31:25,988 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:26,303 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:26,591 Done. Found 0 pids
+2016-08-30 20:31:26,592 Searching for EOS documents
+2016-08-30 20:31:26,798 Found8docs
+2016-08-30 20:31:26,799 Begin parsing them.
+2016-08-30 20:31:26,800 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:26,801 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:26,803 This one was parsed before.Skiping
+2016-08-30 20:31:26,804  
+2016-08-30 20:31:26,806 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:26,807 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:26,808 This one was parsed before.Skiping
+2016-08-30 20:31:26,809  
+2016-08-30 20:31:26,810 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:26,811 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:26,812 This one was parsed before.Skiping
+2016-08-30 20:31:26,813  
+2016-08-30 20:31:26,814 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:26,815 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:26,816 This one was parsed before.Skiping
+2016-08-30 20:31:26,818  
+2016-08-30 20:31:26,819 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:26,819 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:26,820 This one was parsed before.Skiping
+2016-08-30 20:31:26,821  
+2016-08-30 20:31:26,822 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:26,822 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:26,824 This one was parsed before.Skiping
+2016-08-30 20:31:26,825  
+2016-08-30 20:31:26,825 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:26,827 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:26,828 This one was parsed before.Skiping
+2016-08-30 20:31:26,829  
+2016-08-30 20:31:26,830 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:26,831 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:26,832 This one was parsed before.Skiping
+2016-08-30 20:31:26,833  
+2016-08-30 20:31:26,835 Parsing Tidal Enterprise Orchestrator Adapter Content Pack for Windows Server
+2016-08-30 20:31:26,835 http://www.cisco.com/c/en/us/support/cloud-systems-management/tidal-enterprise-orchestrator-adapter-content-pack-windows-server/model.html
+2016-08-30 20:31:26,842 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:27,106 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:27,388 Done. Found 0 pids
+2016-08-30 20:31:27,389 Searching for EOS documents
+2016-08-30 20:31:27,593 Found8docs
+2016-08-30 20:31:27,594 Begin parsing them.
+2016-08-30 20:31:27,595 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:27,596 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:27,597 This one was parsed before.Skiping
+2016-08-30 20:31:27,598  
+2016-08-30 20:31:27,599 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:27,600 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:27,601 This one was parsed before.Skiping
+2016-08-30 20:31:27,602  
+2016-08-30 20:31:27,603 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:27,605 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:27,606 This one was parsed before.Skiping
+2016-08-30 20:31:27,607  
+2016-08-30 20:31:27,608 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:27,610 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:27,611 This one was parsed before.Skiping
+2016-08-30 20:31:27,612  
+2016-08-30 20:31:27,613 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:27,614 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:27,615 This one was parsed before.Skiping
+2016-08-30 20:31:27,616  
+2016-08-30 20:31:27,616 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:27,618 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:27,619 This one was parsed before.Skiping
+2016-08-30 20:31:27,620  
+2016-08-30 20:31:27,621 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:27,623 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:27,624 This one was parsed before.Skiping
+2016-08-30 20:31:27,624  
+2016-08-30 20:31:27,625 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:27,626 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:27,628 This one was parsed before.Skiping
+2016-08-30 20:31:27,629  
+2016-08-30 20:31:27,630 Parsing Tidal Enterprise Orchestrator Adapter for Windows Server
+2016-08-30 20:31:27,631 http://www.cisco.com/c/en/us/support/cloud-systems-management/tidal-enterprise-orchestrator-adapter-windows-server/model.html
+2016-08-30 20:31:27,639 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:27,911 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:28,203 Done. Found 0 pids
+2016-08-30 20:31:28,204 Searching for EOS documents
+2016-08-30 20:31:28,405 Found8docs
+2016-08-30 20:31:28,406 Begin parsing them.
+2016-08-30 20:31:28,407 Title:End-of-Sale and End-of-Life Announcement for the Cisco Intelligent Automation for Cloud 3.1.1
+2016-08-30 20:31:28,408 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intelligent-automation-cloud/eos-eol-notice-c51-733418.html
+2016-08-30 20:31:28,409 This one was parsed before.Skiping
+2016-08-30 20:31:28,411  
+2016-08-30 20:31:28,411 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.2 Adapter
+2016-08-30 20:31:28,412 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736833.html
+2016-08-30 20:31:28,414 This one was parsed before.Skiping
+2016-08-30 20:31:28,415  
+2016-08-30 20:31:28,416 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 3.0 and 3.1
+2016-08-30 20:31:28,417 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-736071.html
+2016-08-30 20:31:28,418 This one was parsed before.Skiping
+2016-08-30 20:31:28,419  
+2016-08-30 20:31:28,420 Title:End-of-Sale and End-of-Life Announcement for the Cisco Process Orchestrator 2.3
+2016-08-30 20:31:28,421 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eos-eol-notice-c51-733453.html
+2016-08-30 20:31:28,422 This one was parsed before.Skiping
+2016-08-30 20:31:28,423  
+2016-08-30 20:31:28,424 Title:End-of-Sale and End-of-Life Announcement for the Horizon for SAP
+2016-08-30 20:31:28,425 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697712.html
+2016-08-30 20:31:28,427 This one was parsed before.Skiping
+2016-08-30 20:31:28,428  
+2016-08-30 20:31:28,428 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.2
+2016-08-30 20:31:28,429 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-696257.html
+2016-08-30 20:31:28,430 This one was parsed before.Skiping
+2016-08-30 20:31:28,431  
+2016-08-30 20:31:28,432 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1
+2016-08-30 20:31:28,434 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697358.html
+2016-08-30 20:31:28,435 This one was parsed before.Skiping
+2016-08-30 20:31:28,436  
+2016-08-30 20:31:28,437 Title:End-of-Sale and End-of-Life Announcement for the Tidal Enterprise Orchestrator 2.1 NFR
+2016-08-30 20:31:28,438 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/process-orchestrator/eol_c51-697087.html
+2016-08-30 20:31:28,439 This one was parsed before.Skiping
+2016-08-30 20:31:28,440  
+2016-08-30 20:31:28,441 Checking Central series
+2016-08-30 20:31:28,443 url:http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central/tsd-products-support-series-home.html
+2016-08-30 20:31:28,450 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:29,031 Found 7models
+2016-08-30 20:31:29,032  
+2016-08-30 20:31:29,033 Parsing Prime Central 1.0
+2016-08-30 20:31:29,034 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-0/model.html
+2016-08-30 20:31:29,041 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:29,344 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:29,560 Done. Found 0 pids
+2016-08-30 20:31:29,561 Searching for EOS documents
+2016-08-30 20:31:29,692 Found4docs
+2016-08-30 20:31:29,693 Begin parsing them.
+2016-08-30 20:31:29,694 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:29,695 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:29,700 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:30,334 Added to Dates Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Central 1.3
+2016-08-30 20:31:30,354 Added to Devices Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:30,366 This page have 1 dv dt pairs
+2016-08-30 20:31:30,368 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:30,371 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Central 1.3
+2016-08-30 20:31:30,374 Adding pn to dictionary
+2016-08-30 20:31:30,375 pn:CENTRAL-1.3-K9
+2016-08-30 20:31:30,376 pn:CENTRAL-1.3-LAB-K9
+2016-08-30 20:31:30,377 pn:CENTRAL-1.3-SR-K9
+2016-08-30 20:31:30,378 799
+2016-08-30 20:31:30,379 
+2016-08-30 20:31:30,380 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:30,381 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:30,388 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:30,927 Added to Dates Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.2
+2016-08-30 20:31:30,999 Added to Devices Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:31,010 This page have 1 dv dt pairs
+2016-08-30 20:31:31,011 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:31,017 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.2
+2016-08-30 20:31:31,020 Adding pn to dictionary
+2016-08-30 20:31:31,021 pn:CENTRAL-1-3GPP
+2016-08-30 20:31:31,022 pn:CENTRAL-1-DM-PROBE
+2016-08-30 20:31:31,023 pn:CENTRAL-1-MTOSI
+2016-08-30 20:31:31,024 pn:CENTRAL-1-SBY
+2016-08-30 20:31:31,024 pn:CENTRAL-1-T1-DSA
+2016-08-30 20:31:31,026 pn:CENTRAL-1-T1-GWY
+2016-08-30 20:31:31,027 pn:CENTRAL-1-T2-GWY
+2016-08-30 20:31:31,028 pn:CENTRAL-1-T3-DSA
+2016-08-30 20:31:31,030 pn:CENTRAL-1.2-K9
+2016-08-30 20:31:31,031 pn:CENTRAL-1.2-LAB-K9
+2016-08-30 20:31:31,032 pn:CENTRAL-1.2-SRK9
+2016-08-30 20:31:31,033 pn:PRIME-1-CENTRAL-K9
+2016-08-30 20:31:31,034 pn:R-CENTRAL1.2SRK9
+2016-08-30 20:31:31,035 pn:R-PRIME1CENTRAL-K9
+2016-08-30 20:31:31,036 813
+2016-08-30 20:31:31,037 
+2016-08-30 20:31:31,038 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:31,039 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:31,047 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:31,589 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.1 
+2016-08-30 20:31:31,626 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:31,638 This page have 1 dv dt pairs
+2016-08-30 20:31:31,639 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:31,642 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.1 
+2016-08-30 20:31:31,646 Adding pn to dictionary
+2016-08-30 20:31:31,647 pn:CENTRAL-1.1-K9
+2016-08-30 20:31:31,648 pn:CENTRAL-1.1-LAB-K9
+2016-08-30 20:31:31,648 pn:CENTRAL-1.1-SBY-K9
+2016-08-30 20:31:31,650 pn:CENTRAL-1.1-SRK9
+2016-08-30 20:31:31,651 pn:R-CENTRAL1.1SRK9
+2016-08-30 20:31:31,653 818
+2016-08-30 20:31:31,654 
+2016-08-30 20:31:31,655 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:31,656 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:31,663 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:32,222 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.0 
+2016-08-30 20:31:32,248 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:32,260 This page have 1 dv dt pairs
+2016-08-30 20:31:32,261 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:32,264 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Central 1.0 
+2016-08-30 20:31:32,267 Adding pn to dictionary
+2016-08-30 20:31:32,268 pn:CENTRAL-1.0-K9
+2016-08-30 20:31:32,269 pn:CENTRAL-1.0-LAB-K9
+2016-08-30 20:31:32,270 pn:CENTRAL-1.0-SBY-K9
+2016-08-30 20:31:32,272 821
+2016-08-30 20:31:32,272 
+2016-08-30 20:31:32,273 Parsing Prime Central 1.1
+2016-08-30 20:31:32,274 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-1/model.html
+2016-08-30 20:31:32,281 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:32,536 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:32,784 Done. Found 0 pids
+2016-08-30 20:31:32,785 Searching for EOS documents
+2016-08-30 20:31:32,972 Found4docs
+2016-08-30 20:31:32,973 Begin parsing them.
+2016-08-30 20:31:32,974 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:32,975 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:32,976 This one was parsed before.Skiping
+2016-08-30 20:31:32,977  
+2016-08-30 20:31:32,978 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:32,979 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:32,980 This one was parsed before.Skiping
+2016-08-30 20:31:32,981  
+2016-08-30 20:31:32,982 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:32,983 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:32,984 This one was parsed before.Skiping
+2016-08-30 20:31:32,985  
+2016-08-30 20:31:32,986 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:32,987 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:32,988 This one was parsed before.Skiping
+2016-08-30 20:31:32,989  
+2016-08-30 20:31:32,990 Parsing Prime Central 1.2
+2016-08-30 20:31:32,991 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-2/model.html
+2016-08-30 20:31:32,997 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:33,270 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:33,521 Done. Found 0 pids
+2016-08-30 20:31:33,522 Searching for EOS documents
+2016-08-30 20:31:33,696 Found4docs
+2016-08-30 20:31:33,697 Begin parsing them.
+2016-08-30 20:31:33,698 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:33,699 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:33,700 This one was parsed before.Skiping
+2016-08-30 20:31:33,701  
+2016-08-30 20:31:33,702 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:33,703 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:33,704 This one was parsed before.Skiping
+2016-08-30 20:31:33,706  
+2016-08-30 20:31:33,707 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:33,708 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:33,709 This one was parsed before.Skiping
+2016-08-30 20:31:33,710  
+2016-08-30 20:31:33,711 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:33,712 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:33,713 This one was parsed before.Skiping
+2016-08-30 20:31:33,714  
+2016-08-30 20:31:33,715 Parsing Prime Central 1.3
+2016-08-30 20:31:33,716 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-3/model.html
+2016-08-30 20:31:33,724 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:34,067 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:34,322 Done. Found 0 pids
+2016-08-30 20:31:34,323 Searching for EOS documents
+2016-08-30 20:31:34,495 Found4docs
+2016-08-30 20:31:34,496 Begin parsing them.
+2016-08-30 20:31:34,497 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:34,498 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:34,499 This one was parsed before.Skiping
+2016-08-30 20:31:34,500  
+2016-08-30 20:31:34,501 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:34,502 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:34,503 This one was parsed before.Skiping
+2016-08-30 20:31:34,505  
+2016-08-30 20:31:34,505 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:34,506 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:34,508 This one was parsed before.Skiping
+2016-08-30 20:31:34,509  
+2016-08-30 20:31:34,510 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:34,511 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:34,512 This one was parsed before.Skiping
+2016-08-30 20:31:34,513  
+2016-08-30 20:31:34,514 Parsing Prime Central 1.4
+2016-08-30 20:31:34,514 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-4/model.html
+2016-08-30 20:31:34,521 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:34,942 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:35,193 Done. Found 0 pids
+2016-08-30 20:31:35,194 Searching for EOS documents
+2016-08-30 20:31:35,370 Found4docs
+2016-08-30 20:31:35,372 Begin parsing them.
+2016-08-30 20:31:35,373 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:35,374 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:35,375 This one was parsed before.Skiping
+2016-08-30 20:31:35,376  
+2016-08-30 20:31:35,377 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:35,378 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:35,379 This one was parsed before.Skiping
+2016-08-30 20:31:35,380  
+2016-08-30 20:31:35,381 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:35,382 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:35,383 This one was parsed before.Skiping
+2016-08-30 20:31:35,384  
+2016-08-30 20:31:35,385 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:35,386 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:35,388 This one was parsed before.Skiping
+2016-08-30 20:31:35,389  
+2016-08-30 20:31:35,390 Parsing Prime Central 1.5
+2016-08-30 20:31:35,390 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-5/model.html
+2016-08-30 20:31:35,400 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:35,652 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:35,891 Done. Found 0 pids
+2016-08-30 20:31:35,892 Searching for EOS documents
+2016-08-30 20:31:36,036 Found4docs
+2016-08-30 20:31:36,039 Begin parsing them.
+2016-08-30 20:31:36,041 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:36,051 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:36,052 This one was parsed before.Skiping
+2016-08-30 20:31:36,054  
+2016-08-30 20:31:36,055 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:36,056 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:36,057 This one was parsed before.Skiping
+2016-08-30 20:31:36,057  
+2016-08-30 20:31:36,058 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:36,059 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:36,060 This one was parsed before.Skiping
+2016-08-30 20:31:36,062  
+2016-08-30 20:31:36,063 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:36,064 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:36,071 This one was parsed before.Skiping
+2016-08-30 20:31:36,073  
+2016-08-30 20:31:36,073 Parsing Prime Central 1.5.1
+2016-08-30 20:31:36,074 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-central-1-5-1/model.html
+2016-08-30 20:31:36,106 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:36,452 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:36,665 Done. Found 0 pids
+2016-08-30 20:31:36,665 Searching for EOS documents
+2016-08-30 20:31:36,785 Found4docs
+2016-08-30 20:31:36,786 Begin parsing them.
+2016-08-30 20:31:36,787 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.3
+2016-08-30 20:31:36,788 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-735783.html
+2016-08-30 20:31:36,789 This one was parsed before.Skiping
+2016-08-30 20:31:36,789  
+2016-08-30 20:31:36,790 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.2
+2016-08-30 20:31:36,791 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-732196.html
+2016-08-30 20:31:36,792 This one was parsed before.Skiping
+2016-08-30 20:31:36,793  
+2016-08-30 20:31:36,793 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.1
+2016-08-30 20:31:36,794 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/eos-eol-notice-c51-730182.html
+2016-08-30 20:31:36,795 This one was parsed before.Skiping
+2016-08-30 20:31:36,796  
+2016-08-30 20:31:36,796 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Central 1.0
+2016-08-30 20:31:36,797 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-central/end_of_life_notice_c51-717527.html
+2016-08-30 20:31:36,798 This one was parsed before.Skiping
+2016-08-30 20:31:36,799  
+2016-08-30 20:31:36,800 Checking Collaboration series
+2016-08-30 20:31:36,801 url:http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration/tsd-products-support-series-home.html
+2016-08-30 20:31:36,806 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:37,042 Found 15models
+2016-08-30 20:31:37,043  
+2016-08-30 20:31:37,043 Parsing Prime Collaboration 9.0
+2016-08-30 20:31:37,044 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-9-0/model.html
+2016-08-30 20:31:37,133 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:37,433 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:37,781 Done. Found 0 pids
+2016-08-30 20:31:37,782 Searching for EOS documents
+2016-08-30 20:31:38,020 Found8docs
+2016-08-30 20:31:38,021 Begin parsing them.
+2016-08-30 20:31:38,022 Title:End-of-Sale and End-of-Life Announcement for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:38,023 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731102.html
+2016-08-30 20:31:38,030 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:38,540 Added to Dates Table 1. End-of-Life Milestones and Dates for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:38,570 Added to Devices Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:38,582 This page have 1 dv dt pairs
+2016-08-30 20:31:38,583 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:38,585 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:38,588 Adding pn to dictionary
+2016-08-30 20:31:38,588 pn:CUSM-1040-2PK
+2016-08-30 20:31:38,589 pn:CUSM-1040-2PK=
+2016-08-30 20:31:38,589 pn:CUSM-1040-5PK
+2016-08-30 20:31:38,590 pn:CUSM-1040-5PK=
+2016-08-30 20:31:38,590 pn:CWIPCSA
+2016-08-30 20:31:38,591 pn:CWIPCSA-1SENSOR
+2016-08-30 20:31:38,591 827
+2016-08-30 20:31:38,592 
+2016-08-30 20:31:38,592 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 11.0 and earlier
+2016-08-30 20:31:38,593 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737375.html
+2016-08-30 20:31:38,598 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:40,006 Added to Dates Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration 11.0 and Earlier
+2016-08-30 20:31:40,991 Added to Devices Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:41,002 This page have 1 dv dt pairs
+2016-08-30 20:31:41,005 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:41,066 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration 11.0 and Earlier
+2016-08-30 20:31:41,072 Adding pn to dictionary
+2016-08-30 20:31:41,073 pn:L-CUPM-B-10KLICS
+2016-08-30 20:31:41,074 pn:L-CUPM-B-1K-LICS
+2016-08-30 20:31:41,075 pn:L-CUPM-B-20KLICS
+2016-08-30 20:31:41,076 pn:L-CUPM-B-30KLICS
+2016-08-30 20:31:41,076 pn:L-CUPM-B-5K-LICS
+2016-08-30 20:31:41,077 pn:L-PC-A-20K-V2-UPG
+2016-08-30 20:31:41,078 pn:L-PC-A-45K-V8-UPG
+2016-08-30 20:31:41,079 pn:L-PC-B-1-MULT-LIC
+2016-08-30 20:31:41,080 pn:L-PC-B-10-HI-LIC
+2016-08-30 20:31:41,081 pn:L-PC-B-10-MUL-LIC
+2016-08-30 20:31:41,082 pn:L-PC-B-100-HI-LIC
+2016-08-30 20:31:41,083 pn:L-PC-B-100-MD-LIC
+2016-08-30 20:31:41,083 pn:L-PC-B-10K-MA-BUN
+2016-08-30 20:31:41,084 pn:L-PC-B-10K-PR-BUN
+2016-08-30 20:31:41,085 pn:L-PC-B-10K-PR-LIC
+2016-08-30 20:31:41,086 pn:L-PC-B-10K-PR-UPG
+2016-08-30 20:31:41,086 pn:L-PC-B-1K-MA-BUN
+2016-08-30 20:31:41,087 pn:L-PC-B-1K-MID-LIC
+2016-08-30 20:31:41,088 pn:L-PC-B-1K-PR-BUN
+2016-08-30 20:31:41,089 pn:L-PC-B-1K-PR-LIC
+2016-08-30 20:31:41,090 pn:L-PC-B-1K-PR-UPG
+2016-08-30 20:31:41,091 pn:L-PC-B-20-HI-LIC
+2016-08-30 20:31:41,092 pn:L-PC-B-200-HI-LIC
+2016-08-30 20:31:41,093 pn:L-PC-B-200-MD-LIC
+2016-08-30 20:31:41,094 pn:L-PC-B-20K-MA-BUN
+2016-08-30 20:31:41,094 pn:L-PC-B-20K-PR-BUN
+2016-08-30 20:31:41,095 pn:L-PC-B-20K-PR-LIC
+2016-08-30 20:31:41,095 pn:L-PC-B-20K-PR-UPG
+2016-08-30 20:31:41,096 pn:L-PC-B-2K-PR-LIC
+2016-08-30 20:31:41,096 pn:L-PC-B-2K-PR-UPG
+2016-08-30 20:31:41,097 pn:L-PC-B-30K-MA-BUN
+2016-08-30 20:31:41,098 pn:L-PC-B-30K-PR-BUN
+2016-08-30 20:31:41,099 pn:L-PC-B-30K-PR-LIC
+2016-08-30 20:31:41,100 pn:L-PC-B-30K-PR-UPG
+2016-08-30 20:31:41,101 pn:L-PC-B-50-HI-LIC
+2016-08-30 20:31:41,102 pn:L-PC-B-50-MID-LIC
+2016-08-30 20:31:41,103 pn:L-PC-B-500-MA-BUN
+2016-08-30 20:31:41,104 pn:L-PC-B-500-MD-LIC
+2016-08-30 20:31:41,105 pn:L-PC-B-500-PR-BUN
+2016-08-30 20:31:41,106 pn:L-PC-B-500-PR-LIC
+2016-08-30 20:31:41,107 pn:L-PC-B-500-PR-UPG
+2016-08-30 20:31:41,108 pn:L-PC-B-5K-MA-BUN
+2016-08-30 20:31:41,110 pn:L-PC-B-5K-PR-BUN
+2016-08-30 20:31:41,110 pn:L-PC-B-5K-PR-LIC
+2016-08-30 20:31:41,111 pn:L-PC-B-5K-PR-UPG
+2016-08-30 20:31:41,111 pn:L-PC-B-60K-MA-BUN
+2016-08-30 20:31:41,112 pn:L-PC-B-60K-PR-BUN
+2016-08-30 20:31:41,112 pn:L-PC-B-60K-PR-LIC
+2016-08-30 20:31:41,113 pn:L-PC-B-60K-PR-UPG
+2016-08-30 20:31:41,114 pn:L-PC-B-AAN
+2016-08-30 20:31:41,115 pn:L-PC-B-AN-100-L-U
+2016-08-30 20:31:41,116 pn:L-PC-B-AN-100-LIC
+2016-08-30 20:31:41,117 pn:L-PC-B-AN-10K-BUN
+2016-08-30 20:31:41,118 pn:L-PC-B-AN-10K-L-U
+2016-08-30 20:31:41,119 pn:L-PC-B-AN-10K-LIC
+2016-08-30 20:31:41,119 pn:L-PC-B-AN-1K-BUN
+2016-08-30 20:31:41,121 pn:L-PC-B-AN-1K-L-U
+2016-08-30 20:31:41,121 pn:L-PC-B-AN-1K-LIC
+2016-08-30 20:31:41,122 pn:L-PC-B-AN-20K-BUN
+2016-08-30 20:31:41,123 pn:L-PC-B-AN-20K-L-U
+2016-08-30 20:31:41,124 pn:L-PC-B-AN-20K-LIC
+2016-08-30 20:31:41,125 pn:L-PC-B-AN-2K-LIC
+2016-08-30 20:31:41,127 pn:L-PC-B-AN-30K-BUN
+2016-08-30 20:31:41,127 pn:L-PC-B-AN-30K-L-U
+2016-08-30 20:31:41,128 pn:L-PC-B-AN-30K-LIC
+2016-08-30 20:31:41,128 pn:L-PC-B-AN-50-L-U
+2016-08-30 20:31:41,129 pn:L-PC-B-AN-50-LIC
+2016-08-30 20:31:41,129 pn:L-PC-B-AN-500-BUN
+2016-08-30 20:31:41,130 pn:L-PC-B-AN-500-L-U
+2016-08-30 20:31:41,131 pn:L-PC-B-AN-500-LIC
+2016-08-30 20:31:41,132 pn:L-PC-B-AN-5K-BUN
+2016-08-30 20:31:41,133 pn:L-PC-B-AN-5K-L-U
+2016-08-30 20:31:41,134 pn:L-PC-B-AN-5K-LIC
+2016-08-30 20:31:41,135 pn:L-PC-B-AN-60K-BUN
+2016-08-30 20:31:41,136 pn:L-PC-B-AN-60K-L-U
+2016-08-30 20:31:41,137 pn:L-PC-B-AN-60K-LIC
+2016-08-30 20:31:41,138 pn:L-PC-B-AN-U
+2016-08-30 20:31:41,138 pn:L-PC-B-AS-DEVICE
+2016-08-30 20:31:41,139 pn:L-PC-B-ASSUR-UPG
+2016-08-30 20:31:41,140 pn:L-PC-B-HI-10-UPG
+2016-08-30 20:31:41,141 pn:L-PC-B-HI-100-UPG
+2016-08-30 20:31:41,142 pn:L-PC-B-HI-20-UPG
+2016-08-30 20:31:41,144 pn:L-PC-B-HI-200-UPG
+2016-08-30 20:31:41,145 pn:L-PC-B-HI-50-UPG
+2016-08-30 20:31:41,145 pn:L-PC-B-MID-100-UPG
+2016-08-30 20:31:41,146 pn:L-PC-B-MID-1K-UPG
+2016-08-30 20:31:41,146 pn:L-PC-B-MID-200-UPG
+2016-08-30 20:31:41,147 pn:L-PC-B-MID-50-UPG
+2016-08-30 20:31:41,148 pn:L-PC-B-MID-500-UPG
+2016-08-30 20:31:41,149 pn:L-PC-B-MULT-1-UPG
+2016-08-30 20:31:41,150 pn:L-PC-B-MULT-10UPG
+2016-08-30 20:31:41,151 pn:L-PC-B-PAAN
+2016-08-30 20:31:41,152 pn:L-PC-B-PR-DEVICE
+2016-08-30 20:31:41,153 pn:L-PC-B-PROV-UPG
+2016-08-30 20:31:41,153 pn:L-PC-B1-10K-MA-LIC
+2016-08-30 20:31:41,154 pn:L-PC-B1-1K-MA-LIC
+2016-08-30 20:31:41,155 pn:L-PC-B1-20K-MA-LIC
+2016-08-30 20:31:41,156 pn:L-PC-B1-2K-MA-LIC
+2016-08-30 20:31:41,157 pn:L-PC-B1-30K-MA-LIC
+2016-08-30 20:31:41,158 pn:L-PC-B1-500-MA-LIC
+2016-08-30 20:31:41,158 pn:L-PC-B1-5K-MA-LIC
+2016-08-30 20:31:41,160 pn:L-PC-B1-60K-MA-LIC
+2016-08-30 20:31:41,161 pn:L-PC-B1-AAN-10K
+2016-08-30 20:31:41,162 pn:L-PC-B1-AAN-1K
+2016-08-30 20:31:41,162 pn:L-PC-B1-AAN-20K
+2016-08-30 20:31:41,163 pn:L-PC-B1-AAN-30K
+2016-08-30 20:31:41,163 pn:L-PC-B1-AAN-500
+2016-08-30 20:31:41,164 pn:L-PC-B1-AAN-5K
+2016-08-30 20:31:41,165 pn:L-PC-B1-AAN-60K
+2016-08-30 20:31:41,166 pn:L-PC-B1-MAOM-10K=
+2016-08-30 20:31:41,166 pn:L-PC-B1-MAOM-10KU
+2016-08-30 20:31:41,167 pn:L-PC-B1-MAOM-1K=
+2016-08-30 20:31:41,168 pn:L-PC-B1-MAOM-1KU
+2016-08-30 20:31:41,169 pn:L-PC-B1-MAOM-20K=
+2016-08-30 20:31:41,170 pn:L-PC-B1-MAOM-20KU
+2016-08-30 20:31:41,171 pn:L-PC-B1-MAOM-2K=
+2016-08-30 20:31:41,172 pn:L-PC-B1-MAOM-2KU
+2016-08-30 20:31:41,173 pn:L-PC-B1-MAOM-30K=
+2016-08-30 20:31:41,173 pn:L-PC-B1-MAOM-30KU
+2016-08-30 20:31:41,174 pn:L-PC-B1-MAOM-500=
+2016-08-30 20:31:41,175 pn:L-PC-B1-MAOM-500U
+2016-08-30 20:31:41,177 pn:L-PC-B1-MAOM-5K=
+2016-08-30 20:31:41,178 pn:L-PC-B1-MAOM-5KU
+2016-08-30 20:31:41,179 pn:L-PC-B1-MAOM-60K=
+2016-08-30 20:31:41,181 pn:L-PC-B1-MAOM-60KU
+2016-08-30 20:31:41,182 pn:L-PC-B1-PAAN-10K
+2016-08-30 20:31:41,183 pn:L-PC-B1-PAAN-1K
+2016-08-30 20:31:41,184 pn:L-PC-B1-PAAN-20K
+2016-08-30 20:31:41,185 pn:L-PC-B1-PAAN-30K
+2016-08-30 20:31:41,185 pn:L-PC-B1-PAAN-500
+2016-08-30 20:31:41,186 pn:L-PC-B1-PAAN-5K
+2016-08-30 20:31:41,187 pn:L-PC-B1-PAAN-60K
+2016-08-30 20:31:41,188 pn:L-PC-C-AAN-10K
+2016-08-30 20:31:41,189 pn:L-PC-C-AAN-1K
+2016-08-30 20:31:41,190 pn:L-PC-C-AAN-20K
+2016-08-30 20:31:41,190 pn:L-PC-C-AAN-30K
+2016-08-30 20:31:41,191 pn:L-PC-C-AAN-500
+2016-08-30 20:31:41,192 pn:L-PC-C-AAN-5K
+2016-08-30 20:31:41,194 pn:L-PC-C-AAN-60K
+2016-08-30 20:31:41,195 pn:L-PC-C-AN-10K-BUN
+2016-08-30 20:31:41,196 pn:L-PC-C-AN-1K-BUN
+2016-08-30 20:31:41,196 pn:L-PC-C-AN-20K-BUN
+2016-08-30 20:31:41,197 pn:L-PC-C-AN-30K-BUN
+2016-08-30 20:31:41,198 pn:L-PC-C-AN-500-BUN
+2016-08-30 20:31:41,199 pn:L-PC-C-AN-5K-BUN
+2016-08-30 20:31:41,200 pn:L-PC-C-AN-60K-BUN
+2016-08-30 20:31:41,201 pn:L-PC-C-MA-10K-BUN
+2016-08-30 20:31:41,202 pn:L-PC-C-MA-1K-BUN
+2016-08-30 20:31:41,203 pn:L-PC-C-MA-20K-BUN
+2016-08-30 20:31:41,204 pn:L-PC-C-MA-30K-BUN
+2016-08-30 20:31:41,204 pn:L-PC-C-MA-500-BUN
+2016-08-30 20:31:41,205 pn:L-PC-C-MA-5K-BUN
+2016-08-30 20:31:41,206 pn:L-PC-C-MA-60K-BUN
+2016-08-30 20:31:41,207 pn:L-PC-C-PAAN-10K
+2016-08-30 20:31:41,208 pn:L-PC-C-PAAN-1K
+2016-08-30 20:31:41,209 pn:L-PC-C-PAAN-20K
+2016-08-30 20:31:41,211 pn:L-PC-C-PAAN-30K
+2016-08-30 20:31:41,211 pn:L-PC-C-PAAN-500
+2016-08-30 20:31:41,212 pn:L-PC-C-PAAN-5K
+2016-08-30 20:31:41,212 pn:L-PC-C-PAAN-60K
+2016-08-30 20:31:41,213 pn:L-PC-C-PR-10K-BUN
+2016-08-30 20:31:41,213 pn:L-PC-C-PR-1K-BUN
+2016-08-30 20:31:41,214 pn:L-PC-C-PR-20K-BUN
+2016-08-30 20:31:41,215 pn:L-PC-C-PR-30K-BUN
+2016-08-30 20:31:41,216 pn:L-PC-C-PR-500-BUN
+2016-08-30 20:31:41,217 pn:L-PC-C-PR-5K-BUN
+2016-08-30 20:31:41,218 pn:L-PC-C-PR-60K-BUN
+2016-08-30 20:31:41,219 pn:L-PC10-ANLYT-CPW-U
+2016-08-30 20:31:41,219 pn:L-PC10-ASSUR-CPW-U
+2016-08-30 20:31:41,220 pn:L-PC10-PROV-CPW
+2016-08-30 20:31:41,221 pn:L-PC10-PROV-CPW-U
+2016-08-30 20:31:41,222 pn:L-PC105-CCA-CPW-U
+2016-08-30 20:31:41,223 pn:L-PC10X-ANALYT-CPW
+2016-08-30 20:31:41,224 pn:L-PC10X-ANLYTCPW
+2016-08-30 20:31:41,224 pn:L-PC10X-ANLYTCPW-U
+2016-08-30 20:31:41,225 pn:L-PC10X-HIGH-CPW
+2016-08-30 20:31:41,226 pn:L-PC10X-HIGH-CPW-U
+2016-08-30 20:31:41,228 pn:L-PC10X-MASS-CPW
+2016-08-30 20:31:41,229 pn:L-PC10X-MASS-CPW-U
+2016-08-30 20:31:41,229 pn:L-PC10X-MID-CPW
+2016-08-30 20:31:41,230 pn:L-PC10X-MID-CPW-U
+2016-08-30 20:31:41,231 pn:L-PC10X-MULTI-CPW
+2016-08-30 20:31:41,231 pn:L-PC10X-MULTICPW-U
+2016-08-30 20:31:41,232 pn:L-PC10X-PROV-CPW
+2016-08-30 20:31:41,233 pn:L-PC10X-PROV-CPW-U
+2016-08-30 20:31:41,234 pn:L-PC11X-HIGH-CPW
+2016-08-30 20:31:41,235 pn:L-PC11X-HIGH-CPW-U
+2016-08-30 20:31:41,236 pn:L-PC11X-MASS-CPW-U
+2016-08-30 20:31:41,237 pn:L-PC11X-MID-CPW
+2016-08-30 20:31:41,238 pn:L-PC11X-MID-CPW-U
+2016-08-30 20:31:41,239 pn:L-PC11X-MULTI-CPW
+2016-08-30 20:31:41,239 pn:L-PC11X-MULTICPW-U
+2016-08-30 20:31:41,240 pn:L-PC11X-PROV-CPW-U
+2016-08-30 20:31:41,241 pn:L-PCB-10K-PR-UPG
+2016-08-30 20:31:41,242 pn:L-PCB-1K-PR-UPG
+2016-08-30 20:31:41,243 pn:L-PCB-20K-PR-UPG
+2016-08-30 20:31:41,245 pn:L-PCB-2K-PR-UPG
+2016-08-30 20:31:41,245 pn:L-PCB-30K-PR-UPG
+2016-08-30 20:31:41,246 pn:L-PCB-500-PR-UPG
+2016-08-30 20:31:41,247 pn:L-PCB-5K-PR-UPG
+2016-08-30 20:31:41,247 pn:L-PCB-60K-PR-UPG
+2016-08-30 20:31:41,248 pn:L-PCB-AN-100-UPG
+2016-08-30 20:31:41,249 pn:L-PCB-AN-10K-UPG
+2016-08-30 20:31:41,250 pn:L-PCB-AN-1K-UPG
+2016-08-30 20:31:41,251 pn:L-PCB-AN-20K-UPG
+2016-08-30 20:31:41,252 pn:L-PCB-AN-30K-UPG
+2016-08-30 20:31:41,253 pn:L-PCB-AN-50-UPG
+2016-08-30 20:31:41,254 pn:L-PCB-AN-500-UPG
+2016-08-30 20:31:41,255 pn:L-PCB-AN-5K-UPG
+2016-08-30 20:31:41,256 pn:L-PCB-AN-60K-UPG
+2016-08-30 20:31:41,256 pn:L-PCB-HI-10-UPG
+2016-08-30 20:31:41,257 pn:L-PCB-HI-100-UPG
+2016-08-30 20:31:41,258 pn:L-PCB-HI-20-UPG
+2016-08-30 20:31:41,258 pn:L-PCB-HI-200-UPG
+2016-08-30 20:31:41,259 pn:L-PCB-HI-50-UPG
+2016-08-30 20:31:41,259 pn:L-PCB-MID-100-UPG
+2016-08-30 20:31:41,262 pn:L-PCB-MID-1K-UPG
+2016-08-30 20:31:41,263 pn:L-PCB-MID-200-UPG
+2016-08-30 20:31:41,264 pn:L-PCB-MID-50-UPG
+2016-08-30 20:31:41,265 pn:L-PCB-MID-500-UPG
+2016-08-30 20:31:41,266 pn:L-PCB-MULT-1-UPG
+2016-08-30 20:31:41,266 pn:L-PCB-MULT-10UPG
+2016-08-30 20:31:41,267 pn:L-PCCC-B-100AGTLIC
+2016-08-30 20:31:41,268 pn:L-PCCC-B-1K-AGTLIC
+2016-08-30 20:31:41,269 pn:L-PCCC-B-200AGTLIC
+2016-08-30 20:31:41,270 pn:L-PCCC-B-2K-AGTLIC
+2016-08-30 20:31:41,271 pn:L-PCCC-B-50-AGTLIC
+2016-08-30 20:31:41,272 pn:L-PCCC-B-500AGTLIC
+2016-08-30 20:31:41,272 pn:L-PCCC-B-5K-AGTLIC
+2016-08-30 20:31:41,273 pn:L-UOM-B-60K
+2016-08-30 20:31:41,274 pn:PC10-CPW
+2016-08-30 20:31:41,275 pn:PC10.5-CPW
+2016-08-30 20:31:41,276 pn:PC10.6-CPW
+2016-08-30 20:31:41,283 pn:R-CM-1.1-MR-K9=
+2016-08-30 20:31:41,284 pn:R-PC-10.5-PROVU-K9
+2016-08-30 20:31:41,285 pn:R-PC-10.5ASSURU-K9
+2016-08-30 20:31:41,286 pn:R-PC-10.6-ASSRUK9=
+2016-08-30 20:31:41,287 pn:R-PC-10.6-ASSW-K9=
+2016-08-30 20:31:41,287 pn:R-PC-10.6-PROVUK9=
+2016-08-30 20:31:41,288 pn:R-PC-10.6-PRSW-K9=
+2016-08-30 20:31:41,288 pn:R-PC-10.X-PROVU-K9
+2016-08-30 20:31:41,289 pn:R-PC-10.XASSURU-K9
+2016-08-30 20:31:41,290 pn:R-PC-11.X-PROVU-K9
+2016-08-30 20:31:41,290 pn:R-PC-A-6K-UPG-K9=
+2016-08-30 20:31:41,291 pn:R-PC10.5-CPW-UPG=
+2016-08-30 20:31:41,291 pn:R-PC10.X-CPW-UPG
+2016-08-30 20:31:41,292 pn:R-PC11-ASSW-K9=
+2016-08-30 20:31:41,292 pn:R-PC11-ASSW-U-K9=
+2016-08-30 20:31:41,298 pn:R-PC11-PRSW-K9=
+2016-08-30 20:31:41,299 pn:R-PC11-PRSW-U-K9=
+2016-08-30 20:31:41,300 1077
+2016-08-30 20:31:41,300 
+2016-08-30 20:31:41,301 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:41,301 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-733632.html
+2016-08-30 20:31:41,307 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:42,051 Added to Dates Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:42,242 Added to Devices Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:42,254 This page have 1 dv dt pairs
+2016-08-30 20:31:42,255 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:42,269 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:42,273 Adding pn to dictionary
+2016-08-30 20:31:42,275 pn:L-PC-B-10K-MA-LIC
+2016-08-30 20:31:42,275 pn:L-PC-B-1K-MA-LIC
+2016-08-30 20:31:42,276 pn:L-PC-B-20K-MA-LIC
+2016-08-30 20:31:42,277 pn:L-PC-B-2K-MA-LIC
+2016-08-30 20:31:42,278 pn:L-PC-B-30K-MA-LIC
+2016-08-30 20:31:42,278 pn:L-PC-B-500-MA-LIC
+2016-08-30 20:31:42,279 pn:L-PC-B-5K-MA-LIC
+2016-08-30 20:31:42,280 pn:L-PC-B-60K-MA-LIC
+2016-08-30 20:31:42,281 pn:L-PC-B-AAN-10K
+2016-08-30 20:31:42,284 pn:L-PC-B-AAN-1K
+2016-08-30 20:31:42,286 pn:L-PC-B-AAN-20K
+2016-08-30 20:31:42,287 pn:L-PC-B-AAN-30K
+2016-08-30 20:31:42,288 pn:L-PC-B-AAN-500
+2016-08-30 20:31:42,289 pn:L-PC-B-AAN-5K
+2016-08-30 20:31:42,289 pn:L-PC-B-AAN-60K
+2016-08-30 20:31:42,290 pn:L-PC-B-MAOM-10KU
+2016-08-30 20:31:42,292 pn:L-PC-B-MAOM-1KU
+2016-08-30 20:31:42,293 pn:L-PC-B-MAOM-20KU
+2016-08-30 20:31:42,294 pn:L-PC-B-MAOM-2KU
+2016-08-30 20:31:42,295 pn:L-PC-B-MAOM-30KU
+2016-08-30 20:31:42,296 pn:L-PC-B-MAOM-500U
+2016-08-30 20:31:42,297 pn:L-PC-B-MAOM-5KU
+2016-08-30 20:31:42,298 pn:L-PC-B-MAOM-60KU
+2016-08-30 20:31:42,299 pn:L-PC-B-PAAN-10K
+2016-08-30 20:31:42,300 pn:L-PC-B-PAAN-1K
+2016-08-30 20:31:42,301 pn:L-PC-B-PAAN-20K
+2016-08-30 20:31:42,302 pn:L-PC-B-PAAN-30K
+2016-08-30 20:31:42,303 pn:L-PC-B-PAAN-500
+2016-08-30 20:31:42,305 pn:L-PC-B-PAAN-5K
+2016-08-30 20:31:42,306 pn:L-PC-B-PAAN-60K
+2016-08-30 20:31:42,307 pn:L-PCB-MAOM-10KU
+2016-08-30 20:31:42,308 pn:L-PCB-MAOM-1KU
+2016-08-30 20:31:42,309 pn:L-PCB-MAOM-20KU
+2016-08-30 20:31:42,310 pn:L-PCB-MAOM-2KU
+2016-08-30 20:31:42,311 pn:L-PCB-MAOM-30KU
+2016-08-30 20:31:42,312 pn:L-PCB-MAOM-500U
+2016-08-30 20:31:42,313 pn:L-PCB-MAOM-5KU
+2016-08-30 20:31:42,314 pn:L-PCB-MAOM-60KU
+2016-08-30 20:31:42,316 pn:R-PC-10.5-ASSRUK9=
+2016-08-30 20:31:42,316 pn:R-PC-10.5-ASSW-K9=
+2016-08-30 20:31:42,317 pn:R-PC-10.5-PROVUK9=
+2016-08-30 20:31:42,318 pn:R-PC-10.5-PRSW-K9=
+2016-08-30 20:31:42,319 1119
+2016-08-30 20:31:42,319 
+2016-08-30 20:31:42,320 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:42,320 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-732172.html
+2016-08-30 20:31:42,328 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:42,842 Added to Dates Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:42,888 Added to Devices Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:42,898 This page have 1 dv dt pairs
+2016-08-30 20:31:42,899 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:42,905 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:42,908 Adding pn to dictionary
+2016-08-30 20:31:42,909 pn:PC-10-ASSW-K9
+2016-08-30 20:31:42,910 pn:PC-10-PRSW-K9
+2016-08-30 20:31:42,911 pn:R-PC-10-ASSURU-K9
+2016-08-30 20:31:42,912 pn:R-PC-10-ASSURU-K9=
+2016-08-30 20:31:42,913 pn:R-PC-10-ASSW-K9=
+2016-08-30 20:31:42,914 pn:R-PC-10-PROV-U-K9
+2016-08-30 20:31:42,915 pn:R-PC-10-PROV-U-K9=
+2016-08-30 20:31:42,916 pn:R-PC-10-PRSW-K9=
+2016-08-30 20:31:42,917 1127
+2016-08-30 20:31:42,919 
+2016-08-30 20:31:42,920 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:42,921 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731182.html
+2016-08-30 20:31:42,928 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:44,089 Added to Dates Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:44,805 Added to Devices Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:44,816 This page have 1 dv dt pairs
+2016-08-30 20:31:44,817 Device title Table 2. Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:44,876 Assosiate dates title Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:44,881 Adding pn to dictionary
+2016-08-30 20:31:44,882 pn:L-PC-A-1-MULT-LIC
+2016-08-30 20:31:44,883 pn:L-PC-A-1-MULT-LIC=
+2016-08-30 20:31:44,884 pn:L-PC-A-10-HI-LIC
+2016-08-30 20:31:44,884 pn:L-PC-A-10-HI-LIC=
+2016-08-30 20:31:44,886 pn:L-PC-A-10-MUL-LIC
+2016-08-30 20:31:44,887 pn:L-PC-A-10-MUL-LIC=
+2016-08-30 20:31:44,887 pn:L-PC-A-100-HI-LIC
+2016-08-30 20:31:44,888 pn:L-PC-A-100-HI-LIC=
+2016-08-30 20:31:44,889 pn:L-PC-A-100-MA-BUN
+2016-08-30 20:31:44,889 pn:L-PC-A-100-MD-LIC
+2016-08-30 20:31:44,890 pn:L-PC-A-100-MD-LIC=
+2016-08-30 20:31:44,891 pn:L-PC-A-10K-MA-BUN
+2016-08-30 20:31:44,891 pn:L-PC-A-10K-MA-LIC
+2016-08-30 20:31:44,892 pn:L-PC-A-10K-MA-LIC=
+2016-08-30 20:31:44,893 pn:L-PC-A-10K-PR-BUN
+2016-08-30 20:31:44,894 pn:L-PC-A-10K-PR-LIC
+2016-08-30 20:31:44,895 pn:L-PC-A-10K-PR-UPG
+2016-08-30 20:31:44,895 pn:L-PC-A-10K-V8-UPG
+2016-08-30 20:31:44,897 pn:L-PC-A-1K-MA-BUN
+2016-08-30 20:31:44,898 pn:L-PC-A-1K-MA-LIC
+2016-08-30 20:31:44,899 pn:L-PC-A-1K-MA-LIC=
+2016-08-30 20:31:44,902 pn:L-PC-A-1K-MID-LIC
+2016-08-30 20:31:44,902 pn:L-PC-A-1K-MID-LIC=
+2016-08-30 20:31:44,904 pn:L-PC-A-1K-PR-BUN
+2016-08-30 20:31:44,904 pn:L-PC-A-1K-PR-LIC
+2016-08-30 20:31:44,905 pn:L-PC-A-1K-PR-UPG
+2016-08-30 20:31:44,906 pn:L-PC-A-1K-V8-UPG
+2016-08-30 20:31:44,907 pn:L-PC-A-20-HI-LIC
+2016-08-30 20:31:44,907 pn:L-PC-A-20-HI-LIC=
+2016-08-30 20:31:44,908 pn:L-PC-A-200-HI-LIC
+2016-08-30 20:31:44,909 pn:L-PC-A-200-HI-LIC=
+2016-08-30 20:31:44,910 pn:L-PC-A-200-MD-LIC
+2016-08-30 20:31:44,910 pn:L-PC-A-200-MD-LIC=
+2016-08-30 20:31:44,911 pn:L-PC-A-20K-MA-BUN
+2016-08-30 20:31:44,912 pn:L-PC-A-20K-MA-LIC
+2016-08-30 20:31:44,913 pn:L-PC-A-20K-PR-BUN
+2016-08-30 20:31:44,914 pn:L-PC-A-20K-PR-LIC
+2016-08-30 20:31:44,914 pn:L-PC-A-20K-PR-UPG
+2016-08-30 20:31:44,915 pn:L-PC-A-20K-V8-UPG
+2016-08-30 20:31:44,916 pn:L-PC-A-2K-MA-LIC
+2016-08-30 20:31:44,917 pn:L-PC-A-2K-MA-LIC=
+2016-08-30 20:31:44,917 pn:L-PC-A-2K-PR-LIC
+2016-08-30 20:31:44,918 pn:L-PC-A-2K-PR-UPG
+2016-08-30 20:31:44,919 pn:L-PC-A-2K-V8-UPG
+2016-08-30 20:31:44,919 pn:L-PC-A-30K-MA-BUN
+2016-08-30 20:31:44,920 pn:L-PC-A-30K-MA-LIC
+2016-08-30 20:31:44,921 pn:L-PC-A-30K-PR-BUN
+2016-08-30 20:31:44,922 pn:L-PC-A-30K-PR-LIC
+2016-08-30 20:31:44,922 pn:L-PC-A-30K-PR-UPG
+2016-08-30 20:31:44,923 pn:L-PC-A-30K-V8-UPG
+2016-08-30 20:31:44,924 pn:L-PC-A-50-HI-LIC
+2016-08-30 20:31:44,924 pn:L-PC-A-50-HI-LIC=
+2016-08-30 20:31:44,925 pn:L-PC-A-50-MA-BUN
+2016-08-30 20:31:44,926 pn:L-PC-A-50-MID-LIC
+2016-08-30 20:31:44,926 pn:L-PC-A-50-MID-LIC=
+2016-08-30 20:31:44,927 pn:L-PC-A-500-MA-BUN
+2016-08-30 20:31:44,928 pn:L-PC-A-500-MA-LIC
+2016-08-30 20:31:44,929 pn:L-PC-A-500-MA-LIC=
+2016-08-30 20:31:44,929 pn:L-PC-A-500-MD-LIC
+2016-08-30 20:31:44,930 pn:L-PC-A-500-MD-LIC=
+2016-08-30 20:31:44,931 pn:L-PC-A-500-PR-BUN
+2016-08-30 20:31:44,932 pn:L-PC-A-500-PR-LIC
+2016-08-30 20:31:44,932 pn:L-PC-A-500-PR-UPG
+2016-08-30 20:31:44,933 pn:L-PC-A-500-V8-UPG
+2016-08-30 20:31:44,934 pn:L-PC-A-5K-MA-BUN
+2016-08-30 20:31:44,934 pn:L-PC-A-5K-MA-LIC
+2016-08-30 20:31:44,935 pn:L-PC-A-5K-MA-LIC=
+2016-08-30 20:31:44,935 pn:L-PC-A-5K-PR-BUN
+2016-08-30 20:31:44,936 pn:L-PC-A-5K-PR-LIC
+2016-08-30 20:31:44,936 pn:L-PC-A-5K-PR-UPG
+2016-08-30 20:31:44,937 pn:L-PC-A-5K-V8-UPG
+2016-08-30 20:31:44,938 pn:L-PC-A-60K-MA-BUN
+2016-08-30 20:31:44,938 pn:L-PC-A-60K-MA-LIC
+2016-08-30 20:31:44,939 pn:L-PC-A-60K-PR-BUN
+2016-08-30 20:31:44,939 pn:L-PC-A-60K-PR-LIC
+2016-08-30 20:31:44,940 pn:L-PC-A-60K-PR-UPG
+2016-08-30 20:31:44,940 pn:L-PC-A-AAN
+2016-08-30 20:31:44,941 pn:L-PC-A-AAN-100
+2016-08-30 20:31:44,941 pn:L-PC-A-AAN-10K
+2016-08-30 20:31:44,941 pn:L-PC-A-AAN-1K
+2016-08-30 20:31:44,942 pn:L-PC-A-AAN-20K
+2016-08-30 20:31:44,942 pn:L-PC-A-AAN-30K
+2016-08-30 20:31:44,943 pn:L-PC-A-AAN-50
+2016-08-30 20:31:44,943 pn:L-PC-A-AAN-500
+2016-08-30 20:31:44,944 pn:L-PC-A-AAN-5K
+2016-08-30 20:31:44,944 pn:L-PC-A-AAN-60K
+2016-08-30 20:31:44,945 pn:L-PC-A-AN-100-BUN
+2016-08-30 20:31:44,946 pn:L-PC-A-AN-100-LIC
+2016-08-30 20:31:44,947 pn:L-PC-A-AN-10K-BUN
+2016-08-30 20:31:44,947 pn:L-PC-A-AN-10K-LIC
+2016-08-30 20:31:44,948 pn:L-PC-A-AN-1K-BUN
+2016-08-30 20:31:44,949 pn:L-PC-A-AN-1K-LIC
+2016-08-30 20:31:44,950 pn:L-PC-A-AN-20K-BUN
+2016-08-30 20:31:44,951 pn:L-PC-A-AN-20K-LIC
+2016-08-30 20:31:44,952 pn:L-PC-A-AN-2K-LIC
+2016-08-30 20:31:44,953 pn:L-PC-A-AN-30K-BUN
+2016-08-30 20:31:44,953 pn:L-PC-A-AN-30K-LIC
+2016-08-30 20:31:44,954 pn:L-PC-A-AN-50-BUN
+2016-08-30 20:31:44,955 pn:L-PC-A-AN-50-LIC
+2016-08-30 20:31:44,955 pn:L-PC-A-AN-500-BUN
+2016-08-30 20:31:44,956 pn:L-PC-A-AN-500-LIC
+2016-08-30 20:31:44,957 pn:L-PC-A-AN-5K-BUN
+2016-08-30 20:31:44,957 pn:L-PC-A-AN-5K-LIC
+2016-08-30 20:31:44,958 pn:L-PC-A-AN-60K-BUN
+2016-08-30 20:31:44,958 pn:L-PC-A-AN-60K-LIC
+2016-08-30 20:31:44,959 pn:L-PC-A-OMV8UPG
+2016-08-30 20:31:44,959 pn:L-PC-A-PAAN
+2016-08-30 20:31:44,960 pn:L-PC-A-PAAN-10K
+2016-08-30 20:31:44,960 pn:L-PC-A-PAAN-1K
+2016-08-30 20:31:44,961 pn:L-PC-A-PAAN-20K
+2016-08-30 20:31:44,961 pn:L-PC-A-PAAN-30K
+2016-08-30 20:31:44,962 pn:L-PC-A-PAAN-500
+2016-08-30 20:31:44,962 pn:L-PC-A-PAAN-5K
+2016-08-30 20:31:44,964 pn:L-PC-A-PAAN-60K
+2016-08-30 20:31:44,964 pn:L-PC-A-PMV2-8UPGR
+2016-08-30 20:31:44,965 pn:L-PC-A-PROV-API=
+2016-08-30 20:31:44,966 pn:L-PC-A-SSM-10K-L-U
+2016-08-30 20:31:44,967 pn:L-PC-A-SSM-1K-L-U
+2016-08-30 20:31:44,968 pn:L-PC-A-SSM-20K-L-U
+2016-08-30 20:31:44,969 pn:L-PC-A-SSM-30K-L-U
+2016-08-30 20:31:44,970 pn:L-PC-A-SSM-500-L-U
+2016-08-30 20:31:44,971 pn:L-PC-A-SSM-5K-L-U
+2016-08-30 20:31:44,971 pn:L-PC-A-SSM-AN-U
+2016-08-30 20:31:44,972 pn:L-PC-AS-DEVICE
+2016-08-30 20:31:44,973 pn:L-PC-PR-DEVICE
+2016-08-30 20:31:44,974 pn:L-PCA-OM10KV2-UPG=
+2016-08-30 20:31:44,975 pn:L-PCA-OM10KV8-UPG=
+2016-08-30 20:31:44,975 pn:L-PCA-OM1KV2-UPG=
+2016-08-30 20:31:44,976 pn:L-PCA-OM1KV8-UPG=
+2016-08-30 20:31:44,977 pn:L-PCA-OM20KV2-UPG=
+2016-08-30 20:31:44,978 pn:L-PCA-OM20KV8-UPG=
+2016-08-30 20:31:44,978 pn:L-PCA-OM2KV2-UPG=
+2016-08-30 20:31:44,979 pn:L-PCA-OM2KV8-UPG=
+2016-08-30 20:31:44,980 pn:L-PCA-OM30KV2-UPG=
+2016-08-30 20:31:44,980 pn:L-PCA-OM30KV8-UPG=
+2016-08-30 20:31:44,981 pn:L-PCA-OM500V2-UPG=
+2016-08-30 20:31:44,982 pn:L-PCA-OM500V8-UPG=
+2016-08-30 20:31:44,982 pn:L-PCA-OM5KV2-UPG=
+2016-08-30 20:31:44,983 pn:L-PCA-OM5KV8-UPG=
+2016-08-30 20:31:44,983 pn:L-PCA-PR-10K-UPG=
+2016-08-30 20:31:44,984 pn:L-PCA-PR-1K-UPG=
+2016-08-30 20:31:44,984 pn:L-PCA-PR-20K-UPG=
+2016-08-30 20:31:44,985 pn:L-PCA-PR-2K-UPG=
+2016-08-30 20:31:44,985 pn:L-PCA-PR-30K-UPG=
+2016-08-30 20:31:44,986 pn:L-PCA-PR-500-UPG=
+2016-08-30 20:31:44,987 pn:L-PCA-PR-5K-UPG=
+2016-08-30 20:31:44,988 pn:L-PCA-PR-60K-UPG=
+2016-08-30 20:31:44,988 pn:R-PC-9.5-ASSW-K9=
+2016-08-30 20:31:44,989 pn:R-PC-9.5-PRSW-K9=
+2016-08-30 20:31:44,990 pn:R-PC-95-OM-UPG-K9=
+2016-08-30 20:31:44,990 pn:R-PC-95-PR-UPG-K9=
+2016-08-30 20:31:44,991 pn:R-PC-A-OM-UPG-K9=
+2016-08-30 20:31:44,992 pn:R-PC-A-PR-UPG-K9=
+2016-08-30 20:31:44,992 1280
+2016-08-30 20:31:44,993 
+2016-08-30 20:31:44,994 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.0
+2016-08-30 20:31:44,995 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/end_of_life_notice_c51-729438.html
+2016-08-30 20:31:45,001 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:45,611 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 9.0 
+2016-08-30 20:31:45,631 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:45,646 This page have 1 dv dt pairs
+2016-08-30 20:31:45,648 Device title  Table 2. Product Part Numbers Affected by This Announcement 
+2016-08-30 20:31:45,650 Assosiate dates title  Table 1. End-of-Life Milestones and Dates for the Cisco Prime Collaboration 9.0 
+2016-08-30 20:31:45,656 Adding pn to dictionary
+2016-08-30 20:31:45,657 pn:R-PC-9.0-ASSW-K9=
+2016-08-30 20:31:45,659 pn:R-PC-9.0-PRSW-K9=
+2016-08-30 20:31:45,660 1282
+2016-08-30 20:31:45,661 
+2016-08-30 20:31:45,661 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:45,662 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737554.html
+2016-08-30 20:31:45,670 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:46,170 Added to Dates Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:46,186 Added to Devices Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:46,197 This page have 1 dv dt pairs
+2016-08-30 20:31:46,198 Device title Table 2.       Product Part Numbers Affected by This Announcement
+2016-08-30 20:31:46,201 Assosiate dates title Table 1.       End-of-Life Milestones and Dates for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:46,210 Adding pn to dictionary
+2016-08-30 20:31:46,212 pn:R-PC11.1-PRSW-K9=
+2016-08-30 20:31:46,213 pn:R-PC11.1-PRSWU-K9=
+2016-08-30 20:31:46,214 1284
+2016-08-30 20:31:46,215 
+2016-08-30 20:31:46,217 Title:End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Software Subscription (UCSS)
+2016-08-30 20:31:46,218 Url:http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:46,219 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:46,229 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:46,230  
+2016-08-30 20:31:46,230 Parsing Prime Collaboration 9.5
+2016-08-30 20:31:46,231 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-9-5/model.html
+2016-08-30 20:31:46,244 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:46,888 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:47,293 Done. Found 0 pids
+2016-08-30 20:31:47,294 Searching for EOS documents
+2016-08-30 20:31:47,480 Found8docs
+2016-08-30 20:31:47,481 Begin parsing them.
+2016-08-30 20:31:47,482 Title:End-of-Sale and End-of-Life Announcement for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:47,483 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731102.html
+2016-08-30 20:31:47,484 This one was parsed before.Skiping
+2016-08-30 20:31:47,485  
+2016-08-30 20:31:47,485 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 11.0 and earlier
+2016-08-30 20:31:47,486 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737375.html
+2016-08-30 20:31:47,487 This one was parsed before.Skiping
+2016-08-30 20:31:47,488  
+2016-08-30 20:31:47,489 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:47,490 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-733632.html
+2016-08-30 20:31:47,490 This one was parsed before.Skiping
+2016-08-30 20:31:47,492  
+2016-08-30 20:31:47,492 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:47,493 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-732172.html
+2016-08-30 20:31:47,494 This one was parsed before.Skiping
+2016-08-30 20:31:47,495  
+2016-08-30 20:31:47,496 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:47,497 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731182.html
+2016-08-30 20:31:47,498 This one was parsed before.Skiping
+2016-08-30 20:31:47,499  
+2016-08-30 20:31:47,500 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.0
+2016-08-30 20:31:47,501 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/end_of_life_notice_c51-729438.html
+2016-08-30 20:31:47,502 This one was parsed before.Skiping
+2016-08-30 20:31:47,502  
+2016-08-30 20:31:47,503 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:47,504 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737554.html
+2016-08-30 20:31:47,505 This one was parsed before.Skiping
+2016-08-30 20:31:47,506  
+2016-08-30 20:31:47,507 Title:End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Software Subscription (UCSS)
+2016-08-30 20:31:47,508 Url:http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:47,509 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:47,510 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:47,511  
+2016-08-30 20:31:47,512 Parsing Prime Collaboration 10.0
+2016-08-30 20:31:47,513 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-10-0/model.html
+2016-08-30 20:31:47,519 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:48,265 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:48,629 Done. Found 0 pids
+2016-08-30 20:31:48,630 Searching for EOS documents
+2016-08-30 20:31:48,877 Found8docs
+2016-08-30 20:31:48,878 Begin parsing them.
+2016-08-30 20:31:48,879 Title:End-of-Sale and End-of-Life Announcement for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:48,880 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731102.html
+2016-08-30 20:31:48,881 This one was parsed before.Skiping
+2016-08-30 20:31:48,882  
+2016-08-30 20:31:48,883 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 11.0 and earlier
+2016-08-30 20:31:48,884 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737375.html
+2016-08-30 20:31:48,885 This one was parsed before.Skiping
+2016-08-30 20:31:48,886  
+2016-08-30 20:31:48,888 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:48,890 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-733632.html
+2016-08-30 20:31:48,891 This one was parsed before.Skiping
+2016-08-30 20:31:48,892  
+2016-08-30 20:31:48,893 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:48,894 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-732172.html
+2016-08-30 20:31:48,896 This one was parsed before.Skiping
+2016-08-30 20:31:48,897  
+2016-08-30 20:31:48,898 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:48,899 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731182.html
+2016-08-30 20:31:48,901 This one was parsed before.Skiping
+2016-08-30 20:31:48,902  
+2016-08-30 20:31:48,903 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.0
+2016-08-30 20:31:48,904 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/end_of_life_notice_c51-729438.html
+2016-08-30 20:31:48,904 This one was parsed before.Skiping
+2016-08-30 20:31:48,905  
+2016-08-30 20:31:48,906 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:48,908 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737554.html
+2016-08-30 20:31:48,909 This one was parsed before.Skiping
+2016-08-30 20:31:48,910  
+2016-08-30 20:31:48,911 Title:End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Software Subscription (UCSS)
+2016-08-30 20:31:48,912 Url:http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:48,913 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:48,914 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:48,915  
+2016-08-30 20:31:48,916 Parsing Prime Collaboration 10.5
+2016-08-30 20:31:48,916 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-10-5/model.html
+2016-08-30 20:31:48,925 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:49,843 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:50,202 Done. Found 0 pids
+2016-08-30 20:31:50,203 Searching for EOS documents
+2016-08-30 20:31:50,444 Found8docs
+2016-08-30 20:31:50,445 Begin parsing them.
+2016-08-30 20:31:50,446 Title:End-of-Sale and End-of-Life Announcement for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:50,447 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731102.html
+2016-08-30 20:31:50,448 This one was parsed before.Skiping
+2016-08-30 20:31:50,449  
+2016-08-30 20:31:50,450 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 11.0 and earlier
+2016-08-30 20:31:50,451 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737375.html
+2016-08-30 20:31:50,452 This one was parsed before.Skiping
+2016-08-30 20:31:50,453  
+2016-08-30 20:31:50,455 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:50,455 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-733632.html
+2016-08-30 20:31:50,456 This one was parsed before.Skiping
+2016-08-30 20:31:50,457  
+2016-08-30 20:31:50,459 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:50,460 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-732172.html
+2016-08-30 20:31:50,461 This one was parsed before.Skiping
+2016-08-30 20:31:50,462  
+2016-08-30 20:31:50,462 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:50,463 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731182.html
+2016-08-30 20:31:50,464 This one was parsed before.Skiping
+2016-08-30 20:31:50,465  
+2016-08-30 20:31:50,466 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.0
+2016-08-30 20:31:50,467 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/end_of_life_notice_c51-729438.html
+2016-08-30 20:31:50,468 This one was parsed before.Skiping
+2016-08-30 20:31:50,469  
+2016-08-30 20:31:50,470 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:50,471 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737554.html
+2016-08-30 20:31:50,472 This one was parsed before.Skiping
+2016-08-30 20:31:50,473  
+2016-08-30 20:31:50,474 Title:End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Software Subscription (UCSS)
+2016-08-30 20:31:50,477 Url:http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:50,478 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:50,479 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:50,480  
+2016-08-30 20:31:50,481 Parsing Prime Collaboration 10.6
+2016-08-30 20:31:50,482 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-10-6/model.html
+2016-08-30 20:31:50,489 Starting new HTTP connection (1): www.cisco.com
+2016-08-30 20:31:51,317 Gathering PN assosiated with this device and some eos info
+2016-08-30 20:31:51,676 Done. Found 0 pids
+2016-08-30 20:31:51,677 Searching for EOS documents
+2016-08-30 20:31:51,923 Found8docs
+2016-08-30 20:31:51,925 Begin parsing them.
+2016-08-30 20:31:51,926 Title:End-of-Sale and End-of-Life Announcement for the Cisco 1040 Sensor - Cisco Prime Collaboration
+2016-08-30 20:31:51,927 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731102.html
+2016-08-30 20:31:51,928 This one was parsed before.Skiping
+2016-08-30 20:31:51,929  
+2016-08-30 20:31:51,930 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 11.0 and earlier
+2016-08-30 20:31:51,931 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737375.html
+2016-08-30 20:31:51,932 This one was parsed before.Skiping
+2016-08-30 20:31:51,933  
+2016-08-30 20:31:51,934 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.5
+2016-08-30 20:31:51,936 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-733632.html
+2016-08-30 20:31:51,937 This one was parsed before.Skiping
+2016-08-30 20:31:51,937  
+2016-08-30 20:31:51,938 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 10.0
+2016-08-30 20:31:51,939 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-732172.html
+2016-08-30 20:31:51,940 This one was parsed before.Skiping
+2016-08-30 20:31:51,941  
+2016-08-30 20:31:51,942 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.5
+2016-08-30 20:31:51,943 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-731182.html
+2016-08-30 20:31:51,945 This one was parsed before.Skiping
+2016-08-30 20:31:51,947  
+2016-08-30 20:31:51,948 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration 9.0
+2016-08-30 20:31:51,951 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/end_of_life_notice_c51-729438.html
+2016-08-30 20:31:51,954 This one was parsed before.Skiping
+2016-08-30 20:31:51,956  
+2016-08-30 20:31:51,963 Title:End-of-Sale and End-of-Life Announcement for the Cisco Prime Collaboration Provisioning 11.1
+2016-08-30 20:31:51,964 Url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-collaboration/eos-eol-notice-c51-737554.html
+2016-08-30 20:31:51,965 This one was parsed before.Skiping
+2016-08-30 20:31:51,966  
+2016-08-30 20:31:51,972 Title:End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Software Subscription (UCSS)
+2016-08-30 20:31:51,974 Url:http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:51,975 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:51,976 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:51,978  
+2016-08-30 20:31:51,979 Parsing Prime Collaboration 11.0
+2016-08-30 20:31:51,980 http://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration-11-0/model.html
+2016-08-30 20:31:51,987 Starting new HTTP connection (1): www.cisco.com

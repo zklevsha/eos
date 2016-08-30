@@ -84,3 +84,18 @@
 2016-08-30 20:31:01,690 url:http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/tidal-enterprise-scheduler/eol_c51-697113.html
 2016-08-30 20:31:02,152 Cant find devices
 2016-08-30 20:31:02,153 ('Data Virtualization', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/data-virtualization/tsd-products-support-series-home.html')
+2016-08-30 20:31:46,219 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:46,229 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:46,230  
+2016-08-30 20:31:47,509 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:47,510 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:47,511  
+2016-08-30 20:31:48,913 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:48,914 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:48,915  
+2016-08-30 20:31:50,478 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:50,479 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:50,480  
+2016-08-30 20:31:51,975 url: http://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-software-subscription/eos-eol-notice-c51-732026.html
+2016-08-30 20:31:51,976 This one was in strange_links. I cannot parse it properly
+2016-08-30 20:31:51,978  
