@@ -1,1 +1,63 @@
-PN,End-of-Sale Date,End of New Service Attachment Date,End of New Service Attachment Date AppEnd of Service Contract Renewal Date,End of Service Contract Renewal Date App,Last Date of Support,Last Date of Support App,Source Link
+PN,End-of-Sale Date,End of New Service Attachment Date,End of New Service Attachment Date App,End of Service Contract Renewal Date,End of Service Contract Renewal Date App,Last Date of Support,Last Date of Support App,Source Link,Notes
+12000/4-AC-PEM,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000/4-CHASSIS,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000/4-DC-PEM,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000/6,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000/6-BLOWER,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000/6-DC-PEM,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12000-SIP-401,"September 15, 2014","September 15, 2015",N/A,"December 14, 2018",N/A,"September 30, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-729553.html,OK
+12000-SIP-501,"September 15, 2014","September 15, 2015",N/A,"December 14, 2018",N/A,"September 30, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-729553.html,OK
+12000-SIP-601,"June 21, 2015","June 21, 2016",N/A,"September 21, 2019",N/A,"June 30, 2020",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/eos-eol-notice-c51-731400.html,OK
+12404-MSE-SIP-BUN,"February 28, 2009",N/A,N/A,N/A,N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-456801.html,OK
+12406E-CSC,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+12406E-SFC,"February 15, 2014","February 15, 2015",N/A,"May 16, 2018",N/A,"February 28, 2019",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK
+14X10GBE-WL-XFP,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+34-0794-01,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+4GE-SFP-LC,"August 30, 2012","August 30, 2013",N/A,"November 28, 2016",N/A,"August 31, 2017",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-683932.html,OK
+4OC3X/ATM-IR-SC,"September 29, 2012","September 29, 2013",N/A,"December 28, 2016",N/A,"September 30, 2017",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-687139.html,OK
+4OC3X/POS-LR-LC-B,"November 15, 2010","November 15, 2011",N/A,"February 13, 2015",N/A,"November 30, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-613201.html,OK
+4XGE-BUILT-IN,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7206VXR/NPE-G1,"February 27, 2012","February 26, 2013",N/A,"May 24, 2016",N/A,"February 28, 2017",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK
+7206VXR/NPE-G2,"September 29, 2012","September 29, 2013",N/A,"December 28, 2016",N/A,"September 30, 2017",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK
+7300-PWR-AC,"July 4, 2010","July 4, 2011",N/A,"September 29, 2014",N/A,"July 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK
+7304-I/O-CFM-256M,"July 4, 2010","July 4, 2011",N/A,"September 29, 2014",N/A,"July 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK
+7304-MEM-G100-1GB,"July 4, 2010","July 4, 2011",N/A,"September 29, 2014",N/A,"July 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK
+7304-MSC-100,"July 4, 2010","July 4, 2011",N/A,"September 29, 2014",N/A,"July 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK
+7304-NPE-G100,"July 4, 2010","July 4, 2011",N/A,"September 29, 2014",N/A,"July 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK
+73-2587-1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+20C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+20G,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+20G3C,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+7600-ES+20G3CXL,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+7600-ES+3C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+3CXL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+4TG,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES+4TG3C,"November 29, 2011","November 28, 2012",N/A,"February 24, 2016",N/A,"November 30, 2016",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51-658768.html,OK
+7600-ES+4TG3CXL,"November 29, 2011","November 28, 2012",N/A,"February 24, 2016",N/A,"November 30, 2016",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51-658768.html,OK
+7600-ES+ITU-4TG-LK,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES20-10G3C,"March 31, 2011","March 30, 2012",N/A,"June 29, 2015",N/A,"March 31, 2016",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK
+7600-ES20-20GE,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES20-2X10G,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES20-D3C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES20-D3CXL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-ES20-GE3C,"March 31, 2011","March 30, 2012",N/A,"June 29, 2015",N/A,"March 31, 2016",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK
+7600-ES20-GE3CXL,"March 31, 2011","March 30, 2012",N/A,"June 29, 2015",N/A,"March 31, 2016",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK
+7600-ES20-PROC,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-MSFC4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-PFC3C,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-PFC3C-10GE,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-PFC3CXL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7600-SIP-200,"April 20, 2015","April 19, 2016",N/A,"July 16, 2019",N/A,"April 30, 2020",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-733146.html,OK
+7600-SIP-400,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+7600-SIP-400-BUN,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+7600-SSC-400,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+7606S-RSP720C-P,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+7606-SUP7203B-PS,"March 15, 2010","March 15, 2011",N/A,"June 13, 2014",N/A,"March 31, 2015",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_525383.html,OK
+76-ES+T-4TG,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+76-ES+T-4TGQ,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+76-ES+XC-20G3C,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+76-ES+XC-20G3CXL,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+76-ES+XT-4TG3C,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+76-ES+XT-4TG3CXL,"July 24, 2016","July 24, 2017",N/A,"October 22, 2020",N/A,"July 31, 2021",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK
+800-2183-01,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN
+GSR12-SFC,"February 28, 2005","February 28, 2006",N/A,"February 28, 2009",N/A,"February 28, 2010",N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/prod_end-of-life_notice09186a00801fc894.html,OK

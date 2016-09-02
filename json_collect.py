@@ -58,7 +58,7 @@ parsed_eos = []
 
 data = {}
 pid_summary = {}
-cant_find_dates_pn = {}
+pid_bad = {}
 log = get_logger('json_collect.txt')
 
 startTime = datetime.datetime.now()
@@ -147,17 +147,16 @@ for device in all_device_support_page:
 				k = row.find('th').text
 				v = row.find('td').text
 				if any(k == i for i in what_we_need):
-					v = ' '.join(v.replace('Details','').split()) 
+					v = ' '.join(v.replace('Details','').split())
 					if k == 'Status:': # Удаляем лишнее. Оставляем только Orderable, End Of Sale, End Of Support
-						pid[k] == v.replace('End of Sale','EndOfSale').replace('End of Support','EndOfSupport').split()[0]
-					else:	
+						pid_info[k] = v.replace('End of Sale','EndOfSale').replace('End of Support','EndOfSupport').split()[0]
+					else:
 						pid_info[k] = v
 			except:
 				pass
 
 		for p in pids: pid_summary[p] =  pid_info
 		log.info('Done. Found ' + str(len(pids)) + ' pids' )
-
 
 		log.info('Searching for EOS documents')
 		soup = BeautifulSoup(content.text,"html.parser")
@@ -262,7 +261,7 @@ for device in all_device_support_page:
 						
 					
 
-				log.error('Cant parse dates. Adding PN to cant_find_dates_pn dictionary')
+				log.error('Cant parse dates. Adding PN to pid_bad dictionary')
 				log.error(eos)
 				for dvk in devices.keys():
 					dv = get_table(devices[dvk])
@@ -275,7 +274,7 @@ for device in all_device_support_page:
 							new_pns.append(pn.replace(" ", "").replace('\n',''))
 					pns = new_pns
 					for pn in pns:
-						cant_find_dates_pn[pn] = eos
+						pid_bad[pn] = eos
 					log.error('Added ' + str(len(pns)) + 'pns')
 				log.error('Done.')
 				log.error('')
@@ -287,7 +286,7 @@ for device in all_device_support_page:
 				log.error('Number of table with devices  and  table with devices  are not equal')
 				log.error(eos)
 				if len(devices) > 0:
-					log.error('Adding PN to cant_find_dates_pn dictionary')
+					log.error('Adding PN to pid_bad dictionary')
 					for dvk in devices.keys():
 						dv = get_table(devices[dvk])
 						pns = [i[0] for i in dv]
@@ -299,7 +298,7 @@ for device in all_device_support_page:
 								new_pns.append(pn.replace(" ", "").replace('\n',''))
 						pns = new_pns
 						for pn in pns:
-							cant_find_dates_pn[pn] = eos
+							pid_bad[pn] = eos
 						log.error(' Added ' + str(len(pns)) + 'pns')
 					log.error('Done')
 					log.error('')
@@ -327,7 +326,7 @@ for device in all_device_support_page:
 			if len(dates) != len(dv_dt):
 				log.error('Error creating dv_dt')
 				log.error(eos)
-				log.error('Adding PN to cant_find_dates_pn dictionary')
+				log.error('Adding PN to pid_bad dictionary')
 				for dvk in devices.keys():
 					dv = get_table(devices[dvk])
 					pns = [i[0] for i in dv]
@@ -339,7 +338,7 @@ for device in all_device_support_page:
 							new_pns.append(pn.replace(" ", "").replace('\n',''))
 					pns = new_pns
 					for pn in pns:
-						cant_find_dates_pn[pn] = eos
+						pid_bad[pn] = eos
 				log.error(' Added ' + str(len(pns)) + 'pns')
 				log.error('Done')
 				log.info('')
@@ -414,8 +413,8 @@ pickle.dump(data,open('data.p' ,'wb'))
 log.info("pid_summary length: " + str(len(pid_summary))  )
 pickle.dump(pid_summary,open('pid_summary.p' ,'wb'))
 
-log.info('cant_find_dates_pn lenght:' + str(len(cant_find_dates_pn)))
-pickle.dump(pid_summary,open('cant_find_dates.p' ,'wb'))
+log.info('pid_bad lenght:' + str(len(pid_bad)))
+pickle.dump(pid_bad,open('pid_bad.p' ,'wb'))
 
 log.info("Execution time:" + str(datetime.datetime.now() - startTime))
 

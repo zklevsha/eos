@@ -4,20 +4,21 @@ import datetime
 from mylibs.utils import *
 import pickle
 import sys
+import subprocess
 log = get_logger('test.py')
 start_date = datetime.datetime.now()
 
+arr = []
+# with open('routes','r') as fr:
+# 	for line in fr.readlines():
+# 		line = line.split(' ')
+# 		#print(line)
+# 		if (line[4],line[2]) not in arr and line[4] != 'proto':
+# 			arr.append((line[4],line[2]))
 
-pid_summary = pickle.load(open('pid_summary_debug.p','rb'))
-i = 0
-states = []
-for k in pid_summary.keys():
-	i = i+1
-	log.info('checking' + str(i) + '/' + str(len(pid_summary.keys())))
-	status = pid_summary[k]['Status:'].replace('End of Sale','EndOfSale').replace('End of Support','EndOfSupport').split()[0]
-	if status == 'EndOfSupport':
-		print(pid_summary[k])
-		sys.exit()
-print(states)
+# for i in arr:
+# 	print(i[0],i[1])
 
+res = subprocess.check_output(['ping','8.8.8.8'])
 
+print (str(res).encode('utf-8') )
