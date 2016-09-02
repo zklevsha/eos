@@ -8,14 +8,7 @@ from mylibs.utils import *
 import datetime
 import platform
 import os
-#deviceTypes = ['routers','switches',
-#deviceTypes = ['security','wireless','serversunifiedcomputing',
-#'applicationnetworkingservices',
-deviceTypes = ['cloudandsystemsmanagement',
-'collaborationendpoints','conferencing','connectedsafetyandsecurity',
-'customercollaboration','ciscointerfacesandmodules',
-'opticalnetworking','serviceexchange','storagenetworking',
-'video']
+
 
 
 # strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
@@ -33,21 +26,29 @@ deviceTypes = ['cloudandsystemsmanagement',
 # 'http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd801bd0f7.html']
 
 
-strange_links = ['prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
-'prod_end-of-life_notice09186a008023401e.html', # multiple tables / no 1a 1b
-'eol_c51-683155.html', # 1 mtable with dates, 2 tables with devices
-'prod_end-of-life_notice0900aecd8029e9fb.html',
-'prod_end-of-life_notice09186a008032d42c.html', 
-'prod_end-of-life_notice0900aecd80294909.html',
-'prod_end-of-life_notice0900aecd8029fe0d.html',
-'prod_end-of-life_notice0900aecd8029d2c5.html',
-'eos-eol-notice-c51-734171.html',
-'prod_end-of-life_notice09186a008032d6ad.html', # empty page
-'prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
-'prod_end-of-life_notice09186a008032d6ad.html' ,# pn и даты в одной таблице
-'prod_end-of-life_notice0900aecd801bd0f7.html',
-'prod_end-of-life_notice0900aecd8010bfa2.html', # нет captions для таблицы с устройствами
-'eos-eol-notice-c51-732026.html'] # Вместо таблицы с устройствами линк на pdf
+# strange_links = ['prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
+# 'prod_end-of-life_notice09186a008023401e.html', # multiple tables / no 1a 1b
+# 'eol_c51-683155.html', # 1 mtable with dates, 2 tables with devices
+# 'prod_end-of-life_notice0900aecd8029e9fb.html',
+# 'prod_end-of-life_notice09186a008032d42c.html', 
+# 'prod_end-of-life_notice0900aecd80294909.html',
+# 'prod_end-of-life_notice0900aecd8029fe0d.html',
+# 'prod_end-of-life_notice0900aecd8029d2c5.html',
+# 'eos-eol-notice-c51-734171.html',
+# 'prod_end-of-life_notice09186a008032d6ad.html', # empty page
+# 'prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
+# 'prod_end-of-life_notice09186a008032d6ad.html' ,# pn и даты в одной таблице
+# 'prod_end-of-life_notice0900aecd801bd0f7.html',
+# 'prod_end-of-life_notice0900aecd8010bfa2.html', # нет captions для таблицы с устройствами
+# 'eos-eol-notice-c51-732026.html'] # Вместо таблицы с устройствами линк на pdf
+
+
+deviceTypes = ['routers','switches','security','wireless','serversunifiedcomputing','applicationnetworkingservices',
+				'cloudandsystemsmanagement',
+				'collaborationendpoints','conferencing','connectedsafetyandsecurity',
+				'customercollaboration','ciscointerfacesandmodules',
+				'opticalnetworking','serviceexchange','storagenetworking',
+				'video']
 
 header = "http://www.cisco.com"
 all_device_support_page = []
@@ -57,14 +58,15 @@ parsed_eos = []
 
 data = {}
 pid_summary = {}
+cant_find_dates_pn = {}
 log = get_logger('json_collect.txt')
 
-startTime = str(datetime.datetime.now())
-log.info('Starting script at ' + startTime )
+startTime = datetime.datetime.now()
+log.info('Starting script at ' + str(startTime) )
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
 
-#Collecting all device support pages
+#Collecting all device support pages 
 log.info('PHASE 1: COLLECTING SUPPORT PAGES')
 for device in deviceTypes:
 	log.info('Gathering ' + device)
@@ -76,9 +78,8 @@ for device in deviceTypes:
 	for subcat in diction['subCats']:
 		for model in  subcat['series']:
 			all_device_support_page.append( (model['title'],header + model['url']) )
-
-
 log.info("Done.")
+log.info('')
 
 # Gathering eos pages
 log.info('PHASE 2: COLLECTING END OF SALE  INFORMATION')
@@ -113,11 +114,11 @@ for device in all_device_support_page:
 		# 'Virtual Wireless Controller','Wireless LAN Controller Software',
 
 		# ] 
-		log.error('Cant find devices')
+		log.error('Cant find devices for this serices')
 		log.error(device)
 		continue
 
-	log.info('Found ' + str( len(devices_in_series) )  + 'models')
+	log.info('Found ' + str( len(devices_in_series) )  + ' models')
 	log.info(" ")
 
 	for model in devices_in_series:
@@ -146,12 +147,15 @@ for device in all_device_support_page:
 				k = row.find('th').text
 				v = row.find('td').text
 				if any(k == i for i in what_we_need):
-					#result_arr.append( (k,' '.join(v.split())) ) 
-					pid_info[k] = ' '.join(v.split())
+					v = ' '.join(v.replace('Details','').split()) 
+					if k == 'Status:': # Удаляем лишнее. Оставляем только Orderable, End Of Sale, End Of Support
+						pid[k] == v.replace('End of Sale','EndOfSale').replace('End of Support','EndOfSupport').split()[0]
+					else:	
+						pid_info[k] = v
 			except:
 				pass
 
-		for p in pids:pid_summary[p] =  pid_info
+		for p in pids: pid_summary[p] =  pid_info
 		log.info('Done. Found ' + str(len(pids)) + ' pids' )
 
 
@@ -166,28 +170,30 @@ for device in all_device_support_page:
 		
 		eos_pages = [(link.text,link['href']) for link in uls.findAll('a', href=True) if '-fr' not in link['href']]
 
-		log.info('Found'+ str(len(eos_pages)) + 'docs')
+		log.info('Found '+ str(len(eos_pages)) + ' docs')
 		log.info('Begin parsing them.')
 			
-		#parsing eos-listing
+		# Цикл 3. Парсим EOS документы
 		for eos in eos_pages:
-			if eos[1][0] == '/':eos = (eos[0],header+eos[1])
+			#eos = ('title','http://www.cisco.com/c/en/us/support/switches/small-business-unmanaged-switches/tsd-products-support-series-home.html')
+			if eos[1][0] == '/':eos = (eos[0],header+eos[1]) # Нужен абсолютный путь
 
 			log.info('Title:' + str(eos[0]))
 			log.info('Url:' + str(eos[1]))
 
-			if eos[0] in parsed_eos:
+			if eos[1] in parsed_eos:
 				log.info('This one was parsed before.Skiping')
 				log.info(' ')
 				continue
-			if eos[1].split('/')[-1] in strange_links:
-				log.warning('url: '+ eos[1])
-				log.warning('This one was in strange_links. I cannot parse it properly')
-				log.error(' ')
-				continue
+			# if eos[1].split('/')[-1] in strange_links:
+			# 	log.warning('url: '+ eos[1])
+			# 	log.warning('This one was in strange_links. I cannot parse it properly')
+			# 	log.error(' ')
+			# 	continue
 			if "Change in Product Part Number Announcement" in eos[0]:
 				log.info('This one not EOS page but only information about EoS change. Skiping')
 				log.info(' ')
+				parsed_eos.append(eos[1])
 				continue
 
 
@@ -195,6 +201,8 @@ for device in all_device_support_page:
 
 			if content.status_code != 200:
 				log.error('cant open url ' + eos[1] +  ' Skiping' )
+				log.error('')
+				parsed_eos.append(eos[1])
 				continue
 
 			soup = BeautifulSoup(content.text,"html.parser")
@@ -206,50 +214,102 @@ for device in all_device_support_page:
 
 			for item in p:
 				if "milestone" in item.text.lower().replace(' ','').replace('-','').replace('\n',''):
-					dates[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-					log.info("Added to Dates "+ item.text)
+					date_soup = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
+					if date_soup.string != 'None':
+						dates[item.text] = date_soup
+						log.info("Added to Dates "+ item.text)
 
 				devices_caption = ['productpartnumbersassociated','productpartnumbersaffected',
 				'productpartnumberaffected','productpartnumbersbeingaffected','endofsalepartnumbers']
 				search = item.text.lower().replace('-','').replace(' ','').replace('\n','')\
 
 				if any( i in search for i in devices_caption) and "Software" not in item.text and "Milestone" not in item.text:
-					devices[item.text] = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
-					log.info("Added to Devices " + item.text)
-
-				
-			if len(dates) == 0:
-				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
-					log.info('This EOS was replaced. Skiping')
-					continue 
-				try:
-					if 'retraction'in soup.find('h1',{'id':'fw-pagetitle'}).text.lower().replace(' ','').replace('-','').replace('\n',''):
-						log.info('This is page about retraction of some PN. Skiping')
-						continue
-				except:
-					log.error('Error parsing page. Cant find header(id=fw-pagetitle):')
-					log.error('url:' + eos[1])
-
-				log.error('Cant parse dates')
-				log.error('url:' + eos[1])
-				continue
-				#sys.exit()
+					device_soup = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
+					if device_soup.string != 'None':
+						devices[item.text] = device_soup
+						log.info("Added to Devices " + item.text)
 
 			if len(devices) == 0:
 				#some eos ( somftware mainly) not have pn
 				if 'Cisco IOS' in content.text or 'Cisco IOS Software Release' in content.text or 'OS Release' in content.text:
 					log.info('Looks like this is software page, so no PN for this one')
 					log.info(' ')
+					parsed_eos.append(eos[1])
 					continue
 			
-				log.error('Cant parse devices')
-				sys.exit()
+				log.error('Cant find table with devices.Skiping')
+				log.error(eos)
+				log.error('')
+				parsed_eos.append(eos[1])
+				continue
 
+			if len(dates) == 0:
+				if "has been replaced" in content.text or "THIS ANNOUNCEMENT WAS REPLACED" in content.text or 'THIS ANNOUNCEMENT HAS BEEN REDIRECTED' in content.text:
+					log.info('This EOS was replaced. Skiping')
+					log.info('')
+					parsed_eos.append(eos[1])
+					continue 
+				try:
+					retraction_header = ['retraction', 'retracted' ]
+					search = soup.find('h1',{'id':'fw-pagetitle'}).text.lower().replace(' ','').replace('-','').replace('\n','')
+					if  any(i in search for i in retraction_header):
+						log.info('This is page about retraction of some PN. Skiping')
+						log.info('')
+						parsed_eos.append(eos[1])
+						continue
+				except:
+						log.error('Error parsing page. Cant find header(id=fw-pagetitle):')
+						
+					
+
+				log.error('Cant parse dates. Adding PN to cant_find_dates_pn dictionary')
+				log.error(eos)
+				for dvk in devices.keys():
+					dv = get_table(devices[dvk])
+					pns = [i[0] for i in dv]
+					pns.pop(0)
+
+					new_pns = []
+					for pn in pns:
+						if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
+							new_pns.append(pn.replace(" ", "").replace('\n',''))
+					pns = new_pns
+					for pn in pns:
+						cant_find_dates_pn[pn] = eos
+					log.error('Added ' + str(len(pns)) + 'pns')
+				log.error('Done.')
+				log.error('')
+				parsed_eos.append(eos[1])
+				continue
+				#sys.exit()
 
 			if len(dates) != len(devices):
-				log.error('Number of dates and devices not equal')
-				sys.exit()
+				log.error('Number of table with devices  and  table with devices  are not equal')
+				log.error(eos)
+				if len(devices) > 0:
+					log.error('Adding PN to cant_find_dates_pn dictionary')
+					for dvk in devices.keys():
+						dv = get_table(devices[dvk])
+						pns = [i[0] for i in dv]
+						pns.pop(0)
 
+						new_pns = []
+						for pn in pns:
+							if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
+								new_pns.append(pn.replace(" ", "").replace('\n',''))
+						pns = new_pns
+						for pn in pns:
+							cant_find_dates_pn[pn] = eos
+						log.error(' Added ' + str(len(pns)) + 'pns')
+					log.error('Done')
+					log.error('')
+					parsed_eos.append(eos[1])
+					continue
+				else:
+					log.error('Cant find any device for this page. Skipping')
+					log.error('')
+					parsed_eos.append(eos[1])
+					continue
 
 			if len(dates) == 1:
 				dv = [i for i  in devices.keys()][0]
@@ -259,13 +319,32 @@ for device in all_device_support_page:
 				for devk in devices.keys():
 					st = devk[-3:].replace(' ','')
 					for datk in dates.keys():
-						# print(datk)
+						log.info(datk)
 						if st in datk: 
 							dv_dt.append((devk,datk))
 
+
 			if len(dates) != len(dv_dt):
 				log.error('Error creating dv_dt')
-				sys.exit()
+				log.error(eos)
+				log.error('Adding PN to cant_find_dates_pn dictionary')
+				for dvk in devices.keys():
+					dv = get_table(devices[dvk])
+					pns = [i[0] for i in dv]
+					pns.pop(0)
+
+					new_pns = []
+					for pn in pns:
+						if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
+							new_pns.append(pn.replace(" ", "").replace('\n',''))
+					pns = new_pns
+					for pn in pns:
+						cant_find_dates_pn[pn] = eos
+				log.error(' Added ' + str(len(pns)) + 'pns')
+				log.error('Done')
+				log.info('')
+				parsed_eos.append(eos[1])
+				continue
 
 
 			document_date = soup.find("div",{"class":"updatedDate"})
@@ -300,36 +379,45 @@ for device in all_device_support_page:
 
 					# check for duplicate keys
 					if pn  in data.keys():
-						log.warning('Duplicate PN ' + str(pn))
-						log.warning('Stored doc url :'+ data[pn]['doc'][1])
-						log.warning("Document date(stored):"  + str(data[pn]['doc'][2]))
-						log.warning("Document date(new): " + str(document_date))
+						log.error('Duplicate PN ' + str(pn))
+						log.error('Stored doc url :'+ data[pn]['doc'][1])
+						log.error("Document date(stored):"  + str(data[pn]['doc'][2]))
+						log.error("Document date(new): " + str(document_date))
 						if data[pn]['doc'][2] > document_date:
-							log.warning('Stored document is newer. Sciping new values')
+							log.error('Stored document is newer. Sciping new values')
+							log.error('')
+							parsed_eos.append(eos[1])
 							continue
 						else:
-							log.warning('Stored document is older. Updating')
+							log.error('Stored document is older. Updating')
 					else:
 						data[pn] = {}
 					
 					for item in dt:
 						if len(item) != 3:
-							log.warning('Cant parse this string')
-							log.warning(item)
-							log.warning('Skiping')
+							log.error('Cant parse this string')
+							log.error(item)
+							log.error('Skiping')
 						else:	
 							data[pn][item[0]]=item[2]	
 
 					data[pn]['doc'] = eos
+					pickle.dump(data,open('data.p' ,'wb'))
 
-				parsed_eos.append(eos[0])
+				parsed_eos.append(eos[1])
 				log.info(len(data))
 				log.info('')
 
 log.info("data length: " + str(len(data)))
-log.info("pid_summary length: " + str(len(pid_summary))  )
-log.info("Execution time:" + str(datetime.datetime.now() - start_date))
 pickle.dump(data,open('data.p' ,'wb'))
+
+log.info("pid_summary length: " + str(len(pid_summary))  )
 pickle.dump(pid_summary,open('pid_summary.p' ,'wb'))
-#не забудь вернуть devicetypes в исходное состояние
-# не забудь попытаться вынуть pn из таблицы 
+
+log.info('cant_find_dates_pn lenght:' + str(len(cant_find_dates_pn)))
+pickle.dump(pid_summary,open('cant_find_dates.p' ,'wb'))
+
+log.info("Execution time:" + str(datetime.datetime.now() - startTime))
+
+
+

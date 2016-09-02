@@ -45,7 +45,7 @@ def get_page(url):
 
 		try:
 			content = requests.get(url,timeout=5)
-		except (requests.exceptions.ReadTimeout,requests.exceptions.ConnectionError):
+		except:
 			print("Connection Error. Repeat")
 			i = i+1
 		else:
