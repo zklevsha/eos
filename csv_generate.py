@@ -3,14 +3,32 @@ import pickle
 from  mylibs.utils import get_logger
 import sys
 import xlrd
+import os
+from dateutil.parser import parse
 
-data = pickle.load( open('data.p','rb') )
-pid_summary = pickle.load( open('pid_summary.p','rb') )
-pid_bad = pickle.load( open('pid_bad.p','rb') )
+if len(sys.argv) != 2:
+	print('Usage :' + sys.argv[0] + ' filename.xlsx')
+	sys.exit(0) 
+
+filename = sys.argv[1]
+
+if not os.path.isfile(filename):
+	print('Cant find file ' + filename)
+	sys.exit()
+
+# if '-app' in sys.argv:
+# 	need_app = True
+# if '-os' in sys.argv:
+# 	need_os = True
+
+
+data = pickle.load( open('data_debug.p','rb') )
+pid_summary = pickle.load( open('pid_summary_debug.p','rb') )
+pid_bad = pickle.load( open('pid_bad_debug.p','rb') )
 log = get_logger('csv_generate.txt')
 
 
-print(type(data))
+
 
 rb = xlrd.open_workbook('old.xlsx')
 sheet = rb.sheet_by_index(0)
@@ -23,11 +41,11 @@ with open('csv_out.csv', 'w') as csvfile:
 	header = ['PN',
 				'End-of-Sale Date',
 				 'End of New Service Attachment Date',
-				 'End of New Service Attachment Date App',
+				 #'End of New Service Attachment Date App',
 				 'End of Service Contract Renewal Date',
-				 'End of Service Contract Renewal Date App',
+				 #'End of Service Contract Renewal Date App',
 				 'Last Date of Support',
-				 'Last Date of Support App',
+				 #'Last Date of Support App',
 				 'Source Link','Notes']
 
 	cw.writerow(header)
@@ -45,16 +63,16 @@ with open('csv_out.csv', 'w') as csvfile:
 			first = []
 
 			second = []
-			secondApp = []
+			#secondApp = []
 
 			third= []
-			thirdApp = []
+			#thirdApp = []
 
 			forth = []
-			forthApp = []
+			#forthApp = []
 
-			nonMandatory = [second,secondApp,third,thirdApp,forth,forthApp]
-
+			#nonMandatory = [second,secondApp,third,thirdApp,forth,forthApp]
+			nonMandatory = [second,second,third,forth]
 			for k in dates.keys():
 				search_k = k.lower().replace('-','').replace(' ','').replace('\n','')
 
@@ -62,27 +80,27 @@ with open('csv_out.csv', 'w') as csvfile:
 					first.append(dates[k])
 
 				if 'attachment' in search_k:
-					if 'app' in search_k:
-						secondApp.append(dates[k])
-					else:
+					#if 'app.sw' in search_k:
+					#	secondApp.append(dates[k])
+					if 'hw' in search_k:
 						second.append(dates[k])
 
 				if 'renewal' in search_k:
-					if 'app' in search_k:
-						thirdApp.append(dates[k])
-					else:
+					#if 'app.sw' in search_k:
+					#	thirdApp.append(dates[k])
+					if 'hw' in search_k:
 						third.append(dates[k])
 
 				if 'lastdateofsupport' in search_k and 'phone' not in search_k:
-					if 'app' in search_k:
-						forthApp.append(dates[k])
-					else:
+					#if 'app.sw' in search_k:
+					#	forthApp.append(dates[k])
+					if 'hw' in search_k:
 						forth.append(dates[k])
 
 			
 
 			if len(first) != 1 or any( len(i) > 1 for i in nonMandatory ):
-				log.error('Cant parse ' + data_k)
+				log.error('Cant parse ' + pn)
 
 				for i in [first + nonMandatory]:
 					log.error(i)
@@ -98,7 +116,8 @@ with open('csv_out.csv', 'w') as csvfile:
 				sys.exit()
 			else:
 				arr = []
-				for item in [first,second,secondApp,third,thirdApp,forth,forthApp]: # Преобразуем массивы в строки
+				#for item in [first,second,secondApp,third,thirdApp,forth,forthApp]: # Преобразуем массивы в строки
+				for item in [first,second,third,forth]:
 					try:
 						item = item[0]
 					except:
@@ -110,17 +129,27 @@ with open('csv_out.csv', 'w') as csvfile:
 		elif pn in pid_bad.keys(): 
 			log.info('pn in pid_bad')
 			print ( pid_bad[pn] )
-			line =  [ pn,'N/A','N/A','N/A','N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link']
-
+			#line =  [ pn,'N/A','N/A','N/A','N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link']
+			line =  [ pn,'N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link']
 		# Нет самого EOS
 		elif pn in pid_summary: 
 			log.info('pn in pid_summary')
-			line = [ pn,pid_summary['EndOfSale:'],second,secondApp,third,thirdApp,forth,pid_summary['EndOfSupport:'], 
-					data[pn]['doc'][1], 'EoS status: ' +pid_summary['Status:'] + ' (No EOS for this PN)' ]   
+
+			if pid_summary[pn]['End-of-Sale Date:'] != 'None Announced':
+				pid_summary[pn]['End-of-Sale Date:'] = parse(pid_summary[pn]['End-of-Sale Date:']).strftime('%B %e, %Y')
+
+			if pid_summary[pn]['End-of-Support Date:'] != 'None Announced':
+				pid_summary[pn]['End-of-Support Date:'] = parse(pid_summary[pn]['End-of-Support Date:']).strftime('%B %e, %Y')
+
+			line = [ pn,pid_summary[pn]['End-of-Sale Date:'],'N/A','N/A',pid_summary[pn]['End-of-Support Date:'], 
+					pid_summary[pn]['doc'][1] ,'EOS status ' + pid_summary[pn]['Status:'] + ' (No  specific EOS for this PN)' ]   
 
 		else:
 			log.error('Cant find this PN')
-			line =  [ pn,'NULL','NULL','NULL','NULL','NULL','NULL','NULL','NULL','Cant find info about this PN' ]
+			line =  [ pn,'NULL','NULL','NULL','NULL','NULL','Cant find info about this PN' ]
 
 		cw.writerow(line)
 		print('')
+
+
+		# dont forget return doc

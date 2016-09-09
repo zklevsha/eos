@@ -149,11 +149,12 @@ for device in all_device_support_page:
 				if any(k == i for i in what_we_need):
 					v = ' '.join(v.replace('Details','').split())
 					if k == 'Status:': # Удаляем лишнее. Оставляем только Orderable, End Of Sale, End Of Support
-						pid_info[k] = v.replace('End of Sale','EndOfSale').replace('End of Support','EndOfSupport').split()[0]
+						pid_info[k] = v.replace('End-of-Sale','EndOfSale').replace('End-of-Support','EndOfSupport').split()[0]
 					else:
 						pid_info[k] = v
 			except:
 				pass
+		pid_info['doc'] = model
 
 		for p in pids: pid_summary[p] =  pid_info
 		log.info('Done. Found ' + str(len(pids)) + ' pids' )
