@@ -46,12 +46,32 @@ with open('csv_out.csv', 'w') as csvfile:
 				 #'End of Service Contract Renewal Date App',
 				 'Last Date of Support',
 				 #'Last Date of Support App',
-				 'Source Link','Notes']
+				 'Source Link','Notes','Found as']
 
 	cw.writerow(header)
 
 	for pn in pns:
 		log.info('Processing: ' + str(pn))
+		found_as = pn
+		pn_changed = False
+		# если не нашли pn с\без "=" то пытаемся найти с\без него
+		if all(pn not in i.keys() for i in [data,pid_summary,pid_bad]):
+			if pn[-1] == "=":
+				new_pn = pn[0:-2]
+			else:
+				new_pn = pn+"="
+
+			if all(new_pn not in i.keys() for i in [data,pid_summary,pid_bad]):
+				log.error('Cant find this PN')
+				line =  [pn,'NULL','NULL','NULL','NULL','NULL','Cant find info about this PN','NULL']
+				cw.writerow(line)
+				print('')
+				continue
+
+			else:
+				old_pn = pn
+				pn = new_pn
+				pn_changed = True
 
 		# Нашли всю информацию
 		if pn in data.keys():                         
@@ -99,7 +119,7 @@ with open('csv_out.csv', 'w') as csvfile:
 
 			
 
-			if len(first) != 1 or any( len(i) > 1 for i in nonMandatory ):
+			if len(first) != 1 or any( len(i) > 1 for i in nonMandatory ): # Проверяем на ошибке в сборе pn
 				log.error('Cant parse ' + pn)
 
 				for i in [first + nonMandatory]:
@@ -116,37 +136,38 @@ with open('csv_out.csv', 'w') as csvfile:
 				sys.exit()
 			else:
 				arr = []
-				#for item in [first,second,secondApp,third,thirdApp,forth,forthApp]: # Преобразуем массивы в строки
 				for item in [first,second,third,forth]:
 					try:
 						item = item[0]
 					except:
 						item = 'N/A'
 					arr.append(item)
-				#line =  [ pn,first,second,secondApp,third,thirdApp,forth,forthApp, data[pn]['doc'][1] , 'OK' ]
-				line = [pn] + arr + [ data[pn]['doc'][1] , 'OK' ]
+
+				line = [pn] + arr + [ data[pn]['doc'][1] , 'OK' ,found_as ]
+
+
 		# Не смогли нормально распарсить EoS
 		elif pn in pid_bad.keys(): 
 			log.info('pn in pid_bad')
 			print ( pid_bad[pn] )
-			#line =  [ pn,'N/A','N/A','N/A','N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link']
-			line =  [ pn,'N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link']
+			line =  [ pn,'N/A','N/A','N/A','N/A', pid_bad[pn][1] , 'Error parsing EoS doc. For dates please check source link',found_as]
+
 		# Нет самого EOS
 		elif pn in pid_summary: 
 			log.info('pn in pid_summary')
 
+			# Приводим даты к единому формату
 			if pid_summary[pn]['End-of-Sale Date:'] != 'None Announced':
 				pid_summary[pn]['End-of-Sale Date:'] = parse(pid_summary[pn]['End-of-Sale Date:']).strftime('%B %e, %Y')
-
 			if pid_summary[pn]['End-of-Support Date:'] != 'None Announced':
 				pid_summary[pn]['End-of-Support Date:'] = parse(pid_summary[pn]['End-of-Support Date:']).strftime('%B %e, %Y')
 
 			line = [ pn,pid_summary[pn]['End-of-Sale Date:'],'N/A','N/A',pid_summary[pn]['End-of-Support Date:'], 
-					pid_summary[pn]['doc'][1] ,'EOS status ' + pid_summary[pn]['Status:'] + ' (No  specific EOS for this PN)' ]   
+					pid_summary[pn]['doc'][1] ,'EOS status ' + pid_summary[pn]['Status:'] + ' (No  specific EOS for this PN)' ,found_as]   
 
-		else:
-			log.error('Cant find this PN')
-			line =  [ pn,'NULL','NULL','NULL','NULL','NULL','Cant find info about this PN' ]
+		
+		if pn_changed:
+			line[0] = old_pn
 
 		cw.writerow(line)
 		print('')

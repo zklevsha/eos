@@ -1,0 +1,950 @@
+PN,End-of-Sale Date,End of New Service Attachment Date,End of Service Contract Renewal Date,Last Date of Support,Source Link,Notes,Found as
+12000/4-AC-PEM,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/4-AC-PEM
+12000/4-CHASSIS,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/4-CHASSIS
+12000/4-DC-PEM,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/4-DC-PEM
+12000/6,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/6
+12000/6-BLOWER,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/6-BLOWER
+12000/6-DC-PEM,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12000/6-DC-PEM
+12000-SIP-401,"September 15, 2014","September 15, 2015","December 14, 2018","September 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-729553.html,OK,12000-SIP-401
+12000-SIP-501,"September 15, 2014","September 15, 2015","December 14, 2018","September 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-729553.html,OK,12000-SIP-501
+12000-SIP-601,"June 21, 2015","June 21, 2016","September 21, 2019","June 30, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/eos-eol-notice-c51-731400.html,OK,12000-SIP-601
+12404-MSE-SIP-BUN,"February 28, 2009",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-456801.html,OK,12404-MSE-SIP-BUN
+12406E-CSC,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12406E-CSC
+12406E-SFC,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,12406E-SFC
+14X10GBE-WL-XFP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+34-0794-01,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+4GE-SFP-LC,"August 30, 2012","August 30, 2013","November 28, 2016","August 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-683932.html,OK,4GE-SFP-LC
+4OC3X/ATM-IR-SC,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-687139.html,OK,4OC3X/ATM-IR-SC
+4OC3X/POS-LR-LC-B,"November 15, 2010","November 15, 2011","February 13, 2015","November 30, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-613201.html,OK,4OC3X/POS-LR-LC-B
+4XGE-BUILT-IN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7206VXR/NPE-G1,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,7206VXR/NPE-G1
+7206VXR/NPE-G2,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,7206VXR/NPE-G2
+7300-PWR-AC,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,7300-PWR-AC
+7304-I/O-CFM-256M,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,7304-I/O-CFM-256M
+7304-MEM-G100-1GB,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,7304-MEM-G100-1GB
+7304-MSC-100,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,7304-MSC-100
+7304-NPE-G100,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,7304-NPE-G100
+73-2587-1,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+20C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+20G,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+20G3C,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,7600-ES+20G3C
+7600-ES+20G3CXL,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,7600-ES+20G3CXL
+7600-ES+3C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+3CXL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+4TG,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES+4TG3C,"November 29, 2011","November 28, 2012","February 24, 2016","November 30, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51-658768.html,OK,7600-ES+4TG3C
+7600-ES+4TG3CXL,"November 29, 2011","November 28, 2012","February 24, 2016","November 30, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51-658768.html,OK,7600-ES+4TG3CXL
+7600-ES+ITU-4TG-LK,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES20-10G3C,"March 31, 2011","March 30, 2012","June 29, 2015","March 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK,7600-ES20-10G3C
+7600-ES20-20GE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES20-2X10G,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES20-D3C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES20-D3CXL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-ES20-GE3C,"March 31, 2011","March 30, 2012","June 29, 2015","March 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK,7600-ES20-GE3C
+7600-ES20-GE3CXL,"March 31, 2011","March 30, 2012","June 29, 2015","March 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_577514.html,OK,7600-ES20-GE3CXL
+7600-ES20-PROC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-MSFC4,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-PFC3C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-PFC3C-10GE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-PFC3CXL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7600-SIP-200,"April 20, 2015","April 19, 2016","July 16, 2019","April 30, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-733146.html,OK,7600-SIP-200
+7600-SIP-400,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,7600-SIP-400
+7600-SIP-400-BUN,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,7600-SIP-400-BUN
+7600-SSC-400,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+7606S-RSP720C-P,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,7606S-RSP720C-P
+7606-SUP7203B-PS,"March 15, 2010","March 15, 2011","June 13, 2014","March 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_525383.html,OK,7606-SUP7203B-PS
+76-ES+T-4TG,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,76-ES+T-4TG
+76-ES+T-4TGQ,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+76-ES+XC-20G3C,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,76-ES+XC-20G3C
+76-ES+XC-20G3CXL,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,76-ES+XC-20G3CXL
+76-ES+XT-4TG3C,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,76-ES+XT-4TG3C
+76-ES+XT-4TG3CXL,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,76-ES+XT-4TG3CXL
+800-2183-01,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+GSR12-SFC,"February 28, 2005","February 28, 2006","February 28, 2009","February 28, 2010",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/prod_end-of-life_notice09186a00801fc894.html,OK,GSR12-SFC
+A900-IMA16D,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-900-series-16-port-t1-e1-module/model.html,EOS status Orderable (No  specific EOS for this PN),A900-IMA16D
+A900-IMA1X,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-900-series-1-port-10ge-xfp-module/model.html,EOS status Orderable (No  specific EOS for this PN),A900-IMA1X
+A900-IMA8S,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-900-series-8-port-1ge-sfp-module/model.html,EOS status Orderable (No  specific EOS for this PN),A900-IMA8S
+A900-IMA8T,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-900-series-8-port-1ge-rj45-module/model.html,EOS status Orderable (No  specific EOS for this PN),A900-IMA8T
+A901-12C-F-D,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-901-12c-f-d-router/model.html,EOS status Orderable (No  specific EOS for this PN),A901-12C-F-D
+A903-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-903-router/model.html,EOS status Orderable (No  specific EOS for this PN),A903-FAN
+A903-RSP1A-55,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-903-route-switch-processor-rsp1/model.html,EOS status Orderable (No  specific EOS for this PN),A903-RSP1A-55
+A9K-03.09,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+A9K-04.00,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+A9K-04.01,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+A9K-16T/8-B,"September 16, 2014","September 16, 2015","December 12, 2018","September 30, 2019",http://www.cisco.com/c/en/us/products/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731288.html,OK,A9K-16T/8-B
+A9K-24X10GE-SE,"September 10, 2015",N/A,N/A,"September 30, 2020",http://www.cisco.com/c/en/us/support/interfaces-modules/asr-9000-series-integrated-service-module/model.html,EOS status End (No  specific EOS for this PN),A9K-24X10GE-SE
+A9K-24X10GE-TR,"September 10, 2015",N/A,N/A,"September 30, 2020",http://www.cisco.com/c/en/us/support/interfaces-modules/asr-9000-series-integrated-service-module/model.html,EOS status End (No  specific EOS for this PN),A9K-24X10GE-TR
+A9K-2KW-DC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,A9K-2KW-DC
+A9K-2T20GE-B,"May 7, 2015","May 6, 2016","August 2, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-733321.html,OK,A9K-2T20GE-B
+A9K-2T20GE-L,"May 7, 2015","May 6, 2016","August 2, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-733321.html,OK,A9K-2T20GE-L
+A9K-2X100GE-TR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-2X100GE-TR
+A9K-36X10GE-TR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-36X10GE-TR
+A9K-3KW-AC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,A9K-3KW-AC
+A9K-40GE-B,"May 7, 2015","May 6, 2016","August 2, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-733321.html,OK,A9K-40GE-B
+A9K-40GE-L,"May 7, 2015","May 6, 2016","August 2, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-733321.html,OK,A9K-40GE-L
+A9K-4T-L,"May 7, 2015","May 6, 2016","August 2, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-733321.html,OK,A9K-4T-L
+A9K-750W-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-750W-AC
+A9K-750W-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-750W-DC
+A9K-8T-B,"September 16, 2014","September 16, 2015","December 12, 2018","September 30, 2019",http://www.cisco.com/c/en/us/products/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731288.html,OK,A9K-8T-B
+A9K-8T-L,"September 16, 2014","September 16, 2015","December 12, 2018","September 30, 2019",http://www.cisco.com/c/en/us/products/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731288.html,OK,A9K-8T-L
+A9K-ADV-VIDEO-LIC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+A9K-AIP-LIC-B,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-AIP-LIC-B
+A9K-ISM-100,"September 10, 2015","September 9, 2016","December 6, 2019","September 30, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-734174.html,OK,A9K-ISM-100
+A9K-MOD160-TR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MOD160-TR
+A9K-MOD80-SE,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MOD80-SE
+A9K-MOD80-TR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MOD80-TR
+A9K-MPA-20X1GE,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MPA-20X1GE
+A9K-MPA-4X10GE,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MPA-4X10GE
+A9K-MPA-8X10GE,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-MPA-8X10GE
+A9K-NV-CLUSTR-LIC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-NV-CLUSTR-LIC
+A9K-NVSAT1-LIC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-NVSAT1-LIC
+A9K-RSP440-SE,"August 30, 2017","August 30, 2018","November 28, 2021","August 31, 2022",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-737819.html,OK,A9K-RSP440-SE
+A9K-RSP440-TR,"August 30, 2017","August 30, 2018","November 28, 2021","August 31, 2022",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-737819.html,OK,A9K-RSP440-TR
+A9K-RSP-4G,"August 24, 2015","August 23, 2016","November 19, 2019","August 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-734029.html,OK,A9K-RSP-4G
+A9K-SIP-700,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),A9K-SIP-700
+AIM-VPN/EPII,"December 22, 2005",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/1700-series-modular-access-routers/prod_end-of-life_notice0900aecd802d3d0b.html,OK,AIM-VPN/EPII
+AIM-VPN/EPII-PLUS,"December 1, 2008","December 1, 2009","February 27, 2013","December 1, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_cisco_aim_vpn_ii_plus_modules.html,OK,AIM-VPN/EPII-PLUS
+AIM-VPN/HPII-PLUS,"December 1, 2008","December 1, 2009","February 27, 2013","December 1, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_cisco_aim_vpn_ii_plus_modules.html,OK,AIM-VPN/HPII-PLUS
+AIM-VPN/SSL-2,"December 2, 2011","December 1, 2012","February 27, 2016","November 30, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-655336.html,OK,AIM-VPN/SSL-2
+AS5300chassis,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+AS535-2E1-60-AC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+AS5400HPX,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASA-180W-PWR-AC,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727284.html,OK,ASA-180W-PWR-AC
+ASA-180W-PWR-DC,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727284.html,OK,ASA-180W-PWR-DC
+ASA5505-K8,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5505-K8
+ASA5505-SEC-BUN-K8,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5505-SEC-BUN-K8
+ASA5505-SEC-BUN-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5505-SEC-BUN-K9
+ASA5505-UL-BUN-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5505-UL-BUN-K9
+ASA5510-BUN-K9,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727283.html,OK,ASA5510-BUN-K9
+ASA5510-K8,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727283.html,OK,ASA5510-K8
+ASA5510-SEC-BUN-K9,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727283.html,OK,ASA5510-SEC-BUN-K9
+ASA5520-BUN-K9,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727279.html,OK,ASA5520-BUN-K9
+ASA5520-DC-K8,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727279.html,OK,ASA5520-DC-K8
+ASA5520-K8,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727279.html,OK,ASA5520-K8
+ASA5525-K8,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5545-x-firepower-services/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5525-K8
+ASA5540-K8,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727354.html,OK,ASA5540-K8
+ASA5545-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5545-x-adaptive-security-appliance-no-payload-encryption/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5545-K9
+ASA5550-BUN-K9,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727352.html,OK,ASA5550-BUN-K9
+ASA5550-K8,"September 16, 2013","September 16, 2014","December 12, 2017","September 30, 2018",http://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_C51-727352.html,OK,ASA5550-K8
+ASA5585-S10-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/security/asa-5585-x-adaptive-security-appliance/model.html,EOS status Orderable (No  specific EOS for this PN),ASA5585-S10-K9
+ASR1000-ESP10-N,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1000-ESP10-N
+ASR1000-ESP20,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-1000-series-20-gbps-embedded-services-processor/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1000-ESP20
+ASR1000-ESP40,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-1000-series-40-gbps-embedded-services-processor/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1000-ESP40
+ASR1000-ESP5,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1000-ESP5
+ASR1000-RP1,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1000-RP1
+ASR1000-RP2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-1000-series-route-processor-rp2/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1000-RP2
+ASR1000-SIP10,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1000-SIP10
+ASR1000-SIP10-SB,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1000-SIP10-SB
+ASR1000-SIP40,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR1001,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1001
+ASR1001-PWR-AC,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1001-PWR-AC
+ASR1001-PWR-DC,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1001-PWR-DC
+ASR1002,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1002
+ASR1002-10G/K9,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,ASR1002-10G/K9
+ASR1002-BB4K,"December 30, 2013","December 30, 2014","March 27, 2018","December 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-728847.html,OK,ASR1002-BB4K
+ASR1002-ESP-F,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR1002-F,"July 31, 2012","July 31, 2013","October 29, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_c51-678412.html,OK,ASR1002-F
+ASR1002-PWR-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1002-x-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1002-PWR-AC
+ASR1002-PWR-DC,"April 29, 2016",N/A,N/A,"April 30, 2021",http://www.cisco.com/c/en/us/support/routers/asr-1002-router/model.html,EOS status End (No  specific EOS for this PN),ASR1002-PWR-DC
+ASR1002-RP1,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR1002-SIP10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR1002-SIP10-F,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR1004,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/asr-1000-series-route-processor-rp2/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1004
+ASR1004-PWR-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1004-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1004-PWR-AC
+ASR1004-PWR-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1004-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1004-PWR-DC
+ASR1004-SB,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1004-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1004-SB
+ASR1006,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1006
+ASR1006-PWR-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR1006-PWR-DC
+ASR-9000V-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9000V-AC
+ASR-9000V-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9000V-FAN
+ASR-9001,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9001
+ASR-9001-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9001-FAN
+ASR9001-LC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR9001-RP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ASR-9006-AC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,ASR-9006-AC
+ASR-9006-AC-BUN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9006-AC-BUN
+ASR-9006-AC-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9006-AC-V2
+ASR-9006-DC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,ASR-9006-DC
+ASR-9006-DC-BUN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9006-DC-BUN
+ASR-9006-DC-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9006-DC-V2
+ASR-9006-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9006-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9006-FAN
+ASR-9010-AC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,ASR-9010-AC
+ASR-9010-AC-BUN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9010-AC-BUN
+ASR-9010-DC,"November 13, 2014","November 13, 2015","February 8, 2019","November 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html,OK,ASR-9010-DC
+ASR-9010-DC-BUN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9010-DC-BUN
+ASR-9010-DC-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9010-DC-V2
+ASR-9010-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9010-FAN
+ASR-9010-FAN-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9010-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9010-FAN-V2
+ASR-903,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-903-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-903
+ASR-9904-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9904-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9904-AC
+ASR-9904-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9904-router/model.html,EOS status Orderable (No  specific EOS for this PN),ASR-9904-FAN
+BF-S720-64MB-SP,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,BF-S720-64MB-SP
+BUN-C2950ST-24-LRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C2600Mainboard,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C2611XM-2FE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C2621XM-2FE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C2650XM-1FE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C2691-V3PN/K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C3745-VPN/K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+C3900-SPE100/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),C3900-SPE100/K9
+C3900-SPE150/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),C3900-SPE150/K9
+C3900-SPE200/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),C3900-SPE200/K9
+C3900-SPE250/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),C3900-SPE250/K9
+C3K-FAN-16CFM,"October 3, 2013","October 3, 2014","December 29, 2017","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-e-series-switches/end_of_life_notice_c51-727684.html,OK,C3K-FAN-16CFM
+C3K-PWR-265WAC,"January 30, 2013",N/A,N/A,"January 31, 2018",http://www.cisco.com/c/en/us/support/switches/catalyst-3750e-48td-s-switch/model.html,EOS status End (No  specific EOS for this PN),C3K-PWR-265WAC
+C3K-PWR-300WAC,"October 3, 2013","October 3, 2014","December 29, 2017","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-e-series-switches/end_of_life_notice_c51-727684.html,OK,C3K-PWR-300WAC
+C3K-PWR-300WDC,"October 3, 2013","October 3, 2014","December 29, 2017","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-e-series-switches/end_of_life_notice_c51-727684.html,OK,C3K-PWR-300WDC
+C3KX-NM-10G,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html,OK,C3KX-NM-10G
+C3KX-PWR-350WAC,"October 30, 2016","October 30, 2017","January 25, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-x-series-switches/eos-eol-notice-c51-737191.html,OK,C3KX-PWR-350WAC
+C7200-I/O-2FE/E,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,C7200-I/O-2FE/E
+C7200-I/O-2FE/E-BU,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,C7200-I/O-2FE/E-BU
+C7206VXR/400/2FE,"February 29, 2008","February 28, 2009","May 26, 2012","February 27, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd806b8c96.html,OK,C7206VXR/400/2FE
+C892FSP-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/c892fsp-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),C892FSP-K9
+CAB-SFP-50CM,"May 14, 2016",N/A,N/A,"May 31, 2021",http://www.cisco.com/c/en/us/support/switches/catalyst-3560v2-48ts-switch/model.html,EOS status End (No  specific EOS for this PN),CAB-SFP-50CM
+CFP-100G-ER4,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/100-gigabit-modules/model.html,EOS status Orderable (No  specific EOS for this PN),CFP-100G-ER4
+CFP-100G-LR4,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/100-gigabit-modules/model.html,EOS status Orderable (No  specific EOS for this PN),CFP-100G-LR4
+Cisco 12012/PRP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco 12404/PRP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco12406/PRP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO1760,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO1760-V,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO1760-V3PN/K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO1811/K9,"April 16, 2011","April 15, 2012","July 15, 2015","April 30, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/1800-series-integrated-services-routers-isr/eol_c51_598758.html,OK,CISCO1811/K9
+CISCO1841,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/1800-series-integrated-services-routers-isr/eol_c51-625662.html,OK,CISCO1841
+CISCO1841-SEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/1800-series-integrated-services-routers-isr/eol_c51-625662.html,OK,CISCO1841-SEC/K9
+CISCO1921/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/1921-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO1921/K9
+CISCO1941/K9,"December 26, 2016",N/A,N/A,"December 31, 2021",http://www.cisco.com/c/en/us/support/routers/1941w-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO1941/K9
+CISCO2610XM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2610XM-16TS,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2611XM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2621,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2621XM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2650XM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2651XM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO2801,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2801
+CISCO2801-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2801-HSEC/K9
+CISCO2801-V/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2801-V/K9
+CISCO2811,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2811
+CISCO2811-DC,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2811-DC
+CISCO2811-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2811-HSEC/K9
+CISCO2821,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2821
+CISCO2821-DC,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2821-DC
+CISCO2821-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2821-HSEC/K9
+CISCO2851,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2851
+CISCO2851-DC,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2851-DC
+CISCO2851-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-631228.html,OK,CISCO2851-HSEC/K9
+CISCO2901/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2901/K9
+CISCO2911/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2911-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2911/K9
+CISCO2911R/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2911-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2911R/K9
+CISCO2911-SEC/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2911-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2911-SEC/K9
+CISCO2921/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2921-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2921/K9
+CISCO2921-V/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2921-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2921-V/K9
+CISCO2951/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2951/K9
+CISCO2951-SEC/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO2951-SEC/K9
+CISCO3725,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco3745,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO3745-MB,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO3825,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_624090.html,OK,CISCO3825
+CISCO3825-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_624090.html,OK,CISCO3825-HSEC/K9
+CISCO3845,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_624090.html,OK,CISCO3845
+CISCO3845-DC,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_624090.html,OK,CISCO3845-DC
+CISCO3845-HSEC/K9,"November 1, 2011","October 31, 2012","January 30, 2016","October 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_624090.html,OK,CISCO3845-HSEC/K9
+CISCO3845-MB,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),CISCO3845-MB
+CISCO3925/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3925e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3925/K9
+CISCO3925E/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3925e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3925E/K9
+CISCO3945/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3945/K9
+CISCO3945E/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3945E/K9
+CISCO3945E-SEC/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3945E-SEC/K9
+CISCO3945-SEC/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),CISCO3945-SEC/K9
+CISCO7201,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,CISCO7201
+CISCO7204VXR,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,CISCO7204VXR
+CISCO7206VXR,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,CISCO7206VXR
+Cisco7206VXR(NPE-G1),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7206VXR-CH,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,CISCO7206VXR-CH
+CISCO7301,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7301-router/end_of_life_c51-678393.html,OK,CISCO7301
+Cisco7301(NPE-G1),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7301-2DC48,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7301-router/end_of_life_c51-678393.html,OK,CISCO7301-2DC48
+CISCO7304-G100,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,CISCO7304-G100
+CISCO7513/16X2-MX,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,CISCO7513/16X2-MX
+CISCO7604,"April 20, 2015","April 19, 2016","July 16, 2019","April 30, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-733146.html,OK,CISCO7604
+Cisco7604(RSP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco7604(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7606,"March 15, 2010","March 15, 2011","June 13, 2014","March 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_525383.html,OK,CISCO7606
+Cisco7606(RSP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco7606(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7606-S,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,CISCO7606-S
+Cisco7606-S(RSP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco7606-S(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7609,"March 15, 2010","March 15, 2011","June 13, 2014","March 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eol_c51_525383.html,OK,CISCO7609
+Cisco7609(RSP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco7609(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO7609-S,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,CISCO7609-S
+Cisco7609-S(RSP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Cisco7609-S(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCO805,"July 16, 2007","July 15, 2008","October 11, 2011","July 14, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/prod_end-of-life_notice0900aecd805b174f.html,OK,CISCO805
+CISCO851-K9,"July 15, 2010","July 15, 2011","October 10, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_577880.html,OK,CISCO851-K9
+CISCO857-K9,"December 20, 2011","December 19, 2012","March 19, 2016","December 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_638152.html,OK,CISCO857-K9
+CISCO871-K9,"July 15, 2010","July 15, 2011","October 10, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_577888.html,OK,CISCO871-K9
+CISCO877-K9,"December 20, 2011","December 19, 2012","March 19, 2016","December 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_638144.html,OK,CISCO877-K9
+CISCO877-SEC-K9,"December 20, 2011","December 19, 2012","March 19, 2016","December 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_638144.html,OK,CISCO877-SEC-K9
+CISCO881-K9,"August 22, 2014","August 22, 2015","November 17, 2018","August 31, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-731015.html,OK,CISCO881-K9
+CISCO887-K9,"December 20, 2011","December 19, 2012","March 19, 2016","December 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_638141.html,OK,CISCO887-K9
+CiscoASR1001,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1002(ESP10),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1002(ESP5),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1002-F,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1004(ESP20),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1006(ESP20),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR1006(ESP40),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR-9001,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR-9006,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR-9006-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR-9010,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoASR-9010-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoC6506(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoC6506-E(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoC6509(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoC6509-E(SUP720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoC6509-E(VS-S720),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoCRS-8/S,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoME-3800X-24FS-M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoME-4924-10GE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCOSB101-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CISCOSOHO97-K9-64,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C2912-LRE-XL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C2950-12,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C2950-24,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C2950ST-24-LRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C2950ST-8-LRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C3560-24PS,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C4900M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CiscoWS-C4948-10GE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CLK-7600,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,CLK-7600
+CL-X2-LR-10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CP-PWR-CUBE-4,"July  5, 2016",N/A,N/A,"July 31, 2021",http://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-9971/model.html,EOS status End (No  specific EOS for this PN),CP-PWR-CUBE-4
+CPS-HDD-6TB-BNDL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CRS-8/S,"July 31, 2013","July 31, 2014","October 29, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/end_of_life_notice_c51-713529.html,OK,CRS-8/S
+CRS-8-AC-RECT,"August 31, 2012","August 31, 2013","November 29, 2016","August 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/end_of_life_notice_c51-685653.html,OK,CRS-8-AC-RECT
+CRS-8-DC-PEM,"August 31, 2012","August 31, 2013","November 29, 2016","August 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/end_of_life_notice_c51-685653.html,OK,CRS-8-DC-PEM
+CRS-8-FC140/S,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/crs-1-8-slot-single-shelf-system/model.html,EOS status Orderable (No  specific EOS for this PN),CRS-8-FC140/S
+CRS-8-LCC,"July 31, 2013","July 31, 2014","October 29, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/end_of_life_notice_c51-713529.html,OK,CRS-8-LCC
+CRS-8-LCC-DC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CRS-8-LCC-FAN-TR,"January 30, 2016","January 29, 2017","April 29, 2020","January 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/eos-eol-notice-c51-733787.html,OK,CRS-8-LCC-FAN-TR
+CRS-8-PSH-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/crs-1-8-slot-line-card-chassis/model.html,EOS status Orderable (No  specific EOS for this PN),CRS-8-PSH-DC
+CRS-8-RP,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/end_of_life_notice_c51-695816.html,OK,CRS-8-RP
+CRS-FP140,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CRS-PM-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/crs-x-multishelf-system/model.html,EOS status Orderable (No  specific EOS for this PN),CRS-PM-DC
+CSACS-1121-UP-K9,"August 27, 2013","August 27, 2014","November 22, 2017","August 31, 2018",http://www.cisco.com/c/en/us/products/collateral/security/secure-access-control-system/eol__C51-726880.html,OK,CSACS-1121-UP-K9
+CTS-CAB-VGA-A,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-CAB-VGA-A
+CTS-CAM-TOOL,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-CAM-TOOL
+CTS-CODEC-PRI-G2R,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-CODEC-PRI-G2R
+CTS-CODEC-S-PWR,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-CODEC-S-PWR
+CTS-CTRL-DV12,"February 9, 2016","February 9, 2017","May 9, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/conferencing/telepresence-manager/eos-eol-notice-c51-736773.html,OK,CTS-CTRL-DV12
+CTS-DISP-65-GEN4,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-DISP-65-GEN4
+CTS-EP-SW-V1.9K9,"February 9, 2016","February 9, 2017","May 9, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/conferencing/telepresence-manager/eos-eol-notice-c51-736773.html,OK,CTS-EP-SW-V1.9K9
+CTS-LAEB-G2R,"May 6, 2015","May 5, 2016","August 1, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-integrator-c-series/eos-eol-notice-c51-733320.html,OK,CTS-LAEB-G2R
+CTS-LAPCONN-CE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CTS-LCU-G2R,"May 6, 2015","May 5, 2016","August 1, 2019","May 31, 2020",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-integrator-c-series/eos-eol-notice-c51-733320.html,OK,CTS-LCU-G2R
+CTS-PWR-LT-LED,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-PWR-LT-LED
+CTS-T3-PDU1,"May 1, 2013","May 1, 2014","July 27, 2017","April 30, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-t-series/end_of_life_notice_c51-720240.html,OK,CTS-T3-PDU1
+CTS-TX9000-BZL,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9000-BZL
+CTS-TX9000-LEDPK,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9000-LEDPK
+CTS-TX9000-SPKR,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9000-SPKR
+CTS-TX9000-TBL,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9000-TBL
+CTS-TX9200,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9200
+CTS-TX9200-TBL,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9200-TBL
+CTS-TX9K-CAMCLSTR,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-CAMCLSTR
+CTS-TX9K-CAM-HS,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-CAM-HS
+CTS-TX9K-CAM-PWR,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-CAM-PWR
+CTS-TX9K-CBLRUN,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-CBLRUN
+CTS-TX9K-DATADISP,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-DATADISP
+CTS-TX9K-FRT-PNLS,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-FRT-PNLS
+CTS-TX9K-LTRF-PNL,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-LTRF-PNL
+CTS-TX9K-MIC,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-MIC
+CTS-TX9K-TBL-PNLB,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9K-TBL-PNLB
+CTS-TX9XX0-TBL-WB,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9XX0-TBL-WB
+CTS-TX9XX0-TBL-WF,"October 30, 2015","October 30, 2016","January 30, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-3000-series/eos-eol-notice-c51-736181.html,OK,CTS-TX9XX0-TBL-WF
+CUCM-VERS-10.X-XU,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CVR-X2-SFP,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/twingig-converter-module/model.html,EOS status Orderable (No  specific EOS for this PN),CVR-X2-SFP
+CVR-X2-SFP10G,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/twingig-converter-module/model.html,EOS status Orderable (No  specific EOS for this PN),CVR-X2-SFP10G
+CWHUM-1.1-L-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+CWLMS-3.1-5KUPK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DE46C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DEM-330R,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DEM-330T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DEM-410X,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DEM-422XT,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DGS-3627G,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+DISK-SAS-300GB,"August 2, 2010","August 2, 2011","October 28, 2014","August 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/wide-area-application-services-waas-appliances/end_of_life_c51-582286.html,OK,DISK-SAS-300GB
+DWDM-XENPAK-47.72,"July 16, 2015","July 15, 2016","October 11, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-733695.html,OK,DWDM-XENPAK-47.72
+DWDM-XFP-50.92,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/dwdm-transceiver-modules/model.html,EOS status Orderable (No  specific EOS for this PN),DWDM-XFP-50.92
+DWDM-XFP-58.98,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/dwdm-transceiver-modules/model.html,EOS status Orderable (No  specific EOS for this PN),DWDM-XFP-58.98
+DWDM-XFP-59.79,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/dwdm-transceiver-modules/model.html,EOS status Orderable (No  specific EOS for this PN),DWDM-XFP-59.79
+DWDM-XFP-60.61,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/dwdm-transceiver-modules/model.html,EOS status Orderable (No  specific EOS for this PN),DWDM-XFP-60.61
+DWDM-XFP-C,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/dwdm-transceiver-modules/model.html,EOS status Orderable (No  specific EOS for this PN),DWDM-XFP-C
+ES+4TG3CXL-BUN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ES-2024A,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ES3526S,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+eSFP-GE-SMTx1490/Rx1310-10K,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ET4201-LX,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FAN-MOD-09,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,FAN-MOD-09
+FAN-MOD-4HS,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6504-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),FAN-MOD-4HS
+FAN-MOD-6SHS,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,FAN-MOD-6SHS
+FAN-MOD-9SHS,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,FAN-MOD-9SHS
+FBT-2C-49192-04C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FLASR1-BB-16K,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),FLASR1-BB-16K
+FLASR1-BB-4K,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),FLASR1-BB-4K
+FLASR1-BB-RTU,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),FLASR1-BB-RTU
+FLASR1-IOSRED-RTU,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),FLASR1-IOSRED-RTU
+FLS-ASR1001-5G,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,FLS-ASR1001-5G
+FL-WEBVPN-10-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FR-IR75,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FR-WPP75,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FTRJ-1319-7D-CSC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+FTRJ1319P1BTL-C7,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+GBIC_T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+GEIP+,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,GEIP+
+GLC-BX-D,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/model.html,EOS status Orderable (No  specific EOS for this PN),GLC-BX-D
+GLC-BX-U,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/gigabit-ethernet-gbic-sfp-modules/model.html,EOS status Orderable (No  specific EOS for this PN),GLC-BX-U
+GLC-LH-SM,"March 8, 2013","March 8, 2014","June 6, 2017","March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol_c51-698060.html,OK,GLC-LH-SM
+GLC-LH-SMD,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/1000base-lx-lh-sfp/model.html,EOS status Orderable (No  specific EOS for this PN),GLC-LH-SMD
+GLC-LX-SM-RGD,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/1000base-zx-sfp/model.html,EOS status Orderable (No  specific EOS for this PN),GLC-LX-SM-RGD
+GLC-SX-MM,"March 8, 2013","March 8, 2014","June 6, 2017","March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol_c51-698060.html,OK,GLC-SX-MM
+GLC-SX-MMD,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/1000base-sx-sfp/model.html,EOS status Orderable (No  specific EOS for this PN),GLC-SX-MMD
+GLC-T,"June 1, 2017","June 1, 2018","August 30, 2021","May 31, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-737325.html,OK,GLC-T
+GLC-ZX-SM,"October 17, 2013","October 17, 2014","January 12, 2018","October 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol_C51-727832.html,OK,GLC-ZX-SM
+GSR6-ALRM,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/12406-router/model.html,EOS status Orderable (No  specific EOS for this PN),GSR6-ALRM
+HighSpeedWanInterfacecardwith16RS232asyncports(HWIC-16A),NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+HWIC-1FE,"July 13, 2012","July 13, 2013","October 8, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51-696796.html,OK,HWIC-1FE
+HWIC-1GE-SFP,"July 13, 2012","July 13, 2013","October 8, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51-696796.html,OK,HWIC-1GE-SFP
+HWIC-2CE1T1-PRI,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),HWIC-2CE1T1-PRI
+HWIC-2FE,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),HWIC-2FE
+HWIC-2T,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),HWIC-2T
+HWIC-4ESW,"July 13, 2012","July 13, 2013","October 8, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51-696796.html,OK,HWIC-4ESW
+HWIC-4T,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),HWIC-4T
+HWIC-8A,"November  1, 2011",N/A,N/A,"November  1, 2016",http://www.cisco.com/c/en/us/support/routers/3845-ran-o-integrated-services-router-isr/model.html,EOS status End (No  specific EOS for this PN),HWIC-8A
+HWIC-D-9ESW,"July 13, 2012","July 13, 2013","October 8, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51-696796.html,OK,HWIC-D-9ESW
+Invalid,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ISR4451-X/K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/4451-x-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),ISR4451-X/K9
+JABBER-IM-ADDON,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+JABBER-IM-RTU,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+LIC-TP-10X-ROOM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+M-ASR1K-EUSB-1GB,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),M-ASR1K-EUSB-1GB
+M-ASR1K-HDD-40GB,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1013-router/model.html,EOS status Orderable (No  specific EOS for this PN),M-ASR1K-HDD-40GB
+M-ASR1K-RP1-4GB,"April 29, 2016","April 29, 2017","July 28, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-734572.html,OK,M-ASR1K-RP1-4GB
+ME-3400-24TS-A,"January 9, 2014","January 9, 2015","April 9, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/me-3400-series-ethernet-access-switches/end_of_life_notice_c51-726108.html,OK,ME-3400-24TS-A
+ME-3400-24TS-D,"January 9, 2014","January 9, 2015","April 9, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/me-3400-series-ethernet-access-switches/end_of_life_notice_c51-726108.html,OK,ME-3400-24TS-D
+ME-3400E-24TS-M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME-3400EG-12CS-M,"January  9, 2014",N/A,N/A,"January 31, 2019",http://www.cisco.com/c/en/us/support/switches/me-3400g-2cs-a-switch/model.html,EOS status End (No  specific EOS for this PN),ME-3400EG-12CS-M
+ME-3400G-12CS-A,"January 9, 2014","January 9, 2015","April 9, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/me-3400-series-ethernet-access-switches/end_of_life_notice_c51-726108.html,OK,ME-3400G-12CS-A
+ME-3400G-12CS-D,"January 9, 2014","January 9, 2015","April 9, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/me-3400-series-ethernet-access-switches/end_of_life_notice_c51-726108.html,OK,ME-3400G-12CS-D
+ME-3400G-2CS-A,"January 9, 2014","January 9, 2015","April 9, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/me-3400-series-ethernet-access-switches/end_of_life_notice_c51-726108.html,OK,ME-3400G-2CS-A
+ME34X-PWR-AC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME34X-PWR-AC-R,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME3600X-10G,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME-3600X-24FS-M,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/me-3600x-24fs-m-switch/model.html,EOS status Orderable (No  specific EOS for this PN),ME-3600X-24FS-M
+ME-3600X-24TS-M,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/me-3600x-24ts-m-switch/model.html,EOS status Orderable (No  specific EOS for this PN),ME-3600X-24TS-M
+ME3600X-I,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME3750-IPBASE-LIC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME-3800X-24FS-M,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/me-3800x-24fs-m-switch-router/model.html,EOS status Orderable (No  specific EOS for this PN),ME-3800X-24FS-M
+ME3800X-A,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME3800X-S,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME-4924-10GE,"February 28, 2013","February 28, 2014","May 29, 2017","February 28, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_c51-702107.html,OK,ME-4924-10GE
+ME-BDL-01,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ME-C3750-24TE-M,"August 29, 2011","February 22, 2013","May 23, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-metro-series-switches/end_of_life_notice_c51-650045.html,OK,ME-C3750-24TE-M
+ME-C6524GS-8S,"March 31, 2012","March 31, 2013","June 26, 2016","March 31, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-698793.html,OK,ME-C6524GS-8S
+MEM-16F-RSP4+,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-16F-RSP4+
+MEM1700-32D,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM1700-64D,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM1800-32CF,"May 7, 2014","May 7, 2015","August 2, 2018","May 31, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/carrier-routing-system/eos-eol-notice-c51-730176.html,OK,MEM1800-32CF
+MEM2600XM-128D,"July 6, 2012",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/end_of_life_notice_c51-705082.html,OK,MEM2600XM-128D
+MEM2600XM-32FS,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM2691-128D,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM2691-64CF,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM2800-64CF-INC,"January 10, 2013","January 10, 2014","April 7, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/end_of_life_notice_c51-711683.html,OK,MEM2800-64CF-INC
+MEM2811-256D,"January 10, 2013","January 10, 2014","April 7, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/end_of_life_notice_c51-711683.html,OK,MEM2811-256D
+MEM2821-256D,"January 10, 2013","January 10, 2014","April 7, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/end_of_life_notice_c51-711683.html,OK,MEM2821-256D
+MEM3745-128U256D,"July 6, 2012",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/end_of_life_notice_c51-705082.html,OK,MEM3745-128U256D
+MEM3745-32U64CF,"July 6, 2012",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/end_of_life_notice_c51-705082.html,OK,MEM3745-32U64CF
+MEM-7201-1GB,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-7201-1GB
+MEM-7201-FLD256,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-7201-FLD256
+MEM-7301-FLD64,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7301-router/end_of_life_c51-678393.html,OK,MEM-7301-FLD64
+MEM800-4F,"June 30, 2008","June 30, 2009","September 30, 2012","June 30, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-484360.html,OK,MEM800-4F
+MEM870-4F,"January 26, 2013","January 26, 2014","April 23, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-713658.html,OK,MEM870-4F
+MEM-C4K-FLD128M,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/catalyst-4500-supervisor-engine-8l-e/model.html,EOS status Orderable (No  specific EOS for this PN),MEM-C4K-FLD128M
+MEM-C6K-CPTFL128M,"September 10, 2007","September 9, 2008","December 6, 2011","September 8, 2012",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd805f990d.html,OK,MEM-C6K-CPTFL128M
+MEM-C6K-CPTFL256M,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,MEM-C6K-CPTFL256M
+MEM-CC-WAN-256M,"December 12, 2014","December 12, 2015","March 9, 2019","December 31, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-732057.html,OK,MEM-CC-WAN-256M
+MEM-I/O-FLD128M,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-I/O-FLD128M
+MEM-I/O-FLD48M,"June 15, 2005",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd801e90af.html,OK,MEM-I/O-FLD48M
+MEM-I/O-FLD64M,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-I/O-FLD64M
+MEM-MSFC2-512MB,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,MEM-MSFC2-512MB
+MEM-NPE-400-512MB,"September 9, 2010","September 9, 2011","December 8, 2014","September 8, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/eol_c51_556152.html,OK,MEM-NPE-400-512MB
+MEM-NPE-G1-1GB,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,MEM-NPE-G1-1GB
+MEM-NPE-G1-256MB,"February 27, 2009","February 27, 2010","May 25, 2013","February 26, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/eol_c51_494836.html,OK,MEM-NPE-G1-256MB
+MEM-NPE-G1-FLD128,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,MEM-NPE-G1-FLD128
+MEM-NPE-G1-FLD256,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,MEM-NPE-G1-FLD256
+MEM-NPE-G1-FLD64,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,MEM-NPE-G1-FLD64
+MEM-NPE-G2-1GB,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-NPE-G2-1GB
+MEM-NPE-G2-FLD256,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,MEM-NPE-G2-FLD256
+MEM-RSP16-512M,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-RSP16-512M
+MEM-RSP16-FLD64M,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-RSP16-FLD64M
+MEM-RSP720-2G,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,MEM-RSP720-2G
+MEM-RSP720-CF1G,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,MEM-RSP720-CF1G
+MEM-RSP720-CF512M,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,MEM-RSP720-CF512M
+MEM-RSP720-SP1G,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MEM-SIP-200-512M,"April 20, 2015","April 19, 2016","July 16, 2019","April 30, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-733146.html,OK,MEM-SIP-200-512M
+MEM-VIP4-256M-SD,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-VIP4-256M-SD
+MEM-VIP4-64M-SD,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-VIP4-64M-SD
+MEM-VIP6-256M-SD,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-VIP6-256M-SD
+MEM-VIP6-64M-SD,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,MEM-VIP6-64M-SD
+MEM-X45-512MB-E,"April 16, 2013",N/A,N/A,"April 30, 2018",http://www.cisco.com/c/en/us/support/switches/catalyst-4510r-e-switch/model.html,EOS status End (No  specific EOS for this PN),MEM-X45-512MB-E
+MEM-XCEF720-512M,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,MEM-XCEF720-512M
+MIDPLANE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+MOD1700-VPN,"July 31, 2009","July 31, 2010","October 26, 2013","July 30, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/1800-series-integrated-services-routers-isr/eol_c51_518932.html,OK,MOD1700-VPN
+MSFC4,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+N/A,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+NA,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+NETWORK-3-GR-A-RTM,"May 6, 2014",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-network/eos-eol-notice-c51-730181.html,OK,NETWORK-3-GR-A-RTM
+NETWORK-3-GR-B-RTM,"May 6, 2014",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-network/eos-eol-notice-c51-730181.html,OK,NETWORK-3-GR-B-RTM
+NETWORK-3-GR-C-RTM,"May 6, 2014",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-network/eos-eol-notice-c51-730181.html,OK,NETWORK-3-GR-C-RTM
+NETWORK-3-GR-D-RTM,"May 6, 2014",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/prime-network/eos-eol-notice-c51-730181.html,OK,NETWORK-3-GR-D-RTM
+NFC6.0-SW-T1-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+NM-16A,"September 14, 2009","September 14, 2010","December 10, 2013","September 13, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_521084.html,OK,NM-16A
+NM-16ESW,"November 15, 2011","November 14, 2012","February 13, 2016","November 30, 2016",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51-632346.html,OK,NM-16ESW
+NM-1CE1T1-PRI,"December 29, 2008","December 29, 2009","March 26, 2013","December 28, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_484362.html,OK,NM-1CE1T1-PRI
+NM-1GE,"April 1, 2010","April 1, 2011","June 27, 2014","March 31, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/eol_c51_574752.html,OK,NM-1GE
+NM-2CE1T1-PRI,"December 29, 2008","December 29, 2009","March 26, 2013","December 28, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_484362.html,OK,NM-2CE1T1-PRI
+NM-2FE2W,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+NM-2FE2W-V2,"May 18, 2011","May 17, 2012","August 13, 2015","May 31, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/3800-series-integrated-services-routers-isr/eol_c51_635817.html,OK,NM-2FE2W-V2
+NM-2W,"December 2, 2011","December 1, 2012","February 27, 2016","November 30, 2016",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51-655336.html,OK,NM-2W
+NM-8A/S,"September 27, 2008","September 27, 2009","December 26, 2012","September 26, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/prod_end-of-life_notice0900aecd806d9ca4.html,OK,NM-8A/S
+NM-8CE1T1-PRI,"March 31, 2016","March 31, 2017","June 26, 2020","March 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eos-eol-notice-c51-735924.html,OK,NM-8CE1T1-PRI
+NPE-400,"September 9, 2010","September 9, 2011","December 8, 2014","September 8, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/eol_c51_556152.html,OK,NPE-400
+NPE-400-BUN,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,NPE-400-BUN
+NPE-G1,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,NPE-G1
+NPE-G1-BUN,"February 27, 2012","February 26, 2013","May 24, 2016","February 28, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-682450.html,OK,NPE-G1-BUN
+NPE-G2,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,NPE-G2
+ONS-SC+-10G-LR,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+ONS-SE-ZE-EL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+OSM-1CHOC12/T1-SI,"July 7, 2008","July 7, 2009","October 2, 2012","July 6, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/prod_end-of-life_notice0900aecd807396bc.html,OK,OSM-1CHOC12/T1-SI
+PA-2FE-FX,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-2FE-FX
+PA-2FE-TX,"July 10, 2013","July 10, 2014","October 5, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/eol_C51-723710.html,OK,PA-2FE-TX
+PA-4T+,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-4T+
+PA-8E,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-8E
+PA-8T-V35,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-8T-V35
+PA-A3-OC3MM,"December 31, 2006","December 30, 2007","March 30, 2011","December 29, 2011",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html,OK,PA-A3-OC3MM
+PA-A3-OC3SMI,"December 31, 2006","December 30, 2007","March 30, 2011","December 29, 2011",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/prod_end-of-life_notice0900aecd806cab5a.html,OK,PA-A3-OC3SMI
+PA-FE-TX,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PA-GE,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-GE
+PA-H,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-H
+PA-MC-8E1/120,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PA-MC-8TE1+,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-MC-8TE1+
+PA-MC-STM-1SMI,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-MC-STM-1SMI
+PA-MCX-8TE1,"April 20, 2010","April 20, 2011","July 16, 2014","April 19, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-559298.html,OK,PA-MCX-8TE1
+PA-POS-1OC3,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-POS-1OC3
+PA-POS-2OC3,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/port-adapters/end_of_life_c51-676743.html,OK,PA-POS-2OC3
+PA-POS-OC3SMI,"July 31, 2006",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd802f91fd.html,OK,PA-POS-OC3SMI
+PA-VXC-2T1E1+,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PC-10X-STANDARD-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PIX-501,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PIX-506,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PIX-506E,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PIX-515E,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PIX-515E-R-DMZ-BUN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+POM-OC3-SMIR,"February 5, 2014","February 5, 2015","May 3, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/end_of_life_notice_c51-729209.html,OK,POM-OC3-SMIR
+PR031010-P0,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PRIME-3-NETWORK-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PRP-2,"July 31, 2013","July 31, 2014","October 29, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-713527.html,OK,PRP-2
+PRP-2/R,"July 31, 2013","July 31, 2014","October 29, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-713527.html,OK,PRP-2/R
+PVDM-256K-4,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PVDM2-8,"June 30, 2014","June 30, 2015","September 30, 2018","June 30, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/end_of_life_notice_c51-729629.html,OK,PVDM2-8
+PVDM3-32,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PVDM3-32
+PWR-1900-AC/6,"April 11, 2008","April 11, 2009","July 7, 2012","April 10, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/prod_end-of-life_notice0900aecd806b0baa.html,OK,PWR-1900-AC/6
+PWR-2700-AC,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,PWR-2700-AC
+PWR-2700-DC,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,PWR-2700-DC
+PWR-2700-DC/4,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6504-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2700-DC/4
+PWR-2911-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2911-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2911-AC
+PWR-2911-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2911-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2911-DC
+PWR-2921-51-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2921-51-AC
+PWR-2921-51-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2921-51-DC
+PWR-2KW-DC-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-2KW-DC-V2
+PWR-3900-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/3945e-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-3900-AC
+PWR-3KW-AC-V2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-9922-router/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-3KW-AC-V2
+PWR-4000-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6513-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-4000-DC
+PWR-6000-DC,"July 24, 2016",N/A,N/A,"July 31, 2021",http://www.cisco.com/c/en/us/support/routers/7613-router/model.html,EOS status End (No  specific EOS for this PN),PWR-6000-DC
+PWR-7200,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7200
+PWR-7200/2,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7200/2
+PWR-7200-AC,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7200-AC
+PWR-7200-ACE,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7200-ACE
+PWR-7200-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/7206vxr-router/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-7200-DC
+PWR-7201-AC,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7201-AC
+PWR-7201-DC,"September 29, 2012","September 29, 2013","December 28, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/end_of_life_c51-681414.html,OK,PWR-7201-DC
+PWR-7513-ACE,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,PWR-7513-ACE
+PWR-805-WW1,"September 30, 2008","September 30, 2009","December 31, 2012","September 30, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_484922.html,OK,PWR-805-WW1
+PWR-830-WW1,"September 30, 2008","September 30, 2009","December 31, 2012","September 30, 2013",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51_484922.html,OK,PWR-830-WW1
+PWR-850-870-WW1,"January 30, 2013","January 30, 2014","April 27, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-713613.html,OK,PWR-850-870-WW1
+PWR-C45-1400DC,"April 16, 2013",N/A,N/A,"April 30, 2018",http://www.cisco.com/c/en/us/support/switches/catalyst-4510r-e-switch/model.html,EOS status End (No  specific EOS for this PN),PWR-C45-1400DC
+PWR-C45-1400DC/2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+PWR-C49-300AC,"January 23, 2015","January 23, 2016","April 20, 2019","January 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-732334.html,OK,PWR-C49-300AC
+PWR-C49-300AC/2,"January 23, 2015","January 23, 2016","April 20, 2019","January 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-732334.html,OK,PWR-C49-300AC/2
+PWR-C49-300DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4948e-f-ethernet-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-C49-300DC
+PWR-C49-300DC/2,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4948e-f-ethernet-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-C49-300DC/2
+PWR-C49M-1000AC,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,PWR-C49M-1000AC
+PWR-C49M-1000AC/2,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,PWR-C49M-1000AC/2
+PWR-C49M-1000DC,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,PWR-C49M-1000DC
+PWR-C49M-1000DC/2,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,PWR-C49M-1000DC/2
+PWR-CORD10-CE,"March  1, 2013",N/A,N/A,"March  2, 2018",http://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-tx1300-47/model.html,EOS status End (No  specific EOS for this PN),PWR-CORD10-CE
+PWR-CORD-EUR-C,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-mse-8510/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-CORD-EUR-C
+PWR-ME3KX-AC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/me-3600x-24ts-m-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-ME3KX-AC
+PWR-ME3KX-DC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/me-3600x-24ts-m-switch/model.html,EOS status Orderable (No  specific EOS for this PN),PWR-ME3KX-DC
+QPM-4.0-COMB-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+QSC-SFP120GEW-1570,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+RSP16,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,RSP16
+RSP440-TR,"August 30, 2017","August 30, 2018","November 28, 2021","August 31, 2022",http://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-737819.html,OK,RSP440-TR
+RSP720-3C-10GE,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,RSP720-3C-10GE
+RSP720-3C-GE,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,RSP720-3C-GE
+RSP720-3CXL-10GE,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,RSP720-3CXL-10GE
+RSP720-3CXL-GE,"July 24, 2016","July 24, 2017","October 22, 2020","July 31, 2021",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-735517.html,OK,RSP720-3CXL-GE
+R-UCL-UCM-LIC-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S17AISK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S17IPV,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S181AISK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S184IPB,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S269AISK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S26IPB,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S280AISK9-12403,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S280IPB-12401,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S280IPB-12416,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S28NAISK9-12401,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S28NAISK9-12409T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S28NIPB,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S28NIPB-12308T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S28NIPB-12403,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S29NPEK9-15104M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S29NPEK9-15201T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S29UK9-15001M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S340XAK9T-12255SE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S340XAT-12250SE,"June 20, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_C51-723166.html,OK,S340XAT-12250SE
+S340XAT-12253SE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S340XBT-12250SE,"June 20, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_C51-723166.html,OK,S340XBT-12250SE
+S3560EVT-12250SE,"June 20, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_C51-723166.html,OK,S3560EVT-12250SE
+S360XVT-12252EY,"July 17, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/me-3600x-series-ethernet-access-switches/end_of_life_notice_c51-726196.html,OK,S360XVT-12252EY
+S382AISK9-12311T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S382AISK9-12401,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S384IPB-12403,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S384IPB-12415T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S384IPB-15001M,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S45IPB-12253SG,"May 17, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol_C51-721118.html,OK,S45IPB-12253SG
+S49IPB-12253SG,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S49LB-12254SG,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S49MIPB-12253SG,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S72A,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S72C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S72PZ-12231SB,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S730C-12225S,"November 17, 2006",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7304-router/prod_end-of-life_notice0900aecd804a02ff.html,OK,S730C-12225S
+S75Z,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S7632AIK9-12233SRA,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S763IPSK9-12218SXE,"August 18, 2014",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/eos-eol-notice-c51-731088.html,OK,S763IPSK9-12218SXE
+S763ISS-12218SXF,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S764AIS-12233SRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S805C,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S850ASK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+S870ASK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SASR1R1-AIS-23SR,"November 27, 2009",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51-698050.html,OK,SASR1R1-AIS-23SR
+SASR1R1-AIS-26SR,"November 26, 2010",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51_587625.html,OK,SASR1R1-AIS-26SR
+SASR1R1-AIS-31S,"August 1, 2011",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-645778.html,OK,SASR1R1-AIS-31S
+SASR1R1-AIS-34S,"March 28, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-717501.html,OK,SASR1R1-AIS-34S
+SASR1R1-AIS-36S,"January 8, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-709635.html,OK,SASR1R1-AIS-36S
+SASR1R1-IPB-25SR,"August 25, 2010",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_c51-570651.html,OK,SASR1R1-IPB-25SR
+SASR1R1-IPB-26SR,"November 26, 2010",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51_587625.html,OK,SASR1R1-IPB-26SR
+SASR1R2-AIS-23S,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SASR1R2-AIS-23SR,"November 27, 2009",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51-698050.html,OK,SASR1R2-AIS-23SR
+SASR1R2-AIS-31S,"August 1, 2011",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-645778.html,OK,SASR1R2-AIS-31S
+SASR1R2-AIS-33S,"January 8, 2012",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51-683581.html,OK,SASR1R2-AIS-33S
+SASR1R2-AIS-34S,"March 28, 2013",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/end_of_life_notice_c51-717501.html,OK,SASR1R2-AIS-34S
+SASR1R2-IPB-33S,"January 8, 2012",N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eol_c51-683581.html,OK,SASR1R2-IPB-33S
+SFP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-1000A-20KM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-1000B-20KM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-10G-ER,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/10-gigabit-modules/model.html,EOS status Orderable (No  specific EOS for this PN),SFP-10G-ER
+SFP-10G-LR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/10-gigabit-modules/model.html,EOS status Orderable (No  specific EOS for this PN),SFP-10G-LR
+SFP-10G-SR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/10-gigabit-modules/model.html,EOS status Orderable (No  specific EOS for this PN),SFP-10G-SR
+SFP-155-WDM5.20,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM-120-1610,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM33.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM35.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM47.120,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM49.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM51.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM53.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM57.120,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM57.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM59.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM-60-1530,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM61.60,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-CWDM61MR.35,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-GE-L,"March 8, 2013","March 8, 2014","June 6, 2017","March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol_c51-698060.html,OK,SFP-GE-L
+SFP-GE-S,"March 8, 2013","March 8, 2014","June 6, 2017","March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol_c51-698060.html,OK,SFP-GE-S
+SFP-GE-T,"June 1, 2017","June 1, 2018","August 30, 2021","May 31, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-737325.html,OK,SFP-GE-T
+SFP-LX.LC.10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-LX.LC.20,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-OC3-IR1,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/sonet-sdh-sfp-modules/model.html,EOS status Orderable (No  specific EOS for this PN),SFP-OC3-IR1
+SFP-OC3-SR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/sonet-sdh-sfp-modules/model.html,EOS status Orderable (No  specific EOS for this PN),SFP-OC3-SR
+SFP-T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM.DDM.3.10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM.DDM.5.10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-03-1310,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-03-1310-SC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-03-1550,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-03-1550-LC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-03-1550-SC,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-10-1310,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-10-1550,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-20-1310,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM3.03,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM3.10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM3.20,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM4.40,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM4.80,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM5.03,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM5.10,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM5.20,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM5.40,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM5.80,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-80-1490,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-WDM-80-1550,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-ZX.LC.120,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-ZX.LC.70,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SFP-ZX-80-D,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SL-29-IPB-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),SL-29-IPB-K9
+SLASR1-AIS,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/asr-1001-x-router/model.html,EOS status Orderable (No  specific EOS for this PN),SLASR1-AIS
+SM-ES2-16-P,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/enhanced-layer-2-etherswitch-service-module/model.html,EOS status Orderable (No  specific EOS for this PN),SM-ES2-16-P
+SM-ES3G-16-P,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/enhanced-layer-2-3-etherswitch-service-module/model.html,EOS status Orderable (No  specific EOS for this PN),SM-ES3G-16-P
+SM-NM-ADPTR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/routers/2951-integrated-services-router-isr/model.html,EOS status Orderable (No  specific EOS for this PN),SM-NM-ADPTR
+SNR-SFP-LX-120-DDM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SNR-X2-ER,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SP7041,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-10X1GE-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-1X10GE-L-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-1X10GE-L-V2EP,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-1XCHSTM1/OC3,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-1XOC3-ATM-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-2X1GE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-2X1GE-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-2XOC3-ATM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-2XOC3-POS,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-4FE-7304,"July 4, 2010","July 4, 2011","September 29, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/7300-series-routers/eol_c51_576385.html,OK,SPA-4FE-7304
+SPA-4XOC3-POS,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-4XOC3-POS-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-5X1GE-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-8X1GE-V2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-8XCHT1/E1,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-8XFE-TX,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SPA-IPSEC-2G,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/7600-series-catalyst-6500-series-ipsec-vpn-shared-port-adapter/model.html,EOS status Orderable (No  specific EOS for this PN),SPA-IPSEC-2G
+SPS208G-G5,"December 18, 2012",N/A,N/A,"December 31, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/small-business-stackable-managed-switches/end_of_life_notice_c51-716932.html,OK,SPS208G-G5
+SPS224G4,"March 2, 2013",N/A,N/A,"March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/small-business-stackable-managed-switches/end_of_life_notice_c51-722247.html,OK,SPS224G4
+SPS224G4-G5,"March 2, 2013",N/A,N/A,"March 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/small-business-stackable-managed-switches/end_of_life_notice_c51-722247.html,OK,SPS224G4-G5
+SSB1CHK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SSH97CHK9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+SW-300-V3.X-K9,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+THERM-7606S,"July 24, 2016",N/A,N/A,"July 31, 2021",http://www.cisco.com/c/en/us/support/routers/7606-s-router/model.html,EOS status End (No  specific EOS for this PN),THERM-7606S
+TRT2005EN-SMC-1Y,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+Unspecified,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+VIC-4FXS/DID,"July 20, 2010","November 12, 2011","February 7, 2015","November 30, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/end_of_life_notice_c51-602962.html,OK,VIC-4FXS/DID
+VIP6-80,"December 15, 2007","December 14, 2008","March 14, 2012","December 31, 2012",http://www.cisco.com/c/en/us/products/collateral/routers/7500-series-routers/prod_end-of-life_notice0900aecd8058ffe4.html,OK,VIP6-80
+VS-F6K-MSFC3,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,VS-F6K-MSFC3
+VS-F6K-PFC3C,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,VS-F6K-PFC3C
+VS-F6K-PFC3CXL,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,VS-F6K-PFC3CXL
+VS-S720-10G,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/catalyst-6500-series-virtual-switching-supervisor-engine-720-10ge-uplinks/model.html,EOS status Orderable (No  specific EOS for this PN),VS-S720-10G
+VS-S720-10G-3C,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,VS-S720-10G-3C
+VS-S720-10G-3Ñ,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+VWIC-1MFT-E1,"September 17, 2008","September 17, 2009","December 16, 2012","September 16, 2013",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/prod_end-of-life_notice0900aecd806c3dc6.html,OK,VWIC-1MFT-E1
+VWIC2-1MFT-T1/E1,"June 30, 2014","June 30, 2015","September 30, 2018","June 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/end_of_life_notice_c51-729577.html,OK,VWIC2-1MFT-T1/E1
+VWIC2-2MFT-G703,"June 30, 2014","June 30, 2015","September 30, 2018","June 30, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/end_of_life_notice_c51-729577.html,OK,VWIC2-2MFT-G703
+VWIC2-2MFT-T1/E1,"August 7, 2015","August 6, 2016","November 2, 2019","August 31, 2020",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eos-eol-notice-c51-733885.html,OK,VWIC2-2MFT-T1/E1
+VWIC-2MFT-E1,"September 17, 2008","September 17, 2009","December 16, 2012","September 16, 2013",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/prod_end-of-life_notice0900aecd806c3dc6.html,OK,VWIC-2MFT-E1
+VWIC-2MFT-E1-DI,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/t1-e1-mutiflex-vwic/model.html,EOS status Orderable (No  specific EOS for this PN),VWIC-2MFT-E1-DI
+VWIC-2MFT-G703,"September 17, 2008","September 17, 2009","December 16, 2012","September 16, 2013",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/wan-interface-cards/prod_end-of-life_notice0900aecd806c3dc6.html,OK,VWIC-2MFT-G703
+VWIC3-2MFT-T1/E1,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/t1-e1-mutiflex-vwic/model.html,EOS status Orderable (No  specific EOS for this PN),VWIC3-2MFT-T1/E1
+VZ-C123 20201474,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WAAS-CNTRL-MGR,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WAAS-TRN-APL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WAE-512-K9,"August 17, 2012","August 17, 2013","November 12, 2016","August 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/wide-area-application-services-waas-appliances/eol_c51-700260.html,OK,WAE-512-K9
+WAE-612-K9,"August 2, 2010","August 2, 2011","October 28, 2014","August 31, 2015",http://www.cisco.com/c/en/us/products/collateral/routers/wide-area-application-services-waas-appliances/end_of_life_c51-582286.html,OK,WAE-612-K9
+WAE-7341-K9,"August 17, 2012","August 17, 2013","November 12, 2016","August 31, 2017",http://www.cisco.com/c/en/us/products/collateral/routers/wide-area-application-services-waas-appliances/eol_c51-700260.html,OK,WAE-7341-K9
+WIC-1ENET,"June 2, 2010","June 2, 2011","August 28, 2014","June 1, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/end_of_life_c51-572422.html,OK,WIC-1ENET
+WIC-1T,"December 28, 2009","December 28, 2010","March 28, 2014","December 27, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51_513300.html,OK,WIC-1T
+WIC-2A/S,"December 28, 2009","December 28, 2010","March 28, 2014","December 27, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51_513300.html,OK,WIC-2A/S
+WIC-2T,"December 28, 2009","December 28, 2010","March 28, 2014","December 27, 2014",http://www.cisco.com/c/en/us/products/collateral/routers/2800-series-integrated-services-routers-isr/eol_c51_513300.html,OK,WIC-2T
+WIC-4ESW,"June 2, 2010","June 2, 2011","August 28, 2014","June 1, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/end_of_life_c51-572423.html,OK,WIC-4ESW
+WS-C2912-LRE-XL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2912-XL-EN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2924M-XL-EN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2924-XL-EN,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950-12,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950-24,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950G-12-EI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950G-24-EI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950ST-24-LRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950ST-8-LRE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950T-24,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2950T-48-SI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C2960-24-S,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-24-S
+WS-C2960-24TC-L,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-24TC-L
+WS-C2960-24TC-S,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-24TC-S
+WS-C2960-24TT-L,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-24TT-L
+WS-C2960-48TC-L,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-48TC-L
+WS-C2960-48TC-S,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-48TC-S
+WS-C2960-48TT-L,"October 31, 2014","October 31, 2015","January 29, 2019","October 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-730121.html,OK,WS-C2960-48TT-L
+WS-C2960-8TC-L,"July 29, 2013","July 29, 2014","October 24, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eol__C51-726504.html,OK,WS-C2960-8TC-L
+WS-C2960G-24TC-L,"July 31, 2012","July 31, 2013","October 29, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/end_of_life_c51-674040.html,OK,WS-C2960G-24TC-L
+WS-C2960G-48TC-L,"July 31, 2012","July 31, 2013","October 29, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/end_of_life_c51-674040.html,OK,WS-C2960G-48TC-L
+WS-C2960S-48TS-L,"November 6, 2015","November 5, 2016","February 4, 2020","November 30, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eos-eol-notice-c51-733348.html,OK,WS-C2960S-48TS-L
+WS-C2960X-48TS-L,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-2960x-48ts-l-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C2960X-48TS-L
+WS-C2970G-24T-E,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-12T,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-24,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-24-DC-SMI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-24PWR-SMI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-24-SMI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-48,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3550-48-EMI,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C3560-24PS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3560-24PS-S
+WS-C3560-24TS-E,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3560-24TS-E
+WS-C3560-24TS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3560-24TS-S
+WS-C3560-48TS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3560-48TS-S
+WS-C3560-8PC-S,"July 29, 2013","July 29, 2014","October 24, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-series-switches/eol__C51-726504.html,OK,WS-C3560-8PC-S
+WS-C3560E-12SD-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3560E-12SD-S
+WS-C3560G-24TS-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3560G-24TS-E
+WS-C3560G-24TS-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3560G-24TS-S
+WS-C3560G-48TS-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3560G-48TS-E
+WS-C3560G-48TS-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3560G-48TS-S
+WS-C3560V2-24PS-S,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3560V2-24PS-S
+WS-C3560V2-24TS-E,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3560V2-24TS-E
+WS-C3560V2-24TS-S,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3560V2-24TS-S
+WS-C3560V2-24TS-SD,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3560V2-24TS-SD
+WS-C3560V2-48TS-S,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3560V2-48TS-S
+WS-C3750-24PS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3750-24PS-S
+WS-C3750-48PS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3750-48PS-S
+WS-C3750-48TS-E,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3750-48TS-E
+WS-C3750-48TS-S,"July 5, 2010","July 5, 2011","September 30, 2014","July 31, 2015",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/end_of_life_notice_c51-574778.html,OK,WS-C3750-48TS-S
+WS-C3750E-24TD-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750E-24TD-E
+WS-C3750G-12S-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-12S-E
+WS-C3750G-12S-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-12S-S
+WS-C3750G-12S-SD,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-12S-SD
+WS-C3750G-24T-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-24T-E
+WS-C3750G-24T-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-24T-S
+WS-C3750G-24TS-E,"March 16, 2009","March 16, 2010","June 11, 2013","March 15, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_489759.html,OK,WS-C3750G-24TS-E
+WS-C3750G-24TS-E1U,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-24TS-E1U
+WS-C3750G-24TS-S,"March 16, 2009","March 16, 2010","June 11, 2013","March 15, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51_489759.html,OK,WS-C3750G-24TS-S
+WS-C3750G-24TS-S1U,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-24TS-S1U
+WS-C3750G-48TS-E,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-48TS-E
+WS-C3750G-48TS-S,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html,OK,WS-C3750G-48TS-S
+WS-C3750V2-48TS-E,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3750V2-48TS-E
+WS-C3750V2-48TS-S,"May 14, 2016","May 14, 2017","August 12, 2020","May 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eos-eol-notice-c51-730227.html,OK,WS-C3750V2-48TS-S
+WS-C3750X-12S-E,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html,OK,WS-C3750X-12S-E
+WS-C3750X-48T-S,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html,OK,WS-C3750X-48T-S
+WS-C4503-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4503-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C4503-E
+WS-C4506-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4506-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C4506-E
+WS-C4900M,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,WS-C4900M
+WS-C4900-SW-LIC,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4948-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C4900-SW-LIC
+WS-C4948,"August 1, 2013","August 1, 2014","October 30, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_C51-712223.html,OK,WS-C4948
+WS-C4948-10GE,"February 28, 2013","February 28, 2014","May 29, 2017","February 28, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_c51-702107.html,OK,WS-C4948-10GE
+WS-C4948-10GE-E,"February 28, 2013","February 28, 2014","May 29, 2017","February 28, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_c51-702107.html,OK,WS-C4948-10GE-E
+WS-C4948-10GE-S,"February 28, 2013","February 28, 2014","May 29, 2017","February 28, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_c51-702107.html,OK,WS-C4948-10GE-S
+WS-C4948E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4948e-ethernet-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C4948E
+WS-C4948-E,"August 1, 2013","August 1, 2014","October 30, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_C51-712223.html,OK,WS-C4948-E
+WS-C4948-S,"August 1, 2013","August 1, 2014","October 30, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eol_C51-712223.html,OK,WS-C4948-S
+WS-C6000-CL,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C6000-VTT,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-C6504-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6504-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C6504-E
+WS-C6506,"November 1, 2006","November 1, 2007","August 1, 2012","November 30, 2012",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd8035ece4.html,OK,WS-C6506
+WS-C6506-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6506-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C6506-E
+WS-C6506-E-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6506-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C6506-E-FAN
+WS-C6506E-S32-GE,N/A,N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html,Error parsing EoS doc. For dates please check source link,WS-C6506E-S32-GE
+WS-C6509,"November 1, 2006","November 1, 2007","August 1, 2012","November 30, 2012",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd8035ece4.html,OK,WS-C6509
+WS-C6509-1300AC,"November 1, 2006","November 1, 2007","August 1, 2012","November 30, 2012",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd8035ece4.html,OK,WS-C6509-1300AC
+WS-C6509-E,"April 23, 2012",N/A,N/A,"April 30, 2017",http://www.cisco.com/c/en/us/support/interfaces-modules/catalyst-6500-series-7600-series-wireless-services-module-wism/model.html,EOS status End (No  specific EOS for this PN),WS-C6509-E
+WS-C6509-E-FAN,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6509-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C6509-E-FAN
+WS-C6509E-S32-GE,N/A,N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html,Error parsing EoS doc. For dates please check source link,WS-C6509E-S32-GE
+WS-C6509-E-VPN+-K9,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-6509-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-C6509-E-VPN+-K9
+WS-C6K-VTT,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,WS-C6K-VTT
+WS-C6K-VTT-E,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-CAC-2500W,"January 13, 2006","January 13, 2007","April 10, 2010","January 31, 2011",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd802e87bb.html,OK,WS-CAC-2500W
+WS-CAC-3000W,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-CAC-4000W-INT,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-CAC-6000W,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-CDC-2500W,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-CDC-2500W
+WS-CF-UPG,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,WS-CF-UPG
+WS-F6700-CFC,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-F6700-CFC
+WS-F6700-DFC3C,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-F6700-DFC3C
+WS-F6700-DFC3CXL,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-F6700-DFC3CXL
+WS-F6K-MSFC2A,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/catalyst-6500-series-supervisor-engine-32-msfc2a/model.html,EOS status Orderable (No  specific EOS for this PN),WS-F6K-MSFC2A
+WS-F6K-PFC3B,"January 30, 2014","January 30, 2015","April 27, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/mgx-8800-series-switches/end_of_life_notice_c51-729149.html,OK,WS-F6K-PFC3B
+WS-F6K-PFC3BXL,"January 30, 2014","January 30, 2015","April 27, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/mgx-8800-series-switches/end_of_life_notice_c51-729149.html,OK,WS-F6K-PFC3BXL
+WS-G5483,"February 1, 2014","February 1, 2015","May 2, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol__C51-726566.html,OK,WS-G5483
+WS-G5484,"February 1, 2014","February 1, 2015","May 2, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol__C51-726566.html,OK,WS-G5484
+WS-G5486,"February 1, 2014","February 1, 2015","May 2, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eol__C51-726566.html,OK,WS-G5486
+WS-SUP32-GE-3B,N/A,N/A,N/A,N/A,http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html,Error parsing EoS doc. For dates please check source link,WS-SUP32-GE-3B
+WS-SUP720,"December 18, 2009","December 18, 2011",March 18 2014,"December 17, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-500212.html,OK,WS-SUP720
+WS-SUP720 ,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-SUP720-3B,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-697975.html,OK,WS-SUP720-3B
+WS-SUP720-3BXL,"January 30, 2013","January 30, 2014","April 30, 2017","January 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-697975.html,OK,WS-SUP720-3BXL
+WS-SUP720-3BXL ,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-SUP720-BASE,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+WS-SVC-ADM-1-K9,"July 31, 2010","July 31, 2011","October 26, 2014","July 30, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/services-modules/end_of_life_c51-573493.html,OK,WS-SVC-ADM-1-K9
+WS-SVC-AGM-1-K9,"July 31, 2010","July 31, 2011","October 26, 2014","July 30, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/services-modules/end_of_life_c51-573493.html,OK,WS-SVC-AGM-1-K9
+WS-SVC-FWM-1-K9,"September 25, 2012","September 25, 2013","December 21, 2016","September 30, 2017",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-6500-series-firewall-services-module/eol_c51-699134.html,OK,WS-SVC-FWM-1-K9
+WS-SVC-MWAM-1,"December 29, 2009","December 29, 2010","March 26, 2014","December 31, 2014",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/multiprocessor-wan-application-modules/eol_c51_548613.html,OK,WS-SVC-MWAM-1
+WS-X4448-GB-SFP,"April 28, 2014","April 28, 2015","July 24, 2018","April 30, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-730031.html,OK,WS-X4448-GB-SFP
+WS-X4593-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4503-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-X4593-E
+WS-X4596-E,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/switches/catalyst-4506-e-switch/model.html,EOS status Orderable (No  specific EOS for this PN),WS-X4596-E
+WS-X45-SUP6-E,"March 1, 2014","March 1, 2015","May 30, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eol__C51-726869.html,OK,WS-X45-SUP6-E
+WS-X4624-SFP-E,"April 30, 2017","April 30, 2018","July 29, 2021","April 30, 2022",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-737185.html,OK,WS-X4624-SFP-E
+WS-X4648-RJ45-E,"April 30, 2017","April 30, 2018","July 29, 2021","April 30, 2022",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-737185.html,OK,WS-X4648-RJ45-E
+WS-X4908-10GE,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,WS-X4908-10GE
+WS-X4920-GB-RJ45,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,WS-X4920-GB-RJ45
+WS-X4992,"October 30, 2016","October 30, 2017","January 28, 2021","October 31, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4900-series-switches/eos-eol-notice-c51-736182.html,OK,WS-X4992
+WS-X6148A-GE-TX,"July 31, 2013","July 31, 2014","October 26, 2017","July 31, 2018",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol__C51-726523.html,OK,WS-X6148A-GE-TX
+WS-X6148A-RJ-45,"July 31, 2012","July 31, 2013","October 26, 2016","July 31, 2017",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-698807.html,OK,WS-X6148A-RJ-45
+WS-X6148-GE-TX,"December 15, 2009","December 15, 2010","March 15, 2014","December 14, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51_509455.html,OK,WS-X6148-GE-TX
+WS-X6148-RJ-45,"December 15, 2009","December 15, 2010","March 15, 2014","December 14, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51_509455.html,OK,WS-X6148-RJ-45
+WS-X6348-RJ-45,"January 13, 2006","January 13, 2007","April 10, 2010","January 31, 2011",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd802e87bb.html,OK,WS-X6348-RJ-45
+WS-X6408A-GBIC,"May 18, 2009","May 18, 2010","August 13, 2013","May 31, 2014",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51_496000.html,OK,WS-X6408A-GBIC
+WS-X6516-GBIC,"January 13, 2006","January 13, 2007","April 10, 2010","January 31, 2011",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice0900aecd802e87bb.html,OK,WS-X6516-GBIC
+WS-X6582-2PA,"January 29, 2014","January 29, 2015","April 26, 2018","January 31, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/7600-series-routers/end_of_life_notice_c51-729112.html,OK,WS-X6582-2PA
+WS-X6704-10GE,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,WS-X6704-10GE
+WS-X6708-10G-3C,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-X6708-10G-3C
+WS-X6708-10G-3CXL,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-X6708-10G-3CXL
+WS-X6708-10GE,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-X6708-10GE
+WS-X6724-SFP,"July 31, 2015","July 31, 2016","October 31, 2019","July 31, 2020",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-733297.html,OK,WS-X6724-SFP
+WS-X6748-GE-TX,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-X6748-GE-TX
+WS-X6748-SFP,"April 30, 2016","April 30, 2017","July 26, 2020","April 30, 2021",http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eos-eol-notice-c51-735926.html,OK,WS-X6748-SFP
+X2,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+X2-10GB-DWDM,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+X2-10GB-ER,"July 1, 2017","July 1, 2018","September 29, 2021","June 30, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-737526.html,OK,X2-10GB-ER
+X2-10GB-LR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/10gbase-lr-x2-module/model.html,EOS status Orderable (No  specific EOS for this PN),X2-10GB-LR
+X2-10GB-SR,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/10gbase-sr-x2-module/model.html,EOS status Orderable (No  specific EOS for this PN),X2-10GB-SR
+X2-10GB-ZR,"July 1, 2017","July 1, 2018","September 29, 2021","June 30, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-737526.html,OK,X2-10GB-ZR
+X2-10G-LR,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+X2-DWDM-1550.92-80,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+X2-DWDM-1558.98-80,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+X2toSFP+,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XENPAK-10GB-ER,"September 11, 2007","September 10, 2008","December 7, 2011","September 9, 2012",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/prod_end-of-life_notice0900aecd805f8efc.html,OK,XENPAK-10GB-ER
+XENPAK-10GB-ER+,"September 30, 2015","September 29, 2016","December 26, 2019","September 30, 2020",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-734289.html,OK,XENPAK-10GB-ER+
+XENPAK-10GB-LR,"December 13, 2007","December 12, 2008","March 9, 2012","December 11, 2012",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/prod_end-of-life_notice0900aecd80665f79.html,OK,XENPAK-10GB-LR
+XENPAK-10GB-LR+,"September 30, 2015","September 29, 2016","December 26, 2019","September 30, 2020",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-734289.html,OK,XENPAK-10GB-LR+
+XENPAK-10GB-SR,"September 30, 2015","September 29, 2016","December 26, 2019","September 30, 2020",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-734289.html,OK,XENPAK-10GB-SR
+XENPAK-10GB-ZR,"September 30, 2015","September 29, 2016","December 26, 2019","September 30, 2020",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-734289.html,OK,XENPAK-10GB-ZR
+XFP-10GER-192IR+,"January 31, 2017","January 31, 2018","May 1, 2021","January 31, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-736656.html,OK,XFP-10GER-192IR+
+XFP10GER-192IR-L,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XFP-10GER-OC192IR,"April 20, 2010","April 20, 2011","July 16, 2014","April 19, 2015",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/10-gigabit-modules/end_of_life_c51-566178.html,OK,XFP-10GER-OC192IR
+XFP10GLR-192SR-L,None Announced,N/A,N/A,None Announced,http://www.cisco.com/c/en/us/support/interfaces-modules/multi-rate-10gbase-lr-oc192-sr-xfp-module/model.html,EOS status Orderable (No  specific EOS for this PN),XFP10GLR-192SR-L
+XFP-10GLR-OC192SR,"January 31, 2017","January 31, 2018","May 1, 2021","January 31, 2022",http://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/eos-eol-notice-c51-736656.html,OK,XFP-10GLR-OC192SR
+XFP-10G-MM-SR,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XFP-10GZR-OC192LR,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XR-12000/6,"February 15, 2014","February 15, 2015","May 16, 2018","February 28, 2019",http://www.cisco.com/c/en/us/products/collateral/routers/12000-series-routers/end_of_life_notice_c51-726754.html,OK,XR-12000/6
+XR-A9K-P-04.02,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XR-A9K-PX-04.02,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL
+XR-A9K-PX-04.03,NULL,NULL,NULL,NULL,NULL,Cant find info about this PN,NULL

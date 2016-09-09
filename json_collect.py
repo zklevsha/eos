@@ -318,17 +318,20 @@ for device in all_device_support_page:
 				dt.pop(0)
 			
 
-				pns = [i[0] for i in dv]
+				pns = [ (i[0],i[1]) for i in dv if all(i[0] != a for a in ['Change','null']) ]
 				pns.pop(0)
+				
 
-				new_pns = []
-				for pn in pns:
-					if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
-						new_pns.append(pn.replace(" ", "").replace('\n',''))
-				pns = new_pns
+
+				# new_pns = []
+				# for pn in pns:
+				# 	if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
+				# 		new_pns.append(pn.replace(" ", "").replace('\n',''))
+				# pns = new_pns
 			
 				log.info('Adding pn to dictionary')
-				for pn in pns:
+				for pn_descr in pns:
+					pn = pn_descr[0]
 					log.info("pn:" + str(pn))
 
 					# check for duplicate keys
@@ -356,6 +359,7 @@ for device in all_device_support_page:
 							data[pn][item[0]]=item[2]	
 
 					data[pn]['doc'] = eos
+					data[pn]['descr'] = pn_descr[1]
 					pickle.dump(data,open('data.p' ,'wb'))
 
 				parsed_eos.append(eos[1])

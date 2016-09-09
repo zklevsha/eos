@@ -1,0 +1,165 @@
+2016-09-09 18:18:18,774 Duplicate PN C892F-CUBE-K9
+2016-09-09 18:18:18,774 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730248.html
+2016-09-09 18:18:18,774 Document date(stored):2013-11-13 00:00:00
+2016-09-09 18:18:18,774 Document date(new): 2013-11-13 00:00:00
+2016-09-09 18:18:18,774 Stored document is older. Updating
+2016-09-09 18:18:23,435 Duplicate PN C881-CUBE-K9
+2016-09-09 18:18:23,435 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
+2016-09-09 18:18:23,435 Document date(stored):2013-11-21 00:00:00
+2016-09-09 18:18:23,435 Document date(new): 2013-11-21 00:00:00
+2016-09-09 18:18:23,435 Stored document is older. Updating
+2016-09-09 18:18:23,455 Duplicate PN C886VA-CUBE-K9
+2016-09-09 18:18:23,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
+2016-09-09 18:18:23,455 Document date(stored):2013-11-21 00:00:00
+2016-09-09 18:18:23,455 Document date(new): 2013-11-21 00:00:00
+2016-09-09 18:18:23,455 Stored document is older. Updating
+2016-09-09 18:18:23,465 Duplicate PN C887VA-CUBE-K9
+2016-09-09 18:18:23,465 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
+2016-09-09 18:18:23,465 Document date(stored):2013-11-21 00:00:00
+2016-09-09 18:18:23,465 Document date(new): 2013-11-21 00:00:00
+2016-09-09 18:18:23,465 Stored document is older. Updating
+2016-09-09 18:18:23,475 Duplicate PN C888-CUBE-K9
+2016-09-09 18:18:23,475 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
+2016-09-09 18:18:23,475 Document date(stored):2013-11-21 00:00:00
+2016-09-09 18:18:23,485 Document date(new): 2013-11-21 00:00:00
+2016-09-09 18:18:23,485 Stored document is older. Updating
+2016-09-09 18:18:23,495 Duplicate PN C888E-CUBE-K9
+2016-09-09 18:18:23,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
+2016-09-09 18:18:23,495 Document date(stored):2013-11-21 00:00:00
+2016-09-09 18:18:23,495 Document date(new): 2013-11-21 00:00:00
+2016-09-09 18:18:23,495 Stored document is older. Updating
+2016-09-09 18:18:25,136 Duplicate PN PCEX-3G-HSPA
+2016-09-09 18:18:25,136 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
+2016-09-09 18:18:25,136 Document date(stored):2011-10-17 00:00:00
+2016-09-09 18:18:25,136 Document date(new): 2011-10-17 00:00:00
+2016-09-09 18:18:25,136 Stored document is older. Updating
+2016-09-09 18:18:25,166 Duplicate PN PCEX-3G-HSPA-R6
+2016-09-09 18:18:25,166 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
+2016-09-09 18:18:25,176 Document date(stored):2011-10-17 00:00:00
+2016-09-09 18:18:25,176 Document date(new): 2011-10-17 00:00:00
+2016-09-09 18:18:25,176 Stored document is older. Updating
+2016-09-09 18:18:25,186 Duplicate PN PCEX-3G-HSPA-R6=
+2016-09-09 18:18:25,186 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
+2016-09-09 18:18:25,186 Document date(stored):2011-10-17 00:00:00
+2016-09-09 18:18:25,186 Document date(new): 2011-10-17 00:00:00
+2016-09-09 18:18:25,186 Stored document is older. Updating
+2016-09-09 18:18:25,206 Duplicate PN PCEX-3G-HSPA=
+2016-09-09 18:18:25,206 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
+2016-09-09 18:18:25,206 Document date(stored):2011-10-17 00:00:00
+2016-09-09 18:18:25,206 Document date(new): 2011-10-17 00:00:00
+2016-09-09 18:18:25,206 Stored document is older. Updating
+2016-09-09 18:18:35,578 Duplicate PN C812G+7-K9
+2016-09-09 18:18:35,578 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-731103.html
+2016-09-09 18:18:35,578 Document date(stored):2014-08-26 00:00:00
+2016-09-09 18:18:35,578 Document date(new): 2014-08-26 00:00:00
+2016-09-09 18:18:35,578 Stored document is older. Updating
+2016-09-09 18:18:39,858 Duplicate PN HWIC-3G-HSPA-G
+2016-09-09 18:18:39,858 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704401.html
+2016-09-09 18:18:39,858 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:39,858 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:39,868 Stored document is older. Updating
+2016-09-09 18:18:39,878 Duplicate PN HWIC-3G-HSPA-G=
+2016-09-09 18:18:39,878 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704401.html
+2016-09-09 18:18:39,878 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:39,878 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:39,878 Stored document is older. Updating
+2016-09-09 18:18:40,568 Duplicate PN PCEX-3G-HSPA-US
+2016-09-09 18:18:40,568 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-712178.html
+2016-09-09 18:18:40,568 Document date(stored):2012-07-12 00:00:00
+2016-09-09 18:18:40,568 Document date(new): 2012-07-12 00:00:00
+2016-09-09 18:18:40,568 Stored document is older. Updating
+2016-09-09 18:18:40,588 Duplicate PN PCEX-3G-HSPA-US=
+2016-09-09 18:18:40,588 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-712178.html
+2016-09-09 18:18:40,588 Document date(stored):2012-07-12 00:00:00
+2016-09-09 18:18:40,588 Document date(new): 2012-07-12 00:00:00
+2016-09-09 18:18:40,588 Stored document is older. Updating
+2016-09-09 18:18:40,979 Duplicate PN PCEX-3G-HSPA-G
+2016-09-09 18:18:40,979 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:40,979 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:40,979 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:40,979 Stored document is older. Updating
+2016-09-09 18:18:40,989 Duplicate PN PCEX-3G-HSPA-G
+2016-09-09 18:18:40,989 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:40,999 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:40,999 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:40,999 Stored document is older. Updating
+2016-09-09 18:18:40,999 Duplicate PN PCEX-3G-HSPA-G
+2016-09-09 18:18:40,999 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,009 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,009 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,009 Stored document is older. Updating
+2016-09-09 18:18:41,009 Duplicate PN PCEX-3G-HSPA-G
+2016-09-09 18:18:41,009 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,009 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,009 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,009 Stored document is older. Updating
+2016-09-09 18:18:41,029 Duplicate PN PCEX-3G-HSPA-G=
+2016-09-09 18:18:41,029 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,029 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,029 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,029 Stored document is older. Updating
+2016-09-09 18:18:41,039 Duplicate PN PCEX-3G-HSPA-G=
+2016-09-09 18:18:41,039 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,039 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,039 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,039 Stored document is older. Updating
+2016-09-09 18:18:41,049 Duplicate PN PCEX-3G-HSPA-G=
+2016-09-09 18:18:41,049 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,049 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,049 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,049 Stored document is older. Updating
+2016-09-09 18:18:41,059 Duplicate PN PCEX-3G-HSPA-G=
+2016-09-09 18:18:41,059 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
+2016-09-09 18:18:41,059 Document date(stored):2012-04-13 00:00:00
+2016-09-09 18:18:41,059 Document date(new): 2012-04-13 00:00:00
+2016-09-09 18:18:41,059 Stored document is older. Updating
+2016-09-09 18:18:41,989 Duplicate PN PCEX-3G-CDMA-S
+2016-09-09 18:18:41,989 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690307.html
+2016-09-09 18:18:41,989 Document date(stored):2011-10-18 00:00:00
+2016-09-09 18:18:41,989 Document date(new): 2011-10-18 00:00:00
+2016-09-09 18:18:41,989 Stored document is older. Updating
+2016-09-09 18:18:42,009 Duplicate PN PCEX-3G-CDMA-S=
+2016-09-09 18:18:42,009 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690307.html
+2016-09-09 18:18:42,009 Document date(stored):2011-10-18 00:00:00
+2016-09-09 18:18:42,009 Document date(new): 2011-10-18 00:00:00
+2016-09-09 18:18:42,009 Stored document is older. Updating
+2016-09-09 18:18:42,429 Duplicate PN C819G-U-K9
+2016-09-09 18:18:42,429 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-733569.html
+2016-09-09 18:18:42,429 Document date(stored):2015-05-15 00:00:00
+2016-09-09 18:18:42,429 Document date(new): 2015-05-15 00:00:00
+2016-09-09 18:18:42,429 Stored document is older. Updating
+2016-09-09 18:18:42,479 Duplicate PN C881G-U-K9
+2016-09-09 18:18:42,479 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-733569.html
+2016-09-09 18:18:42,479 Document date(stored):2015-05-15 00:00:00
+2016-09-09 18:18:42,479 Document date(new): 2015-05-15 00:00:00
+2016-09-09 18:18:42,479 Stored document is older. Updating
+2016-09-09 18:18:42,960 Duplicate PN C819G+7-K9
+2016-09-09 18:18:42,960 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
+2016-09-09 18:18:42,960 Document date(stored):0100-06-01 00:00:00
+2016-09-09 18:18:42,960 Document date(new): 0100-06-01 00:00:00
+2016-09-09 18:18:42,960 Stored document is older. Updating
+2016-09-09 18:18:43,000 Duplicate PN C881G+7-A-K9
+2016-09-09 18:18:43,030 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
+2016-09-09 18:18:43,030 Document date(stored):0100-06-01 00:00:00
+2016-09-09 18:18:43,030 Document date(new): 0100-06-01 00:00:00
+2016-09-09 18:18:43,030 Stored document is older. Updating
+2016-09-09 18:18:43,040 Duplicate PN C881G+7-K9
+2016-09-09 18:18:43,040 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
+2016-09-09 18:18:43,040 Document date(stored):0100-06-01 00:00:00
+2016-09-09 18:18:43,040 Document date(new): 0100-06-01 00:00:00
+2016-09-09 18:18:43,040 Stored document is older. Updating
+2016-09-09 18:18:43,050 Duplicate PN C881G+7-K9
+2016-09-09 18:18:43,050 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
+2016-09-09 18:18:43,050 Document date(stored):0100-06-01 00:00:00
+2016-09-09 18:18:43,050 Document date(new): 0100-06-01 00:00:00
+2016-09-09 18:18:43,050 Stored document is older. Updating
+2016-09-09 18:18:43,090 Duplicate PN C887VAG+7-K9
+2016-09-09 18:18:43,090 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
+2016-09-09 18:18:43,090 Document date(stored):0100-06-01 00:00:00
+2016-09-09 18:18:43,090 Document date(new): 0100-06-01 00:00:00
+2016-09-09 18:18:43,090 Stored document is older. Updating
+2016-09-09 18:18:46,320 Duplicate PN CISCO892-DRAM-K9
+2016-09-09 18:18:46,320 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730680.html
+2016-09-09 18:18:46,320 Document date(stored):2014-01-02 00:00:00
+2016-09-09 18:18:46,320 Document date(new): 2014-01-02 00:00:00
+2016-09-09 18:18:46,320 Stored document is older. Updating
