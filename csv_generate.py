@@ -22,9 +22,9 @@ if not os.path.isfile(filename):
 # 	need_os = True
 
 
-data = pickle.load( open('data_debug.p','rb') )
-pid_summary = pickle.load( open('pid_summary_debug.p','rb') )
-pid_bad = pickle.load( open('pid_bad_debug.p','rb') )
+data = pickle.load( open('data.p','rb') )
+pid_summary = pickle.load( open('pid_summary.p','rb') )
+pid_bad = pickle.load( open('pid_bad.p','rb') )
 log = get_logger('csv_generate.txt')
 
 
