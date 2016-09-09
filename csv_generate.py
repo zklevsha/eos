@@ -30,7 +30,7 @@ log = get_logger('csv_generate.txt')
 
 
 
-rb = xlrd.open_workbook('old.xlsx')
+rb = xlrd.open_workbook(filename)
 sheet = rb.sheet_by_index(0)
 pns = [sheet.row_values(rownum)[0] for rownum in range(sheet.nrows)]
 pns.pop(0)

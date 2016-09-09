@@ -11,37 +11,6 @@ import os
 
 
 
-# strange_links = ['https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4000-series-switches/prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
-# 'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/prod_end-of-life_notice09186a008023401e.html', # multiple tables / no 1a 1b
-# 'https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-6500-series-switches/eol_c51-683155.html', # 1 mtable with dates, 2 tables with devices
-# 'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice0900aecd8029e9fb.html',
-# 'https://www.cisco.com/c/en/us/products/collateral/switches/igx-8400-series-switches/prod_end-of-life_notice09186a008032d42c.html', 
-# 'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd80294909.html',
-# 'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/network-modules/prod_end-of-life_notice0900aecd8029fe0d.html',
-# 'https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/100vg-port-adapter/prod_end-of-life_notice0900aecd8029d2c5.html',
-# 'https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html',
-# 'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice09186a008032d6ad.html', # empty page
-# 'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
-# 'https://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice09186a008032d6ad.html' ,# pn и даты в одной таблице
-# 'http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice0900aecd801bd0f7.html']
-
-
-# strange_links = ['prod_end-of-life_notice0900aecd80324aee.html', #CAT OS summare
-# 'prod_end-of-life_notice09186a008023401e.html', # multiple tables / no 1a 1b
-# 'eol_c51-683155.html', # 1 mtable with dates, 2 tables with devices
-# 'prod_end-of-life_notice0900aecd8029e9fb.html',
-# 'prod_end-of-life_notice09186a008032d42c.html', 
-# 'prod_end-of-life_notice0900aecd80294909.html',
-# 'prod_end-of-life_notice0900aecd8029fe0d.html',
-# 'prod_end-of-life_notice0900aecd8029d2c5.html',
-# 'eos-eol-notice-c51-734171.html',
-# 'prod_end-of-life_notice09186a008032d6ad.html', # empty page
-# 'prod_end-of-life_notice0900aecd801bd0f7.html', #заголовок неверный для таблицы с  устройствами
-# 'prod_end-of-life_notice09186a008032d6ad.html' ,# pn и даты в одной таблице
-# 'prod_end-of-life_notice0900aecd801bd0f7.html',
-# 'prod_end-of-life_notice0900aecd8010bfa2.html', # нет captions для таблицы с устройствами
-# 'eos-eol-notice-c51-732026.html'] # Вместо таблицы с устройствами линк на pdf
-
 
 deviceTypes = ['routers','switches','security','wireless','serversunifiedcomputing','applicationnetworkingservices',
 				'cloudandsystemsmanagement',
@@ -104,16 +73,6 @@ for device in all_device_support_page:
 
 
 	if len(devices_in_series) == 0:
-		# exceptions = ['6500 Virtual Switching System 1440','Dynamic Multipoint (DMVPN)','Flex VPN' ,'IOS Easy VPN',
-		# 'Adaptive Security Device Manager','Adaptive Security Appliance (ASA) Software','Adaptive Security Virtual Appliance (ASAv)',
-		# 'ASA 1000V Cloud Firewall','ASA Next-Generation Firewall Services',
-		# 'IOS Firewall','FireSIGHT Management Center Virtual Appliance','Sourcefire AMP for FirePOWER Software License',
-		# 'Email Security Virtual Appliance',
-		# 'IOS Intrusion Prevention System (IPS)','Secure Desktop',
-		# 'Antennas and Accessories', 'IP Transfer Point', # wireless
-		# 'Virtual Wireless Controller','Wireless LAN Controller Software',
-
-		# ] 
 		log.error('Cant find devices for this serices')
 		log.error(device)
 		continue
@@ -185,11 +144,6 @@ for device in all_device_support_page:
 				log.info('This one was parsed before.Skiping')
 				log.info(' ')
 				continue
-			# if eos[1].split('/')[-1] in strange_links:
-			# 	log.warning('url: '+ eos[1])
-			# 	log.warning('This one was in strange_links. I cannot parse it properly')
-			# 	log.error(' ')
-			# 	continue
 			if "Change in Product Part Number Announcement" in eos[0]:
 				log.info('This one not EOS page but only information about EoS change. Skiping')
 				log.info(' ')
