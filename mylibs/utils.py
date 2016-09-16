@@ -1,8 +1,7 @@
 import requests
 import logging
 from py_bing_search import PyBingWebSearch
-
-
+import sys
 class Object(object):
     pass
 
@@ -22,16 +21,25 @@ def get_table(soup):
 	for table in soup:
 		arr_table = []
 		rows = table.findAll('tr')
-		header = table.find('tr').text.strip().split('\n')
+		header = [ele.text.strip() for ele in table.findNext('tr').findAll('td')]
 		for row in rows:
 			cols = row.findAll('td')
 			#cols = [ele.text.strip() for ele in cols]
 			cols = [ele.text.strip() for ele in cols]
 			if len(header) > len(cols):
+				print('Header and colums are not equal match')
+			
 				for i in range(len(header) - len(cols)):
-					cols.insert(0,'null')
+					if header[-1] == '':  # Для таблиц с кривым заголовком
+				 		cols.append('null')
+					else:
+						cols.insert(0,'null') # Для таблиц с пустыми строками
 
-			arr_table.append(cols)
+				print(cols)
+
+
+			arr_table.append(cols[0:2])
+	print(arr_table)
 	return arr_table
 
 def get_page(url):
@@ -66,7 +74,7 @@ def get_logger(filename):
 
 	handler = logging.FileHandler("INFO_"+filename,mode='w')
 	handler.setLevel(logging.INFO)
-	formatter = logging.Formatter("%(asctime)s %(message)s")
+	formatter = logging.Formatter("%(thread)s %(asctime)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 

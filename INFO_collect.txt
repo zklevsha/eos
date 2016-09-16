@@ -1,0 +1,63 @@
+14916 2016-09-16 14:19:20,237 Starting script at 2016-09-16 14:19:20.237106
+14916 2016-09-16 14:19:20,347 PHASE 1: GATHERING EOS FROM PRODUCTS  
+14916 2016-09-16 14:19:20,347 Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all
+14916 2016-09-16 14:19:20,357 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:20,677 Done
+14916 2016-09-16 14:19:20,677 Gathering devices from eos list (http://www.cisco.com/c/en/us/products/eos-eol-listing.html) 
+14916 2016-09-16 14:19:20,677 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:21,457 Done
+14916 2016-09-16 14:19:21,457 Gatheting eos listing
+14916 2016-09-16 14:19:21,467 12000 Series Routers
+14916 2016-09-16 14:19:21,467 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:21,777 Done
+14916 2016-09-16 14:19:21,777 Gathering eos pages
+14916 2016-09-16 14:19:21,777 /c/en/us/products/routers/12000-series-routers/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:21,777 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:22,238 Done
+14916 2016-09-16 14:19:22,238 8500 Series Wireless Controllers
+14916 2016-09-16 14:19:22,238 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:22,738 Done
+14916 2016-09-16 14:19:22,738 Gathering eos pages
+14916 2016-09-16 14:19:22,738 /c/en/us/products/wireless/8500-series-wireless-controllers/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:22,748 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:23,148 Done
+14916 2016-09-16 14:19:23,158 7600 Gateway GPRS Support Node
+14916 2016-09-16 14:19:23,158 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:23,458 Done
+14916 2016-09-16 14:19:23,458 Gathering eos pages
+14916 2016-09-16 14:19:23,458 /c/en/us/products/wireless/7600-gateway-gprs-support-node/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:23,458 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:23,738 Done
+14916 2016-09-16 14:19:23,738 7600 Wireless Security Gateway
+14916 2016-09-16 14:19:23,748 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:24,098 Done
+14916 2016-09-16 14:19:24,098 Gathering eos pages
+14916 2016-09-16 14:19:24,098 /c/en/us/products/wireless/7600-wireless-security-gateway/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:24,098 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:24,378 Done
+14916 2016-09-16 14:19:24,378 7500 Series Routers
+14916 2016-09-16 14:19:24,378 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:24,688 Done
+14916 2016-09-16 14:19:24,688 Gathering eos pages
+14916 2016-09-16 14:19:24,688 /c/en/us/products/routers/7500-series-routers/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:24,688 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:25,018 Done
+14916 2016-09-16 14:19:25,018 7300 Series Routers
+14916 2016-09-16 14:19:25,018 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:25,268 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:25,378 Done
+14916 2016-09-16 14:19:25,378 Gathering eos pages
+14916 2016-09-16 14:19:25,378 /c/en/us/products/routers/7300-series-routers/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:25,388 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:25,668 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:25,758 Done
+14916 2016-09-16 14:19:25,758 7200 Series Routers
+14916 2016-09-16 14:19:25,758 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:26,128 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:26,168 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:26,278 Done
+14916 2016-09-16 14:19:26,278 Gathering eos pages
+14916 2016-09-16 14:19:26,278 /c/en/us/products/routers/7200-series-routers/eos-eol-notice-listing.html
+14916 2016-09-16 14:19:26,288 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:26,318 Starting new HTTP connection (1): www.cisco.com
+14916 2016-09-16 14:19:26,659 Starting new HTTP connection (1): www.cisco.com

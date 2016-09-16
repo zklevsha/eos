@@ -35,7 +35,7 @@ log.info('Starting script at ' + str(startTime) )
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
 
-#Collecting all device support pages 
+#Парсим json станцицы
 log.info('PHASE 1: COLLECTING SUPPORT PAGES')
 for device in deviceTypes:
 	log.info('Gathering ' + device)
@@ -58,7 +58,6 @@ for device in all_device_support_page:
 	log.info("url:" + device[1])
 	#searcing for eos-listing  link
 	content = get_page(device[1])
-
 	if content.status_code != 200 :
 		log.error('Error code :' + str(content.status_code)+" url " + device[1])
 		continue
@@ -134,7 +133,7 @@ for device in all_device_support_page:
 			
 		# Цикл 3. Парсим EOS документы
 		for eos in eos_pages:
-			#eos = ('title','http://www.cisco.com/c/en/us/support/switches/small-business-unmanaged-switches/tsd-products-support-series-home.html')
+			eos = ('title','http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/prod_end-of-life_notice0900aecd8016fb77.html')
 			if eos[1][0] == '/':eos = (eos[0],header+eos[1]) # Нужен абсолютный путь
 
 			log.info('Title:' + str(eos[0]))
@@ -244,14 +243,8 @@ for device in all_device_support_page:
 					log.error('Adding PN to pid_bad dictionary')
 					for dvk in devices.keys():
 						dv = get_table(devices[dvk])
-						pns = [i[0] for i in dv]
+						pns = [ (i[0].replace(" ", "").replace('\n',''),i[1]) for i in dv if all(i[0] != a for a in ['Change','null']) ]
 						pns.pop(0)
-
-						new_pns = []
-						for pn in pns:
-							if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
-								new_pns.append(pn.replace(" ", "").replace('\n',''))
-						pns = new_pns
 						for pn in pns:
 							pid_bad[pn] = eos
 						log.error(' Added ' + str(len(pns)) + 'pns')
@@ -284,17 +277,12 @@ for device in all_device_support_page:
 				log.error('Adding PN to pid_bad dictionary')
 				for dvk in devices.keys():
 					dv = get_table(devices[dvk])
-					pns = [i[0] for i in dv]
+					pns = [ (i[0].replace(" ", "").replace('\n',''),i[1]) for i in dv if all(i[0] != a for a in ['Change','null']) ]
 					pns.pop(0)
-
-					new_pns = []
-					for pn in pns:
-						if pn not in new_pns and 'Change' not in pn and 'null' not in pn :
-							new_pns.append(pn.replace(" ", "").replace('\n',''))
-					pns = new_pns
 					for pn in pns:
 						pid_bad[pn] = eos
-				log.error(' Added ' + str(len(pns)) + 'pns')
+
+					log.error(' Added ' + str(len(pns)) + 'pns')
 				log.error('Done')
 				log.info('')
 				parsed_eos.append(eos[1])
@@ -317,8 +305,11 @@ for device in all_device_support_page:
 				dt = get_table(dates[dtk])
 				dt.pop(0)
 			
+				#for pn in dv:
+				#	print(pn[0],pn[1])
+				#print (devices[dvk])
 
-				pns = [ (i[0],i[1]) for i in dv if all(i[0] != a for a in ['Change','null']) ]
+				pns = [ (i[0].replace(" ", "").replace('\n',''),i[1]) for i in dv if all(i[0] != a for a in ['Change','null']) ]
 				pns.pop(0)
 				
 

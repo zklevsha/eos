@@ -1,165 +1,210 @@
-2016-09-09 18:18:18,774 Duplicate PN C892F-CUBE-K9
-2016-09-09 18:18:18,774 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730248.html
-2016-09-09 18:18:18,774 Document date(stored):2013-11-13 00:00:00
-2016-09-09 18:18:18,774 Document date(new): 2013-11-13 00:00:00
-2016-09-09 18:18:18,774 Stored document is older. Updating
-2016-09-09 18:18:23,435 Duplicate PN C881-CUBE-K9
-2016-09-09 18:18:23,435 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
-2016-09-09 18:18:23,435 Document date(stored):2013-11-21 00:00:00
-2016-09-09 18:18:23,435 Document date(new): 2013-11-21 00:00:00
-2016-09-09 18:18:23,435 Stored document is older. Updating
-2016-09-09 18:18:23,455 Duplicate PN C886VA-CUBE-K9
-2016-09-09 18:18:23,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
-2016-09-09 18:18:23,455 Document date(stored):2013-11-21 00:00:00
-2016-09-09 18:18:23,455 Document date(new): 2013-11-21 00:00:00
-2016-09-09 18:18:23,455 Stored document is older. Updating
-2016-09-09 18:18:23,465 Duplicate PN C887VA-CUBE-K9
-2016-09-09 18:18:23,465 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
-2016-09-09 18:18:23,465 Document date(stored):2013-11-21 00:00:00
-2016-09-09 18:18:23,465 Document date(new): 2013-11-21 00:00:00
-2016-09-09 18:18:23,465 Stored document is older. Updating
-2016-09-09 18:18:23,475 Duplicate PN C888-CUBE-K9
-2016-09-09 18:18:23,475 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
-2016-09-09 18:18:23,475 Document date(stored):2013-11-21 00:00:00
-2016-09-09 18:18:23,485 Document date(new): 2013-11-21 00:00:00
-2016-09-09 18:18:23,485 Stored document is older. Updating
-2016-09-09 18:18:23,495 Duplicate PN C888E-CUBE-K9
-2016-09-09 18:18:23,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730320.html
-2016-09-09 18:18:23,495 Document date(stored):2013-11-21 00:00:00
-2016-09-09 18:18:23,495 Document date(new): 2013-11-21 00:00:00
-2016-09-09 18:18:23,495 Stored document is older. Updating
-2016-09-09 18:18:25,136 Duplicate PN PCEX-3G-HSPA
-2016-09-09 18:18:25,136 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
-2016-09-09 18:18:25,136 Document date(stored):2011-10-17 00:00:00
-2016-09-09 18:18:25,136 Document date(new): 2011-10-17 00:00:00
-2016-09-09 18:18:25,136 Stored document is older. Updating
-2016-09-09 18:18:25,166 Duplicate PN PCEX-3G-HSPA-R6
-2016-09-09 18:18:25,166 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
-2016-09-09 18:18:25,176 Document date(stored):2011-10-17 00:00:00
-2016-09-09 18:18:25,176 Document date(new): 2011-10-17 00:00:00
-2016-09-09 18:18:25,176 Stored document is older. Updating
-2016-09-09 18:18:25,186 Duplicate PN PCEX-3G-HSPA-R6=
-2016-09-09 18:18:25,186 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
-2016-09-09 18:18:25,186 Document date(stored):2011-10-17 00:00:00
-2016-09-09 18:18:25,186 Document date(new): 2011-10-17 00:00:00
-2016-09-09 18:18:25,186 Stored document is older. Updating
-2016-09-09 18:18:25,206 Duplicate PN PCEX-3G-HSPA=
-2016-09-09 18:18:25,206 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690318.html
-2016-09-09 18:18:25,206 Document date(stored):2011-10-17 00:00:00
-2016-09-09 18:18:25,206 Document date(new): 2011-10-17 00:00:00
-2016-09-09 18:18:25,206 Stored document is older. Updating
-2016-09-09 18:18:35,578 Duplicate PN C812G+7-K9
-2016-09-09 18:18:35,578 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-731103.html
-2016-09-09 18:18:35,578 Document date(stored):2014-08-26 00:00:00
-2016-09-09 18:18:35,578 Document date(new): 2014-08-26 00:00:00
-2016-09-09 18:18:35,578 Stored document is older. Updating
-2016-09-09 18:18:39,858 Duplicate PN HWIC-3G-HSPA-G
-2016-09-09 18:18:39,858 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704401.html
-2016-09-09 18:18:39,858 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:39,858 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:39,868 Stored document is older. Updating
-2016-09-09 18:18:39,878 Duplicate PN HWIC-3G-HSPA-G=
-2016-09-09 18:18:39,878 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704401.html
-2016-09-09 18:18:39,878 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:39,878 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:39,878 Stored document is older. Updating
-2016-09-09 18:18:40,568 Duplicate PN PCEX-3G-HSPA-US
-2016-09-09 18:18:40,568 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-712178.html
-2016-09-09 18:18:40,568 Document date(stored):2012-07-12 00:00:00
-2016-09-09 18:18:40,568 Document date(new): 2012-07-12 00:00:00
-2016-09-09 18:18:40,568 Stored document is older. Updating
-2016-09-09 18:18:40,588 Duplicate PN PCEX-3G-HSPA-US=
-2016-09-09 18:18:40,588 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-712178.html
-2016-09-09 18:18:40,588 Document date(stored):2012-07-12 00:00:00
-2016-09-09 18:18:40,588 Document date(new): 2012-07-12 00:00:00
-2016-09-09 18:18:40,588 Stored document is older. Updating
-2016-09-09 18:18:40,979 Duplicate PN PCEX-3G-HSPA-G
-2016-09-09 18:18:40,979 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:40,979 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:40,979 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:40,979 Stored document is older. Updating
-2016-09-09 18:18:40,989 Duplicate PN PCEX-3G-HSPA-G
-2016-09-09 18:18:40,989 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:40,999 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:40,999 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:40,999 Stored document is older. Updating
-2016-09-09 18:18:40,999 Duplicate PN PCEX-3G-HSPA-G
-2016-09-09 18:18:40,999 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,009 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,009 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,009 Stored document is older. Updating
-2016-09-09 18:18:41,009 Duplicate PN PCEX-3G-HSPA-G
-2016-09-09 18:18:41,009 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,009 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,009 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,009 Stored document is older. Updating
-2016-09-09 18:18:41,029 Duplicate PN PCEX-3G-HSPA-G=
-2016-09-09 18:18:41,029 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,029 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,029 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,029 Stored document is older. Updating
-2016-09-09 18:18:41,039 Duplicate PN PCEX-3G-HSPA-G=
-2016-09-09 18:18:41,039 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,039 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,039 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,039 Stored document is older. Updating
-2016-09-09 18:18:41,049 Duplicate PN PCEX-3G-HSPA-G=
-2016-09-09 18:18:41,049 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,049 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,049 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,049 Stored document is older. Updating
-2016-09-09 18:18:41,059 Duplicate PN PCEX-3G-HSPA-G=
-2016-09-09 18:18:41,059 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/end_of_life_notice_c51-704399.html
-2016-09-09 18:18:41,059 Document date(stored):2012-04-13 00:00:00
-2016-09-09 18:18:41,059 Document date(new): 2012-04-13 00:00:00
-2016-09-09 18:18:41,059 Stored document is older. Updating
-2016-09-09 18:18:41,989 Duplicate PN PCEX-3G-CDMA-S
-2016-09-09 18:18:41,989 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690307.html
-2016-09-09 18:18:41,989 Document date(stored):2011-10-18 00:00:00
-2016-09-09 18:18:41,989 Document date(new): 2011-10-18 00:00:00
-2016-09-09 18:18:41,989 Stored document is older. Updating
-2016-09-09 18:18:42,009 Duplicate PN PCEX-3G-CDMA-S=
-2016-09-09 18:18:42,009 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eol_c51-690307.html
-2016-09-09 18:18:42,009 Document date(stored):2011-10-18 00:00:00
-2016-09-09 18:18:42,009 Document date(new): 2011-10-18 00:00:00
-2016-09-09 18:18:42,009 Stored document is older. Updating
-2016-09-09 18:18:42,429 Duplicate PN C819G-U-K9
-2016-09-09 18:18:42,429 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-733569.html
-2016-09-09 18:18:42,429 Document date(stored):2015-05-15 00:00:00
-2016-09-09 18:18:42,429 Document date(new): 2015-05-15 00:00:00
-2016-09-09 18:18:42,429 Stored document is older. Updating
-2016-09-09 18:18:42,479 Duplicate PN C881G-U-K9
-2016-09-09 18:18:42,479 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-733569.html
-2016-09-09 18:18:42,479 Document date(stored):2015-05-15 00:00:00
-2016-09-09 18:18:42,479 Document date(new): 2015-05-15 00:00:00
-2016-09-09 18:18:42,479 Stored document is older. Updating
-2016-09-09 18:18:42,960 Duplicate PN C819G+7-K9
-2016-09-09 18:18:42,960 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
-2016-09-09 18:18:42,960 Document date(stored):0100-06-01 00:00:00
-2016-09-09 18:18:42,960 Document date(new): 0100-06-01 00:00:00
-2016-09-09 18:18:42,960 Stored document is older. Updating
-2016-09-09 18:18:43,000 Duplicate PN C881G+7-A-K9
-2016-09-09 18:18:43,030 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
-2016-09-09 18:18:43,030 Document date(stored):0100-06-01 00:00:00
-2016-09-09 18:18:43,030 Document date(new): 0100-06-01 00:00:00
-2016-09-09 18:18:43,030 Stored document is older. Updating
-2016-09-09 18:18:43,040 Duplicate PN C881G+7-K9
-2016-09-09 18:18:43,040 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
-2016-09-09 18:18:43,040 Document date(stored):0100-06-01 00:00:00
-2016-09-09 18:18:43,040 Document date(new): 0100-06-01 00:00:00
-2016-09-09 18:18:43,040 Stored document is older. Updating
-2016-09-09 18:18:43,050 Duplicate PN C881G+7-K9
-2016-09-09 18:18:43,050 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
-2016-09-09 18:18:43,050 Document date(stored):0100-06-01 00:00:00
-2016-09-09 18:18:43,050 Document date(new): 0100-06-01 00:00:00
-2016-09-09 18:18:43,050 Stored document is older. Updating
-2016-09-09 18:18:43,090 Duplicate PN C887VAG+7-K9
-2016-09-09 18:18:43,090 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-734171.html
-2016-09-09 18:18:43,090 Document date(stored):0100-06-01 00:00:00
-2016-09-09 18:18:43,090 Document date(new): 0100-06-01 00:00:00
-2016-09-09 18:18:43,090 Stored document is older. Updating
-2016-09-09 18:18:46,320 Duplicate PN CISCO892-DRAM-K9
-2016-09-09 18:18:46,320 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/eos-eol-notice-c51-730680.html
-2016-09-09 18:18:46,320 Document date(stored):2014-01-02 00:00:00
-2016-09-09 18:18:46,320 Document date(new): 2014-01-02 00:00:00
-2016-09-09 18:18:46,320 Stored document is older. Updating
+2016-09-12 12:52:15,590 Cant parse this string
+2016-09-12 12:52:15,590 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,590 Skiping
+2016-09-12 12:52:15,600 Cant parse this string
+2016-09-12 12:52:15,600 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,600 Skiping
+2016-09-12 12:52:15,600 Cant parse this string
+2016-09-12 12:52:15,600 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,610 Skiping
+2016-09-12 12:52:15,610 Cant parse this string
+2016-09-12 12:52:15,610 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,610 Skiping
+2016-09-12 12:52:15,610 Cant parse this string
+2016-09-12 12:52:15,610 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,620 Skiping
+2016-09-12 12:52:15,620 Cant parse this string
+2016-09-12 12:52:15,620 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,620 Skiping
+2016-09-12 12:52:15,620 Cant parse this string
+2016-09-12 12:52:15,620 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,620 Skiping
+2016-09-12 12:52:15,640 Cant parse this string
+2016-09-12 12:52:15,640 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,640 Skiping
+2016-09-12 12:52:15,640 Cant parse this string
+2016-09-12 12:52:15,640 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,640 Skiping
+2016-09-12 12:52:15,640 Cant parse this string
+2016-09-12 12:52:15,640 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,650 Skiping
+2016-09-12 12:52:15,650 Cant parse this string
+2016-09-12 12:52:15,650 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,650 Skiping
+2016-09-12 12:52:15,650 Cant parse this string
+2016-09-12 12:52:15,650 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,650 Skiping
+2016-09-12 12:52:15,650 Cant parse this string
+2016-09-12 12:52:15,650 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,660 Skiping
+2016-09-12 12:52:15,660 Cant parse this string
+2016-09-12 12:52:15,660 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,660 Skiping
+2016-09-12 12:52:15,670 Cant parse this string
+2016-09-12 12:52:15,670 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,670 Skiping
+2016-09-12 12:52:15,670 Cant parse this string
+2016-09-12 12:52:15,670 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,680 Skiping
+2016-09-12 12:52:15,680 Cant parse this string
+2016-09-12 12:52:15,680 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,680 Skiping
+2016-09-12 12:52:15,680 Cant parse this string
+2016-09-12 12:52:15,680 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,690 Skiping
+2016-09-12 12:52:15,690 Cant parse this string
+2016-09-12 12:52:15,690 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,690 Skiping
+2016-09-12 12:52:15,690 Cant parse this string
+2016-09-12 12:52:15,690 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,690 Skiping
+2016-09-12 12:52:15,690 Cant parse this string
+2016-09-12 12:52:15,690 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,700 Skiping
+2016-09-12 12:52:15,700 Cant parse this string
+2016-09-12 12:52:15,700 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,710 Skiping
+2016-09-12 12:52:15,710 Cant parse this string
+2016-09-12 12:52:15,710 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,710 Skiping
+2016-09-12 12:52:15,710 Cant parse this string
+2016-09-12 12:52:15,710 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,710 Skiping
+2016-09-12 12:52:15,720 Cant parse this string
+2016-09-12 12:52:15,720 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,720 Skiping
+2016-09-12 12:52:15,720 Cant parse this string
+2016-09-12 12:52:15,720 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,740 Skiping
+2016-09-12 12:52:15,740 Cant parse this string
+2016-09-12 12:52:15,740 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,740 Skiping
+2016-09-12 12:52:15,740 Cant parse this string
+2016-09-12 12:52:15,740 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,740 Skiping
+2016-09-12 12:52:15,750 Cant parse this string
+2016-09-12 12:52:15,750 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,750 Skiping
+2016-09-12 12:52:15,750 Cant parse this string
+2016-09-12 12:52:15,750 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,750 Skiping
+2016-09-12 12:52:15,750 Cant parse this string
+2016-09-12 12:52:15,750 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,750 Skiping
+2016-09-12 12:52:15,750 Cant parse this string
+2016-09-12 12:52:15,760 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,760 Skiping
+2016-09-12 12:52:15,760 Cant parse this string
+2016-09-12 12:52:15,760 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,760 Skiping
+2016-09-12 12:52:15,760 Cant parse this string
+2016-09-12 12:52:15,760 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,770 Skiping
+2016-09-12 12:52:15,770 Cant parse this string
+2016-09-12 12:52:15,770 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,770 Skiping
+2016-09-12 12:52:15,780 Cant parse this string
+2016-09-12 12:52:15,780 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,790 Skiping
+2016-09-12 12:52:15,790 Cant parse this string
+2016-09-12 12:52:15,790 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,790 Skiping
+2016-09-12 12:52:15,790 Cant parse this string
+2016-09-12 12:52:15,790 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,790 Skiping
+2016-09-12 12:52:15,790 Cant parse this string
+2016-09-12 12:52:15,790 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,800 Skiping
+2016-09-12 12:52:15,800 Cant parse this string
+2016-09-12 12:52:15,800 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,800 Skiping
+2016-09-12 12:52:15,800 Cant parse this string
+2016-09-12 12:52:15,810 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,810 Skiping
+2016-09-12 12:52:15,810 Cant parse this string
+2016-09-12 12:52:15,820 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,820 Skiping
+2016-09-12 12:52:15,830 Cant parse this string
+2016-09-12 12:52:15,830 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,830 Skiping
+2016-09-12 12:52:15,830 Cant parse this string
+2016-09-12 12:52:15,830 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,830 Skiping
+2016-09-12 12:52:15,830 Cant parse this string
+2016-09-12 12:52:15,830 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,830 Skiping
+2016-09-12 12:52:15,830 Cant parse this string
+2016-09-12 12:52:15,830 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,830 Skiping
+2016-09-12 12:52:15,830 Cant parse this string
+2016-09-12 12:52:15,830 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,850 Skiping
+2016-09-12 12:52:15,850 Cant parse this string
+2016-09-12 12:52:15,850 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,850 Skiping
+2016-09-12 12:52:15,850 Cant parse this string
+2016-09-12 12:52:15,850 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,850 Skiping
+2016-09-12 12:52:15,860 Cant parse this string
+2016-09-12 12:52:15,860 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,860 Skiping
+2016-09-12 12:52:15,860 Cant parse this string
+2016-09-12 12:52:15,860 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,860 Skiping
+2016-09-12 12:52:15,860 Cant parse this string
+2016-09-12 12:52:15,860 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,870 Skiping
+2016-09-12 12:52:15,870 Cant parse this string
+2016-09-12 12:52:15,870 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,870 Skiping
+2016-09-12 12:52:15,870 Cant parse this string
+2016-09-12 12:52:15,870 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,880 Skiping
+2016-09-12 12:52:15,880 Cant parse this string
+2016-09-12 12:52:15,880 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,880 Skiping
+2016-09-12 12:52:15,890 Cant parse this string
+2016-09-12 12:52:15,890 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,890 Skiping
+2016-09-12 12:52:15,900 Cant parse this string
+2016-09-12 12:52:15,900 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,900 Skiping
+2016-09-12 12:52:15,900 Cant parse this string
+2016-09-12 12:52:15,900 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,900 Skiping
+2016-09-12 12:52:15,900 Cant parse this string
+2016-09-12 12:52:15,900 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,900 Skiping
+2016-09-12 12:52:15,900 Cant parse this string
+2016-09-12 12:52:15,900 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,900 Skiping
+2016-09-12 12:52:15,920 Cant parse this string
+2016-09-12 12:52:15,920 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,920 Skiping
+2016-09-12 12:52:15,920 Cant parse this string
+2016-09-12 12:52:15,920 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,920 Skiping
+2016-09-12 12:52:15,920 Cant parse this string
+2016-09-12 12:52:15,920 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,920 Skiping
+2016-09-12 12:52:15,930 Cant parse this string
+2016-09-12 12:52:15,930 ['End-of-life announcement date', 'The date the document that announces the end of sale and end of life of a product is distributed to the general public.']
+2016-09-12 12:52:15,930 Skiping
+2016-09-12 12:52:15,930 Cant parse this string
+2016-09-12 12:52:15,930 ['End-of-sale date', 'The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.']
+2016-09-12 12:52:15,950 Skiping
+2016-09-12 12:52:15,950 Cant parse this string
+2016-09-12 12:52:15,950 ['Last shipment date', 'The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.']
+2016-09-12 12:52:15,950 Skiping
+2016-09-12 12:52:15,950 Cant parse this string
+2016-09-12 12:52:15,950 ['End of routine failure analysis date', 'The last-possible date a routine failure analysis may be performed to determine the cause of product failure or defect.']
+2016-09-12 12:52:15,950 Skiping
+2016-09-12 12:52:15,950 Cant parse this string
+2016-09-12 12:52:15,950 ['End of new service attachment date', 'For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.']
+2016-09-12 12:52:15,950 Skiping
+2016-09-12 12:52:15,960 Cant parse this string
+2016-09-12 12:52:15,960 ['End of service contract renewal date', 'The last date to extend or renew a service contract for the product. The extension or renewal period cannot extend beyond the last date of support.']
+2016-09-12 12:52:15,960 Skiping
+2016-09-12 12:52:15,960 Cant parse this string
+2016-09-12 12:52:15,960 ['Last date of support', 'The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.']
+2016-09-12 12:52:15,960 Skiping
