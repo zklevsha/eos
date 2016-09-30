@@ -1,3 +1,0 @@
-11028 2016-09-28 13:26:29,936  * Debugger is active!
-11028 2016-09-28 13:26:29,936  * Debugger pin code: 182-825-385
-11028 2016-09-28 13:27:20,436  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web\\web.py', reloading

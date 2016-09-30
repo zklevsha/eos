@@ -1,6 +1,0 @@
-2016-09-22 11:43:35,442 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
-2016-09-22 11:43:35,462 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
-2016-09-22 11:43:35,472 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
-2016-09-22 11:43:35,482 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
-2016-09-22 11:43:35,502 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
-2016-09-22 11:43:35,532 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']

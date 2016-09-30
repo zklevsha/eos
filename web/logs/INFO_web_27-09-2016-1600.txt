@@ -1,4 +1,0 @@
-8752 2016-09-27 16:00:47,781  * Debugger is active!
-8752 2016-09-27 16:00:47,785  * Debugger pin code: 182-825-385
-8752 2016-09-27 16:01:57,987944 2016-09-27 16:01:58,091  * Restarting with stat
-s\\GitHub\\eos\\web\\web.py', reloading

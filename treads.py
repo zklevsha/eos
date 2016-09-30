@@ -126,7 +126,7 @@ def support_get_eos(name,q):
                         pid_info['pn'] = p
                         log.info(pid_info)
                         queueLock.acquire()
-                        db_q.append((PidSummary,pid_info))
+                        db_q.append(pid_info)
                         queueLock.release()
 
                     # queueLock.acquire()  
@@ -559,81 +559,78 @@ if platform.system() =="Windows":
 
 # log.info('Done')
 
-log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
-for device in support_deviceTypes:
-  log.info('Gathering ' + device)
-  content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
-  #print (content.text)
-  diction = json.loads(content.text)
-  #json['subCats'][0]['series'][6]
+# log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
+# for device in support_deviceTypes:
+#   log.info('Gathering ' + device)
+#   content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
+#   #print (content.text)
+#   diction = json.loads(content.text)
+#   #json['subCats'][0]['series'][6]
 
-  for subcat in diction['subCats']:
-      for model in subcat['series']:
-          all_device_support_page.append( (model['title'],header + model['url']) )
-psave(all_device_support_page,'all_device_support_page')
-log.info("Done.")
+#   for subcat in diction['subCats']:
+#       for model in subcat['series']:
+#           all_device_support_page.append( (model['title'],header + model['url']) )
+# psave(all_device_support_page,'all_device_support_page')
+# log.info("Done.")
 
 
-q = queue.Queue()
-queueLock = threading.Lock()
-for i in all_device_support_page: q.put(i)
-db_q = []
-#db_q.put((PidSummary,{'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'pn': 'WIM-BLANK=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'}))
-log.info('Starting workers')
-exitFlag = 0
-workers =[]
-for name in workers_names:
-    thread = myThread(name,support_get_eos,q,log)
-    thread.start()
-    workers.append(thread)
+# q = queue.Queue()
+# queueLock = threading.Lock()
+# for i in all_device_support_page: q.put(i)
+# db_q = []
+# #db_q.put((PidSummary,{'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'pn': 'WIM-BLANK=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'}))
+# log.info('Starting workers')
+# exitFlag = 0
+# workers =[]
+# for name in workers_names:
+#     thread = myThread(name,support_get_eos,q,log)
+#     thread.start()
+#     workers.append(thread)
 
-thread = myThread('control',control,q,log)
-thread.start()
-workers.append(thread)
+# thread = myThread('control',control,q,log)
+# thread.start()
+# workers.append(thread)
 
 
    
-# Wait for queue to empty
-while True:
-    if  q.empty():
-        break
+# # Wait for queue to empty
+# while True:
+#     if  q.empty():
+#         break
 
-# Notify threads it's time to exit
-log.info('seting Exit flag')
-exitFlag = 1
+# # Notify threads it's time to exit
+# log.info('seting Exit flag')
+# exitFlag = 1
 
-# Wait for all threads to complete
-for t in workers:
-    t.join()
+# # Wait for all threads to complete
+# for t in workers:
+#     t.join()
 
-log.info('Done')
+# log.info('Done')
+# psave(db_q,'db_q')
 
-
-
-
-psave(db_q,'db_q')
-
-
+db_q = pickle.load(open('db_q_2016-09-30-1320.p','rb'))
+db_q = [i[1] for i in db_q]
 log.info('Adding to ParsedPages')
 for pid_info in db_q:
+    log.info(pid_info)
     session = sessionmaker(bind=engine)()
     row = PidSummary(**pid_info)
-    log.info(row)
     try:
         session.add(row)
         session.commit()
 
     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
         session.rollback()
-        query = session.query(cname).filter_by('sourceLink').first()
+        query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
         if query.endOfSaleDate == "None Announced":
             pass
         elif pid_info['endOfSaleDate'] == "None Announced" :
-            session.query(cname).filter_by('sourceLink').update(**pid_info)
+            session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
             session.commit()
         else:
             if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-                session.query(cname).filter_by('sourceLink').update(**pid_info)
+                session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
                 session.commit()
             else: 
                 pass

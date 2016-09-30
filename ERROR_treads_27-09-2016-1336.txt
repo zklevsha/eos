@@ -1,7 +1,0 @@
-2016-09-27 13:36:40,849 Number of table with devices  and  table with devices  are not equal
-2016-09-27 13:36:40,868 ('EOS/EOL for Cisco Unified Wireless IP Phone 7920', 'http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-wireless-ip-phone-7920/prod_end-of-life_notice0900aecd8066c102.html')
-2016-09-27 13:36:40,886 Adding PN to pid_bad dictionary
-2016-09-27 13:36:41,021  Added 33pns
-2016-09-27 13:36:41,179  Added 33pns
-2016-09-27 13:36:41,199 Done
-2016-09-27 13:36:41,200 

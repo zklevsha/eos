@@ -1,2 +1,0 @@
-2016-09-15 18:46:27,649 Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all
-2016-09-15 18:46:27,659 Starting new HTTP connection (1): www.cisco.com
