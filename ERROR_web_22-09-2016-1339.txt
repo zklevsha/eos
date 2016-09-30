@@ -1,0 +1,18 @@
+2016-09-22 13:39:33,254 Cant find this PN
+2016-09-22 13:39:33,254 Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\k_zhukov\AppData\Local\Programs\Python\Python35-32\lib\site-packages\flask\app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File ".\web.py", line 161, in hello
+    for i in table_generate(arr):
+TypeError: 'NoneType' object is not iterable

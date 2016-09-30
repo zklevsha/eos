@@ -1,0 +1,54 @@
+11640 2016-09-29 12:19:40,059 Starting script at 2016-09-29 12:19:40.059646
+11640 2016-09-29 12:19:40,119 PHASE 2: COLLECTING EOS FROM SUPPORT
+11640 2016-09-29 12:19:40,119 Gathering routers
+11640 2016-09-29 12:19:40,129 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,329 Gathering switches
+11640 2016-09-29 12:19:40,329 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,389 Gathering security
+11640 2016-09-29 12:19:40,389 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,469 Gathering wireless
+11640 2016-09-29 12:19:40,469 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,529 Gathering serversunifiedcomputing
+11640 2016-09-29 12:19:40,529 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,579 Gathering applicationnetworkingservices
+11640 2016-09-29 12:19:40,589 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,639 Gathering cloudandsystemsmanagement
+11640 2016-09-29 12:19:40,639 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,709 Gathering collaborationendpoints
+11640 2016-09-29 12:19:40,709 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,849 Gathering conferencing
+11640 2016-09-29 12:19:40,849 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,909 Gathering connectedsafetyandsecurity
+11640 2016-09-29 12:19:40,909 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:40,959 Gathering customercollaboration
+11640 2016-09-29 12:19:40,959 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,009 Gathering ciscointerfacesandmodules
+11640 2016-09-29 12:19:41,009 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,069 Gathering opticalnetworking
+11640 2016-09-29 12:19:41,069 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,119 Gathering serviceexchange
+11640 2016-09-29 12:19:41,129 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,229 Gathering storagenetworking
+11640 2016-09-29 12:19:41,229 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,289 Gathering video
+11640 2016-09-29 12:19:41,299 Starting new HTTP connection (1): www.cisco.com
+11640 2016-09-29 12:19:41,359 Done.
+11640 2016-09-29 12:19:41,359 Starting workers
+11580 2016-09-29 12:19:41,359 Starting Wokrer-0
+11580 2016-09-29 12:19:41,359 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+7080 2016-09-29 12:19:41,359 Starting control
+11580 2016-09-29 12:19:41,359 Checking 800 series
+10104 2016-09-29 12:19:41,359 Starting db
+7080 2016-09-29 12:19:41,359 Exiting control
+11580 2016-09-29 12:19:41,359 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+10104 2016-09-29 12:19:41,359 Exiting db
+11580 2016-09-29 12:19:41,369 Starting new HTTP connection (1): www.cisco.com
+11580 2016-09-29 12:19:41,549 Found 96 models
+11580 2016-09-29 12:19:41,549  
+11580 2016-09-29 12:19:41,549 Parsing 800M Integrated Services Router
+11580 2016-09-29 12:19:41,549 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+11580 2016-09-29 12:19:41,549 Starting new HTTP connection (1): www.cisco.com
+11580 2016-09-29 12:19:41,629 Gathering PN assosiated with this device and some eos info
+11580 2016-09-29 12:19:41,829 Adding pid into db_q
+11640 2016-09-29 12:19:41,829 Done
+11640 2016-09-29 12:19:41,839 Execution time:0:00:01.780036

@@ -1,222 +1,618 @@
-2016-09-16 17:44:49,368 Cant find devices for this serices
-2016-09-16 17:44:49,543 ('6500 Virtual Switching System 1440', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-virtual-switching-system-1440/tsd-products-support-series-home.html')
-2016-09-16 17:46:19,317 Error code :404 url http://www.cisco.com/c/en/us/support/switches/nexus-1100-series-cloud-services-platforms/tsd-products-support-series-home.html 
-2016-09-16 17:47:07,349 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-2000-series-switches/tsd-products-support-series-home.html 
-2016-09-16 17:47:07,429 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-3000-series-switches/tsd-products-support-series-home.html 
-2016-09-16 17:47:08,881 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-4000-series-switches/tsd-products-support-series-home.html 
-2016-09-16 17:47:20,271 Cant find devices for this serices
-2016-09-16 17:47:20,544 ('Dynamic Multipoint (DMVPN)', 'http://www.cisco.com/c/en/us/support/security/dynamic-multipoint-vpn-dmvpn/tsd-products-support-series-home.html')
-2016-09-16 17:47:22,228 Cant find devices for this serices
-2016-09-16 17:47:22,334 ('Flex VPN', 'http://www.cisco.com/c/en/us/support/security/flexvpn/tsd-products-support-series-home.html')
-2016-09-16 17:47:22,633 Cant find devices for this serices
-2016-09-16 17:47:22,807 ('IOS Easy VPN', 'http://www.cisco.com/c/en/us/support/security/ios-easy-vpn/tsd-products-support-series-home.html')
-2016-09-16 17:47:28,904 Cant find devices for this serices
-2016-09-16 17:47:28,969 ('Adaptive Security Device Manager', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-device-manager/tsd-products-support-series-home.html')
-2016-09-16 17:47:31,612 Cant find devices for this serices
-2016-09-16 17:47:32,102 ('Adaptive Security Appliance (ASA) Software', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html')
-2016-09-16 17:47:34,202 Cant find devices for this serices
-2016-09-16 17:47:34,517 ('Adaptive Security Virtual Appliance (ASAv)', 'http://www.cisco.com/c/en/us/support/security/virtual-adaptive-security-appliance-firewall/tsd-products-support-series-home.html')
-2016-09-16 17:47:36,223 Cant find devices for this serices
-2016-09-16 17:47:36,409 ('ASA 1000V Cloud Firewall', 'http://www.cisco.com/c/en/us/support/security/asa-1000v-cloud-firewall/tsd-products-support-series-home.html')
-2016-09-16 17:47:38,282 Cant find devices for this serices
-2016-09-16 17:47:38,368 ('ASA Next-Generation Firewall Services', 'http://www.cisco.com/c/en/us/support/security/asa-next-generation-firewall-services/tsd-products-support-series-home.html')
-2016-09-16 17:47:44,548 Cant find devices for this serices
-2016-09-16 17:47:44,770 ('FireSIGHT Management Center Virtual Appliance', 'http://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/tsd-products-support-series-home.html')
-2016-09-16 17:47:46,668 Cant find devices for this serices
-2016-09-16 17:47:46,842 ('IOS Firewall', 'http://www.cisco.com/c/en/us/support/security/ios-firewall/tsd-products-support-series-home.html')
-2016-09-16 17:47:50,845 Cant find devices for this serices
-2016-09-16 17:47:51,107 ('Sourcefire AMP for FirePOWER Software License', 'http://www.cisco.com/c/en/us/support/security/amp-firepower-software-license/tsd-products-support-series-home.html')
-2016-09-16 17:48:02,628 Cant find devices for this serices
-2016-09-16 17:48:02,679 ('Email Security Virtual Appliance', 'http://www.cisco.com/c/en/us/support/security/email-security-virtual-appliance/tsd-products-support-series-home.html')
-2016-09-16 17:48:04,133 Cant find devices for this serices
-2016-09-16 17:48:04,417 ('IOS Intrusion Prevention System (IPS)', 'http://www.cisco.com/c/en/us/support/security/ios-intrusion-prevention-system-ips/tsd-products-support-series-home.html')
-2016-09-16 17:48:21,466 Cant find devices for this serices
-2016-09-16 17:48:21,517 ('Secure Desktop', 'http://www.cisco.com/c/en/us/support/security/secure-desktop/tsd-products-support-series-home.html')
-2016-09-16 17:49:05,426 Cant find devices for this serices
-2016-09-16 17:49:05,630 ('Antennas and Accessories', 'http://www.cisco.com/c/en/us/support/wireless/aironet-antennas-accessories/tsd-products-support-series-home.html')
-2016-09-16 17:49:25,119 Cant find devices for this serices
-2016-09-16 17:49:25,228 ('IP Transfer Point', 'http://www.cisco.com/c/en/us/support/wireless/ip-transfer-point/tsd-products-support-series-home.html')
-2016-09-16 17:49:28,251 Cant find devices for this serices
-2016-09-16 17:49:28,412 ('Virtual Wireless Controller', 'http://www.cisco.com/c/en/us/support/wireless/virtual-wireless-controller/tsd-products-support-series-home.html')
-2016-09-16 17:49:30,389 Cant find devices for this serices
-2016-09-16 17:49:30,554 ('Wireless LAN Controller Software', 'http://www.cisco.com/c/en/us/support/wireless/wireless-lan-controller-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:31,950 Cant find devices for this serices
-2016-09-16 17:49:32,118 ('Wireless Network Management Software Suite', 'http://www.cisco.com/c/en/us/support/wireless/wireless-network-management-software-suite/tsd-products-support-series-home.html')
-2016-09-16 17:49:32,672 Cant find devices for this serices
-2016-09-16 17:49:32,857 ('E-Series', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-e-series-servers/tsd-products-support-series-home.html')
-2016-09-16 17:49:34,235 Cant find devices for this serices
-2016-09-16 17:49:34,443 ('R-Series Racks', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/r-series-racks/tsd-products-support-series-home.html')
-2016-09-16 17:49:34,622 Cant find devices for this serices
-2016-09-16 17:49:35,041 ('UCS Mini', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-mini/tsd-products-support-series-home.html')
-2016-09-16 17:49:36,705 Cant find devices for this serices
-2016-09-16 17:49:36,770 ('2200 Fabric Extenders', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-2200-series-fabric-extenders/tsd-products-support-series-home.html')
-2016-09-16 17:49:42,596 Cant find devices for this serices
-2016-09-16 17:49:42,673 Cant find devices for this serices
-2016-09-16 17:49:42,782 ('UCS Manager', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-manager/tsd-products-support-series-home.html')
-2016-09-16 17:49:42,960 ('UCS Central Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-central-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:44,919 Cant find devices for this serices
-2016-09-16 17:49:45,079 ('Integrated Management Controller', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/tsd-products-support-series-home.html')
-2016-09-16 17:49:45,319 Cant find devices for this serices
-2016-09-16 17:49:45,336 Cant find devices for this serices
-2016-09-16 17:49:45,505 ('UCS Express', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-express/tsd-products-support-series-home.html')
-2016-09-16 17:49:45,540 ('Unified Computing System', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/tsd-products-support-series-home.html')
-2016-09-16 17:49:47,371 Cant find devices for this serices
-2016-09-16 17:49:47,707 ('UCS Infrastructure and UCS Manager Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-infrastructure-ucs-manager-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:47,707 Cant find devices for this serices
-2016-09-16 17:49:47,768 Cant find devices for this serices
-2016-09-16 17:49:47,835 ('UCS Performance Manager', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-performance-manager/tsd-products-support-series-home.html')
-2016-09-16 17:49:47,905 ('B-Series Blade Server Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-server-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:49,113 Cant find devices for this serices
-2016-09-16 17:49:49,375 Cant find devices for this serices
-2016-09-16 17:49:49,494 ('C-Series Rack-Mount UCS-Managed Server Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-mount-ucs-managed-server-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:49,629 ('M-Series Modular Server Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-m-series-modular-server-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:51,493 Cant find devices for this serices
-2016-09-16 17:49:51,579 Cant find devices for this serices
-2016-09-16 17:49:51,629 ('UCS Virtual Interface Card', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-virtual-interface-card/tsd-products-support-series-home.html')
-2016-09-16 17:49:51,724 ('UCS Mini Software', 'http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-mini-software/tsd-products-support-series-home.html')
-2016-09-16 17:49:53,667 Cant find devices for this serices
-2016-09-16 17:49:53,718 ('Virtual (vWAAS)', 'http://www.cisco.com/c/en/us/support/routers/virtual-wide-area-application-services-vwaas/tsd-products-support-series-home.html')
-2016-09-16 17:49:54,829 Cant find devices for this serices
-2016-09-16 17:49:54,908 Cant find devices for this serices
-2016-09-16 17:49:54,968 ('WAAS Mobile', 'http://www.cisco.com/c/en/us/support/routers/wide-area-application-services-waas-mobile/tsd-products-support-series-home.html')
-2016-09-16 17:49:54,997 ('WAAS Express', 'http://www.cisco.com/c/en/us/support/routers/wide-area-application-services-waas-express/tsd-products-support-series-home.html')
-2016-09-16 17:50:01,396 Cant find devices for this serices
-2016-09-16 17:50:01,440 ('ACE Web Application Firewall', 'http://www.cisco.com/c/en/us/support/application-networking-services/ace-web-application-firewall/tsd-products-support-series-home.html')
-2016-09-16 17:50:09,009 Cant find devices for this serices
-2016-09-16 17:50:09,370 ('Smart Call Home', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/smart-call-home/tsd-products-support-series-home.html')
-2016-09-16 17:50:10,819 Cant find devices for this serices
-2016-09-16 17:50:11,092 ('Smart Net Total Care', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/smart-net-total-care/tsd-products-support-series-home.html')
-2016-09-16 17:50:13,379 Cant find devices for this serices
-2016-09-16 17:50:13,656 ('Data Virtualization', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/data-virtualization/tsd-products-support-series-home.html')
-2016-09-16 17:50:47,188 Cant find devices for this serices
-2016-09-16 17:50:47,310 ('Application Centric Infrastructure Simulator', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/application-centric-infrastructure-simulator/tsd-products-support-series-home.html')
-2016-09-16 17:50:47,526 Cant find devices for this serices
-2016-09-16 17:50:47,749 ('Application Policy Infrastructure Controller (APIC)', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/application-policy-infrastructure-controller-apic/tsd-products-support-series-home.html')
-2016-09-16 17:50:49,037 Cant find devices for this serices
-2016-09-16 17:50:49,286 ('Configuration Professional', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/configuration-professional/tsd-products-support-series-home.html')
-2016-09-16 17:50:49,765 Cant find devices for this serices
-2016-09-16 17:50:49,875 ('Active Advisor', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/active-advisor/tsd-products-support-series-home.html')
-2016-09-16 17:50:51,560 Cant find devices for this serices
-2016-09-16 17:50:51,789 ('Modeling Labs', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/modeling-labs/tsd-products-support-series-home.html')
-2016-09-16 17:51:01,613 Cant find devices for this serices
-2016-09-16 17:51:01,842 ('Virtual Network Management Center', 'http://www.cisco.com/c/en/us/support/cloud-systems-management/virtual-network-management-center/tsd-products-support-series-home.html')
-2016-09-16 17:51:15,164 Cant find devices for this serices
-2016-09-16 17:51:15,286 ('SIP IP Phone Software', 'http://www.cisco.com/c/en/us/support/collaboration-endpoints/sip-ip-phone-software/tsd-products-support-series-home.html')
-2016-09-16 17:51:47,402 Cant find devices for this serices
-2016-09-16 17:51:47,449 Cant find devices for this serices
-2016-09-16 17:51:47,573 ('IP Communicator', 'http://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-communicator/tsd-products-support-series-home.html')
-2016-09-16 17:51:47,628 ('Jabber Video for TelePresence (Movi)', 'http://www.cisco.com/c/en/us/support/collaboration-endpoints/jabber-video-telepresence-movi/tsd-products-support-series-home.html')
-2016-09-16 17:51:47,789 Cant find devices for this serices
-2016-09-16 17:51:47,989 ('TC Console', 'http://www.cisco.com/c/en/us/support/collaboration-endpoints/tc-console/tsd-products-support-series-home.html')
-2016-09-16 17:51:52,251 Cant find devices for this serices
-2016-09-16 17:51:52,467 ('TelePresence SpeakerTrack 60', 'http://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/tsd-products-support-series-home.html')
-2016-09-16 17:52:00,500 Cant find devices for this serices
-2016-09-16 17:52:00,929 ('Cloud Connected Audio', 'http://www.cisco.com/c/en/us/support/conferencing/webex-cloud-connected-audio/tsd-products-support-series-home.html')
-2016-09-16 17:52:00,963 Cant find devices for this serices
-2016-09-16 17:52:01,080 ('MCU Conference Director', 'http://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-conference-director/tsd-products-support-series-home.html')
-2016-09-16 17:52:02,283 Cant find devices for this serices
-2016-09-16 17:52:02,477 ('Meetings', 'http://www.cisco.com/c/en/us/support/conferencing/webex-meetings/tsd-products-support-series-home.html')
-2016-09-16 17:52:09,269 Cant find devices for this serices
-2016-09-16 17:52:09,539 ('Node for MCS', 'http://www.cisco.com/c/en/us/support/conferencing/webex-node-mcs/tsd-products-support-series-home.html')
-2016-09-16 17:52:17,561 Cant find devices for this serices
-2016-09-16 17:52:17,730 ('Collaboration Meeting Rooms (CMR)', 'http://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr/tsd-products-support-series-home.html')
-2016-09-16 17:52:18,004 Cant find devices for this serices
-2016-09-16 17:52:18,060 ('Collaboration Meeting Rooms (CMR) Cloud', 'http://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr-cloud/tsd-products-support-series-home.html')
-2016-09-16 17:52:25,680 Cant find devices for this serices
-2016-09-16 17:52:25,974 ('Show and Share', 'http://www.cisco.com/c/en/us/support/conferencing/show-share/tsd-products-support-series-home.html')
-2016-09-16 17:52:28,461 Cant find devices for this serices
-2016-09-16 17:52:28,690 ('TelePresence Recording Server', 'http://www.cisco.com/c/en/us/support/conferencing/telepresence-recording-server/tsd-products-support-series-home.html')
-2016-09-16 17:52:29,477 Cant find devices for this serices
-2016-09-16 17:52:29,693 ('TelePresence Exchange System', 'http://www.cisco.com/c/en/us/support/conferencing/telepresence-exchange-system/tsd-products-support-series-home.html')
-2016-09-16 17:52:30,321 Cant find devices for this serices
-2016-09-16 17:52:30,349 ('WebEx TelePresence', 'http://www.cisco.com/c/en/us/support/conferencing/webex-telepresence/tsd-products-support-series-home.html')
-2016-09-16 17:52:35,859 Cant find devices for this serices
-2016-09-16 17:52:35,947 ('Accessories', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-ip-camera-accessories/tsd-products-support-series-home.html')
-2016-09-16 17:52:37,464 Cant find devices for this serices
-2016-09-16 17:52:37,811 ('Applications & Utilities', 'http://www.cisco.com/c/en/us/support/physical-security/ip-camera-applications-utilities/tsd-products-support-series-home.html')
-2016-09-16 17:52:47,299 Cant find devices for this serices
-2016-09-16 17:52:47,313 Cant find devices for this serices
-2016-09-16 17:52:47,426 ('Manager Discovery and Configuration Tool', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-manager-discovery-configuration-tool/tsd-products-support-series-home.html')
-2016-09-16 17:52:47,481 ('Manager', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-manager/tsd-products-support-series-home.html')
-2016-09-16 17:52:49,881 Cant find devices for this serices
-2016-09-16 17:52:49,893 Cant find devices for this serices
-2016-09-16 17:52:50,003 ('Operations Manager Software', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-operations-manager-software/tsd-products-support-series-home.html')
-2016-09-16 17:52:50,053 ('Virtual Matrix Software', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-virtual-matrix-software/tsd-products-support-series-home.html')
-2016-09-16 17:52:51,599 Cant find devices for this serices
-2016-09-16 17:52:51,951 ('Workstation Profile Tool', 'http://www.cisco.com/c/en/us/support/physical-security/video-surveillance-workstation-profile-tool/tsd-products-support-series-home.html')
-2016-09-16 17:52:52,033 Cant find devices for this serices
-2016-09-16 17:52:52,158 ('Access Manager', 'http://www.cisco.com/c/en/us/support/physical-security/physical-access-manager/tsd-products-support-series-home.html')
-2016-09-16 17:52:53,535 Cant find devices for this serices
-2016-09-16 17:52:53,641 ('Multiservices Platform', 'http://www.cisco.com/c/en/us/support/physical-security/physical-security-multiservices-platform-series/tsd-products-support-series-home.html')
-2016-09-16 17:52:53,806 Cant find devices for this serices
-2016-09-16 17:52:53,815 Cant find devices for this serices
-2016-09-16 17:52:53,854 Cant find devices for this serices
-2016-09-16 17:52:53,859 ('Vitualized Applications for UCS', 'http://www.cisco.com/c/en/us/support/physical-security/virtualized-applications-ucs/tsd-products-support-series-home.html')
-2016-09-16 17:52:53,861 ('Multiservices Platform for Video Surveillance', 'http://www.cisco.com/c/en/us/support/physical-security/physical-security-multiservices-platform-video-surveillance/tsd-products-support-series-home.html')
-2016-09-16 17:52:53,870 ('Operations Manager', 'http://www.cisco.com/c/en/us/support/physical-security/physical-security-operations-manager/tsd-products-support-series-home.html')
-2016-09-16 17:52:55,390 Cant find devices for this serices
-2016-09-16 17:52:55,534 ('Video Analytics', 'http://www.cisco.com/c/en/us/support/physical-security/video-analytics/tsd-products-support-series-home.html')
-2016-09-16 17:52:55,576 Cant find devices for this serices
-2016-09-16 17:52:55,727 ('Contact Center Hosted', 'http://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-hosted/tsd-products-support-series-home.html')
-2016-09-16 17:52:56,845 Cant find devices for this serices
-2016-09-16 17:52:57,013 ('Call Studio', 'http://www.cisco.com/c/en/us/support/unified-communications/unified-call-studio/tsd-products-support-series-home.html')
-2016-09-16 17:53:33,138 Cant find devices for this serices
-2016-09-16 17:53:33,234 ('Media Blender', 'http://www.cisco.com/c/en/us/support/customer-collaboration/cisco-media-blender/tsd-products-support-series-home.html')
-2016-09-16 17:53:36,890 Cant find devices for this serices
-2016-09-16 17:53:37,092 ('Remote Expert Manager', 'http://www.cisco.com/c/en/us/support/customer-collaboration/remote-expert-manager/tsd-products-support-series-home.html')
-2016-09-16 17:53:38,957 Cant find devices for this serices
-2016-09-16 17:53:39,061 ('Support Tools', 'http://www.cisco.com/c/en/us/support/customer-collaboration/support-tools/tsd-products-support-series-home.html')
-2016-09-16 17:54:01,810 Cant find devices for this serices
-2016-09-16 17:54:01,864 ('Integrated Servcies Router (ISR)', 'http://www.cisco.com/c/en/us/support/interfaces-modules/integrated-services-router-isr-modules/tsd-products-support-series-home.html')
-2016-09-16 17:54:42,636 Cant find devices for this serices
-2016-09-16 17:54:42,948 ('Adapter Cards', 'http://www.cisco.com/c/en/us/support/interfaces-modules/adapter-cards/tsd-products-support-series-home.html')
-2016-09-16 17:55:04,792 Cant find devices for this serices
-2016-09-16 17:55:04,918 ('Universal Serial Bus (USB)', 'http://www.cisco.com/c/en/us/support/interfaces-modules/universal-serial-bus-usb-cards/tsd-products-support-series-home.html')
-2016-09-16 17:56:44,407 Cant find devices for this serices
-2016-09-16 17:56:44,573 ('DWDM Design Tool', 'http://www.cisco.com/c/en/us/support/optical-networking/dwdm-design-tool/tsd-products-support-series-home.html')
-2016-09-16 17:56:49,921 Cant find devices for this serices
-2016-09-16 17:56:50,056 ('TransportPlanner', 'http://www.cisco.com/c/en/us/support/optical-networking/transportplanner/tsd-products-support-series-home.html')
-2016-09-16 17:56:52,409 Cant find devices for this serices
-2016-09-16 17:56:52,664 ('Broadband', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-application-broadband/tsd-products-support-series-home.html')
-2016-09-16 17:56:54,571 Cant find devices for this serices
-2016-09-16 17:56:54,573 Cant find devices for this serices
-2016-09-16 17:56:54,726 ('Mobile Networks', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-application-mobile-networks/tsd-products-support-series-home.html')
-2016-09-16 17:56:54,751 ('Protocols', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-application-protocols/tsd-products-support-series-home.html')
-2016-09-16 17:56:59,887 Cant find devices for this serices
-2016-09-16 17:56:59,936 ('Insight', 'http://www.cisco.com/c/en/us/support/service-exchange/insight/tsd-products-support-series-home.html')
-2016-09-16 17:57:00,187 Cant find devices for this serices
-2016-09-16 17:57:00,230 Cant find devices for this serices
-2016-09-16 17:57:00,396 ('SCE Virtual Engine', 'http://www.cisco.com/c/en/us/support/service-exchange/sce-virtual-service-control-engine/tsd-products-support-series-home.html')
-2016-09-16 17:57:00,461 ('Collection Manager', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-collection-manager/tsd-products-support-series-home.html')
-2016-09-16 17:57:01,750 Cant find devices for this serices
-2016-09-16 17:57:01,872 ('Operating System Software', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-operating-system-software/tsd-products-support-series-home.html')
-2016-09-16 17:57:01,990 Cant find devices for this serices
-2016-09-16 17:57:02,197 ('Subscriber Manager', 'http://www.cisco.com/c/en/us/support/service-exchange/service-control-subscriber-manager/tsd-products-support-series-home.html')
-2016-09-16 17:57:16,545 Cant find devices for this serices
-2016-09-16 17:57:16,580 ('Cloud Integration', 'http://www.cisco.com/c/en/us/support/storage-networking/mds-cloud-integration/tsd-products-support-series-home.html')
-2016-09-16 17:57:17,504 Cant find devices for this serices
-2016-09-16 17:57:17,739 ('SAN Management', 'http://www.cisco.com/c/en/us/support/storage-networking/mds-9000-san-management/tsd-products-support-series-home.html')
-2016-09-16 17:57:19,171 Cant find devices for this serices
-2016-09-16 17:57:19,157 Cant find devices for this serices
-2016-09-16 17:57:19,523 ('Utilities', 'http://www.cisco.com/c/en/us/support/storage-networking/mds-9000-utilities/tsd-products-support-series-home.html')
-2016-09-16 17:57:19,613 ('Software Licensing', 'http://www.cisco.com/c/en/us/support/storage-networking/mds-9000-software-licensing/tsd-products-support-series-home.html')
-2016-09-16 17:57:27,876 Cant find devices for this serices
-2016-09-16 17:57:27,892 ('Home Routers', 'http://www.cisco.com/c/en/us/support/video/home-routers/tsd-products-support-series-home.html')
-2016-09-16 17:57:28,965 Cant find devices for this serices
-2016-09-16 17:57:29,304 ('Linksys WCM300', 'http://www.cisco.com/c/en/us/support/video/linksys-wcm300-channel-bonded-cable-modems/tsd-products-support-series-home.html')
-2016-09-16 17:57:55,767 Cant find devices for this serices
-2016-09-16 17:57:55,959 ('Interactive Experience Manager', 'http://www.cisco.com/c/en/us/support/video/interactive-experience-manager/tsd-products-support-series-home.html')
-2016-09-16 17:57:57,723 Cant find devices for this serices
-2016-09-16 17:57:57,923 ('Manager', 'http://www.cisco.com/c/en/us/support/video/digital-media-manager/tsd-products-support-series-home.html')
-2016-09-16 17:58:02,884 Cant find devices for this serices
-2016-09-16 17:58:03,188 ('DCM Software', 'http://www.cisco.com/c/en/us/support/video/digital-content-manager-dcm-software/tsd-products-support-series-home.html')
-2016-09-16 17:58:11,830 Cant find devices for this serices
-2016-09-16 17:58:11,898 ('Explorer 8600HDC DVR', 'http://www.cisco.com/c/en/us/support/video/explorer-8600hdc-high-definition-dvr-set-top-box-series/tsd-products-support-series-home.html')
-2016-09-16 17:58:13,486 Cant find devices for this serices
-2016-09-16 17:58:13,694 ('IPTV', 'http://www.cisco.com/c/en/us/support/video/iptv-set-tops/tsd-products-support-series-home.html')
-2016-09-16 17:58:20,569 Cant find devices for this serices
-2016-09-16 17:58:20,856 Cant find devices for this serices
-2016-09-16 17:58:20,877 ('Unified Conferencing for TelePresence', 'http://www.cisco.com/c/en/us/support/video/unified-conferencing-telepresence/tsd-products-support-series-home.html')
-2016-09-16 17:58:21,051 ('Unified Video Advantage', 'http://www.cisco.com/c/en/us/support/video/unified-video-advantage/tsd-products-support-series-home.html')
-2016-09-16 17:58:28,077 Cant find devices for this serices
-2016-09-16 17:58:28,237 ('Distribution Suite - Transparent Caching', 'http://www.cisco.com/c/en/us/support/video/videoscape-distribution-suite-transparent-caching/tsd-products-support-series-home.html')
+2016-09-20 17:28:07,245 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:07,315 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:07,675 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:07,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:08,135 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:08,185 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:08,575 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:08,635 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:09,005 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:09,065 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:09,385 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:09,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:09,775 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:09,855 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:10,235 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:10,305 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:10,695 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:10,755 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:11,035 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:11,105 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:11,445 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:11,515 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:11,945 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:11,995 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:12,345 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:12,415 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:12,725 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:12,795 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:13,205 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:13,265 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:13,655 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:13,655 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,045 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:14,105 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,285 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:14,295 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,365 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:14,375 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,485 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:14,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,905 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:14,915 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,935 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:14,945 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,965 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:14,975 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:14,995 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:15,005 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,025 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:15,025 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,045 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:15,055 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,075 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:15,085 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,105 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:15,115 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,135 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:15,135 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,155 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:15,155 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,175 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:15,185 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,205 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:15,205 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,225 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:15,235 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,255 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:15,255 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,275 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:15,285 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,305 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:15,305 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,325 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:15,325 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,345 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:15,345 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,365 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:15,375 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,385 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:15,395 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,405 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:15,415 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,425 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:15,435 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,455 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:15,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,475 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:15,475 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,485 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:15,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,505 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:15,515 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,535 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:15,535 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,555 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:15,555 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,575 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:15,575 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,595 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:15,595 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,615 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:15,615 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,635 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:15,635 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,655 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:15,655 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,675 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:15,675 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,695 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:15,695 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,715 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:15,715 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,735 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:15,735 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,755 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:15,755 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,775 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:15,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:15,795 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:15,795 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,175 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:16,175 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,195 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:16,205 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,225 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:16,225 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,235 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:16,245 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,265 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:16,265 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,285 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:16,295 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,305 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:16,315 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,325 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:16,335 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,355 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:16,355 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,375 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:16,375 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,395 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:16,395 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,415 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:16,415 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,435 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:16,445 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,455 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:16,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,475 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:16,475 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,495 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:16,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,515 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:16,515 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,535 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:16,535 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,555 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:16,555 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,575 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:16,575 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,595 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:16,595 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,615 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:16,615 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,635 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:16,635 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,655 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:16,655 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,675 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:16,675 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,695 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:16,695 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,715 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:16,715 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,735 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:16,735 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,755 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:16,755 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,775 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:16,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,795 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:16,795 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,815 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:16,815 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,835 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:16,845 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,855 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:16,865 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,875 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:16,885 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,895 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:16,905 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,915 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:16,925 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,935 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:16,945 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,955 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:16,965 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:16,985 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:16,985 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,365 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:17,365 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,385 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:17,385 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,405 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:17,405 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,425 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:17,425 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,445 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:17,455 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,465 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:17,475 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,495 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:17,495 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,505 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:17,515 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,535 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:17,535 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,555 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:17,555 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,575 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:17,575 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,595 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:17,605 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,615 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:17,625 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,635 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:17,645 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,655 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:17,665 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,685 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:17,685 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,705 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:17,705 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,725 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:17,725 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,745 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:17,745 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,765 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:17,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,785 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:17,785 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,805 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:17,805 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,825 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:17,825 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,845 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:17,855 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,865 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:17,875 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,885 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:17,885 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,905 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:17,905 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,925 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:17,925 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,945 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:17,955 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,965 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:17,975 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:17,985 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:17,995 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,005 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:18,005 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,025 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:18,025 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,045 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:18,055 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,065 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:18,075 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,085 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:18,095 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,105 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:18,105 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,125 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:18,125 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,145 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:18,145 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,165 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:18,175 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,535 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:18,535 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,555 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:18,555 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,575 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:18,575 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,595 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:18,595 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,615 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:18,625 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,645 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:18,645 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,665 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:18,665 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,685 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:18,685 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,705 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:18,705 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,725 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:18,725 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,745 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:18,745 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,765 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:18,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,785 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:18,795 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,805 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:18,805 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,825 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:18,825 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,845 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:18,845 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,865 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:18,865 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,885 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:18,885 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,905 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:18,905 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,925 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:18,925 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,945 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:18,945 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,965 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:18,965 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,975 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:18,985 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:18,995 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:19,005 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,025 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:19,025 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,045 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:19,045 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,065 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:19,065 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,075 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:19,085 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,095 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:19,105 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,125 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:19,125 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,135 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:19,145 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,155 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:19,165 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,175 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:19,185 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,195 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:19,205 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,215 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:19,225 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,235 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:19,245 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,255 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:19,265 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,275 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:19,285 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,305 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:19,305 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,325 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:19,325 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,685 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:19,685 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,705 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:19,705 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,725 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:19,725 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,745 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:19,745 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,765 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:19,775 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,785 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:19,795 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,805 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:19,815 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,825 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:19,835 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,845 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:19,855 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,865 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:19,875 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,895 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:19,895 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,915 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:19,915 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,935 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:19,935 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,955 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:19,955 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,975 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:19,975 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:19,995 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:20,005 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,015 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:20,025 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,035 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:20,045 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,055 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:20,065 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,075 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:20,085 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,095 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:20,105 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,115 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:20,125 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,135 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:20,145 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,155 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:20,165 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,175 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:20,185 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,195 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:20,205 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,225 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:20,225 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,245 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:20,245 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,265 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:20,265 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,285 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:20,285 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,305 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:20,305 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,325 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:20,325 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,345 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:20,345 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,365 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:20,365 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,385 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:20,385 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,405 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:20,405 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,425 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:20,425 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,445 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:20,445 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,465 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:20,465 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,485 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:20,485 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,845 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:20,845 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,865 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:20,875 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,885 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:20,895 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,905 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:20,915 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,925 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:20,935 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,945 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:20,955 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,965 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:20,975 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:20,995 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:20,995 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,015 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:21,015 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,035 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:21,035 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,055 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:21,055 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,075 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:21,075 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,095 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:21,095 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,115 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:21,115 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,135 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:21,135 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,155 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:21,155 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,175 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:21,175 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,195 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:21,195 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,215 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:21,215 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,236 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:21,236 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,246 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:21,256 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,266 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:21,276 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,286 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:21,296 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,316 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:21,316 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,326 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:21,336 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,346 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:21,356 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,366 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:21,376 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,386 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:21,396 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,406 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:21,416 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,426 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:21,436 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,446 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:21,446 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,466 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:21,466 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,486 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:21,486 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,506 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:21,506 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,526 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:21,526 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,546 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:21,546 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,566 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:21,566 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,586 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:21,586 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,606 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:21,606 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:21,626 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:21,626 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,006 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:22,006 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,026 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:22,026 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,046 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:22,046 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,066 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:22,076 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,086 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:22,096 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,106 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:22,116 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,126 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:22,136 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,146 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:22,156 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,166 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:22,176 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,196 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:22,196 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,216 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:22,216 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,236 Duplicate PN KEY-ER2.X-UPG-100=
+2016-09-20 17:28:22,236 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,256 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:22,256 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,276 Duplicate PN KEY-ER2.X-UPG-10K=
+2016-09-20 17:28:22,276 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,296 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:22,296 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,316 Duplicate PN KEY-ER2.X-UPG-1K=
+2016-09-20 17:28:22,316 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,336 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:22,336 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,346 Duplicate PN KEY-ER2.X-UPG-500=
+2016-09-20 17:28:22,356 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,366 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:22,376 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,386 Duplicate PN KEY-ER2.X-UPG-5K=
+2016-09-20 17:28:22,396 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,406 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:22,416 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,426 Duplicate PN L-KEY-ER2.X-100=
+2016-09-20 17:28:22,436 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,446 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:22,456 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,466 Duplicate PN L-KEY-ER2.X-10K=
+2016-09-20 17:28:22,476 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,486 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:22,496 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,506 Duplicate PN L-KEY-ER2.X-1K=
+2016-09-20 17:28:22,516 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,526 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:22,536 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,546 Duplicate PN L-KEY-ER2.X-500=
+2016-09-20 17:28:22,556 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,566 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:22,576 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,596 Duplicate PN L-KEY-ER2.X-5K=
+2016-09-20 17:28:22,596 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,616 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:22,626 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,646 Duplicate PN L-KEY-ER2.X-U-100=
+2016-09-20 17:28:22,646 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,656 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:22,666 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,676 Duplicate PN L-KEY-ER2.X-U-10K=
+2016-09-20 17:28:22,686 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,696 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:22,706 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,726 Duplicate PN L-KEY-ER2.X-U-1K=
+2016-09-20 17:28:22,726 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,746 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:22,746 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,766 Duplicate PN L-KEY-ER2.X-U-500=
+2016-09-20 17:28:22,766 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,786 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:22,796 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:22,806 Duplicate PN L-KEY-ER2.X-U-5K=
+2016-09-20 17:28:22,816 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,196 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:23,206 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,216 Duplicate PN KEY-ER2.X-100=
+2016-09-20 17:28:23,226 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,246 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:23,246 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,266 Duplicate PN KEY-ER2.X-10K=
+2016-09-20 17:28:23,266 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,286 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:23,286 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,306 Duplicate PN KEY-ER2.X-1K=
+2016-09-20 17:28:23,306 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,326 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:23,326 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,346 Duplicate PN KEY-ER2.X-500=
+2016-09-20 17:28:23,346 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html
+2016-09-20 17:28:23,366 Duplicate PN KEY-ER2.X-5K=
+2016-09-20 17:28:23,366 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/unified-communications/emergency-responder/end_of_life_notice_c51-695270.html

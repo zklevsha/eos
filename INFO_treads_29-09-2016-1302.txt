@@ -1,0 +1,45 @@
+7084 2016-09-29 13:02:50,182 Starting script at 2016-09-29 13:02:50.182720
+7084 2016-09-29 13:02:50,222 PHASE 2: COLLECTING EOS FROM SUPPORT
+7084 2016-09-29 13:02:50,222 Gathering routers
+7084 2016-09-29 13:02:50,232 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,362 Gathering switches
+7084 2016-09-29 13:02:50,362 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,442 Gathering security
+7084 2016-09-29 13:02:50,452 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,512 Gathering wireless
+7084 2016-09-29 13:02:50,512 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,562 Gathering serversunifiedcomputing
+7084 2016-09-29 13:02:50,572 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,622 Gathering applicationnetworkingservices
+7084 2016-09-29 13:02:50,632 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,692 Gathering cloudandsystemsmanagement
+7084 2016-09-29 13:02:50,692 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,742 Gathering collaborationendpoints
+7084 2016-09-29 13:02:50,752 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,812 Gathering conferencing
+7084 2016-09-29 13:02:50,822 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,892 Gathering connectedsafetyandsecurity
+7084 2016-09-29 13:02:50,892 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:50,962 Gathering customercollaboration
+7084 2016-09-29 13:02:50,962 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:51,012 Gathering ciscointerfacesandmodules
+7084 2016-09-29 13:02:51,022 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:51,082 Gathering opticalnetworking
+7084 2016-09-29 13:02:51,082 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:51,873 Gathering serviceexchange
+7084 2016-09-29 13:02:51,873 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:51,963 Gathering storagenetworking
+7084 2016-09-29 13:02:51,973 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:52,023 Gathering video
+7084 2016-09-29 13:02:52,023 Starting new HTTP connection (1): www.cisco.com
+7084 2016-09-29 13:02:52,083 Done.
+7084 2016-09-29 13:02:52,083 Starting workers
+8240 2016-09-29 13:02:52,083 Starting Wokrer-0
+9728 2016-09-29 13:02:52,093 Starting control
+9056 2016-09-29 13:02:52,103 Starting db
+9056 2016-09-29 13:02:52,163 Adding to db: <class 'web.db.schema.PidSummary'>
+8240 2016-09-29 13:02:52,163 Exiting Wokrer-0
+9728 2016-09-29 13:02:52,163 CONTROL: Queue length:0DB length: 0
+9728 2016-09-29 13:03:22,166 Exiting control
+7084 2016-09-29 13:03:22,166 Done
+7084 2016-09-29 13:03:22,166 Execution time:0:00:31.983642

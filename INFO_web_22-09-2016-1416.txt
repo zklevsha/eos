@@ -1,0 +1,2 @@
+6624 2016-09-22 14:16:59,755  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+6624 2016-09-22 14:16:59,755  * Restarting with stat

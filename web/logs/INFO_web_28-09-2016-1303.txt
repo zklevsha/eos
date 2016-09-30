@@ -1,0 +1,7 @@
+10004 2016-09-28 13:03:23,507  * Debugger is active!
+10004 2016-09-28 13:03:23,507  * Debugger pin code: 182-825-385
+4636 2016-09-28 13:03:29,249 Processing: 14X10GBE-WL-XFP
+4636 2016-09-28 13:03:29,259 Cant find this PN
+4636 2016-09-28 13:03:29,279 127.0.0.1 - - [28/Sep/2016 13:03:29] "POST / HTTP/1.1" 200 -
+4636 2016-09-28 13:03:29,329 127.0.0.1 - - [28/Sep/2016 13:03:29] "GET /js/scripts.js HTTP/1.1" 404 -
+10004 2016-09-28 13:05:27,001  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web\\web.py', reloading

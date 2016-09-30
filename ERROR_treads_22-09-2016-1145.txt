@@ -1,0 +1,28 @@
+2016-09-22 11:45:09,483 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,503 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,503 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,583 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,593 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,613 Duplicate PN 4007293
+2016-09-22 11:45:09,623 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,633 No Replacement column. Here are table header: ['End-of-SaleProductPartNumber', 'ProductDescription']
+2016-09-22 11:45:09,683 Duplicate PN 4007296
+2016-09-22 11:45:09,693 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,703 Duplicate PN 4007296
+2016-09-22 11:45:09,713 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,723 Duplicate PN 4007951
+2016-09-22 11:45:09,733 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,773 Duplicate PN 4011805
+2016-09-22 11:45:09,783 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,813 Duplicate PN 4015521
+2016-09-22 11:45:09,823 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,823 Duplicate PN 4015521
+2016-09-22 11:45:09,833 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,843 Duplicate PN 4015527
+2016-09-22 11:45:09,853 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,863 Duplicate PN 4016228
+2016-09-22 11:45:09,863 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,873 Duplicate PN 4018814
+2016-09-22 11:45:09,883 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html
+2016-09-22 11:45:09,893 Duplicate PN 4023802
+2016-09-22 11:45:09,893 Stored doc url :http://www.cisco.com/c/en/us/products/collateral/video/series-8000-digital-cable-set-tops/end_of_life_notice_c51-653033.html

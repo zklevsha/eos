@@ -1,0 +1,24 @@
+2180 2016-09-27 13:38:25,836 Starting script at 2016-09-27 13:38:25.836106
+2180 2016-09-27 13:38:26,075 PHASE 3 PARSING EOS PAGES
+2180 2016-09-27 13:38:26,076 Starting workers
+3692 2016-09-27 13:38:26,079 Starting Wokrer-0
+3692 2016-09-27 13:38:26,082 Wokrer-0 processing ('EOS/EOL for Cisco Unified Wireless IP Phone 7920', 'http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-wireless-ip-phone-7920/prod_end-of-life_notice0900aecd8066c102.html')
+3692 2016-09-27 13:38:26,084 Title:EOS/EOL for Cisco Unified Wireless IP Phone 7920
+3692 2016-09-27 13:38:26,104 Url:http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-wireless-ip-phone-7920/prod_end-of-life_notice0900aecd8066c102.html
+764 2016-09-27 13:38:26,100 Starting Control
+764 2016-09-27 13:38:26,124 Exiting Control
+3692 2016-09-27 13:38:26,126 Starting new HTTP connection (1): www.cisco.com
+3692 2016-09-27 13:38:26,724 Added to Dates  Table 1. End-of-Life Milestones and Dates for the Cisco Unified Wireless IP Phone 7920 
+3692 2016-09-27 13:38:26,775 Added to Devices  Table 2. Product Part Numbers Affected by This Announcement 
+3692 2016-09-27 13:38:26,823 Added to Devices  Table 3. Product Part Numbers Affected by This Announcement 
+3692 2016-09-27 13:38:26,824 Number of table with devices  and  table with devices  are not equal
+3692 2016-09-27 13:38:26,825 ('EOS/EOL for Cisco Unified Wireless IP Phone 7920', 'http://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-wireless-ip-phone-7920/prod_end-of-life_notice0900aecd8066c102.html')
+3692 2016-09-27 13:38:26,826 Adding PN to pid_bad dictionary
+3692 2016-09-27 13:38:26,894  Added 33pns
+3692 2016-09-27 13:38:26,991  Added 33pns
+3692 2016-09-27 13:38:26,996 Done
+3692 2016-09-27 13:38:27,002 
+3692 2016-09-27 13:38:27,004 Exiting Wokrer-0
+2180 2016-09-27 13:38:27,007 Done
+2180 2016-09-27 13:38:27,009 Exiting Main Thread
+2180 2016-09-27 13:38:27,024 Execution time:0:00:01.188119

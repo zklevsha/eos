@@ -1,0 +1,14 @@
+11316 2016-09-28 11:19:22,638  * Debugger is active!
+11316 2016-09-28 11:19:22,641  * Debugger pin code: 182-825-385
+11596 2016-09-28 11:19:34,037 127.0.0.1 - - [28/Sep/2016 11:19:34] "GET / HTTP/1.1" 200 -
+11596 2016-09-28 11:19:34,292 127.0.0.1 - - [28/Sep/2016 11:19:34] "GET /favicon.ico HTTP/1.1" 404 -
+11596 2016-09-28 11:19:34,301 127.0.0.1 - - [28/Sep/2016 11:19:34] "GET /favicon.ico HTTP/1.1" 404 -
+11596 2016-09-28 11:19:37,122 Processing: ûââ
+11596 2016-09-28 11:19:37,209 127.0.0.1 - - [28/Sep/2016 11:19:37] "POST / HTTP/1.1" 500 -
+11596 2016-09-28 11:19:37,326 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11596 2016-09-28 11:19:37,379 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11596 2016-09-28 11:19:37,426 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11596 2016-09-28 11:19:37,429 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11596 2016-09-28 11:19:37,800 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11596 2016-09-28 11:19:37,827 127.0.0.1 - - [28/Sep/2016 11:19:37] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11316 2016-09-28 11:20:35,361  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web\\web.py', reloading

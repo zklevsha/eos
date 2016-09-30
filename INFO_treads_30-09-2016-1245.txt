@@ -1,0 +1,91 @@
+7784 2016-09-30 12:45:17,834 Starting script at 2016-09-30 12:45:17.834209
+7784 2016-09-30 12:45:17,874 PHASE 2: COLLECTING EOS FROM SUPPORT
+7784 2016-09-30 12:45:17,874 Gathering routers
+7784 2016-09-30 12:45:17,894 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,044 Gathering switches
+7784 2016-09-30 12:45:18,054 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,104 Gathering security
+7784 2016-09-30 12:45:18,104 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,204 Gathering wireless
+7784 2016-09-30 12:45:18,214 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,274 Gathering serversunifiedcomputing
+7784 2016-09-30 12:45:18,274 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,354 Gathering applicationnetworkingservices
+7784 2016-09-30 12:45:18,364 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,414 Gathering cloudandsystemsmanagement
+7784 2016-09-30 12:45:18,424 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,494 Gathering collaborationendpoints
+7784 2016-09-30 12:45:18,494 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,554 Gathering conferencing
+7784 2016-09-30 12:45:18,554 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,614 Gathering connectedsafetyandsecurity
+7784 2016-09-30 12:45:18,614 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,665 Gathering customercollaboration
+7784 2016-09-30 12:45:18,675 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,725 Gathering ciscointerfacesandmodules
+7784 2016-09-30 12:45:18,735 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,795 Gathering opticalnetworking
+7784 2016-09-30 12:45:18,805 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:18,875 Gathering serviceexchange
+7784 2016-09-30 12:45:18,875 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:19,005 Gathering storagenetworking
+7784 2016-09-30 12:45:19,005 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:19,055 Gathering video
+7784 2016-09-30 12:45:19,065 Starting new HTTP connection (1): www.cisco.com
+7784 2016-09-30 12:45:19,115 Done.
+7784 2016-09-30 12:45:19,115 Starting workers
+8300 2016-09-30 12:45:19,115 Starting Wokrer-0
+3468 2016-09-30 12:45:19,115 Starting control
+8300 2016-09-30 12:45:19,115 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+8300 2016-09-30 12:45:19,145 Checking 800 series
+3468 2016-09-30 12:45:19,145 CONTROL: Queue length:509
+8300 2016-09-30 12:45:19,145 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+8300 2016-09-30 12:45:19,215 Starting new HTTP connection (1): www.cisco.com
+8300 2016-09-30 12:45:19,605 Found 96 models
+8300 2016-09-30 12:45:19,625  
+8300 2016-09-30 12:45:19,645 Parsing 800M Integrated Services Router
+8300 2016-09-30 12:45:19,665 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+8300 2016-09-30 12:45:19,715 Starting new HTTP connection (1): www.cisco.com
+8300 2016-09-30 12:45:19,945 Gathering PN assosiated with this device and some eos info
+8300 2016-09-30 12:45:20,315 Adding pid into db_q
+8300 2016-09-30 12:45:20,335 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': '4G-CAB-LMR400-5=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,355 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'ACS-800M-RM-19=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,375 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'ACS-810-RFWM=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,395 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'ANT-2-WLAN-D-O=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,415 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'ANT-3-4G2G1-O=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,435 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'ANT-5-4G2WL2G1-O=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,455 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-ADSL-RJ11=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,475 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-ADSL-RJ11X=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,495 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-449MT=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,515 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-530MT=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,535 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-V35FC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,555 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-V35MT=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,575 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-X21FC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,595 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'CAB-SS-X21MT=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,615 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'L-SLFL-800=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,635 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'NAL-FOC-C881W', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,655 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'NAL-FOC-C891F', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,675 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PS-SWITCH-AC-2P=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,695 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PS-SWITCH-AC-3P=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,715 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR-22W-AC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,735 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR-66W-AC', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,755 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR-66W-AC-V2', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,775 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR-66W-AC-V2=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,795 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR-66W-AC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,815 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'PWR2-22W-AC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,835 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'S800MUK9-15503M=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,855 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'S800MUNK9-15503M=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,875 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'S800MUXK9-15503M=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,895 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'S800MUXNK9-15503M=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,905 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'SL-800M-ADVSEC=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,925 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'SL-800M-SEC-NPE=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,945 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'WIM-1T=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,965 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'WIM-3G=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:20,985 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:21,005 {'series': 'Cisco 800 Series Routers', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router'}
+8300 2016-09-30 12:45:21,025 Done. Found 35 pids
+8300 2016-09-30 12:45:21,045 Searching for EOS documents
+8300 2016-09-30 12:45:21,305 Parsing 810 Integrated Services Routers
+8300 2016-09-30 12:45:21,325 http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html
+8300 2016-09-30 12:45:21,375 Starting new HTTP connection (1): www.cisco.com
+8300 2016-09-30 12:45:22,495 Gathering PN assosiated with this device and some eos info

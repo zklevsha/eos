@@ -1,0 +1,102 @@
+7744 2016-09-29 12:42:38,362 Starting script at 2016-09-29 12:42:38.362416
+7744 2016-09-29 12:42:38,662 PHASE 2: COLLECTING EOS FROM SUPPORT
+7744 2016-09-29 12:42:38,662 Gathering routers
+7744 2016-09-29 12:42:38,672 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:38,792 Gathering switches
+7744 2016-09-29 12:42:38,792 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:38,842 Gathering security
+7744 2016-09-29 12:42:38,842 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:38,892 Gathering wireless
+7744 2016-09-29 12:42:38,902 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:38,992 Gathering serversunifiedcomputing
+7744 2016-09-29 12:42:39,002 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,052 Gathering applicationnetworkingservices
+7744 2016-09-29 12:42:39,062 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,112 Gathering cloudandsystemsmanagement
+7744 2016-09-29 12:42:39,112 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,172 Gathering collaborationendpoints
+7744 2016-09-29 12:42:39,172 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,222 Gathering conferencing
+7744 2016-09-29 12:42:39,222 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,272 Gathering connectedsafetyandsecurity
+7744 2016-09-29 12:42:39,272 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,322 Gathering customercollaboration
+7744 2016-09-29 12:42:39,322 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,372 Gathering ciscointerfacesandmodules
+7744 2016-09-29 12:42:39,382 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,442 Gathering opticalnetworking
+7744 2016-09-29 12:42:39,442 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,502 Gathering serviceexchange
+7744 2016-09-29 12:42:39,502 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,602 Gathering storagenetworking
+7744 2016-09-29 12:42:39,602 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,652 Gathering video
+7744 2016-09-29 12:42:39,652 Starting new HTTP connection (1): www.cisco.com
+7744 2016-09-29 12:42:39,712 Done.
+7744 2016-09-29 12:42:39,712 Starting workers
+780 2016-09-29 12:42:39,712 Starting Wokrer-0
+780 2016-09-29 12:42:39,712 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+10428 2016-09-29 12:42:39,712 Starting control
+780 2016-09-29 12:42:39,712 Checking 800 series
+6852 2016-09-29 12:42:39,712 Starting db
+10428 2016-09-29 12:42:39,712 CONTROL: Queue length:509DB length: 0
+780 2016-09-29 12:42:39,732 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+780 2016-09-29 12:42:39,812 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:40,442 Found 96 models
+780 2016-09-29 12:42:40,462  
+780 2016-09-29 12:42:40,472 Parsing 800M Integrated Services Router
+780 2016-09-29 12:42:40,472 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+780 2016-09-29 12:42:40,482 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:40,654 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:42:40,934 Adding pid into db_q
+780 2016-09-29 12:42:40,944 Done. Found 35 pids
+780 2016-09-29 12:42:40,964 Searching for EOS documents
+780 2016-09-29 12:42:41,214 Parsing 810 Integrated Services Routers
+780 2016-09-29 12:42:41,224 http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html
+780 2016-09-29 12:42:41,304 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:41,584 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:42:41,954 Adding pid into db_q
+780 2016-09-29 12:42:41,974 Done. Found 30 pids
+780 2016-09-29 12:42:41,994 Searching for EOS documents
+780 2016-09-29 12:42:42,294 Parsing 812 3G Integrated Services Router
+780 2016-09-29 12:42:42,314 http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html
+780 2016-09-29 12:42:42,374 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:42,594 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:42:42,964 Adding pid into db_q
+780 2016-09-29 12:42:42,974 Done. Found 48 pids
+780 2016-09-29 12:42:42,984 Searching for EOS documents
+780 2016-09-29 12:42:43,284 Parsing 812 CiFi Integrated Services Router
+780 2016-09-29 12:42:43,304 http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html
+780 2016-09-29 12:42:43,324 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:43,454 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:42:43,854 Adding pid into db_q
+780 2016-09-29 12:42:43,874 Done. Found 46 pids
+780 2016-09-29 12:42:43,884 Searching for EOS documents
+780 2016-09-29 12:42:44,114 Parsing 819 Hardened 3G with Dual Radio 802.11n WiFi Integrated Services Router
+780 2016-09-29 12:42:44,134 http://www.cisco.com/c/en/us/support/routers/819-hardened-3g-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+780 2016-09-29 12:42:44,184 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:42:44,304 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:42:44,624 Adding pid into db_q
+780 2016-09-29 12:42:44,644 Done. Found 67 pids
+780 2016-09-29 12:42:44,654 Searching for EOS documents
+780 2016-09-29 12:42:44,994 Parsing 819 Hardened Dual Radio 802.11n WiFi Integrated Services Router
+780 2016-09-29 12:43:07,981 http://www.cisco.com/c/en/us/support/routers/819-hardened-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+780 2016-09-29 12:43:07,991 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:43:08,341 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:43:08,531 Adding pid into db_q
+780 2016-09-29 12:43:08,531 Done. Found 57 pids
+780 2016-09-29 12:43:08,531 Searching for EOS documents
+780 2016-09-29 12:43:08,671 Parsing 819 Hardened Integrated Services Router
+780 2016-09-29 12:43:08,671 http://www.cisco.com/c/en/us/support/routers/819-hardened-integrated-services-router-isr/model.html
+780 2016-09-29 12:43:08,681 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:43:08,751 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:43:08,971 Adding pid into db_q
+780 2016-09-29 12:43:08,981 Done. Found 93 pids
+780 2016-09-29 12:43:08,981 Searching for EOS documents
+780 2016-09-29 12:43:09,141 Parsing 819 Integrated Services Router
+780 2016-09-29 12:43:09,141 http://www.cisco.com/c/en/us/support/routers/819-integrated-services-router-isr/model.html
+780 2016-09-29 12:43:09,151 Starting new HTTP connection (1): www.cisco.com
+780 2016-09-29 12:43:09,231 Gathering PN assosiated with this device and some eos info
+780 2016-09-29 12:43:09,451 Adding pid into db_q
+780 2016-09-29 12:43:09,451 Done. Found 97 pids
+780 2016-09-29 12:43:09,451 Searching for EOS documents

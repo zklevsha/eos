@@ -1,0 +1,722 @@
+11688 2016-09-29 12:20:36,960 Starting script at 2016-09-29 12:20:36.960786
+11688 2016-09-29 12:20:37,000 PHASE 2: COLLECTING EOS FROM SUPPORT
+11688 2016-09-29 12:20:37,000 Gathering routers
+11688 2016-09-29 12:20:37,010 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:39,678 Gathering switches
+11688 2016-09-29 12:20:39,678 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:41,168 Gathering security
+11688 2016-09-29 12:20:41,168 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:41,968 Gathering wireless
+11688 2016-09-29 12:20:41,968 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:42,028 Gathering serversunifiedcomputing
+11688 2016-09-29 12:20:42,038 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:42,709 Gathering applicationnetworkingservices
+11688 2016-09-29 12:20:42,709 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:43,359 Gathering cloudandsystemsmanagement
+11688 2016-09-29 12:20:43,359 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:43,449 Gathering collaborationendpoints
+11688 2016-09-29 12:20:43,449 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:43,749 Gathering conferencing
+11688 2016-09-29 12:20:43,759 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:43,819 Gathering connectedsafetyandsecurity
+11688 2016-09-29 12:20:43,819 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:43,869 Gathering customercollaboration
+11688 2016-09-29 12:20:43,869 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:44,249 Gathering ciscointerfacesandmodules
+11688 2016-09-29 12:20:44,249 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:44,349 Gathering opticalnetworking
+11688 2016-09-29 12:20:44,349 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:44,659 Gathering serviceexchange
+11688 2016-09-29 12:20:44,659 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:44,749 Gathering storagenetworking
+11688 2016-09-29 12:20:44,749 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:44,969 Gathering video
+11688 2016-09-29 12:20:44,979 Starting new HTTP connection (1): www.cisco.com
+11688 2016-09-29 12:20:45,029 Done.
+11688 2016-09-29 12:20:45,039 Starting workers
+5856 2016-09-29 12:20:45,039 Starting Wokrer-0
+5856 2016-09-29 12:20:45,039 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+5856 2016-09-29 12:20:45,039 Checking 800 series
+11244 2016-09-29 12:20:45,039 Starting control
+11244 2016-09-29 12:20:45,039 Exiting control
+10828 2016-09-29 12:20:45,039 Starting db
+10828 2016-09-29 12:20:45,039 Exiting db
+5856 2016-09-29 12:20:45,039 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+5856 2016-09-29 12:20:45,049 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:45,229 Found 96 models
+5856 2016-09-29 12:20:45,229  
+5856 2016-09-29 12:20:45,229 Parsing 800M Integrated Services Router
+5856 2016-09-29 12:20:45,229 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:45,229 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:45,409 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:45,629 Adding pid into db_q
+5856 2016-09-29 12:20:45,629 Done. Found 35 pids
+5856 2016-09-29 12:20:45,629 Searching for EOS documents
+5856 2016-09-29 12:20:45,769 Parsing 810 Integrated Services Routers
+5856 2016-09-29 12:20:45,769 http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html
+5856 2016-09-29 12:20:45,769 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:46,169 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:46,369 Adding pid into db_q
+5856 2016-09-29 12:20:46,369 Done. Found 30 pids
+5856 2016-09-29 12:20:46,369 Searching for EOS documents
+5856 2016-09-29 12:20:46,519 Parsing 812 3G Integrated Services Router
+5856 2016-09-29 12:20:46,519 http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:46,519 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:46,849 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:47,039 Adding pid into db_q
+5856 2016-09-29 12:20:47,039 Done. Found 48 pids
+5856 2016-09-29 12:20:47,039 Searching for EOS documents
+5856 2016-09-29 12:20:47,169 Parsing 812 CiFi Integrated Services Router
+5856 2016-09-29 12:20:47,169 http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:47,169 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:47,549 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:47,750 Adding pid into db_q
+5856 2016-09-29 12:20:47,750 Done. Found 46 pids
+5856 2016-09-29 12:20:47,750 Searching for EOS documents
+5856 2016-09-29 12:20:47,890 Parsing 819 Hardened 3G with Dual Radio 802.11n WiFi Integrated Services Router
+5856 2016-09-29 12:20:47,890 http://www.cisco.com/c/en/us/support/routers/819-hardened-3g-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:47,890 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:48,160 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:48,350 Adding pid into db_q
+5856 2016-09-29 12:20:48,360 Done. Found 67 pids
+5856 2016-09-29 12:20:48,360 Searching for EOS documents
+5856 2016-09-29 12:20:48,490 Parsing 819 Hardened Dual Radio 802.11n WiFi Integrated Services Router
+5856 2016-09-29 12:20:48,490 http://www.cisco.com/c/en/us/support/routers/819-hardened-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:48,490 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:48,791 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:48,981 Adding pid into db_q
+5856 2016-09-29 12:20:49,001 Done. Found 57 pids
+5856 2016-09-29 12:20:49,001 Searching for EOS documents
+5856 2016-09-29 12:20:49,141 Parsing 819 Hardened Integrated Services Router
+5856 2016-09-29 12:20:49,141 http://www.cisco.com/c/en/us/support/routers/819-hardened-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:49,151 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:49,481 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:49,671 Adding pid into db_q
+5856 2016-09-29 12:20:49,671 Done. Found 93 pids
+5856 2016-09-29 12:20:49,671 Searching for EOS documents
+5856 2016-09-29 12:20:49,821 Parsing 819 Integrated Services Router
+5856 2016-09-29 12:20:49,821 http://www.cisco.com/c/en/us/support/routers/819-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:49,821 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:50,081 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:50,281 Adding pid into db_q
+5856 2016-09-29 12:20:50,281 Done. Found 97 pids
+5856 2016-09-29 12:20:50,281 Searching for EOS documents
+5856 2016-09-29 12:20:50,491 Parsing 819 Non-Hardened 4G LTE M2M with Dual Radio 802.11n WiFi Router
+5856 2016-09-29 12:20:50,491 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-4g-lte-m2m-dual-radio-802-11n-wifi-router/model.html
+5856 2016-09-29 12:20:50,491 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:50,962 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:51,162 Adding pid into db_q
+5856 2016-09-29 12:20:51,162 Done. Found 0 pids
+5856 2016-09-29 12:20:51,162 Searching for EOS documents
+5856 2016-09-29 12:20:51,302 Parsing 819 Non-Hardened Integrated Services Router
+5856 2016-09-29 12:20:51,302 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:51,302 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:51,572 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:51,782 Adding pid into db_q
+5856 2016-09-29 12:20:51,782 Done. Found 81 pids
+5856 2016-09-29 12:20:51,782 Searching for EOS documents
+5856 2016-09-29 12:20:51,922 Parsing 819 Non-Hardened Secure Multi-mode 4G LTE M2M ISR Router
+5856 2016-09-29 12:20:51,932 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-secure-multi-mode-4g-lte-m2m-isr-router/model.html
+5856 2016-09-29 12:20:51,932 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:52,212 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:52,422 Adding pid into db_q
+5856 2016-09-29 12:20:52,432 Done. Found 44 pids
+5856 2016-09-29 12:20:52,432 Searching for EOS documents
+5856 2016-09-29 12:20:52,582 Parsing 851 Integrated Services Router
+5856 2016-09-29 12:20:52,582 http://www.cisco.com/c/en/us/support/routers/851-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:52,592 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:53,322 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:53,532 Adding pid into db_q
+5856 2016-09-29 12:20:53,532 Done. Found 78 pids
+5856 2016-09-29 12:20:53,532 Searching for EOS documents
+5856 2016-09-29 12:20:53,682 Parsing 857 Integrated Services Router
+5856 2016-09-29 12:20:53,682 http://www.cisco.com/c/en/us/support/routers/857-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:53,682 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:53,952 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:54,142 Adding pid into db_q
+5856 2016-09-29 12:20:54,152 Done. Found 77 pids
+5856 2016-09-29 12:20:54,152 Searching for EOS documents
+5856 2016-09-29 12:20:54,312 Parsing 860 Integrated Services Routers
+5856 2016-09-29 12:20:54,312 http://www.cisco.com/c/en/us/support/routers/860-integrated-services-routers-isr/model.html
+5856 2016-09-29 12:20:54,312 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:54,713 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:54,893 Adding pid into db_q
+5856 2016-09-29 12:20:54,893 Done. Found 19 pids
+5856 2016-09-29 12:20:54,893 Searching for EOS documents
+5856 2016-09-29 12:20:55,023 Parsing 860VAE-W Integrated Services Router
+5856 2016-09-29 12:20:55,023 http://www.cisco.com/c/en/us/support/routers/860vae-w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:55,023 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:55,323 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:55,513 Adding pid into db_q
+5856 2016-09-29 12:20:55,513 Done. Found 45 pids
+5856 2016-09-29 12:20:55,513 Searching for EOS documents
+5856 2016-09-29 12:20:55,643 Parsing 861 Integrated Services Router
+5856 2016-09-29 12:20:55,643 http://www.cisco.com/c/en/us/support/routers/861-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:55,643 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:55,903 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:56,093 Adding pid into db_q
+5856 2016-09-29 12:20:56,093 Done. Found 72 pids
+5856 2016-09-29 12:20:56,093 Searching for EOS documents
+5856 2016-09-29 12:20:56,273 Parsing 861W Integrated Services Router
+5856 2016-09-29 12:20:56,273 http://www.cisco.com/c/en/us/support/routers/861w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:56,273 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:56,673 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:56,893 Adding pid into db_q
+5856 2016-09-29 12:20:56,893 Done. Found 80 pids
+5856 2016-09-29 12:20:56,893 Searching for EOS documents
+5856 2016-09-29 12:20:57,023 Parsing 866VAE Integrated Services Router
+5856 2016-09-29 12:20:57,023 http://www.cisco.com/c/en/us/support/routers/866vae-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:57,033 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:57,173 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:57,363 Adding pid into db_q
+5856 2016-09-29 12:20:57,363 Done. Found 47 pids
+5856 2016-09-29 12:20:57,363 Searching for EOS documents
+5856 2016-09-29 12:20:57,513 Parsing 867 Integrated Services Router
+5856 2016-09-29 12:20:57,513 http://www.cisco.com/c/en/us/support/routers/867-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:57,513 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:57,803 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:58,033 Adding pid into db_q
+5856 2016-09-29 12:20:58,033 Done. Found 75 pids
+5856 2016-09-29 12:20:58,033 Searching for EOS documents
+5856 2016-09-29 12:20:58,173 Parsing 867VAE Integrated Services Router
+5856 2016-09-29 12:20:58,173 http://www.cisco.com/c/en/us/support/routers/867vae-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:58,173 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:58,343 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:58,563 Adding pid into db_q
+5856 2016-09-29 12:20:58,563 Done. Found 58 pids
+5856 2016-09-29 12:20:58,563 Searching for EOS documents
+5856 2016-09-29 12:20:58,713 Parsing 871 Integrated Services Router
+5856 2016-09-29 12:20:58,713 http://www.cisco.com/c/en/us/support/routers/871-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:58,713 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:58,993 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:59,203 Adding pid into db_q
+5856 2016-09-29 12:20:59,203 Done. Found 101 pids
+5856 2016-09-29 12:20:59,203 Searching for EOS documents
+5856 2016-09-29 12:20:59,363 Parsing 876 Integrated Services Router
+5856 2016-09-29 12:20:59,363 http://www.cisco.com/c/en/us/support/routers/876-integrated-services-router-isr/model.html
+5856 2016-09-29 12:20:59,363 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:20:59,663 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:20:59,853 Adding pid into db_q
+5856 2016-09-29 12:20:59,863 Done. Found 97 pids
+5856 2016-09-29 12:20:59,863 Searching for EOS documents
+5856 2016-09-29 12:21:00,003 Parsing 877 Integrated Services Router
+5856 2016-09-29 12:21:00,003 http://www.cisco.com/c/en/us/support/routers/877-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:00,003 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:00,343 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:00,543 Adding pid into db_q
+5856 2016-09-29 12:21:00,543 Done. Found 101 pids
+5856 2016-09-29 12:21:00,553 Searching for EOS documents
+5856 2016-09-29 12:21:00,693 Parsing 878 Integrated Services Router
+5856 2016-09-29 12:21:00,693 http://www.cisco.com/c/en/us/support/routers/878-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:00,703 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:01,103 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:01,303 Adding pid into db_q
+5856 2016-09-29 12:21:01,303 Done. Found 94 pids
+5856 2016-09-29 12:21:01,303 Searching for EOS documents
+5856 2016-09-29 12:21:01,483 Parsing 880 3G Integrated Services Router
+5856 2016-09-29 12:21:01,483 http://www.cisco.com/c/en/us/support/routers/880-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:01,483 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:01,763 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:01,973 Adding pid into db_q
+5856 2016-09-29 12:21:01,973 Done. Found 73 pids
+5856 2016-09-29 12:21:01,973 Searching for EOS documents
+5856 2016-09-29 12:21:02,133 Parsing 880 Integrated Services Routers
+5856 2016-09-29 12:21:02,133 http://www.cisco.com/c/en/us/support/routers/880-integrated-services-routers-isr/model.html
+5856 2016-09-29 12:21:02,133 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:02,383 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:02,583 Adding pid into db_q
+5856 2016-09-29 12:21:02,583 Done. Found 24 pids
+5856 2016-09-29 12:21:02,583 Searching for EOS documents
+5856 2016-09-29 12:21:02,714 Parsing 880-Voice Integrated Services Router
+5856 2016-09-29 12:21:02,724 http://www.cisco.com/c/en/us/support/routers/880-voice-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:02,724 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:03,114 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:03,324 Adding pid into db_q
+5856 2016-09-29 12:21:03,324 Done. Found 43 pids
+5856 2016-09-29 12:21:03,324 Searching for EOS documents
+5856 2016-09-29 12:21:03,464 Parsing 880G Integrated Services Router
+5856 2016-09-29 12:21:03,464 http://www.cisco.com/c/en/us/support/routers/880g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:03,474 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:03,754 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:03,934 Adding pid into db_q
+5856 2016-09-29 12:21:03,944 Done. Found 43 pids
+5856 2016-09-29 12:21:03,944 Searching for EOS documents
+5856 2016-09-29 12:21:04,074 Parsing 881 3G Integrated Services Router
+5856 2016-09-29 12:21:04,074 http://www.cisco.com/c/en/us/support/routers/881-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:04,074 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:04,354 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:04,554 Adding pid into db_q
+5856 2016-09-29 12:21:04,554 Done. Found 51 pids
+5856 2016-09-29 12:21:04,554 Searching for EOS documents
+5856 2016-09-29 12:21:04,705 Parsing 881 3G with Dual Radio 802.11n WiFi Integrated Services Router
+5856 2016-09-29 12:21:04,705 http://www.cisco.com/c/en/us/support/routers/881-3g-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:04,705 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:05,005 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:05,195 Adding pid into db_q
+5856 2016-09-29 12:21:05,195 Done. Found 46 pids
+5856 2016-09-29 12:21:05,195 Searching for EOS documents
+5856 2016-09-29 12:21:05,355 Parsing 881 Integrated Services Router
+5856 2016-09-29 12:21:05,365 http://www.cisco.com/c/en/us/support/routers/881-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:05,365 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:05,635 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:05,845 Adding pid into db_q
+5856 2016-09-29 12:21:05,845 Done. Found 104 pids
+5856 2016-09-29 12:21:05,845 Searching for EOS documents
+5856 2016-09-29 12:21:06,015 Parsing 881 Secure Fast Ethernet with Multi-Mode 4G LTE ISR Router
+5856 2016-09-29 12:21:06,015 http://www.cisco.com/c/en/us/support/routers/881-secure-fast-ethernet-multi-mode-4g-lte-isr-router/model.html
+5856 2016-09-29 12:21:06,025 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:06,325 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:06,515 Adding pid into db_q
+5856 2016-09-29 12:21:06,515 Done. Found 41 pids
+5856 2016-09-29 12:21:06,515 Searching for EOS documents
+5856 2016-09-29 12:21:06,695 Parsing 881-CUBE Integrated Services Router
+5856 2016-09-29 12:21:06,695 http://www.cisco.com/c/en/us/support/routers/881-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:06,695 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:06,975 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:07,165 Adding pid into db_q
+5856 2016-09-29 12:21:07,165 Done. Found 48 pids
+5856 2016-09-29 12:21:07,165 Searching for EOS documents
+5856 2016-09-29 12:21:07,315 Parsing 881SRST Integrated Services Router
+5856 2016-09-29 12:21:07,315 http://www.cisco.com/c/en/us/support/routers/881srst-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:07,325 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:07,595 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:07,805 Adding pid into db_q
+5856 2016-09-29 12:21:07,805 Done. Found 76 pids
+5856 2016-09-29 12:21:07,805 Searching for EOS documents
+5856 2016-09-29 12:21:07,935 Parsing 881SRSTW Integrated Services Router
+5856 2016-09-29 12:21:07,935 http://www.cisco.com/c/en/us/support/routers/881srstw-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:07,945 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:08,225 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:08,435 Adding pid into db_q
+5856 2016-09-29 12:21:08,435 Done. Found 78 pids
+5856 2016-09-29 12:21:08,435 Searching for EOS documents
+5856 2016-09-29 12:21:08,575 Parsing 881W Integrated Services Router
+5856 2016-09-29 12:21:08,575 http://www.cisco.com/c/en/us/support/routers/881w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:08,575 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:08,886 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:09,076 Adding pid into db_q
+5856 2016-09-29 12:21:09,076 Done. Found 91 pids
+5856 2016-09-29 12:21:09,076 Searching for EOS documents
+5856 2016-09-29 12:21:09,226 Parsing 886 Integrated Services Router
+5856 2016-09-29 12:21:09,226 http://www.cisco.com/c/en/us/support/routers/886-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:09,226 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:09,536 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:09,726 Adding pid into db_q
+5856 2016-09-29 12:21:09,726 Done. Found 77 pids
+5856 2016-09-29 12:21:09,726 Searching for EOS documents
+5856 2016-09-29 12:21:09,946 Parsing 886VA Integrated Services Router
+5856 2016-09-29 12:21:09,946 http://www.cisco.com/c/en/us/support/routers/886va-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:09,946 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:10,446 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:10,636 Adding pid into db_q
+5856 2016-09-29 12:21:10,646 Done. Found 79 pids
+5856 2016-09-29 12:21:10,646 Searching for EOS documents
+5856 2016-09-29 12:21:10,782 Parsing 886VA-CUBE Integrated Services Router
+5856 2016-09-29 12:21:10,782 http://www.cisco.com/c/en/us/support/routers/886va-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:10,782 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:11,092 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:11,292 Adding pid into db_q
+5856 2016-09-29 12:21:11,292 Done. Found 49 pids
+5856 2016-09-29 12:21:11,292 Searching for EOS documents
+5856 2016-09-29 12:21:11,422 Parsing 886VA-W Integrated Services Router
+5856 2016-09-29 12:21:11,422 http://www.cisco.com/c/en/us/support/routers/886va-w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:11,432 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:11,702 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:11,902 Adding pid into db_q
+5856 2016-09-29 12:21:11,902 Done. Found 76 pids
+5856 2016-09-29 12:21:11,902 Searching for EOS documents
+5856 2016-09-29 12:21:12,092 Parsing 886VAG 3G Integrated Services Router
+5856 2016-09-29 12:21:12,092 http://www.cisco.com/c/en/us/support/routers/886vag-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:12,092 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:12,452 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:12,652 Adding pid into db_q
+5856 2016-09-29 12:21:12,652 Done. Found 43 pids
+5856 2016-09-29 12:21:12,652 Searching for EOS documents
+5856 2016-09-29 12:21:12,802 Parsing 886W Integrated Services Router
+5856 2016-09-29 12:21:12,802 http://www.cisco.com/c/en/us/support/routers/886w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:12,803 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:13,093 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:13,313 Adding pid into db_q
+5856 2016-09-29 12:21:13,313 Done. Found 74 pids
+5856 2016-09-29 12:21:13,313 Searching for EOS documents
+5856 2016-09-29 12:21:13,443 Parsing 887 Integrated Services Router
+5856 2016-09-29 12:21:13,453 http://www.cisco.com/c/en/us/support/routers/887-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:13,453 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:13,843 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:14,053 Adding pid into db_q
+5856 2016-09-29 12:21:14,053 Done. Found 80 pids
+5856 2016-09-29 12:21:14,063 Searching for EOS documents
+5856 2016-09-29 12:21:14,203 Parsing 887V Integrated Services Router
+5856 2016-09-29 12:21:14,203 http://www.cisco.com/c/en/us/support/routers/887v-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:14,203 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:14,583 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:14,783 Adding pid into db_q
+5856 2016-09-29 12:21:14,783 Done. Found 85 pids
+5856 2016-09-29 12:21:14,783 Searching for EOS documents
+5856 2016-09-29 12:21:14,913 Parsing 887VA Integrated Services Router
+5856 2016-09-29 12:21:14,913 http://www.cisco.com/c/en/us/support/routers/887va-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:14,923 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:15,243 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:15,433 Adding pid into db_q
+5856 2016-09-29 12:21:15,433 Done. Found 84 pids
+5856 2016-09-29 12:21:15,433 Searching for EOS documents
+5856 2016-09-29 12:21:15,573 Parsing 887VA M Integrated Services Router
+5856 2016-09-29 12:21:15,573 http://www.cisco.com/c/en/us/support/routers/887va-m-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:15,573 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:15,863 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:16,103 Adding pid into db_q
+5856 2016-09-29 12:21:16,103 Done. Found 78 pids
+5856 2016-09-29 12:21:16,103 Searching for EOS documents
+5856 2016-09-29 12:21:16,263 Parsing 887VA-CUBE Integrated Services Router
+5856 2016-09-29 12:21:16,263 http://www.cisco.com/c/en/us/support/routers/887va-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:16,263 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:16,573 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:16,783 Adding pid into db_q
+5856 2016-09-29 12:21:16,783 Done. Found 52 pids
+5856 2016-09-29 12:21:16,783 Searching for EOS documents
+5856 2016-09-29 12:21:16,954 Parsing 887VA-W Integrated Services Router
+5856 2016-09-29 12:21:16,954 http://www.cisco.com/c/en/us/support/routers/887va-w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:16,954 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:17,214 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:17,414 Adding pid into db_q
+5856 2016-09-29 12:21:17,424 Done. Found 83 pids
+5856 2016-09-29 12:21:17,424 Searching for EOS documents
+5856 2016-09-29 12:21:17,604 Parsing 887VAG 3G Integrated Services Router
+5856 2016-09-29 12:21:17,604 http://www.cisco.com/c/en/us/support/routers/887vag-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:17,614 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:17,884 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:18,074 Adding pid into db_q
+5856 2016-09-29 12:21:18,074 Done. Found 54 pids
+5856 2016-09-29 12:21:18,074 Searching for EOS documents
+5856 2016-09-29 12:21:18,244 Parsing 887VAGW 3G with Dual Radio 802.11n WiFi Integrated Services Router
+5856 2016-09-29 12:21:18,244 http://www.cisco.com/c/en/us/support/routers/887vagw-3g-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:18,244 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:18,524 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:18,724 Adding pid into db_q
+5856 2016-09-29 12:21:18,724 Done. Found 51 pids
+5856 2016-09-29 12:21:18,724 Searching for EOS documents
+5856 2016-09-29 12:21:18,864 Parsing 887VAM-W Integrated Services Router
+5856 2016-09-29 12:21:18,864 http://www.cisco.com/c/en/us/support/routers/887vam-w-integrated-services-router/model.html
+5856 2016-09-29 12:21:18,864 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:19,164 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:19,354 Adding pid into db_q
+5856 2016-09-29 12:21:19,354 Done. Found 53 pids
+5856 2016-09-29 12:21:19,354 Searching for EOS documents
+5856 2016-09-29 12:21:19,514 Parsing 887VAMG 3G Integrated Services Router
+5856 2016-09-29 12:21:19,514 http://www.cisco.com/c/en/us/support/routers/887vamg-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:19,514 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:19,804 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:19,994 Adding pid into db_q
+5856 2016-09-29 12:21:19,994 Done. Found 50 pids
+5856 2016-09-29 12:21:19,994 Searching for EOS documents
+5856 2016-09-29 12:21:20,134 Parsing 887W Integrated Services Router
+5856 2016-09-29 12:21:20,134 http://www.cisco.com/c/en/us/support/routers/887w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:20,134 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:20,404 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:20,604 Adding pid into db_q
+5856 2016-09-29 12:21:20,604 Done. Found 78 pids
+5856 2016-09-29 12:21:20,614 Searching for EOS documents
+5856 2016-09-29 12:21:20,774 Parsing 888 Integrated Services Router
+5856 2016-09-29 12:21:20,774 http://www.cisco.com/c/en/us/support/routers/888-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:20,784 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:20,915 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:21,125 Adding pid into db_q
+5856 2016-09-29 12:21:21,135 Done. Found 83 pids
+5856 2016-09-29 12:21:21,135 Searching for EOS documents
+5856 2016-09-29 12:21:21,295 Parsing 888-CUBE Integrated Services Router
+5856 2016-09-29 12:21:21,295 http://www.cisco.com/c/en/us/support/routers/888-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:21,295 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:21,565 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:21,795 Adding pid into db_q
+5856 2016-09-29 12:21:28,419 Done. Found 47 pids
+5856 2016-09-29 12:21:28,419 Searching for EOS documents
+5856 2016-09-29 12:21:28,559 Parsing 888E Integrated Services Router
+5856 2016-09-29 12:21:28,559 http://www.cisco.com/c/en/us/support/routers/888e-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:28,559 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:28,949 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:29,179 Adding pid into db_q
+5856 2016-09-29 12:21:29,179 Done. Found 78 pids
+5856 2016-09-29 12:21:29,179 Searching for EOS documents
+5856 2016-09-29 12:21:29,359 Parsing 888E-CUBE Integrated Services Router
+5856 2016-09-29 12:21:29,359 http://www.cisco.com/c/en/us/support/routers/888e-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:29,359 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:29,699 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:29,889 Adding pid into db_q
+5856 2016-09-29 12:21:29,889 Done. Found 43 pids
+5856 2016-09-29 12:21:29,889 Searching for EOS documents
+5856 2016-09-29 12:21:30,039 Parsing 888EG 3G Integrated Services Router
+5856 2016-09-29 12:21:30,039 http://www.cisco.com/c/en/us/support/routers/888eg-3g-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:30,039 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:30,339 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:30,549 Adding pid into db_q
+5856 2016-09-29 12:21:30,549 Done. Found 45 pids
+5856 2016-09-29 12:21:30,549 Searching for EOS documents
+5856 2016-09-29 12:21:30,699 Parsing 888SRST Integrated Services Router
+5856 2016-09-29 12:21:30,699 http://www.cisco.com/c/en/us/support/routers/888srst-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:30,699 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:30,969 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:31,169 Adding pid into db_q
+5856 2016-09-29 12:21:31,169 Done. Found 75 pids
+5856 2016-09-29 12:21:31,169 Searching for EOS documents
+5856 2016-09-29 12:21:31,309 Parsing 888SRSTW Integrated Services Router
+5856 2016-09-29 12:21:31,309 http://www.cisco.com/c/en/us/support/routers/888srstw-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:31,309 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:31,579 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:31,779 Adding pid into db_q
+5856 2016-09-29 12:21:31,789 Done. Found 76 pids
+5856 2016-09-29 12:21:31,789 Searching for EOS documents
+5856 2016-09-29 12:21:31,930 Parsing 888W Integrated Services Router
+5856 2016-09-29 12:21:31,930 http://www.cisco.com/c/en/us/support/routers/888w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:31,940 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:32,220 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:32,430 Adding pid into db_q
+5856 2016-09-29 12:21:32,430 Done. Found 78 pids
+5856 2016-09-29 12:21:32,430 Searching for EOS documents
+5856 2016-09-29 12:21:32,590 Parsing 890 Integrated Services Routers
+5856 2016-09-29 12:21:32,590 http://www.cisco.com/c/en/us/support/routers/890-integrated-services-routers-isr/model.html
+5856 2016-09-29 12:21:32,590 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:32,850 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:33,060 Adding pid into db_q
+5856 2016-09-29 12:21:33,060 Done. Found 22 pids
+5856 2016-09-29 12:21:33,060 Searching for EOS documents
+5856 2016-09-29 12:21:33,190 Parsing 890VAB Integrated Services Router with VDSL2 Bonding
+5856 2016-09-29 12:21:33,190 http://www.cisco.com/c/en/us/support/routers/890vab-integrated-services-router-isr-vdsl2-bonding/model.html
+5856 2016-09-29 12:21:33,190 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:33,460 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:33,660 Adding pid into db_q
+5856 2016-09-29 12:21:33,660 Done. Found 38 pids
+5856 2016-09-29 12:21:33,660 Searching for EOS documents
+5856 2016-09-29 12:21:33,790 Parsing 891 Integrated Services Router
+5856 2016-09-29 12:21:33,790 http://www.cisco.com/c/en/us/support/routers/891-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:33,790 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:34,041 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:34,231 Adding pid into db_q
+5856 2016-09-29 12:21:34,241 Done. Found 83 pids
+5856 2016-09-29 12:21:34,241 Searching for EOS documents
+5856 2016-09-29 12:21:34,431 Parsing 891-24X Integrated Services Router
+5856 2016-09-29 12:21:34,431 http://www.cisco.com/c/en/us/support/routers/891-24x-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:34,431 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:34,701 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:34,891 Adding pid into db_q
+5856 2016-09-29 12:21:34,891 Done. Found 32 pids
+5856 2016-09-29 12:21:34,891 Searching for EOS documents
+5856 2016-09-29 12:21:35,021 Parsing 891W Integrated Services Router
+5856 2016-09-29 12:21:35,021 http://www.cisco.com/c/en/us/support/routers/891w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:35,021 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:35,441 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:35,651 Adding pid into db_q
+5856 2016-09-29 12:21:35,651 Done. Found 84 pids
+5856 2016-09-29 12:21:35,651 Searching for EOS documents
+5856 2016-09-29 12:21:35,791 Parsing 892 Integrated Services Router
+5856 2016-09-29 12:21:35,791 http://www.cisco.com/c/en/us/support/routers/892-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:35,791 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:36,041 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:36,231 Adding pid into db_q
+5856 2016-09-29 12:21:36,231 Done. Found 84 pids
+5856 2016-09-29 12:21:36,241 Searching for EOS documents
+5856 2016-09-29 12:21:36,371 Parsing 892F-CUBE Integrated Services Router
+5856 2016-09-29 12:21:36,371 http://www.cisco.com/c/en/us/support/routers/892f-cube-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:36,381 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:36,631 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:36,831 Adding pid into db_q
+5856 2016-09-29 12:21:36,831 Done. Found 48 pids
+5856 2016-09-29 12:21:36,831 Searching for EOS documents
+5856 2016-09-29 12:21:36,971 Parsing 892W Integrated Services Router
+5856 2016-09-29 12:21:36,971 http://www.cisco.com/c/en/us/support/routers/892w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:36,971 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:37,251 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:37,451 Adding pid into db_q
+5856 2016-09-29 12:21:37,451 Done. Found 91 pids
+5856 2016-09-29 12:21:37,451 Searching for EOS documents
+5856 2016-09-29 12:21:37,612 Parsing 897 Multi-Mode VDSL2/ADSL2+ POTS Annex M with Multi-Mode 4G LTE Router
+5856 2016-09-29 12:21:37,612 http://www.cisco.com/c/en/us/support/routers/897-multi-mode-vdsl2-adsl2-plus-pots-annex-m-multi-mode-4g-lte-router/model.html
+5856 2016-09-29 12:21:37,612 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:37,893 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:38,082 Adding pid into db_q
+5856 2016-09-29 12:21:38,082 Done. Found 34 pids
+5856 2016-09-29 12:21:38,092 Searching for EOS documents
+5856 2016-09-29 12:21:38,232 Parsing 897 Multi-mode VDSL2/ADSL2+ POTS with Multi-Mode 4G LTE Router
+5856 2016-09-29 12:21:38,232 http://www.cisco.com/c/en/us/support/routers/897-multi-mode-vdsl2-adsl2-plus-pots-multi-mode-4g-lte-router/model.html
+5856 2016-09-29 12:21:38,232 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:38,492 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:38,682 Adding pid into db_q
+5856 2016-09-29 12:21:38,682 Done. Found 35 pids
+5856 2016-09-29 12:21:38,682 Searching for EOS documents
+5856 2016-09-29 12:21:38,812 Parsing 898 Secure G.SHDSL EFM/ATM with Multi-Mode 4G LTE ISR Router
+5856 2016-09-29 12:21:38,812 http://www.cisco.com/c/en/us/support/routers/898-secure-g-shdsl-efm-atm-multi-mode-4g-lte-isr-router/model.html
+5856 2016-09-29 12:21:38,812 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:39,082 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:39,302 Adding pid into db_q
+5856 2016-09-29 12:21:39,302 Done. Found 38 pids
+5856 2016-09-29 12:21:39,302 Searching for EOS documents
+5856 2016-09-29 12:21:39,502 Parsing C866VAE Integrated Services Router
+5856 2016-09-29 12:21:39,502 http://www.cisco.com/c/en/us/support/routers/c866vae-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:39,502 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:39,792 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:39,962 Adding pid into db_q
+5856 2016-09-29 12:21:39,962 Done. Found 0 pids
+5856 2016-09-29 12:21:39,972 Searching for EOS documents
+5856 2016-09-29 12:21:40,112 Parsing C867VAE Integrated Services Router
+5856 2016-09-29 12:21:40,112 http://www.cisco.com/c/en/us/support/routers/c867vae-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:40,112 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:40,192 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:40,392 Adding pid into db_q
+5856 2016-09-29 12:21:40,392 Done. Found 0 pids
+5856 2016-09-29 12:21:40,392 Searching for EOS documents
+5856 2016-09-29 12:21:40,522 Parsing C867VAEJ Integrated Services Router
+5856 2016-09-29 12:21:40,522 http://www.cisco.com/c/en/us/support/routers/c867vaej-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:40,522 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:40,802 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:40,983 Adding pid into db_q
+5856 2016-09-29 12:21:40,983 Done. Found 21 pids
+5856 2016-09-29 12:21:40,993 Searching for EOS documents
+5856 2016-09-29 12:21:41,123 Parsing C881 Integrated Services Router
+5856 2016-09-29 12:21:41,123 http://www.cisco.com/c/en/us/support/routers/c881-integrated-services-router/model.html
+5856 2016-09-29 12:21:41,123 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:41,433 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:41,633 Adding pid into db_q
+5856 2016-09-29 12:21:41,633 Done. Found 52 pids
+5856 2016-09-29 12:21:41,633 Searching for EOS documents
+5856 2016-09-29 12:21:41,763 Parsing C881W Integrated Services Router
+5856 2016-09-29 12:21:41,763 http://www.cisco.com/c/en/us/support/routers/c881w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:41,773 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:42,053 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:42,324 Adding pid into db_q
+5856 2016-09-29 12:21:42,324 Done. Found 88 pids
+5856 2016-09-29 12:21:42,324 Searching for EOS documents
+5856 2016-09-29 12:21:42,504 Parsing C886VA Integrated Services Routers
+5856 2016-09-29 12:21:42,504 http://www.cisco.com/c/en/us/support/routers/c886va-integrated-services-routers/model.html
+5856 2016-09-29 12:21:42,504 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:42,804 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:42,994 Adding pid into db_q
+5856 2016-09-29 12:21:42,994 Done. Found 44 pids
+5856 2016-09-29 12:21:42,994 Searching for EOS documents
+5856 2016-09-29 12:21:43,124 Parsing C886VAJ Integrated Services Routers
+5856 2016-09-29 12:21:43,124 http://www.cisco.com/c/en/us/support/routers/c886vaj-integrated-services-routers/model.html
+5856 2016-09-29 12:21:43,124 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:43,404 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:43,604 Adding pid into db_q
+5856 2016-09-29 12:21:43,604 Done. Found 43 pids
+5856 2016-09-29 12:21:43,604 Searching for EOS documents
+5856 2016-09-29 12:21:43,744 Parsing C887VA Integrated Services Routers
+5856 2016-09-29 12:21:43,744 http://www.cisco.com/c/en/us/support/routers/c887va-integrated-services-routers/model.html
+5856 2016-09-29 12:21:43,744 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:43,904 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:44,134 Adding pid into db_q
+5856 2016-09-29 12:21:44,134 Done. Found 49 pids
+5856 2016-09-29 12:21:44,134 Searching for EOS documents
+5856 2016-09-29 12:21:44,314 Parsing C887VAM Integrated Series Routers
+5856 2016-09-29 12:21:44,314 http://www.cisco.com/c/en/us/support/routers/c887vam-integrated-series-routers/model.html
+5856 2016-09-29 12:21:44,324 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:44,614 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:44,824 Adding pid into db_q
+5856 2016-09-29 12:21:44,834 Done. Found 46 pids
+5856 2016-09-29 12:21:44,834 Searching for EOS documents
+5856 2016-09-29 12:21:45,005 Parsing C888 Integrated Services Router
+5856 2016-09-29 12:21:45,005 http://www.cisco.com/c/en/us/support/routers/c888-integrated-services-router/model.html
+5856 2016-09-29 12:21:45,005 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:45,275 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:45,475 Adding pid into db_q
+5856 2016-09-29 12:21:45,475 Done. Found 43 pids
+5856 2016-09-29 12:21:45,475 Searching for EOS documents
+5856 2016-09-29 12:21:45,725 Parsing C888EA Integrated Services Router
+5856 2016-09-29 12:21:45,725 http://www.cisco.com/c/en/us/support/routers/c888ea-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:45,725 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:46,085 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:46,275 Adding pid into db_q
+5856 2016-09-29 12:21:46,285 Done. Found 45 pids
+5856 2016-09-29 12:21:46,285 Searching for EOS documents
+5856 2016-09-29 12:21:46,415 Parsing C891F Integrated Services Routers
+5856 2016-09-29 12:21:46,415 http://www.cisco.com/c/en/us/support/routers/c891f-integrated-services-routers/model.html
+5856 2016-09-29 12:21:46,415 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:46,645 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:46,855 Adding pid into db_q
+5856 2016-09-29 12:21:46,855 Done. Found 44 pids
+5856 2016-09-29 12:21:46,855 Searching for EOS documents
+5856 2016-09-29 12:21:46,996 Parsing C891FJ Integrated Services Router
+5856 2016-09-29 12:21:46,996 http://www.cisco.com/c/en/us/support/routers/c891fj-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:46,996 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:47,296 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:47,516 Adding pid into db_q
+5856 2016-09-29 12:21:47,516 Done. Found 19 pids
+5856 2016-09-29 12:21:47,516 Searching for EOS documents
+5856 2016-09-29 12:21:47,676 Parsing C891FW Integrated Services Router
+5856 2016-09-29 12:21:47,676 http://www.cisco.com/c/en/us/support/routers/c891fw-integrated-services-router/model.html
+5856 2016-09-29 12:21:47,676 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:47,956 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:48,156 Adding pid into db_q
+5856 2016-09-29 12:21:48,156 Done. Found 45 pids
+5856 2016-09-29 12:21:48,156 Searching for EOS documents
+5856 2016-09-29 12:21:48,296 Parsing C892FSP Integrated Services Router
+5856 2016-09-29 12:21:48,296 http://www.cisco.com/c/en/us/support/routers/c892fsp-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:48,296 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:48,546 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:48,766 Adding pid into db_q
+5856 2016-09-29 12:21:48,766 Done. Found 46 pids
+5856 2016-09-29 12:21:48,766 Searching for EOS documents
+5856 2016-09-29 12:21:48,916 Parsing C896VA Integrated Services Router
+5856 2016-09-29 12:21:48,916 http://www.cisco.com/c/en/us/support/routers/c896va-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:48,926 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:49,236 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:49,426 Adding pid into db_q
+5856 2016-09-29 12:21:49,426 Done. Found 45 pids
+5856 2016-09-29 12:21:49,436 Searching for EOS documents
+5856 2016-09-29 12:21:49,566 Parsing C897VA Integrated Services Router
+5856 2016-09-29 12:21:49,566 http://www.cisco.com/c/en/us/support/routers/c897va-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:49,566 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:49,846 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:50,036 Adding pid into db_q
+5856 2016-09-29 12:21:50,036 Done. Found 45 pids
+5856 2016-09-29 12:21:50,036 Searching for EOS documents
+5856 2016-09-29 12:21:50,256 Parsing C897VA-M Integrated Services Router
+5856 2016-09-29 12:21:50,256 http://www.cisco.com/c/en/us/support/routers/c897va-m-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:50,256 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:50,546 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:50,826 Adding pid into db_q
+5856 2016-09-29 12:21:50,836 Done. Found 45 pids
+5856 2016-09-29 12:21:50,836 Searching for EOS documents
+5856 2016-09-29 12:21:51,006 Parsing C897VAM-W Integrated Services Router
+5856 2016-09-29 12:21:51,006 http://www.cisco.com/c/en/us/support/routers/c897vam-w-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:51,016 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:51,386 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:51,586 Adding pid into db_q
+5856 2016-09-29 12:21:51,586 Done. Found 45 pids
+5856 2016-09-29 12:21:51,586 Searching for EOS documents
+5856 2016-09-29 12:21:51,726 Parsing C897VAW Integrated Services Router
+5856 2016-09-29 12:21:51,726 http://www.cisco.com/c/en/us/support/routers/c897vaw-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:51,726 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:52,006 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:52,196 Adding pid into db_q
+5856 2016-09-29 12:21:52,196 Done. Found 46 pids
+5856 2016-09-29 12:21:52,196 Searching for EOS documents
+5856 2016-09-29 12:21:52,336 Parsing C898EA Integrated Services Router
+5856 2016-09-29 12:21:52,346 http://www.cisco.com/c/en/us/support/routers/c898ea-integrated-services-router-isr/model.html
+5856 2016-09-29 12:21:52,346 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:52,626 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:52,816 Adding pid into db_q
+5856 2016-09-29 12:21:52,816 Done. Found 44 pids
+5856 2016-09-29 12:21:52,816 Searching for EOS documents
+5856 2016-09-29 12:21:52,946 Parsing C899 Secure Gigabit Ethernet with Multi-mode 4G LTE Router
+5856 2016-09-29 12:21:52,946 http://www.cisco.com/c/en/us/support/routers/c899-secure-gigabit-ethernet-multi-mode-4g-lte-router/model.html
+5856 2016-09-29 12:21:52,956 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:53,217 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:53,397 Adding pid into db_q
+5856 2016-09-29 12:21:53,397 Done. Found 39 pids
+5856 2016-09-29 12:21:53,397 Searching for EOS documents
+5856 2016-09-29 12:21:53,547 Parsing Cisco 887 Multi-Mode VDSL2/ASDL2 POTS with Multi-Mode 4G LTE Router
+5856 2016-09-29 12:21:53,547 http://www.cisco.com/c/en/us/support/routers/887-multi-mode-vdsl2-asdl2-plus-pots-multi-mode-4g-lte-router/model.html
+5856 2016-09-29 12:21:53,547 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:53,867 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:54,047 Adding pid into db_q
+5856 2016-09-29 12:21:54,057 Done. Found 37 pids
+5856 2016-09-29 12:21:54,057 Searching for EOS documents
+5856 2016-09-29 12:21:54,197 Parsing Cisco 896 Multi-mode VDSL2/ADSL2 ISDN with Multi-Mode 4G LTE Router
+5856 2016-09-29 12:21:54,197 http://www.cisco.com/c/en/us/support/routers/896-multi-mode-vdsl2-adsl2-plus-isdn-multi-mode-4g-lte-router/model.html
+5856 2016-09-29 12:21:54,197 Starting new HTTP connection (1): www.cisco.com
+5856 2016-09-29 12:21:54,497 Gathering PN assosiated with this device and some eos info
+5856 2016-09-29 12:21:54,687 Adding pid into db_q
+5856 2016-09-29 12:21:54,687 Done. Found 34 pids
+5856 2016-09-29 12:21:54,687 Searching for EOS documents
+5856 2016-09-29 12:21:54,887 Exiting Wokrer-0
+11688 2016-09-29 12:21:54,887 Done
+11688 2016-09-29 12:21:54,887 Execution time:0:01:17.927067

@@ -1,0 +1,14 @@
+8408 2016-09-28 12:06:59,663  * Debugger is active!
+8408 2016-09-28 12:06:59,666  * Debugger pin code: 182-825-385
+6460 2016-09-28 12:07:08,653004 2016-09-28 12:12:47,089  * Restarting with stat
+" 200 -
+6460 2016-09-28 12:07:15,111 Processing: 12000/4-AC-PEM
+6460 2016-09-28 12:07:15,114 pn in data
+6460 2016-09-28 12:07:15,300 127.0.0.1 - - [28/Sep/2016 12:07:15] "POST / HTTP/1.1" 500 -
+6460 2016-09-28 12:07:15,457 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+6460 2016-09-28 12:07:15,459 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+6460 2016-09-28 12:07:15,462 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+6460 2016-09-28 12:07:15,605 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+6460 2016-09-28 12:07:15,898 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+6460 2016-09-28 12:07:15,958 127.0.0.1 - - [28/Sep/2016 12:07:15] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+8408 2016-09-28 12:12:46,988  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web\\web.py', reloading

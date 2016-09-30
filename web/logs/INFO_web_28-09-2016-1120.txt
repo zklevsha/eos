@@ -1,0 +1,18 @@
+6624 2016-09-28 11:20:59,946  * Debugger is active!
+6624 2016-09-28 11:20:59,951  * Debugger pin code: 182-825-385
+4664 2016-09-28 11:20:59,983 Processing: ûââ
+4664 2016-09-28 11:20:59,989 Cant find this PN
+4664 2016-09-28 11:20:59,990 Processing: ûââ
+4664 2016-09-28 11:20:59,995 Cant find this PN
+4664 2016-09-28 11:21:00,115 127.0.0.1 - - [28/Sep/2016 11:21:00] "POST / HTTP/1.1" 200 -
+4664 2016-09-28 11:21:00,184 127.0.0.1 - - [28/Sep/2016 11:21:00] "GET /js/scripts.js HTTP/1.1" 404 -
+4664 2016-09-28 11:22:31,498 Processing: 12000/4-AC-PEM
+4664 2016-09-28 11:22:31,501 pn in data
+4664 2016-09-28 11:22:31,515 127.0.0.1 - - [28/Sep/2016 11:22:31] "POST / HTTP/1.1" 500 -
+4664 2016-09-28 11:22:31,568 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+4664 2016-09-28 11:22:31,577 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+4664 2016-09-28 11:22:31,580 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+4664 2016-09-28 11:22:31,664 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+4664 2016-09-28 11:22:31,861 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+4664 2016-09-28 11:22:31,867 127.0.0.1 - - [28/Sep/2016 11:22:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+6624 2016-09-28 12:05:09,320  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web\\web.py', reloading

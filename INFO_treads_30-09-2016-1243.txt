@@ -1,0 +1,193 @@
+7472 2016-09-30 12:43:02,972 Starting script at 2016-09-30 12:43:02.972497
+7472 2016-09-30 12:43:03,062 PHASE 2: COLLECTING EOS FROM SUPPORT
+7472 2016-09-30 12:43:03,072 Gathering routers
+7472 2016-09-30 12:43:03,072 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,292 Gathering switches
+7472 2016-09-30 12:43:03,292 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,352 Gathering security
+7472 2016-09-30 12:43:03,362 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,422 Gathering wireless
+7472 2016-09-30 12:43:03,432 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,482 Gathering serversunifiedcomputing
+7472 2016-09-30 12:43:03,492 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,582 Gathering applicationnetworkingservices
+7472 2016-09-30 12:43:03,582 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,662 Gathering cloudandsystemsmanagement
+7472 2016-09-30 12:43:03,662 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:03,722 Gathering collaborationendpoints
+7472 2016-09-30 12:43:03,722 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,542 Gathering conferencing
+7472 2016-09-30 12:43:04,542 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,612 Gathering connectedsafetyandsecurity
+7472 2016-09-30 12:43:04,612 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,692 Gathering customercollaboration
+7472 2016-09-30 12:43:04,702 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,752 Gathering ciscointerfacesandmodules
+7472 2016-09-30 12:43:04,752 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,822 Gathering opticalnetworking
+7472 2016-09-30 12:43:04,822 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:04,902 Gathering serviceexchange
+7472 2016-09-30 12:43:04,912 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:05,032 Gathering storagenetworking
+7472 2016-09-30 12:43:05,042 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:05,092 Gathering video
+7472 2016-09-30 12:43:05,092 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:43:05,172 Done.
+7472 2016-09-30 12:43:05,182 Starting workers
+6340 2016-09-30 12:43:05,182 Starting Wokrer-0
+6340 2016-09-30 12:43:05,182 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:05,182 Checking 800 series
+6340 2016-09-30 12:43:05,182 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+7400 2016-09-30 12:43:05,182 Starting control
+7400 2016-09-30 12:43:05,222 CONTROL: Queue length:509
+6340 2016-09-30 12:43:05,222 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:05,562 Found 96 models
+6340 2016-09-30 12:43:05,582  
+6340 2016-09-30 12:43:05,602 Parsing 800M Integrated Services Router
+6340 2016-09-30 12:43:05,622 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:05,682 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:05,872 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:06,252 Adding pid into db_q
+6340 2016-09-30 12:43:06,272 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'sourceTitle': '800M Integrated Services Router', 'pn': '4G-CAB-LMR400-5=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 800 Series Routers'}
+6340 2016-09-30 12:43:06,282 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:06,282 Wokrer-0 processing (1800, 'http://www.cisco.com/c/en/us/support/routers/1800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:06,302 Checking 1800 series
+6340 2016-09-30 12:43:06,312 url:http://www.cisco.com/c/en/us/support/routers/1800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:06,362 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:07,022 Found 9 models
+6340 2016-09-30 12:43:07,042  
+6340 2016-09-30 12:43:07,062 Parsing 1801 Integrated Services Router
+6340 2016-09-30 12:43:07,082 http://www.cisco.com/c/en/us/support/routers/1801-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:07,142 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:07,592 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:07,932 Adding pid into db_q
+6340 2016-09-30 12:43:07,952 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1801-integrated-services-router-isr/model.html', 'sourceTitle': '1801 Integrated Services Router', 'pn': 'ACS-1800-RM-19=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 1800 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:07,962 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:07,992 Wokrer-0 processing (1900, 'http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:08,012 Checking 1900 series
+6340 2016-09-30 12:43:08,032 url:http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:08,082 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:08,512 Found 5 models
+6340 2016-09-30 12:43:08,522  
+6340 2016-09-30 12:43:08,522 Parsing 1905 Serial Integrated Services Router
+6340 2016-09-30 12:43:08,542 http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:08,602 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:09,092 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:09,302 Adding pid into db_q
+6340 2016-09-30 12:43:09,322 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html', 'sourceTitle': '1905 Serial Integrated Services Router', 'pn': '4G-CAB-LMR400-10=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 1900 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:09,342 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:09,372 Wokrer-0 processing (2800, 'http://www.cisco.com/c/en/us/support/routers/2800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:09,392 Checking 2800 series
+6340 2016-09-30 12:43:09,412 url:http://www.cisco.com/c/en/us/support/routers/2800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:09,472 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:09,962 Found 4 models
+6340 2016-09-30 12:43:09,982  
+6340 2016-09-30 12:43:10,002 Parsing 2801 Integrated Services Router
+6340 2016-09-30 12:43:10,022 http://www.cisco.com/c/en/us/support/routers/2801-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:10,082 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:10,352 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:10,812 Adding pid into db_q
+6340 2016-09-30 12:43:10,832 {'status': 'End of Sale EOL', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2801-integrated-services-router-isr/model.html', 'sourceTitle': '2801 Integrated Services Router', 'pn': '1000684', 'endOfSupportDate': '31-JAN-2018', 'endOfSaleDate': '30-JAN-2013', 'series': 'Cisco 2800 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:10,852 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:10,872 Wokrer-0 processing (2900, 'http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:10,892 Checking 2900 series
+6340 2016-09-30 12:43:10,912 url:http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:10,972 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:11,422 Found 4 models
+6340 2016-09-30 12:43:11,442  
+6340 2016-09-30 12:43:11,462 Parsing 2901 Integrated Services Router
+6340 2016-09-30 12:43:11,482 http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:11,492 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:11,692 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:12,012 Adding pid into db_q
+6340 2016-09-30 12:43:12,032 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html', 'sourceTitle': '2901 Integrated Services Router', 'pn': '1941-2901-FANBLWR=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 2900 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:12,052 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:12,082 Wokrer-0 processing ('3200 Rugged', 'http://www.cisco.com/c/en/us/support/routers/3200-series-rugged-integrated-services-routers-isr/tsd-products-support-eol-series-home.html')
+6340 2016-09-30 12:43:12,102 Checking 3200 Rugged series
+6340 2016-09-30 12:43:12,122 url:http://www.cisco.com/c/en/us/support/routers/3200-series-rugged-integrated-services-routers-isr/tsd-products-support-eol-series-home.html
+6340 2016-09-30 12:43:12,172 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:12,622 Found 4 models
+6340 2016-09-30 12:43:12,642  
+6340 2016-09-30 12:43:12,662 Parsing 3220 Rugged Integrated Services Router
+6340 2016-09-30 12:43:12,672 http://www.cisco.com/c/en/us/support/routers/3220-rugged-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:12,732 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:13,952 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:14,202 Adding pid into db_q
+6340 2016-09-30 12:43:14,222 {'status': 'End of Support EOL', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3220-rugged-integrated-services-router-isr/model.html', 'sourceTitle': '3220 Rugged Integrated Services Router', 'pn': '3201FESMIC', 'endOfSupportDate': '27-MAY-2016', 'endOfSaleDate': '27-MAY-2011', 'series': 'Cisco 3200 Series Rugged Integrated Services Routers'}
+6340 2016-09-30 12:43:14,242 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:14,252 Wokrer-0 processing (3800, 'http://www.cisco.com/c/en/us/support/routers/3800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:14,262 Checking 3800 series
+6340 2016-09-30 12:43:14,282 url:http://www.cisco.com/c/en/us/support/routers/3800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:14,322 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:14,832 Found 6 models
+6340 2016-09-30 12:43:14,852  
+6340 2016-09-30 12:43:14,872 Parsing 3825 IP RAN Integrated Services Router
+6340 2016-09-30 12:43:14,872 http://www.cisco.com/c/en/us/support/routers/3825-ip-ran-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:14,912 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:15,372 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:15,812 Adding pid into db_q
+6340 2016-09-30 12:43:15,832 {'status': 'End of Sale EOL', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3825-ip-ran-integrated-services-router-isr/model.html', 'sourceTitle': '3825 IP RAN Integrated Services Router', 'pn': 'ACS-3825-FANS=', 'endOfSupportDate': '01-NOV-2016', 'endOfSaleDate': '01-NOV-2011', 'series': 'Cisco 3800 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:15,852 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:15,872 Wokrer-0 processing (3900, 'http://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:15,892 Checking 3900 series
+6340 2016-09-30 12:43:15,912 url:http://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:15,972 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:16,532 Found 4 models
+6340 2016-09-30 12:43:16,552  
+6340 2016-09-30 12:43:16,572 Parsing 3925 Integrated Services Router
+6340 2016-09-30 12:43:16,592 http://www.cisco.com/c/en/us/support/routers/3925-integrated-services-router-isr/model.html
+6340 2016-09-30 12:43:16,632 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:16,852 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:17,172 Adding pid into db_q
+6340 2016-09-30 12:43:17,182 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3925-integrated-services-router-isr/model.html', 'sourceTitle': '3925 Integrated Services Router', 'pn': '3900-BEZEL=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 3900 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:17,182 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:17,192 Wokrer-0 processing (4000, 'http://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:17,192 Checking 4000 series
+6340 2016-09-30 12:43:17,212 url:http://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:17,252 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:17,912 Found 5 models
+6340 2016-09-30 12:43:17,932  
+6340 2016-09-30 12:43:17,952 Parsing 4321 Integrated Services Router
+6340 2016-09-30 12:43:17,972 http://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html
+6340 2016-09-30 12:43:18,032 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:18,423 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:18,723 Adding pid into db_q
+6340 2016-09-30 12:43:18,743 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html', 'sourceTitle': '4321 Integrated Services Router', 'pn': 'ACS-4320-BEZEL=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 4000 Series Integrated Services Routers'}
+6340 2016-09-30 12:43:18,763 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:18,793 Wokrer-0 processing (5900, 'http://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:18,813 Checking 5900 series
+6340 2016-09-30 12:43:18,833 url:http://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:18,883 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:19,543 Found 4 models
+6340 2016-09-30 12:43:19,563  
+6340 2016-09-30 12:43:19,583 Parsing 5915 Embedded Service Router
+6340 2016-09-30 12:43:19,603 http://www.cisco.com/c/en/us/support/routers/5915-embedded-service-router/model.html
+6340 2016-09-30 12:43:19,653 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:20,063 Gathering PN assosiated with this device and some eos info
+7400 2016-09-30 12:43:35,246 CONTROL: Queue length:500
+6340 2016-09-30 12:43:42,446 Adding pid into db_q
+6340 2016-09-30 12:43:42,466 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/5915-embedded-service-router/model.html', 'sourceTitle': '5915 Embedded Service Router', 'pn': 'C5901MRPC-TP=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 5900 Series Embedded Services Routers'}
+6340 2016-09-30 12:43:42,486 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:42,516 Wokrer-0 processing (7200, 'http://www.cisco.com/c/en/us/support/routers/7200-series-routers/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:42,536 Checking 7200 series
+6340 2016-09-30 12:43:42,556 url:http://www.cisco.com/c/en/us/support/routers/7200-series-routers/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:42,616 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:43,186 Found 6 models
+6340 2016-09-30 12:43:43,206  
+6340 2016-09-30 12:43:43,226 Parsing 7201 Router
+6340 2016-09-30 12:43:43,246 http://www.cisco.com/c/en/us/support/routers/7201-router/model.html
+6340 2016-09-30 12:43:43,306 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:43,816 Gathering PN assosiated with this device and some eos info
+6340 2016-09-30 12:43:44,036 Adding pid into db_q
+6340 2016-09-30 12:43:44,036 {'status': 'Orderable How to Buy', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/7201-router/model.html', 'sourceTitle': '7201 Router', 'pn': '7200-CABLE-MGMT=', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'series': 'Cisco 7200 Series Routers'}
+6340 2016-09-30 12:43:44,036 'list' object has no attribute 'add'
+6340 2016-09-30 12:43:44,036 Wokrer-0 processing (7300, 'http://www.cisco.com/c/en/us/support/routers/7300-series-routers/tsd-products-support-series-home.html')
+6340 2016-09-30 12:43:44,036 Checking 7300 series
+6340 2016-09-30 12:43:44,036 url:http://www.cisco.com/c/en/us/support/routers/7300-series-routers/tsd-products-support-series-home.html
+6340 2016-09-30 12:43:44,046 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:44,376 Found 2 models
+6340 2016-09-30 12:43:44,376  
+6340 2016-09-30 12:43:44,386 Parsing 7301 Router
+6340 2016-09-30 12:43:44,386 http://www.cisco.com/c/en/us/support/routers/7301-router/model.html
+6340 2016-09-30 12:43:44,386 Starting new HTTP connection (1): www.cisco.com
+6340 2016-09-30 12:43:44,716 Gathering PN assosiated with this device and some eos info

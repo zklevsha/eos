@@ -1,0 +1,1397 @@
+8808 2016-09-30 12:28:19,909 Starting script at 2016-09-30 12:28:19.909305
+8808 2016-09-30 12:28:20,418 PHASE 2: COLLECTING EOS FROM SUPPORT
+8808 2016-09-30 12:28:20,418 Gathering routers
+8808 2016-09-30 12:28:20,443 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,175 Gathering switches
+8808 2016-09-30 12:28:21,178 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,228 Gathering security
+8808 2016-09-30 12:28:21,230 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,346 Gathering wireless
+8808 2016-09-30 12:28:21,350 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,419 Gathering serversunifiedcomputing
+8808 2016-09-30 12:28:21,423 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,476 Gathering applicationnetworkingservices
+8808 2016-09-30 12:28:21,478 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,529 Gathering cloudandsystemsmanagement
+8808 2016-09-30 12:28:21,531 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,582 Gathering collaborationendpoints
+8808 2016-09-30 12:28:21,586 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,659 Gathering conferencing
+8808 2016-09-30 12:28:21,663 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,717 Gathering connectedsafetyandsecurity
+8808 2016-09-30 12:28:21,722 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,772 Gathering customercollaboration
+8808 2016-09-30 12:28:21,776 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,835 Gathering ciscointerfacesandmodules
+8808 2016-09-30 12:28:21,839 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,898 Gathering opticalnetworking
+8808 2016-09-30 12:28:21,900 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:21,958 Gathering serviceexchange
+8808 2016-09-30 12:28:21,961 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:22,112 Gathering storagenetworking
+8808 2016-09-30 12:28:22,115 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:22,164 Gathering video
+8808 2016-09-30 12:28:22,166 Starting new HTTP connection (1): www.cisco.com
+8808 2016-09-30 12:28:22,281 Done.
+8808 2016-09-30 12:28:22,284 Starting workers
+8476 2016-09-30 12:28:22,299 Starting Wokrer-0
+8476 2016-09-30 12:28:22,300 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+4480 2016-09-30 12:28:22,300 Starting Wokrer-1
+8476 2016-09-30 12:28:22,300 Checking 800 series
+7776 2016-09-30 12:28:22,301 Starting Wokrer-2
+4480 2016-09-30 12:28:22,302 Wokrer-1 processing (1800, 'http://www.cisco.com/c/en/us/support/routers/1800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+4480 2016-09-30 12:28:22,305 Checking 1800 series
+4480 2016-09-30 12:28:22,306 url:http://www.cisco.com/c/en/us/support/routers/1800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+5948 2016-09-30 12:28:22,304 Starting Wokrer-4
+5948 2016-09-30 12:28:22,308 Wokrer-4 processing (2800, 'http://www.cisco.com/c/en/us/support/routers/2800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+8276 2016-09-30 12:28:22,302 Starting Wokrer-3
+7456 2016-09-30 12:28:22,305 Starting Wokrer-5
+8476 2016-09-30 12:28:22,303 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+8624 2016-09-30 12:28:22,306 Starting Wokrer-6
+8936 2016-09-30 12:28:22,308 Starting Wokrer-7
+7776 2016-09-30 12:28:22,304 Wokrer-2 processing (1900, 'http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6780 2016-09-30 12:28:22,310 Starting Wokrer-8
+6780 2016-09-30 12:28:22,319 Wokrer-8 processing (4000, 'http://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+4480 2016-09-30 12:28:22,312 Starting new HTTP connection (1): www.cisco.com
+8276 2016-09-30 12:28:22,312 Wokrer-3 processing (2900, 'http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+4892 2016-09-30 12:28:22,312 Starting Wokrer-9
+4892 2016-09-30 12:28:22,323 Wokrer-9 processing (5900, 'http://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/tsd-products-support-series-home.html')
+4892 2016-09-30 12:28:22,324 Checking 5900 series
+5888 2016-09-30 12:28:22,314 Starting Wokrer-11
+8624 2016-09-30 12:28:22,315 Wokrer-6 processing (3800, 'http://www.cisco.com/c/en/us/support/routers/3800-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+6256 2016-09-30 12:28:22,316 Starting Wokrer-12
+6256 2016-09-30 12:28:22,328 Wokrer-12 processing (7300, 'http://www.cisco.com/c/en/us/support/routers/7300-series-routers/tsd-products-support-series-home.html')
+8936 2016-09-30 12:28:22,318 Wokrer-7 processing (3900, 'http://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+7768 2016-09-30 12:28:22,318 Starting Wokrer-13
+7776 2016-09-30 12:28:22,318 Checking 1900 series
+5948 2016-09-30 12:28:22,310 Checking 2800 series
+8156 2016-09-30 12:28:22,320 Starting Wokrer-14
+7612 2016-09-30 12:28:22,320 Starting Wokrer-15
+6780 2016-09-30 12:28:22,320 Checking 4000 series
+8768 2016-09-30 12:28:22,322 Starting Wokrer-16
+8276 2016-09-30 12:28:22,323 Checking 2900 series
+7456 2016-09-30 12:28:22,313 Wokrer-5 processing ('3200 Rugged', 'http://www.cisco.com/c/en/us/support/routers/3200-series-rugged-integrated-services-routers-isr/tsd-products-support-eol-series-home.html')
+7472 2016-09-30 12:28:22,313 Starting Wokrer-10
+7472 2016-09-30 12:28:22,340 Wokrer-10 processing (12000, 'http://www.cisco.com/c/en/us/support/routers/12000-series-routers/tsd-products-support-series-home.html')
+4892 2016-09-30 12:28:22,325 url:http://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/tsd-products-support-series-home.html
+6196 2016-09-30 12:28:22,326 Starting Wokrer-18
+5888 2016-09-30 12:28:22,327 Wokrer-11 processing (7200, 'http://www.cisco.com/c/en/us/support/routers/7200-series-routers/tsd-products-support-series-home.html')
+5764 2016-09-30 12:28:22,327 Starting Wokrer-19
+8624 2016-09-30 12:28:22,328 Checking 3800 series
+8476 2016-09-30 12:28:22,317 Starting new HTTP connection (1): www.cisco.com
+6048 2016-09-30 12:28:22,328 Starting Wokrer-20
+6256 2016-09-30 12:28:22,330 Checking 7300 series
+8220 2016-09-30 12:28:22,330 Starting Wokrer-21
+8936 2016-09-30 12:28:22,331 Checking 3900 series
+5916 2016-09-30 12:28:22,332 Starting Wokrer-22
+7768 2016-09-30 12:28:22,332 Wokrer-13 processing (7500, 'http://www.cisco.com/c/en/us/support/routers/7500-series-routers/tsd-products-support-series-home.html')
+5876 2016-09-30 12:28:22,333 Starting Wokrer-23
+3896 2016-09-30 12:28:22,333 Starting Wokrer-24
+7776 2016-09-30 12:28:22,334 url:http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+5948 2016-09-30 12:28:22,334 url:http://www.cisco.com/c/en/us/support/routers/2800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+7592 2016-09-30 12:28:22,334 Starting Wokrer-25
+8156 2016-09-30 12:28:22,335 Wokrer-14 processing (7600, 'http://www.cisco.com/c/en/us/support/routers/7600-series-routers/tsd-products-support-series-home.html')
+8968 2016-09-30 12:28:22,335 Starting Wokrer-26
+7612 2016-09-30 12:28:22,336 Wokrer-15 processing (10000, 'http://www.cisco.com/c/en/us/support/routers/10000-series-routers/tsd-products-support-series-home.html')
+1036 2016-09-30 12:28:22,337 Starting Wokrer-27
+6780 2016-09-30 12:28:22,337 url:http://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+8572 2016-09-30 12:28:22,338 Starting Wokrer-28
+8768 2016-09-30 12:28:22,338 Wokrer-16 processing (10700, 'http://www.cisco.com/c/en/us/support/routers/10700-series-routers/tsd-products-support-eol-series-home.html')
+8168 2016-09-30 12:28:22,338 Starting Wokrer-29
+8276 2016-09-30 12:28:22,339 url:http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+8396 2016-09-30 12:28:22,339 Starting Wokrer-30
+7456 2016-09-30 12:28:22,340 Checking 3200 Rugged series
+8964 2016-09-30 12:28:22,340 Starting Wokrer-31
+8576 2016-09-30 12:28:22,325 Starting Wokrer-17
+7568 2016-09-30 12:28:22,341 Starting Wokrer-32
+7472 2016-09-30 12:28:22,342 Checking 12000 series
+8956 2016-09-30 12:28:22,342 Starting Wokrer-33
+7060 2016-09-30 12:28:22,344 Starting Wokrer-34
+6196 2016-09-30 12:28:22,345 Wokrer-18 processing ('XR 12000', 'http://www.cisco.com/c/en/us/support/routers/xr-12000-series-router/tsd-products-support-series-home.html')
+4892 2016-09-30 12:28:22,347 Starting new HTTP connection (1): www.cisco.com
+5888 2016-09-30 12:28:22,347 Checking 7200 series
+1540 2016-09-30 12:28:22,347 Starting Wokrer-35
+7512 2016-09-30 12:28:22,348 Starting Wokrer-36
+5764 2016-09-30 12:28:22,348 Wokrer-19 processing (900, 'http://www.cisco.com/c/en/us/support/routers/asr-903-series-aggregation-services-routers/tsd-products-support-series-home.html')
+8624 2016-09-30 12:28:22,349 url:http://www.cisco.com/c/en/us/support/routers/3800-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+3148 2016-09-30 12:28:22,349 Starting Wokrer-37
+6048 2016-09-30 12:28:22,350 Wokrer-20 processing (901, 'http://www.cisco.com/c/en/us/support/routers/asr-901-series-aggregation-services-routers/tsd-products-support-series-home.html')
+8608 2016-09-30 12:28:22,350 Starting Wokrer-38
+6256 2016-09-30 12:28:22,351 url:http://www.cisco.com/c/en/us/support/routers/7300-series-routers/tsd-products-support-series-home.html
+8548 2016-09-30 12:28:22,351 Starting Wokrer-39
+8220 2016-09-30 12:28:22,352 Wokrer-21 processing ('901 10G', 'http://www.cisco.com/c/en/us/support/routers/asr-901-10g-series-aggregation-services-routers/tsd-products-support-series-home.html')
+8524 2016-09-30 12:28:22,352 Starting Wokrer-40
+8936 2016-09-30 12:28:22,353 url:http://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+7368 2016-09-30 12:28:22,353 Starting Wokrer-41
+5916 2016-09-30 12:28:22,354 Wokrer-22 processing ('901 S', 'http://www.cisco.com/c/en/us/support/routers/asr-901s-series-aggregation-services-routers/tsd-products-support-series-home.html')
+4676 2016-09-30 12:28:22,354 Starting Wokrer-42
+7768 2016-09-30 12:28:22,354 Checking 7500 series
+5752 2016-09-30 12:28:22,355 Starting Wokrer-43
+5876 2016-09-30 12:28:22,355 Wokrer-23 processing (920, 'http://www.cisco.com/c/en/us/support/routers/asr-920-series-aggregation-services-router/tsd-products-support-series-home.html')
+7696 2016-09-30 12:28:22,356 Starting Wokrer-44
+3896 2016-09-30 12:28:22,357 Wokrer-24 processing (1000, 'http://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/tsd-products-support-series-home.html')
+8856 2016-09-30 12:28:22,357 Starting Wokrer-45
+8856 2016-09-30 12:28:22,728 Wokrer-45 processing ('2960-C', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-c-series-switches/tsd-products-support-series-home.html')
+8984 2016-09-30 12:28:22,360 Starting Wokrer-47
+7592 2016-09-30 12:28:22,361 Wokrer-25 processing (9000, 'http://www.cisco.com/c/en/us/support/routers/asr-9000-series-aggregation-services-routers/tsd-products-support-series-home.html')
+8196 2016-09-30 12:28:22,362 Starting Wokrer-48
+7776 2016-09-30 12:28:22,363 Starting new HTTP connection (1): www.cisco.com
+8156 2016-09-30 12:28:22,364 Checking 7600 series
+5948 2016-09-30 12:28:22,365 Starting new HTTP connection (1): www.cisco.com
+6348 2016-09-30 12:28:22,365 Starting Wokrer-49
+8968 2016-09-30 12:28:22,365 Wokrer-26 processing (1000, 'http://www.cisco.com/c/en/us/support/routers/1000-series-connected-grid-routers/tsd-products-support-series-home.html')
+8472 2016-09-30 12:28:22,366 Starting Wokrer-50
+7612 2016-09-30 12:28:22,366 Checking 10000 series
+7520 2016-09-30 12:28:22,366 Starting Wokrer-51
+7520 2016-09-30 12:28:22,742 Wokrer-51 processing ('3560', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-series-switches/tsd-products-support-series-home.html')
+7452 2016-09-30 12:28:22,368 Starting Wokrer-52
+432 2016-09-30 12:28:22,370 Starting Wokrer-53
+8572 2016-09-30 12:28:22,371 Wokrer-28 processing ('500 WPAN', 'http://www.cisco.com/c/en/us/support/routers/500-series-wpan-industrial-routers/tsd-products-support-series-home.html')
+7528 2016-09-30 12:28:22,375 Starting Wokrer-54
+8768 2016-09-30 12:28:22,375 Checking 10700 series
+6780 2016-09-30 12:28:22,376 Starting new HTTP connection (1): www.cisco.com
+8168 2016-09-30 12:28:22,376 Wokrer-29 processing ('800', 'http://www.cisco.com/c/en/us/support/routers/800-series-industrial-routers/tsd-products-support-series-home.html')
+5092 2016-09-30 12:28:22,377 Starting Wokrer-55
+5548 2016-09-30 12:28:22,378 Starting Wokrer-56
+5140 2016-09-30 12:28:22,385 Starting Wokrer-57
+8276 2016-09-30 12:28:22,386 Starting new HTTP connection (1): www.cisco.com
+8396 2016-09-30 12:28:22,386 Wokrer-30 processing (900, 'http://www.cisco.com/c/en/us/support/routers/900-series-industrial-routers/tsd-products-support-series-home.html')
+7640 2016-09-30 12:28:22,392 Starting Wokrer-58
+7456 2016-09-30 12:28:22,408 url:http://www.cisco.com/c/en/us/support/routers/3200-series-rugged-integrated-services-routers-isr/tsd-products-support-eol-series-home.html
+1328 2016-09-30 12:28:22,413 Starting Wokrer-59
+8964 2016-09-30 12:28:22,413 Wokrer-31 processing ('MWR 1900', 'http://www.cisco.com/c/en/us/support/routers/mwr-1900-mobile-wireless-routers/tsd-products-support-series-home.html')
+8784 2016-09-30 12:28:22,438 Starting Wokrer-60
+8576 2016-09-30 12:28:22,438 Wokrer-17 processing ('MWR 2900', 'http://www.cisco.com/c/en/us/support/routers/mwr-2900-series-mobile-wireless-routers/tsd-products-support-series-home.html')
+7568 2016-09-30 12:28:22,443 Wokrer-32 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+4076 2016-09-30 12:28:22,453 Starting Wokrer-61
+7472 2016-09-30 12:28:22,463 url:http://www.cisco.com/c/en/us/support/routers/12000-series-routers/tsd-products-support-series-home.html
+1436 2016-09-30 12:28:22,473 Starting Wokrer-62
+8956 2016-09-30 12:28:22,473 Wokrer-33 processing (1900, 'http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+9108 2016-09-30 12:28:22,493 Starting Wokrer-63
+7060 2016-09-30 12:28:22,503 Wokrer-34 processing (2900, 'http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html')
+4480 2016-09-30 12:28:22,507 Found 9 models
+4728 2016-09-30 12:28:22,513 Starting Wokrer-64
+6196 2016-09-30 12:28:22,518 Checking XR 12000 series
+4868 2016-09-30 12:28:22,523 Starting Wokrer-65
+8256 2016-09-30 12:28:22,534 Starting Wokrer-66
+5888 2016-09-30 12:28:22,539 url:http://www.cisco.com/c/en/us/support/routers/7200-series-routers/tsd-products-support-series-home.html
+3468 2016-09-30 12:28:22,544 Starting Wokrer-67
+1540 2016-09-30 12:28:22,549 Wokrer-35 processing ('RV Series', 'http://www.cisco.com/c/en/us/support/routers/small-business-rv-series-routers/tsd-products-support-series-home.html')
+7440 2016-09-30 12:28:22,549 Starting Wokrer-68
+7512 2016-09-30 12:28:22,564 Wokrer-36 processing ('SR 500', 'http://www.cisco.com/c/en/us/support/routers/sr-500-series-secure-routers/tsd-products-support-eol-series-home.html')
+5764 2016-09-30 12:28:22,569 Checking 900 series
+5536 2016-09-30 12:28:22,569 Starting Wokrer-69
+9096 2016-09-30 12:28:22,579 Starting Wokrer-70
+3148 2016-09-30 12:28:22,585 Wokrer-37 processing ('SRP500 Services Ready Platforms', 'http://www.cisco.com/c/en/us/support/routers/small-business-srp500-series-services-ready-platforms/tsd-products-support-series-home.html')
+8884 2016-09-30 12:28:22,585 Starting Wokrer-71
+8624 2016-09-30 12:28:22,596 Starting new HTTP connection (1): www.cisco.com
+4028 2016-09-30 12:28:22,606 Starting Wokrer-72
+6048 2016-09-30 12:28:22,606 Checking 901 series
+8608 2016-09-30 12:28:22,621 Wokrer-38 processing ('Application Extension Platform', 'http://www.cisco.com/c/en/us/support/routers/application-extension-platform/tsd-products-support-eol-series-home.html')
+4388 2016-09-30 12:28:22,621 Starting Wokrer-73
+4136 2016-09-30 12:28:22,635 Starting Wokrer-74
+8476 2016-09-30 12:28:22,641 Found 96 models
+8548 2016-09-30 12:28:22,641 Wokrer-39 processing ('Carrier Routing System', 'http://www.cisco.com/c/en/us/support/routers/carrier-routing-system/tsd-products-support-series-home.html')
+3480 2016-09-30 12:28:22,642 Starting Wokrer-75
+8220 2016-09-30 12:28:22,643 Checking 901 10G series
+9056 2016-09-30 12:28:22,648 Starting Wokrer-76
+6256 2016-09-30 12:28:22,653 Starting new HTTP connection (1): www.cisco.com
+8524 2016-09-30 12:28:22,653 Wokrer-40 processing ('Cloud Services Router 1000V', 'http://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v-series/tsd-products-support-series-home.html')
+8440 2016-09-30 12:28:22,664 Starting Wokrer-77
+7384 2016-09-30 12:28:22,675 Starting Wokrer-78
+7368 2016-09-30 12:28:22,680 Wokrer-41 processing ('Network Convergence System 6000', 'http://www.cisco.com/c/en/us/support/routers/network-convergence-system-6000-series-router/tsd-products-support-series-home.html')
+5916 2016-09-30 12:28:22,686 Checking 901 S series
+8496 2016-09-30 12:28:22,687 Starting Wokrer-79
+8936 2016-09-30 12:28:22,688 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:28:22,688 Wokrer-42 processing ('WAN Automation Engine', 'http://www.cisco.com/c/en/us/support/routers/quantum-wan-automation-visibility-engine/tsd-products-support-series-home.html')
+7944 2016-09-30 12:28:22,695 Starting Wokrer-80
+7768 2016-09-30 12:28:22,714 url:http://www.cisco.com/c/en/us/support/routers/7500-series-routers/tsd-products-support-series-home.html
+8424 2016-09-30 12:28:22,720 Starting Wokrer-81
+4892 2016-09-30 12:28:22,724 Found 4 models
+5752 2016-09-30 12:28:22,724 Wokrer-43 processing ('2955', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2955-series-switches/tsd-products-support-series-home.html')
+1216 2016-09-30 12:28:22,724 Starting Wokrer-82
+1216 2016-09-30 12:28:23,641 Wokrer-82 processing ('5000', 'http://www.cisco.com/c/en/us/support/switches/nexus-5000-series-switches/tsd-products-support-series-home.html')
+6236 2016-09-30 12:28:22,725 Starting Wokrer-83
+7696 2016-09-30 12:28:22,725 Wokrer-44 processing ('2960', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-series-switches/tsd-products-support-series-home.html')
+7488 2016-09-30 12:28:22,727 Starting Wokrer-84
+3896 2016-09-30 12:28:22,727 Checking 1000 series
+7736 2016-09-30 12:28:22,727 Starting Wokrer-85
+6596 2016-09-30 12:28:22,358 Starting Wokrer-46
+8856 2016-09-30 12:28:22,729 Checking 2960-C series
+8984 2016-09-30 12:28:22,730 Wokrer-47 processing ('2960-CX', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-cx-series-switches/tsd-products-support-series-home.html')
+9000 2016-09-30 12:28:22,730 Starting Wokrer-86
+7592 2016-09-30 12:28:22,731 Checking 9000 series
+8820 2016-09-30 12:28:22,732 Starting Wokrer-87
+8196 2016-09-30 12:28:22,732 Wokrer-48 processing ('2960-S', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-s-series-switches/tsd-products-support-series-home.html')
+9088 2016-09-30 12:28:22,733 Starting Wokrer-88
+8116 2016-09-30 12:28:22,734 Starting Wokrer-89
+8156 2016-09-30 12:28:22,735 url:http://www.cisco.com/c/en/us/support/routers/7600-series-routers/tsd-products-support-series-home.html
+7676 2016-09-30 12:28:22,735 Starting Wokrer-90
+8328 2016-09-30 12:28:22,737 Starting Wokrer-91
+6348 2016-09-30 12:28:22,738 Wokrer-49 processing ('2960-X', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/tsd-products-support-series-home.html')
+8308 2016-09-30 12:28:22,738 Starting Wokrer-92
+8968 2016-09-30 12:28:22,739 Checking 1000 series
+5660 2016-09-30 12:28:22,739 Starting Wokrer-93
+8472 2016-09-30 12:28:22,739 Wokrer-50 processing ('2960-XR', 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-xr-series-switches/tsd-products-support-series-home.html')
+7460 2016-09-30 12:28:22,741 Starting Wokrer-94
+7672 2016-09-30 12:28:22,741 Starting Wokrer-95
+7612 2016-09-30 12:28:22,742 url:http://www.cisco.com/c/en/us/support/routers/10000-series-routers/tsd-products-support-series-home.html
+1036 2016-09-30 12:28:22,367 Wokrer-27 processing (2000, 'http://www.cisco.com/c/en/us/support/routers/2000-series-connected-grid-routers/tsd-products-support-series-home.html')
+3888 2016-09-30 12:28:22,743 Starting Wokrer-96
+7520 2016-09-30 12:28:22,743 Checking 3560 series
+4352 2016-09-30 12:28:22,744 Starting Wokrer-97
+7452 2016-09-30 12:28:22,744 Wokrer-52 processing ('3560-C', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-c-series-switches/tsd-products-support-series-home.html')
+4296 2016-09-30 12:28:22,745 Starting Wokrer-98
+432 2016-09-30 12:28:22,745 Wokrer-53 processing ('3560-CX', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-cx-series-switches/tsd-products-support-series-home.html')
+8572 2016-09-30 12:28:22,746 Checking 500 WPAN series
+8632 2016-09-30 12:28:22,746 Starting Wokrer-99
+7528 2016-09-30 12:28:22,747 Wokrer-54 processing ('3560-E', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-e-series-switches/tsd-products-support-series-home.html')
+7708 2016-09-30 12:28:22,748 Starting control
+8768 2016-09-30 12:28:22,768 url:http://www.cisco.com/c/en/us/support/routers/10700-series-routers/tsd-products-support-eol-series-home.html
+8168 2016-09-30 12:28:22,804 Checking 800 series
+5092 2016-09-30 12:28:22,827 Wokrer-55 processing ('3560-X', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-x-series-switches/tsd-products-support-series-home.html')
+5548 2016-09-30 12:28:22,851 Wokrer-56 processing ('3650', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3650-series-switches/tsd-products-support-series-home.html')
+5140 2016-09-30 12:28:22,907 Wokrer-57 processing ('3750', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-series-switches/tsd-products-support-series-home.html')
+8396 2016-09-30 12:28:22,963 Checking 900 series
+5948 2016-09-30 12:28:23,054 Found 4 models
+7776 2016-09-30 12:28:23,072 Found 5 models
+6780 2016-09-30 12:28:23,086 Found 5 models
+7640 2016-09-30 12:28:23,086 Wokrer-58 processing ('3750-E', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-e-series-switches/tsd-products-support-series-home.html')
+7456 2016-09-30 12:28:23,094 Starting new HTTP connection (1): www.cisco.com
+1328 2016-09-30 12:28:23,095 Wokrer-59 processing ('3750-X', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-x-series-switches/tsd-products-support-series-home.html')
+8964 2016-09-30 12:28:23,095 Checking MWR 1900 series
+8576 2016-09-30 12:28:23,111 Checking MWR 2900 series
+8784 2016-09-30 12:28:23,112 Wokrer-60 processing ('3750 Metro', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-metro-series-switches/tsd-products-support-series-home.html')
+7568 2016-09-30 12:28:23,122 Checking 800 series
+4076 2016-09-30 12:28:23,178 Wokrer-61 processing ('3850', 'http://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/tsd-products-support-series-home.html')
+8956 2016-09-30 12:28:23,188 Checking 1900 series
+7472 2016-09-30 12:28:23,199 Starting new HTTP connection (1): www.cisco.com
+8276 2016-09-30 12:28:23,208 Found 4 models
+1436 2016-09-30 12:28:23,208 Wokrer-62 processing ('4500', 'http://www.cisco.com/c/en/us/support/switches/catalyst-4500-series-switches/tsd-products-support-series-home.html')
+7060 2016-09-30 12:28:23,208 Checking 2900 series
+9108 2016-09-30 12:28:23,209 Wokrer-63 processing ('4500-X', 'http://www.cisco.com/c/en/us/support/switches/catalyst-4500-x-series-switches/tsd-products-support-series-home.html')
+4480 2016-09-30 12:28:23,214  
+4728 2016-09-30 12:28:23,219 Wokrer-64 processing ('4900', 'http://www.cisco.com/c/en/us/support/switches/catalyst-4900-series-switches/tsd-products-support-series-home.html')
+6196 2016-09-30 12:28:23,234 url:http://www.cisco.com/c/en/us/support/routers/xr-12000-series-router/tsd-products-support-series-home.html
+4868 2016-09-30 12:28:23,239 Wokrer-65 processing ('6500', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/tsd-products-support-series-home.html')
+8256 2016-09-30 12:28:23,239 Wokrer-66 processing ('6500 Virtual Switching System 1440', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-virtual-switching-system-1440/tsd-products-support-series-home.html')
+3468 2016-09-30 12:28:23,254 Wokrer-67 processing ('6800', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6800-series-switches/tsd-products-support-series-home.html')
+1540 2016-09-30 12:28:23,268 Checking RV Series series
+5888 2016-09-30 12:28:23,269 Starting new HTTP connection (1): www.cisco.com
+7440 2016-09-30 12:28:23,277 Wokrer-68 processing ('90 Unmanaged', 'http://www.cisco.com/c/en/us/support/switches/small-business-90-series-unmanaged-switches/tsd-products-support-series-home.html')
+7512 2016-09-30 12:28:23,277 Checking SR 500 series
+5764 2016-09-30 12:28:23,288 url:http://www.cisco.com/c/en/us/support/routers/asr-903-series-aggregation-services-routers/tsd-products-support-series-home.html
+5536 2016-09-30 12:28:23,298 Wokrer-69 processing ('100 Unmanaged', 'http://www.cisco.com/c/en/us/support/switches/small-business-100-series-unmanaged-switches/tsd-products-support-series-home.html')
+9096 2016-09-30 12:28:23,308 Wokrer-70 processing ('200 Smart', 'http://www.cisco.com/c/en/us/support/switches/small-business-200-series-smart-switches/tsd-products-support-series-home.html')
+3148 2016-09-30 12:28:23,323 Checking SRP500 Services Ready Platforms series
+8884 2016-09-30 12:28:23,333 Wokrer-71 processing ('220 Smart Plus', 'http://www.cisco.com/c/en/us/support/switches/small-business-220-series-smart-plus-switches/tsd-products-support-series-home.html')
+4028 2016-09-30 12:28:23,374 Wokrer-72 processing ('300 Managed', 'http://www.cisco.com/c/en/us/support/switches/small-business-300-series-managed-switches/tsd-products-support-series-home.html')
+6048 2016-09-30 12:28:23,389 url:http://www.cisco.com/c/en/us/support/routers/asr-901-series-aggregation-services-routers/tsd-products-support-series-home.html
+8608 2016-09-30 12:28:23,399 Checking Application Extension Platform series
+4388 2016-09-30 12:28:23,410 Wokrer-73 processing ('500 Stackable Managed', 'http://www.cisco.com/c/en/us/support/switches/small-business-500-series-stackable-managed-switches/tsd-products-support-series-home.html')
+4136 2016-09-30 12:28:23,410 Wokrer-74 processing ('Smart', 'http://www.cisco.com/c/en/us/support/switches/small-business-smart-switches/tsd-products-support-series-home.html')
+8476 2016-09-30 12:28:23,420  
+8548 2016-09-30 12:28:23,430 Checking Carrier Routing System series
+8220 2016-09-30 12:28:23,451 url:http://www.cisco.com/c/en/us/support/routers/asr-901-10g-series-aggregation-services-routers/tsd-products-support-series-home.html
+3480 2016-09-30 12:28:23,451 Wokrer-75 processing ('Stackable Managed', 'http://www.cisco.com/c/en/us/support/switches/small-business-stackable-managed-switches/tsd-products-support-series-home.html')
+9056 2016-09-30 12:28:23,472 Wokrer-76 processing ('Unmanaged', 'http://www.cisco.com/c/en/us/support/switches/small-business-unmanaged-switches/tsd-products-support-series-home.html')
+8524 2016-09-30 12:28:23,482 Checking Cloud Services Router 1000V series
+8440 2016-09-30 12:28:23,532 Wokrer-77 processing ('1000V', 'http://www.cisco.com/c/en/us/support/switches/nexus-1000v-switch-vmware-vsphere/tsd-products-support-series-home.html')
+7368 2016-09-30 12:28:23,537 Checking Network Convergence System 6000 series
+5916 2016-09-30 12:28:23,552 url:http://www.cisco.com/c/en/us/support/routers/asr-901s-series-aggregation-services-routers/tsd-products-support-series-home.html
+7384 2016-09-30 12:28:23,568 Wokrer-78 processing ('1100 Cloud', 'http://www.cisco.com/c/en/us/support/switches/nexus-1100-series-cloud-services-platforms/tsd-products-support-series-home.html ')
+8624 2016-09-30 12:28:23,586 Found 6 models
+8496 2016-09-30 12:28:23,586 Wokrer-79 processing ('2000', 'http://www.cisco.com/c/en/us/support/switches/nexus-2000-series-fabric-extenders/tsd-products-support-series-home.html')
+4676 2016-09-30 12:28:23,587 Checking WAN Automation Engine series
+7944 2016-09-30 12:28:23,602 Wokrer-80 processing ('3000', 'http://www.cisco.com/c/en/us/support/switches/nexus-3000-series-switches/tsd-products-support-series-home.html')
+7768 2016-09-30 12:28:23,629 Starting new HTTP connection (1): www.cisco.com
+4892 2016-09-30 12:28:23,630  
+8424 2016-09-30 12:28:23,630 Wokrer-81 processing ('4000', 'http://www.cisco.com/c/en/us/support/switches/nexus-4000-series-switches/tsd-products-support-series-home.html')
+5752 2016-09-30 12:28:23,630 Checking 2955 series
+5876 2016-09-30 12:28:22,725 Checking 920 series
+1216 2016-09-30 12:28:23,654 Checking 5000 series
+6236 2016-09-30 12:28:23,717 Wokrer-83 processing ('6000', 'http://www.cisco.com/c/en/us/support/switches/nexus-6000-series-switches/tsd-products-support-series-home.html')
+7696 2016-09-30 12:28:23,731 Checking 2960 series
+8936 2016-09-30 12:28:23,836 Found 4 models
+7488 2016-09-30 12:28:23,845 Wokrer-84 processing ('7000', 'http://www.cisco.com/c/en/us/support/switches/nexus-7000-series-switches/tsd-products-support-series-home.html')
+3896 2016-09-30 12:28:23,861 url:http://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/tsd-products-support-series-home.html
+7736 2016-09-30 12:28:23,896 Wokrer-85 processing ('9000', 'http://www.cisco.com/c/en/us/support/switches/nexus-9000-series-switches/tsd-products-support-series-home.html')
+8856 2016-09-30 12:28:23,906 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-c-series-switches/tsd-products-support-series-home.html
+8984 2016-09-30 12:28:23,911 Checking 2960-CX series
+6256 2016-09-30 12:28:23,913 Found 2 models
+6596 2016-09-30 12:28:23,913 Wokrer-46 processing ('IE 2000', 'http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-2000-series-switches/tsd-products-support-series-home.html ')
+9000 2016-09-30 12:28:23,914 Wokrer-86 processing ('IE 3000', 'http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-3000-series-switches/tsd-products-support-series-home.html ')
+7592 2016-09-30 12:28:23,929 url:http://www.cisco.com/c/en/us/support/routers/asr-9000-series-aggregation-services-routers/tsd-products-support-series-home.html
+8820 2016-09-30 12:28:23,949 Wokrer-87 processing ('IE 4000', 'http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-4000-series-switches/tsd-products-support-series-home.html ')
+8196 2016-09-30 12:28:23,979 Checking 2960-S series
+9088 2016-09-30 12:28:24,008 Wokrer-88 processing ('ME 3400', 'http://www.cisco.com/c/en/us/support/switches/me-3400-series-ethernet-access-switches/tsd-products-support-series-home.html')
+8116 2016-09-30 12:28:24,023 Wokrer-89 processing ('ME 3600X', 'http://www.cisco.com/c/en/us/support/switches/me-3600x-series-ethernet-access-switches/tsd-products-support-series-home.html')
+8156 2016-09-30 12:28:24,051 Starting new HTTP connection (1): www.cisco.com
+7676 2016-09-30 12:28:24,051 Wokrer-90 processing ('ME 3800X', 'http://www.cisco.com/c/en/us/support/switches/me-3800x-series-carrier-ethernet-switch-routers/tsd-products-support-series-home.html')
+6348 2016-09-30 12:28:24,052 Checking 2960-X series
+8328 2016-09-30 12:28:24,061 Wokrer-91 processing ('MGX 8900', 'http://www.cisco.com/c/en/us/support/switches/mgx-8900-series-switches/tsd-products-support-series-home.html')
+8308 2016-09-30 12:28:24,076 Wokrer-92 processing ('AnyConnect Secure Mobility Client', 'http://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/tsd-products-support-series-home.html')
+8968 2016-09-30 12:28:24,076 url:http://www.cisco.com/c/en/us/support/routers/1000-series-connected-grid-routers/tsd-products-support-series-home.html
+5660 2016-09-30 12:28:24,090 Wokrer-93 processing ('Dynamic Multipoint (DMVPN)', 'http://www.cisco.com/c/en/us/support/security/dynamic-multipoint-vpn-dmvpn/tsd-products-support-series-home.html')
+8472 2016-09-30 12:28:24,100 Checking 2960-XR series
+7460 2016-09-30 12:28:24,110 Wokrer-94 processing ('Flex VPN', 'http://www.cisco.com/c/en/us/support/security/flexvpn/tsd-products-support-series-home.html')
+7672 2016-09-30 12:28:24,125 Wokrer-95 processing ('IOS Easy VPN', 'http://www.cisco.com/c/en/us/support/security/ios-easy-vpn/tsd-products-support-series-home.html')
+1036 2016-09-30 12:28:24,145 Checking 2000 series
+7612 2016-09-30 12:28:24,157 Starting new HTTP connection (1): www.cisco.com
+3888 2016-09-30 12:28:24,176 Wokrer-96 processing ('ASA 5500', 'http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/tsd-products-support-series-home.html')
+7520 2016-09-30 12:28:24,191 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3560-series-switches/tsd-products-support-series-home.html
+7452 2016-09-30 12:28:24,201 Checking 3560-C series
+4352 2016-09-30 12:28:24,201 Wokrer-97 processing ('ASA 5500 FirePOWER', 'http://www.cisco.com/c/en/us/support/security/asa-firepower-services/tsd-products-support-series-home.html')
+4296 2016-09-30 12:28:24,201 Wokrer-98 processing ('FirePOWER 7000', 'http://www.cisco.com/c/en/us/support/security/firepower-7000-series-appliances/tsd-products-support-series-home.html')
+432 2016-09-30 12:28:24,212 Checking 3560-CX series
+8572 2016-09-30 12:28:24,232 url:http://www.cisco.com/c/en/us/support/routers/500-series-wpan-industrial-routers/tsd-products-support-series-home.html
+8632 2016-09-30 12:28:24,247 Wokrer-99 processing ('FirePOWER 8000', 'http://www.cisco.com/c/en/us/support/security/firepower-8000-series-appliances/tsd-products-support-series-home.html')
+7528 2016-09-30 12:28:24,257 Checking 3560-E series
+7708 2016-09-30 12:28:24,267 CONTROL: Queue length:410
+8168 2016-09-30 12:28:24,287 url:http://www.cisco.com/c/en/us/support/routers/800-series-industrial-routers/tsd-products-support-series-home.html
+5092 2016-09-30 12:28:24,303 Checking 3560-X series
+8768 2016-09-30 12:28:24,308 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:28:24,308 Checking 3650 series
+5140 2016-09-30 12:28:24,319 Checking 3750 series
+8396 2016-09-30 12:28:24,329 url:http://www.cisco.com/c/en/us/support/routers/900-series-industrial-routers/tsd-products-support-series-home.html
+5948 2016-09-30 12:28:24,339  
+7776 2016-09-30 12:28:24,349  
+6780 2016-09-30 12:28:24,364  
+7640 2016-09-30 12:28:24,369 Checking 3750-E series
+1328 2016-09-30 12:28:24,409 Checking 3750-X series
+8964 2016-09-30 12:28:24,414 url:http://www.cisco.com/c/en/us/support/routers/mwr-1900-mobile-wireless-routers/tsd-products-support-series-home.html
+8576 2016-09-30 12:28:24,429 url:http://www.cisco.com/c/en/us/support/routers/mwr-2900-series-mobile-wireless-routers/tsd-products-support-series-home.html
+8784 2016-09-30 12:28:24,439 Checking 3750 Metro series
+7568 2016-09-30 12:28:24,449 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+4076 2016-09-30 12:28:24,480 Checking 3850 series
+8956 2016-09-30 12:28:24,490 url:http://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+8276 2016-09-30 12:28:24,545  
+7456 2016-09-30 12:28:24,591 Found 4 models
+1436 2016-09-30 12:28:24,650 Checking 4500 series
+7060 2016-09-30 12:28:24,680 url:http://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html
+9108 2016-09-30 12:28:24,690 Checking 4500-X series
+4480 2016-09-30 12:28:24,720 Parsing 1801 Integrated Services Router
+4728 2016-09-30 12:28:24,740 Checking 4900 series
+7472 2016-09-30 12:28:24,777 Found 12 models
+4868 2016-09-30 12:28:24,796 Checking 6500 series
+6196 2016-09-30 12:28:24,801 Starting new HTTP connection (1): www.cisco.com
+8256 2016-09-30 12:28:24,811 Checking 6500 Virtual Switching System 1440 series
+3468 2016-09-30 12:28:24,821 Checking 6800 series
+1540 2016-09-30 12:28:24,826 url:http://www.cisco.com/c/en/us/support/routers/small-business-rv-series-routers/tsd-products-support-series-home.html
+7440 2016-09-30 12:28:24,846 Checking 90 Unmanaged series
+7512 2016-09-30 12:28:24,856 url:http://www.cisco.com/c/en/us/support/routers/sr-500-series-secure-routers/tsd-products-support-eol-series-home.html
+5536 2016-09-30 12:28:24,892 Checking 100 Unmanaged series
+5764 2016-09-30 12:28:24,903 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:24,904 Checking 200 Smart series
+3148 2016-09-30 12:28:24,915 url:http://www.cisco.com/c/en/us/support/routers/small-business-srp500-series-services-ready-platforms/tsd-products-support-series-home.html
+8884 2016-09-30 12:28:24,955 Checking 220 Smart Plus series
+4028 2016-09-30 12:28:24,980 Checking 300 Managed series
+8608 2016-09-30 12:28:25,025 url:http://www.cisco.com/c/en/us/support/routers/application-extension-platform/tsd-products-support-eol-series-home.html
+6048 2016-09-30 12:28:25,035 Starting new HTTP connection (1): www.cisco.com
+5888 2016-09-30 12:28:25,043 Found 6 models
+4388 2016-09-30 12:28:29,328 Checking 500 Stackable Managed series
+4136 2016-09-30 12:28:29,333 Checking Smart series
+8476 2016-09-30 12:28:29,348 Parsing 800M Integrated Services Router
+8548 2016-09-30 12:28:29,358 url:http://www.cisco.com/c/en/us/support/routers/carrier-routing-system/tsd-products-support-series-home.html
+3480 2016-09-30 12:28:29,378 Checking Stackable Managed series
+8220 2016-09-30 12:28:29,389 Starting new HTTP connection (1): www.cisco.com
+9056 2016-09-30 12:28:29,399 Checking Unmanaged series
+8524 2016-09-30 12:28:29,419 url:http://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v-series/tsd-products-support-series-home.html
+8440 2016-09-30 12:28:29,429 Checking 1000V series
+7368 2016-09-30 12:28:29,449 url:http://www.cisco.com/c/en/us/support/routers/network-convergence-system-6000-series-router/tsd-products-support-series-home.html
+7384 2016-09-30 12:28:29,469 Checking 1100 Cloud series
+8624 2016-09-30 12:28:29,479  
+8496 2016-09-30 12:28:29,489 Checking 2000 series
+5916 2016-09-30 12:28:29,504 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:28:29,514 url:http://www.cisco.com/c/en/us/support/routers/quantum-wan-automation-visibility-engine/tsd-products-support-series-home.html
+7944 2016-09-30 12:28:29,524 Checking 3000 series
+4892 2016-09-30 12:28:29,549 Parsing 5915 Embedded Service Router
+8424 2016-09-30 12:28:29,559 Checking 4000 series
+5752 2016-09-30 12:28:29,584 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2955-series-switches/tsd-products-support-series-home.html
+5876 2016-09-30 12:28:29,609 url:http://www.cisco.com/c/en/us/support/routers/asr-920-series-aggregation-services-router/tsd-products-support-series-home.html
+1216 2016-09-30 12:28:29,625 url:http://www.cisco.com/c/en/us/support/switches/nexus-5000-series-switches/tsd-products-support-series-home.html
+6236 2016-09-30 12:28:29,640 Checking 6000 series
+6236 2016-09-30 12:28:31,536 url:http://www.cisco.com/c/en/us/support/switches/nexus-6000-series-switches/tsd-products-support-series-home.html
+8936 2016-09-30 12:28:29,705  
+7488 2016-09-30 12:28:29,730 Checking 7000 series
+7736 2016-09-30 12:28:29,785 Checking 9000 series
+7768 2016-09-30 12:28:29,804 Found 6 models
+8984 2016-09-30 12:28:29,815 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-cx-series-switches/tsd-products-support-series-home.html
+3896 2016-09-30 12:28:29,817 Starting new HTTP connection (1): www.cisco.com
+8856 2016-09-30 12:28:29,828 Starting new HTTP connection (1): www.cisco.com
+6256 2016-09-30 12:28:29,828  
+6596 2016-09-30 12:28:29,848 Checking IE 2000 series
+9000 2016-09-30 12:28:29,863 Checking IE 3000 series
+8820 2016-09-30 12:28:29,878 Checking IE 4000 series
+7592 2016-09-30 12:28:29,889 Starting new HTTP connection (1): www.cisco.com
+8196 2016-09-30 12:28:29,889 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-s-series-switches/tsd-products-support-series-home.html
+9088 2016-09-30 12:28:29,895 Checking ME 3400 series
+8116 2016-09-30 12:28:29,905 Checking ME 3600X series
+7676 2016-09-30 12:28:29,921 Checking ME 3800X series
+6348 2016-09-30 12:28:29,941 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-x-series-switches/tsd-products-support-series-home.html
+8328 2016-09-30 12:28:29,961 Checking MGX 8900 series
+8308 2016-09-30 12:28:29,971 Checking AnyConnect Secure Mobility Client series
+5660 2016-09-30 12:28:29,982 Checking Dynamic Multipoint (DMVPN) series
+8472 2016-09-30 12:28:29,999 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-xr-series-switches/tsd-products-support-series-home.html
+8968 2016-09-30 12:28:30,000 Starting new HTTP connection (1): www.cisco.com
+7460 2016-09-30 12:28:30,021 Checking Flex VPN series
+7460 2016-09-30 12:28:32,121 url:http://www.cisco.com/c/en/us/support/security/flexvpn/tsd-products-support-series-home.html
+1036 2016-09-30 12:28:30,076 url:http://www.cisco.com/c/en/us/support/routers/2000-series-connected-grid-routers/tsd-products-support-series-home.html
+3888 2016-09-30 12:28:30,141 Checking ASA 5500 series
+7452 2016-09-30 12:28:30,158 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3560-c-series-switches/tsd-products-support-series-home.html
+7520 2016-09-30 12:28:30,158 Starting new HTTP connection (1): www.cisco.com
+4352 2016-09-30 12:28:30,176 Checking ASA 5500 FirePOWER series
+4352 2016-09-30 12:28:32,171 url:http://www.cisco.com/c/en/us/support/security/asa-firepower-services/tsd-products-support-series-home.html
+8156 2016-09-30 12:28:30,209 Found 9 models
+432 2016-09-30 12:28:30,222 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3560-cx-series-switches/tsd-products-support-series-home.html
+8632 2016-09-30 12:28:30,237 Checking FirePOWER 8000 series
+8572 2016-09-30 12:28:30,248 Starting new HTTP connection (1): www.cisco.com
+7528 2016-09-30 12:28:30,248 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3560-e-series-switches/tsd-products-support-series-home.html
+5092 2016-09-30 12:28:30,275 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3560-x-series-switches/tsd-products-support-series-home.html
+8168 2016-09-30 12:28:30,295 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:28:30,312 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3650-series-switches/tsd-products-support-series-home.html
+5140 2016-09-30 12:28:30,322 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3750-series-switches/tsd-products-support-series-home.html
+5948 2016-09-30 12:28:30,351 Parsing 2801 Integrated Services Router
+7776 2016-09-30 12:28:30,384 Parsing 1905 Serial Integrated Services Router
+8396 2016-09-30 12:28:30,384 Starting new HTTP connection (1): www.cisco.com
+6780 2016-09-30 12:28:30,425 Parsing 4321 Integrated Services Router
+7640 2016-09-30 12:28:30,455 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3750-e-series-switches/tsd-products-support-series-home.html
+1328 2016-09-30 12:28:30,515 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3750-x-series-switches/tsd-products-support-series-home.html
+7612 2016-09-30 12:28:30,519 Found 2 models
+8964 2016-09-30 12:28:30,569 Starting new HTTP connection (1): www.cisco.com
+8784 2016-09-30 12:28:30,618 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3750-metro-series-switches/tsd-products-support-series-home.html
+8576 2016-09-30 12:28:30,643 Starting new HTTP connection (1): www.cisco.com
+7568 2016-09-30 12:28:30,658 Starting new HTTP connection (1): www.cisco.com
+8768 2016-09-30 12:28:30,660 Found 1 models
+4076 2016-09-30 12:28:30,660 url:http://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/tsd-products-support-series-home.html
+8276 2016-09-30 12:28:30,683 Parsing 2901 Integrated Services Router
+7456 2016-09-30 12:28:30,694  
+8956 2016-09-30 12:28:30,694 Starting new HTTP connection (1): www.cisco.com
+1436 2016-09-30 12:28:30,710 url:http://www.cisco.com/c/en/us/support/switches/catalyst-4500-series-switches/tsd-products-support-series-home.html
+7060 2016-09-30 12:28:30,732 Starting new HTTP connection (1): www.cisco.com
+9108 2016-09-30 12:28:30,785 url:http://www.cisco.com/c/en/us/support/switches/catalyst-4500-x-series-switches/tsd-products-support-series-home.html
+4480 2016-09-30 12:28:30,795 http://www.cisco.com/c/en/us/support/routers/1801-integrated-services-router-isr/model.html
+4728 2016-09-30 12:28:30,805 url:http://www.cisco.com/c/en/us/support/switches/catalyst-4900-series-switches/tsd-products-support-series-home.html
+7472 2016-09-30 12:28:30,820  
+4868 2016-09-30 12:28:30,820 url:http://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/tsd-products-support-series-home.html
+8256 2016-09-30 12:28:30,841 url:http://www.cisco.com/c/en/us/support/switches/catalyst-6500-virtual-switching-system-1440/tsd-products-support-series-home.html
+3468 2016-09-30 12:28:30,846 url:http://www.cisco.com/c/en/us/support/switches/catalyst-6800-series-switches/tsd-products-support-series-home.html
+7440 2016-09-30 12:28:30,862 url:http://www.cisco.com/c/en/us/support/switches/small-business-90-series-unmanaged-switches/tsd-products-support-series-home.html
+1540 2016-09-30 12:28:30,868 Starting new HTTP connection (1): www.cisco.com
+5536 2016-09-30 12:28:30,878 url:http://www.cisco.com/c/en/us/support/switches/small-business-100-series-unmanaged-switches/tsd-products-support-series-home.html
+7512 2016-09-30 12:28:30,889 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:30,901 url:http://www.cisco.com/c/en/us/support/switches/small-business-200-series-smart-switches/tsd-products-support-series-home.html
+8884 2016-09-30 12:28:30,921 url:http://www.cisco.com/c/en/us/support/switches/small-business-220-series-smart-plus-switches/tsd-products-support-series-home.html
+4028 2016-09-30 12:28:30,933 url:http://www.cisco.com/c/en/us/support/switches/small-business-300-series-managed-switches/tsd-products-support-series-home.html
+3148 2016-09-30 12:28:30,934 Starting new HTTP connection (1): www.cisco.com
+8608 2016-09-30 12:28:30,990 Starting new HTTP connection (1): www.cisco.com
+5888 2016-09-30 12:28:31,011  
+4388 2016-09-30 12:28:31,036 url:http://www.cisco.com/c/en/us/support/switches/small-business-500-series-stackable-managed-switches/tsd-products-support-series-home.html
+4136 2016-09-30 12:28:31,091 url:http://www.cisco.com/c/en/us/support/switches/small-business-smart-switches/tsd-products-support-series-home.html
+8476 2016-09-30 12:28:31,121 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+6196 2016-09-30 12:28:31,150 Found 4 models
+8548 2016-09-30 12:28:31,165 Starting new HTTP connection (1): www.cisco.com
+3480 2016-09-30 12:28:31,165 url:http://www.cisco.com/c/en/us/support/switches/small-business-stackable-managed-switches/tsd-products-support-series-home.html
+5764 2016-09-30 12:28:31,232 Found 2 models
+6048 2016-09-30 12:28:31,285 Found 4 models
+9056 2016-09-30 12:28:31,296 url:http://www.cisco.com/c/en/us/support/switches/small-business-unmanaged-switches/tsd-products-support-series-home.html
+8440 2016-09-30 12:28:31,307 url:http://www.cisco.com/c/en/us/support/switches/nexus-1000v-switch-vmware-vsphere/tsd-products-support-series-home.html
+7384 2016-09-30 12:28:31,329 url:http://www.cisco.com/c/en/us/support/switches/nexus-1100-series-cloud-services-platforms/tsd-products-support-series-home.html 
+8524 2016-09-30 12:28:31,330 Starting new HTTP connection (1): www.cisco.com
+7368 2016-09-30 12:28:31,344 Starting new HTTP connection (1): www.cisco.com
+8624 2016-09-30 12:28:31,344 Parsing 3825 IP RAN Integrated Services Router
+8496 2016-09-30 12:28:31,359 url:http://www.cisco.com/c/en/us/support/switches/nexus-2000-series-fabric-extenders/tsd-products-support-series-home.html
+7944 2016-09-30 12:28:31,390 url:http://www.cisco.com/c/en/us/support/switches/nexus-3000-series-switches/tsd-products-support-series-home.html
+4892 2016-09-30 12:28:31,401 http://www.cisco.com/c/en/us/support/routers/5915-embedded-service-router/model.html
+4676 2016-09-30 12:28:31,402 Starting new HTTP connection (1): www.cisco.com
+8424 2016-09-30 12:28:31,431 url:http://www.cisco.com/c/en/us/support/switches/nexus-4000-series-switches/tsd-products-support-series-home.html
+5876 2016-09-30 12:28:31,503 Starting new HTTP connection (1): www.cisco.com
+1216 2016-09-30 12:28:31,509 Starting new HTTP connection (1): www.cisco.com
+5752 2016-09-30 12:28:31,515 Starting new HTTP connection (1): www.cisco.com
+7696 2016-09-30 12:28:29,655 url:http://www.cisco.com/c/en/us/support/switches/catalyst-2960-series-switches/tsd-products-support-series-home.html
+8220 2016-09-30 12:28:31,578 Found 4 models
+6236 2016-09-30 12:28:31,589 Starting new HTTP connection (1): www.cisco.com
+8936 2016-09-30 12:28:31,609 Parsing 3925 Integrated Services Router
+7488 2016-09-30 12:28:31,629 url:http://www.cisco.com/c/en/us/support/switches/nexus-7000-series-switches/tsd-products-support-series-home.html
+5916 2016-09-30 12:28:31,639 Found 5 models
+7736 2016-09-30 12:28:31,639 url:http://www.cisco.com/c/en/us/support/switches/nexus-9000-series-switches/tsd-products-support-series-home.html
+7768 2016-09-30 12:28:31,650  
+8984 2016-09-30 12:28:31,681 Starting new HTTP connection (1): www.cisco.com
+6256 2016-09-30 12:28:31,687 Parsing 7301 Router
+6596 2016-09-30 12:28:31,717 url:http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-2000-series-switches/tsd-products-support-series-home.html 
+9000 2016-09-30 12:28:31,727 url:http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-3000-series-switches/tsd-products-support-series-home.html 
+8820 2016-09-30 12:28:31,737 url:http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-4000-series-switches/tsd-products-support-series-home.html 
+8196 2016-09-30 12:28:31,785 Starting new HTTP connection (1): www.cisco.com
+9088 2016-09-30 12:28:31,785 url:http://www.cisco.com/c/en/us/support/switches/me-3400-series-ethernet-access-switches/tsd-products-support-series-home.html
+8116 2016-09-30 12:28:31,812 url:http://www.cisco.com/c/en/us/support/switches/me-3600x-series-ethernet-access-switches/tsd-products-support-series-home.html
+3896 2016-09-30 12:28:31,886 Found 12 models
+7676 2016-09-30 12:28:31,971 url:http://www.cisco.com/c/en/us/support/switches/me-3800x-series-carrier-ethernet-switch-routers/tsd-products-support-series-home.html
+6348 2016-09-30 12:28:31,974 Starting new HTTP connection (1): www.cisco.com
+8328 2016-09-30 12:28:32,022 url:http://www.cisco.com/c/en/us/support/switches/mgx-8900-series-switches/tsd-products-support-series-home.html
+8308 2016-09-30 12:28:32,042 url:http://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/tsd-products-support-series-home.html
+5660 2016-09-30 12:28:32,052 url:http://www.cisco.com/c/en/us/support/security/dynamic-multipoint-vpn-dmvpn/tsd-products-support-series-home.html
+8856 2016-09-30 12:28:32,055 Found 7 models
+8472 2016-09-30 12:28:32,120 Starting new HTTP connection (1): www.cisco.com
+7592 2016-09-30 12:28:32,121 Found 7 models
+7672 2016-09-30 12:28:30,036 Checking IOS Easy VPN series
+3888 2016-09-30 12:28:32,145 url:http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/tsd-products-support-series-home.html
+1036 2016-09-30 12:28:32,151 Starting new HTTP connection (1): www.cisco.com
+7460 2016-09-30 12:28:32,151 Starting new HTTP connection (1): www.cisco.com
+7452 2016-09-30 12:28:32,170 Starting new HTTP connection (1): www.cisco.com
+4296 2016-09-30 12:28:30,189 Checking FirePOWER 7000 series
+8156 2016-09-30 12:28:32,242  
+4352 2016-09-30 12:28:32,271 Starting new HTTP connection (1): www.cisco.com
+8632 2016-09-30 12:28:32,337 url:http://www.cisco.com/c/en/us/support/security/firepower-8000-series-appliances/tsd-products-support-series-home.html
+8968 2016-09-30 12:28:32,348 Found 2 models
+432 2016-09-30 12:28:32,358 Starting new HTTP connection (1): www.cisco.com
+7528 2016-09-30 12:28:32,409 Starting new HTTP connection (1): www.cisco.com
+5092 2016-09-30 12:28:32,452 Starting new HTTP connection (1): www.cisco.com
+7520 2016-09-30 12:28:32,477 Found 15 models
+5548 2016-09-30 12:28:32,477 Starting new HTTP connection (1): www.cisco.com
+5948 2016-09-30 12:28:32,491 http://www.cisco.com/c/en/us/support/routers/2801-integrated-services-router-isr/model.html
+7776 2016-09-30 12:28:32,507 http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html
+5140 2016-09-30 12:28:32,550 Starting new HTTP connection (1): www.cisco.com
+6780 2016-09-30 12:28:32,569 http://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html
+7612 2016-09-30 12:28:32,645  
+7640 2016-09-30 12:28:32,679 Starting new HTTP connection (1): www.cisco.com
+8572 2016-09-30 12:28:32,698 Found 2 models
+1328 2016-09-30 12:28:32,729 Starting new HTTP connection (1): www.cisco.com
+8168 2016-09-30 12:28:32,745 Found 2 models
+8784 2016-09-30 12:28:32,790 Starting new HTTP connection (1): www.cisco.com
+8768 2016-09-30 12:28:32,857  
+8276 2016-09-30 12:28:32,963 http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html
+8964 2016-09-30 12:28:32,976 Found 4 models
+7456 2016-09-30 12:28:32,994 Parsing 3220 Rugged Integrated Services Router
+8396 2016-09-30 12:28:33,017 Found 1 models
+4076 2016-09-30 12:28:33,018 Starting new HTTP connection (1): www.cisco.com
+1436 2016-09-30 12:28:33,034 Starting new HTTP connection (1): www.cisco.com
+8576 2016-09-30 12:28:33,048 Found 1 models
+9108 2016-09-30 12:28:33,081 Starting new HTTP connection (1): www.cisco.com
+4480 2016-09-30 12:28:33,133 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:28:33,146 Parsing 12004 Router
+4728 2016-09-30 12:28:33,177 Starting new HTTP connection (1): www.cisco.com
+8256 2016-09-30 12:28:33,333 Starting new HTTP connection (1): www.cisco.com
+4868 2016-09-30 12:28:33,383 Starting new HTTP connection (1): www.cisco.com
+7060 2016-09-30 12:28:33,402 Found 4 models
+7568 2016-09-30 12:28:33,428 Found 96 models
+8956 2016-09-30 12:28:33,447 Found 5 models
+3468 2016-09-30 12:28:33,467 Starting new HTTP connection (1): www.cisco.com
+7440 2016-09-30 12:28:33,478 Starting new HTTP connection (1): www.cisco.com
+5536 2016-09-30 12:28:33,500 Starting new HTTP connection (1): www.cisco.com
+8884 2016-09-30 12:28:33,546 Starting new HTTP connection (1): www.cisco.com
+4028 2016-09-30 12:28:33,555 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:33,556 Starting new HTTP connection (1): www.cisco.com
+5888 2016-09-30 12:28:33,664 Parsing 7201 Router
+4388 2016-09-30 12:28:33,778 Starting new HTTP connection (1): www.cisco.com
+7512 2016-09-30 12:28:33,822 Found 2 models
+1540 2016-09-30 12:28:33,835 Found 31 models
+4136 2016-09-30 12:28:33,842 Starting new HTTP connection (1): www.cisco.com
+6196 2016-09-30 12:28:33,888  
+8476 2016-09-30 12:28:33,920 Starting new HTTP connection (1): www.cisco.com
+5764 2016-09-30 12:28:33,970  
+6048 2016-09-30 12:28:33,981  
+8608 2016-09-30 12:28:33,991 Found 4 models
+3480 2016-09-30 12:28:33,992 Starting new HTTP connection (1): www.cisco.com
+3148 2016-09-30 12:28:34,032 Found 3 models
+9056 2016-09-30 12:28:34,039 Starting new HTTP connection (1): www.cisco.com
+7384 2016-09-30 12:28:34,085 Starting new HTTP connection (1): www.cisco.com
+8440 2016-09-30 12:28:34,102 Starting new HTTP connection (1): www.cisco.com
+8624 2016-09-30 12:28:34,102 http://www.cisco.com/c/en/us/support/routers/3825-ip-ran-integrated-services-router-isr/model.html
+7944 2016-09-30 12:28:34,207 Starting new HTTP connection (1): www.cisco.com
+8496 2016-09-30 12:28:34,256 Starting new HTTP connection (1): www.cisco.com
+8524 2016-09-30 12:28:34,282 Found 1 models
+4892 2016-09-30 12:28:34,315 Starting new HTTP connection (1): www.cisco.com
+8548 2016-09-30 12:28:34,343 Found 17 models
+8424 2016-09-30 12:28:34,360 Starting new HTTP connection (1): www.cisco.com
+7368 2016-09-30 12:28:34,405 Found 1 models
+8220 2016-09-30 12:28:34,422  
+8936 2016-09-30 12:28:34,424 http://www.cisco.com/c/en/us/support/routers/3925-integrated-services-router-isr/model.html
+7696 2016-09-30 12:28:34,440 Starting new HTTP connection (1): www.cisco.com
+5916 2016-09-30 12:28:34,509  
+7488 2016-09-30 12:28:34,516 Starting new HTTP connection (1): www.cisco.com
+7768 2016-09-30 12:28:34,613 Parsing 7505 Router
+7736 2016-09-30 12:28:34,613 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:28:34,837 Found 3 models
+6256 2016-09-30 12:28:34,883 http://www.cisco.com/c/en/us/support/routers/7301-router/model.html
+5752 2016-09-30 12:28:34,935 Found 3 models
+5876 2016-09-30 12:28:34,959 Found 10 models
+1216 2016-09-30 12:28:34,997 Found 12 models
+6596 2016-09-30 12:28:35,029 Starting new HTTP connection (1): www.cisco.com
+9000 2016-09-30 12:28:35,039 Starting new HTTP connection (1): www.cisco.com
+6236 2016-09-30 12:28:35,053 Found 2 models
+8820 2016-09-30 12:28:35,098 Starting new HTTP connection (1): www.cisco.com
+8984 2016-09-30 12:28:35,164 Found 2 models
+9088 2016-09-30 12:28:35,166 Starting new HTTP connection (1): www.cisco.com
+3896 2016-09-30 12:28:35,167  
+8116 2016-09-30 12:28:35,179 Starting new HTTP connection (1): www.cisco.com
+7676 2016-09-30 12:28:35,209 Starting new HTTP connection (1): www.cisco.com
+8328 2016-09-30 12:28:35,211 Starting new HTTP connection (1): www.cisco.com
+8308 2016-09-30 12:28:35,225 Starting new HTTP connection (1): www.cisco.com
+8856 2016-09-30 12:28:35,286  
+8196 2016-09-30 12:28:35,314 Found 12 models
+7592 2016-09-30 12:28:35,320  
+5660 2016-09-30 12:28:35,320 Starting new HTTP connection (1): www.cisco.com
+7672 2016-09-30 12:28:35,350 url:http://www.cisco.com/c/en/us/support/security/ios-easy-vpn/tsd-products-support-series-home.html
+3888 2016-09-30 12:28:35,441 Starting new HTTP connection (1): www.cisco.com
+4296 2016-09-30 12:28:35,530 url:http://www.cisco.com/c/en/us/support/security/firepower-7000-series-appliances/tsd-products-support-series-home.html
+8156 2016-09-30 12:28:35,580 Parsing 7603 Router
+6348 2016-09-30 12:28:35,600 Found 13 models
+8968 2016-09-30 12:28:35,652  
+8632 2016-09-30 12:28:35,694 Starting new HTTP connection (1): www.cisco.com
+1036 2016-09-30 12:28:35,737 Found 1 models
+7520 2016-09-30 12:28:35,753  
+8472 2016-09-30 12:28:35,816 Found 20 models
+7460 2016-09-30 12:28:35,876 Cant find devices for this serices
+5948 2016-09-30 12:28:36,117 Starting new HTTP connection (1): www.cisco.com
+7452 2016-09-30 12:28:36,171 Found 5 models
+7776 2016-09-30 12:28:36,232 Starting new HTTP connection (1): www.cisco.com
+5092 2016-09-30 12:28:36,310 Found 21 models
+432 2016-09-30 12:28:36,262 Found 7 models
+7612 2016-09-30 12:28:36,319 Parsing 10005 Router
+6780 2016-09-30 12:28:36,329 Starting new HTTP connection (1): www.cisco.com
+7528 2016-09-30 12:28:36,362 Found 14 models
+8572 2016-09-30 12:28:36,377  
+4352 2016-09-30 12:28:36,383 Found 14 models
+4352 2016-09-30 12:28:40,422  
+8768 2016-09-30 12:28:36,506 Parsing 10720 Router
+5548 2016-09-30 12:28:36,535 Found 63 models
+8276 2016-09-30 12:28:36,601 Starting new HTTP connection (1): www.cisco.com
+8964 2016-09-30 12:28:36,626  
+7456 2016-09-30 12:28:36,656 http://www.cisco.com/c/en/us/support/routers/3220-rugged-integrated-services-router-isr/model.html
+8396 2016-09-30 12:28:36,686  
+7640 2016-09-30 12:28:36,835 Found 10 models
+1328 2016-09-30 12:28:36,922 Found 26 models
+5140 2016-09-30 12:28:36,937 Found 20 models
+8784 2016-09-30 12:28:36,955 Found 2 models
+8576 2016-09-30 12:28:36,955  
+7472 2016-09-30 12:28:37,013 http://www.cisco.com/c/en/us/support/routers/12004-router/model.html
+7060 2016-09-30 12:28:37,079  
+4076 2016-09-30 12:28:37,089 Found 45 models
+7568 2016-09-30 12:28:37,090  
+8956 2016-09-30 12:28:37,105  
+8956 2016-09-30 12:28:40,675 Parsing 1905 Serial Integrated Services Router
+8256 2016-09-30 12:28:37,451 Cant find devices for this serices
+8256 2016-09-30 12:28:40,691 ('6500 Virtual Switching System 1440', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-virtual-switching-system-1440/tsd-products-support-series-home.html')
+1436 2016-09-30 12:28:37,517 Found 10 models
+4480 2016-09-30 12:28:37,593 Gathering PN assosiated with this device and some eos info
+3468 2016-09-30 12:28:37,773 Found 4 models
+4868 2016-09-30 12:28:37,804 Found 13 models
+7512 2016-09-30 12:28:37,813  
+1540 2016-09-30 12:28:37,843  
+8884 2016-09-30 12:28:37,853 Found 11 models
+6196 2016-09-30 12:28:37,988 Parsing XR 12404 Router
+4728 2016-09-30 12:28:37,989 Found 6 models
+5536 2016-09-30 12:28:38,004 Found 14 models
+9096 2016-09-30 12:28:38,032 Found 19 models
+7440 2016-09-30 12:28:38,055 Found 10 models
+5764 2016-09-30 12:28:38,060 Parsing ASR 903 Router
+6048 2016-09-30 12:28:38,075 Parsing ASR 901-4C-F-D Router
+8608 2016-09-30 12:28:38,195  
+3148 2016-09-30 12:28:38,253  
+4028 2016-09-30 12:28:38,383 Found 29 models
+4388 2016-09-30 12:28:38,414 Found 21 models
+8476 2016-09-30 12:28:38,419 Gathering PN assosiated with this device and some eos info
+8624 2016-09-30 12:28:38,441 Starting new HTTP connection (1): www.cisco.com
+4136 2016-09-30 12:28:38,443 Found 12 models
+8524 2016-09-30 12:28:38,451  
+8548 2016-09-30 12:28:38,466  
+7368 2016-09-30 12:28:38,477  
+8220 2016-09-30 12:28:38,498 Parsing ASR 901-6CZ-F-A Router
+5916 2016-09-30 12:28:38,516 Parsing ASR 901S-2SG-F-AH Router
+8936 2016-09-30 12:28:38,566 Starting new HTTP connection (1): www.cisco.com
+7768 2016-09-30 12:28:38,596 http://www.cisco.com/c/en/us/support/routers/7505-router/model.html
+4676 2016-09-30 12:28:38,758  
+4892 2016-09-30 12:28:38,834 Gathering PN assosiated with this device and some eos info
+5752 2016-09-30 12:28:38,834  
+8496 2016-09-30 12:28:38,849 Found 13 models
+7384 2016-09-30 12:28:38,849 Error code :404 url http://www.cisco.com/c/en/us/support/switches/nexus-1100-series-cloud-services-platforms/tsd-products-support-series-home.html 
+5876 2016-09-30 12:28:38,874  
+7944 2016-09-30 12:28:38,878 Found 22 models
+6256 2016-09-30 12:28:38,894 Starting new HTTP connection (1): www.cisco.com
+1216 2016-09-30 12:28:38,944  
+6236 2016-09-30 12:28:39,079  
+8424 2016-09-30 12:28:39,103 Found 1 models
+8984 2016-09-30 12:28:39,149  
+3480 2016-09-30 12:28:39,239 Found 31 models
+7696 2016-09-30 12:28:39,242 Found 20 models
+7488 2016-09-30 12:28:39,371 Found 8 models
+7736 2016-09-30 12:28:39,403 Found 17 models
+3896 2016-09-30 12:28:39,427 Parsing ASR 1001 Router
+9056 2016-09-30 12:28:39,497 Found 14 models
+8440 2016-09-30 12:28:39,512 Found 1 models
+8856 2016-09-30 12:28:39,522 Parsing Catalyst 2960C-8PC-L Switch
+8196 2016-09-30 12:28:39,538  
+7592 2016-09-30 12:28:39,553 Parsing ASR 9001 Router
+7672 2016-09-30 12:28:39,622 Starting new HTTP connection (1): www.cisco.com
+8116 2016-09-30 12:28:39,773 Found 3 models
+6596 2016-09-30 12:28:39,815 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-2000-series-switches/tsd-products-support-series-home.html 
+8820 2016-09-30 12:28:39,815 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-4000-series-switches/tsd-products-support-series-home.html 
+9000 2016-09-30 12:28:39,820 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-3000-series-switches/tsd-products-support-series-home.html 
+4296 2016-09-30 12:28:39,825 Starting new HTTP connection (1): www.cisco.com
+8156 2016-09-30 12:28:39,835 http://www.cisco.com/c/en/us/support/routers/7603-router/model.html
+6348 2016-09-30 12:28:39,846  
+8968 2016-09-30 12:28:39,887 Parsing 1120 Connected Grid Router
+1036 2016-09-30 12:28:39,971  
+8308 2016-09-30 12:28:40,010 Found 3 models
+7520 2016-09-30 12:28:40,031 Parsing Catalyst 3560-8PC Compact Switch
+8472 2016-09-30 12:28:40,061  
+5660 2016-09-30 12:28:40,088 Cant find devices for this serices
+7460 2016-09-30 12:28:40,113 ('Flex VPN', 'http://www.cisco.com/c/en/us/support/security/flexvpn/tsd-products-support-series-home.html')
+7676 2016-09-30 12:28:40,143 Found 1 models
+7452 2016-09-30 12:28:40,225  
+5092 2016-09-30 12:28:40,280  
+9088 2016-09-30 12:28:40,307 Found 6 models
+432 2016-09-30 12:28:40,313  
+7612 2016-09-30 12:28:40,358 http://www.cisco.com/c/en/us/support/routers/10005-router/model.html
+8328 2016-09-30 12:28:40,377 Found 1 models
+7528 2016-09-30 12:28:40,387  
+8572 2016-09-30 12:28:40,412 Parsing 509 WPAN Industrial Router
+8168 2016-09-30 12:28:36,436  
+4352 2016-09-30 12:28:40,438 Parsing ASA 5506-X with FirePOWER Services
+3888 2016-09-30 12:28:40,441 Found 19 models
+8768 2016-09-30 12:28:40,501 http://www.cisco.com/c/en/us/support/routers/10720-router/model.html
+5948 2016-09-30 12:28:40,507 Gathering PN assosiated with this device and some eos info
+8632 2016-09-30 12:28:40,509 Found 11 models
+5548 2016-09-30 12:28:40,509  
+7776 2016-09-30 12:28:40,517 Gathering PN assosiated with this device and some eos info
+8964 2016-09-30 12:28:40,517 Parsing 1900 Mobile Wireless Edge Router
+8396 2016-09-30 12:28:40,539 Parsing 910 Industrial Router
+7456 2016-09-30 12:28:40,549 Starting new HTTP connection (1): www.cisco.com
+7640 2016-09-30 12:28:40,558  
+1328 2016-09-30 12:28:40,568  
+5140 2016-09-30 12:28:40,583  
+6780 2016-09-30 12:28:40,593 Gathering PN assosiated with this device and some eos info
+8784 2016-09-30 12:28:40,593  
+8576 2016-09-30 12:28:40,609 Parsing MWR 2941-DC Mobile Wireless Router
+7472 2016-09-30 12:28:40,635 Starting new HTTP connection (1): www.cisco.com
+7060 2016-09-30 12:28:40,635 Parsing 2901 Integrated Services Router
+4076 2016-09-30 12:28:40,660  
+7568 2016-09-30 12:28:40,670 Parsing 800M Integrated Services Router
+8276 2016-09-30 12:28:40,675 Gathering PN assosiated with this device and some eos info
+9108 2016-09-30 12:28:37,364 Found 6 models
+8956 2016-09-30 12:28:40,686 http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html
+5888 2016-09-30 12:28:37,513 http://www.cisco.com/c/en/us/support/routers/7201-router/model.html
+8256 2016-09-30 12:28:40,701 Wokrer-66 processing ('Adaptive Security Device Manager', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-device-manager/tsd-products-support-series-home.html')
+1436 2016-09-30 12:28:40,706  
+3468 2016-09-30 12:28:40,757  
+4868 2016-09-30 12:28:40,782  
+7512 2016-09-30 12:28:40,807 Parsing SR 520 Secure Router
+1540 2016-09-30 12:28:40,843 Parsing CVR100W Wireless-N VPN Router
+8884 2016-09-30 12:28:40,868  
+6196 2016-09-30 12:28:40,903 http://www.cisco.com/c/en/us/support/routers/xr-12404-router/model.html
+4728 2016-09-30 12:28:40,933  
+5536 2016-09-30 12:28:40,963  
+9096 2016-09-30 12:28:41,013  
+7440 2016-09-30 12:28:41,038  
+5764 2016-09-30 12:28:41,103 http://www.cisco.com/c/en/us/support/routers/asr-903-router/model.html
+6048 2016-09-30 12:28:41,113 http://www.cisco.com/c/en/us/support/routers/asr-901-4c-f-d-router/model.html
+8608 2016-09-30 12:28:41,123 Parsing Application Extension Platform Version 1.1
+3148 2016-09-30 12:28:41,138 Parsing Small Business SRP520 Models
+4028 2016-09-30 12:28:41,178  
+4480 2016-09-30 12:28:41,185 Adding pid into db_q
+4388 2016-09-30 12:28:41,198  
+4136 2016-09-30 12:28:41,238  
+8524 2016-09-30 12:28:41,248 Parsing Cloud Services Router 1000V
+8548 2016-09-30 12:28:41,263 Parsing CRS Line Card Chassis Enhanced
+7368 2016-09-30 12:28:41,298 Parsing NCS 6008 - 8-Slot Chassis
+8220 2016-09-30 12:28:41,328 http://www.cisco.com/c/en/us/support/routers/asr-901-6cz-f-a-router/model.html
+5916 2016-09-30 12:28:41,349 http://www.cisco.com/c/en/us/support/routers/asr-901s-2sg-f-ah-router/model.html
+4676 2016-09-30 12:28:41,369 Parsing WAE Applications
+7768 2016-09-30 12:28:41,372 Starting new HTTP connection (1): www.cisco.com
+5752 2016-09-30 12:28:41,409 Parsing Catalyst 2955C 12 Switch
+8496 2016-09-30 12:28:41,419  
+5876 2016-09-30 12:28:41,449 Parsing ASR 920 Router
+7384 2016-09-30 12:28:41,464 Wokrer-78 processing ('Adaptive Security Appliance (ASA) Software', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html')
+7944 2016-09-30 12:28:41,464  
+8624 2016-09-30 12:28:41,515 Gathering PN assosiated with this device and some eos info
+1216 2016-09-30 12:28:41,520 Parsing Nexus 5010 Switch
+6236 2016-09-30 12:28:41,535 Parsing Nexus 6001 Switch
+8424 2016-09-30 12:28:41,545  
+8984 2016-09-30 12:28:41,550 Parsing Catalyst 2960CX-8PC-L Switch
+4892 2016-09-30 12:28:41,556 Adding pid into db_q
+8936 2016-09-30 12:28:41,585 Gathering PN assosiated with this device and some eos info
+3480 2016-09-30 12:28:41,585  
+7696 2016-09-30 12:28:41,600  
+7488 2016-09-30 12:28:41,620  
+7736 2016-09-30 12:28:41,645  
+3896 2016-09-30 12:28:41,670 http://www.cisco.com/c/en/us/support/routers/asr-1001-router/model.html
+9056 2016-09-30 12:28:41,675  
+8440 2016-09-30 12:28:41,695  
+8856 2016-09-30 12:28:41,720 http://www.cisco.com/c/en/us/support/switches/catalyst-2960c-8pc-l-switch/model.html
+8196 2016-09-30 12:28:41,760 Parsing Catalyst 2960S-24PD-L Switch
+7592 2016-09-30 12:28:41,775 http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html
+8820 2016-09-30 12:28:41,845 Wokrer-87 processing ('ASA 1000V Cloud Firewall', 'http://www.cisco.com/c/en/us/support/security/asa-1000v-cloud-firewall/tsd-products-support-series-home.html')
+6256 2016-09-30 12:28:41,775 Gathering PN assosiated with this device and some eos info
+8116 2016-09-30 12:28:41,825  
+6596 2016-09-30 12:28:41,835 Wokrer-46 processing ('Adaptive Security Virtual Appliance (ASAv)', 'http://www.cisco.com/c/en/us/support/security/virtual-adaptive-security-appliance-firewall/tsd-products-support-series-home.html')
+8476 2016-09-30 12:28:41,813 Adding pid into db_q
+9000 2016-09-30 12:28:41,852 Wokrer-86 processing ('ASA Next-Generation Firewall Services', 'http://www.cisco.com/c/en/us/support/security/asa-next-generation-firewall-services/tsd-products-support-series-home.html')
+6348 2016-09-30 12:28:41,852 Parsing Catalyst 2960X-24PD-L Switch
+8156 2016-09-30 12:28:41,862 Starting new HTTP connection (1): www.cisco.com
+8968 2016-09-30 12:28:41,867 http://www.cisco.com/c/en/us/support/routers/1120-connected-grid-router/model.html
+1036 2016-09-30 12:28:41,886 Parsing 2010 Connected Grid Router
+8308 2016-09-30 12:28:41,896  
+7520 2016-09-30 12:28:41,917 http://www.cisco.com/c/en/us/support/switches/catalyst-3560-8pc-compact-switch/model.html
+8472 2016-09-30 12:28:41,922 Parsing Catalyst 2960XR-24PD-I Switch
+5660 2016-09-30 12:28:41,948 ('Dynamic Multipoint (DMVPN)', 'http://www.cisco.com/c/en/us/support/security/dynamic-multipoint-vpn-dmvpn/tsd-products-support-series-home.html')
+7460 2016-09-30 12:28:41,978 Wokrer-94 processing ('FireSIGHT Management Center', 'http://www.cisco.com/c/en/us/support/security/defense-center/tsd-products-support-series-home.html')
+7676 2016-09-30 12:28:41,983  
+7452 2016-09-30 12:28:41,998 Parsing Catalyst 3560C-8PC-S Switch
+5092 2016-09-30 12:28:42,018 Parsing Catalyst 3560X-24P-E Switch
+9088 2016-09-30 12:28:42,018  
+432 2016-09-30 12:28:42,039 Parsing Catalyst 3560CX-8PC-S Switch
+7672 2016-09-30 12:28:42,064 Cant find devices for this serices
+8328 2016-09-30 12:28:42,094  
+7528 2016-09-30 12:28:42,109 Parsing Catalyst 3560E-12D-E Switch
+7612 2016-09-30 12:28:42,124 Starting new HTTP connection (1): www.cisco.com
+8572 2016-09-30 12:28:42,125 http://www.cisco.com/c/en/us/support/routers/ir509-wpan-industrial-router/model.html
+4296 2016-09-30 12:28:42,138 Found 8 models
+8168 2016-09-30 12:28:42,143 Parsing 809 Industrial Integrated Services Routers
+4352 2016-09-30 12:28:42,148 http://www.cisco.com/c/en/us/support/security/asa-5506-x-firepower-services/model.html
+3888 2016-09-30 12:28:42,158  
+8632 2016-09-30 12:28:42,195  
+8768 2016-09-30 12:28:42,195 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:28:42,220 Parsing Catalyst 3650-8X24PD-E Switch
+8964 2016-09-30 12:28:42,240 http://www.cisco.com/c/en/us/support/routers/1900-mobile-wireless-edge-router/model.html
+8396 2016-09-30 12:28:42,300 http://www.cisco.com/c/en/us/support/routers/910-industrial-router/model.html
+7640 2016-09-30 12:28:42,335 Parsing Catalyst 3750E-24PD-E Switch
+1328 2016-09-30 12:28:42,365 Parsing Catalyst 3K-X Fan Module
+5140 2016-09-30 12:28:42,395 Parsing Catalyst 3750-24FS Switch
+8784 2016-09-30 12:28:42,450 Parsing Catalyst 3750 Metro 24-AC Switch
+8576 2016-09-30 12:28:42,495 http://www.cisco.com/c/en/us/support/routers/mwr-2941-dc-mobile-wireless-router/model.html
+7060 2016-09-30 12:28:42,545 http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html
+7776 2016-09-30 12:28:42,630 Adding pid into db_q
+4076 2016-09-30 12:28:42,630 Parsing Catalyst 3850-12S-E Switch
+7456 2016-09-30 12:28:42,640 Gathering PN assosiated with this device and some eos info
+7568 2016-09-30 12:28:42,681 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+9108 2016-09-30 12:28:42,766  
+7472 2016-09-30 12:28:42,801 Gathering PN assosiated with this device and some eos info
+8956 2016-09-30 12:28:42,877 Starting new HTTP connection (1): www.cisco.com
+6780 2016-09-30 12:28:42,996 Adding pid into db_q
+8256 2016-09-30 12:28:43,052 Checking Adaptive Security Device Manager series
+5888 2016-09-30 12:28:43,067 Starting new HTTP connection (1): www.cisco.com
+1436 2016-09-30 12:28:43,092 Parsing Catalyst 4503 Switch
+3468 2016-09-30 12:28:43,107 Parsing Catalyst 6800ia Switch
+4868 2016-09-30 12:28:43,147 Parsing Catalyst 6500 Borderless Services Node
+7512 2016-09-30 12:28:43,162 http://www.cisco.com/c/en/us/support/routers/sr-520-secure-router/model.html
+5948 2016-09-30 12:28:43,211 Adding pid into db_q
+1540 2016-09-30 12:28:43,222 http://www.cisco.com/c/en/us/support/routers/cvr100w-wireless-n-vpn-router/model.html
+8276 2016-09-30 12:28:43,236 Adding pid into db_q
+8884 2016-09-30 12:28:43,241 Parsing SF220-24 24-Port 10/100 Smart Plus Switch
+4728 2016-09-30 12:28:43,271 Parsing Catalyst 4900M Switch
+5536 2016-09-30 12:28:43,282 Parsing SF100-16 16-Port 10/100 Switch
+6196 2016-09-30 12:28:43,282 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:43,302 Parsing SF200-24 24-Port 10/100 Smart Switch
+7440 2016-09-30 12:28:43,317 Parsing SF90-24 24-Port 10/100 Switch
+5764 2016-09-30 12:28:43,363 Starting new HTTP connection (1): www.cisco.com
+8608 2016-09-30 12:28:43,373 http://www.cisco.com/c/en/us/support/routers/application-extension-platform-version-1-1/model.html
+3148 2016-09-30 12:28:43,383 http://www.cisco.com/c/en/us/support/routers/small-business-srp520-models/model.html
+6048 2016-09-30 12:28:43,388 Starting new HTTP connection (1): www.cisco.com
+4028 2016-09-30 12:28:43,398 Parsing SF300-08 8-Port 10/100 Managed Switch
+4480 2016-09-30 12:28:43,428 {'endOfSaleDate': 'None Announced', 'pn': 'ACS-1800-RM-19=', 'status': 'Orderable How to Buy', 'sourceTitle': '1801 Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1801-integrated-services-router-isr/model.html', 'series': 'Cisco 1800 Series Integrated Services Routers'}
+4388 2016-09-30 12:28:43,448 Parsing SF500-24 24-Port 10/100 Stackable Managed Switch
+4136 2016-09-30 12:28:43,458 Parsing SLM224G2 24-port 10/100 Smart Switch + 2 Combo Gigabit SFP ports
+8524 2016-09-30 12:28:43,478 http://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v/model.html
+8548 2016-09-30 12:28:43,488 http://www.cisco.com/c/en/us/support/routers/crs-line-card-chassis-enhanced/model.html
+7368 2016-09-30 12:28:43,503 http://www.cisco.com/c/en/us/support/routers/ncs-6008-8-slot-chassis/model.html
+8220 2016-09-30 12:28:43,540 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:28:43,555 http://www.cisco.com/c/en/us/support/routers/wae-applications/model.html
+5916 2016-09-30 12:28:43,570 Starting new HTTP connection (1): www.cisco.com
+5752 2016-09-30 12:28:43,585 http://www.cisco.com/c/en/us/support/switches/catalyst-2955c-12-switch/model.html
+8496 2016-09-30 12:28:43,590 Parsing Nexus 2148T Fabric Extender
+5876 2016-09-30 12:28:43,605 http://www.cisco.com/c/en/us/support/routers/asr-920-router/model.html
+7384 2016-09-30 12:28:43,620 Checking Adaptive Security Appliance (ASA) Software series
+7944 2016-09-30 12:28:43,625 Parsing Nexus 3016 Switch
+1216 2016-09-30 12:28:43,685 http://www.cisco.com/c/en/us/support/switches/nexus-5010-switch/model.html
+6236 2016-09-30 12:28:43,706 http://www.cisco.com/c/en/us/support/switches/nexus-6001-switch/model.html
+8424 2016-09-30 12:28:43,731 Parsing Nexus 4001I Switch Module for IBM BladeCenter
+7768 2016-09-30 12:28:43,736 Gathering PN assosiated with this device and some eos info
+8984 2016-09-30 12:28:43,746 http://www.cisco.com/c/en/us/support/switches/catalyst-2960cx-8pc-l-switch/model.html
+4892 2016-09-30 12:28:43,826 {'endOfSaleDate': 'None Announced', 'pn': 'C5901MRPC-TP=', 'status': 'Orderable How to Buy', 'sourceTitle': '5915 Embedded Service Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/5915-embedded-service-router/model.html', 'series': 'Cisco 5900 Series Embedded Services Routers'}
+3480 2016-09-30 12:28:43,978 Parsing SFE1000P 8-port 10/100 Ethernet Switch - PoE/fanless
+7696 2016-09-30 12:28:44,033 Parsing Catalyst 2960-8TC-L Compact Switch
+7488 2016-09-30 12:28:44,053 Parsing Nexus 7000 4-Slot Switch
+7736 2016-09-30 12:28:44,068 Parsing Cisco Nexus 92160YC Switch
+9056 2016-09-30 12:28:44,089 Parsing SD205 5-port 10/100 Switch
+8440 2016-09-30 12:28:44,089 Parsing Nexus 1000V Switch
+3896 2016-09-30 12:28:44,099 Starting new HTTP connection (1): www.cisco.com
+8196 2016-09-30 12:28:44,108 http://www.cisco.com/c/en/us/support/switches/catalyst-2960s-24pd-l-switch/model.html
+8856 2016-09-30 12:28:44,109 Starting new HTTP connection (1): www.cisco.com
+7592 2016-09-30 12:28:44,126 Starting new HTTP connection (1): www.cisco.com
+8820 2016-09-30 12:28:44,126 Checking ASA 1000V Cloud Firewall series
+8116 2016-09-30 12:28:44,288 Parsing ME 3600X-24CX-M Switch
+6596 2016-09-30 12:28:44,318 Checking Adaptive Security Virtual Appliance (ASAv) series
+8476 2016-09-30 12:28:44,328 {'endOfSaleDate': 'None Announced', 'pn': '4G-CAB-LMR400-5=', 'status': 'Orderable How to Buy', 'sourceTitle': '800M Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'series': 'Cisco 800 Series Routers'}
+9000 2016-09-30 12:28:44,358 Checking ASA Next-Generation Firewall Services series
+6348 2016-09-30 12:28:44,403 http://www.cisco.com/c/en/us/support/switches/catalyst-2960x-24pd-l-switch/model.html
+1036 2016-09-30 12:28:44,498 http://www.cisco.com/c/en/us/support/routers/2010-connected-grid-router/model.html
+8308 2016-09-30 12:28:44,509 Parsing AnyConnect Secure Mobility Client v2.x
+8968 2016-09-30 12:28:44,530 Starting new HTTP connection (1): www.cisco.com
+8472 2016-09-30 12:28:44,565 http://www.cisco.com/c/en/us/support/switches/catalyst-2960xr-24pd-i-switch/model.html
+7520 2016-09-30 12:28:44,571 Starting new HTTP connection (1): www.cisco.com
+8624 2016-09-30 12:28:44,580 Adding pid into db_q
+7460 2016-09-30 12:28:44,612 Checking FireSIGHT Management Center series
+7676 2016-09-30 12:28:44,632 Parsing ME 3800X-24FS-M Switch Router
+5660 2016-09-30 12:28:44,632 Wokrer-93 processing ('FireSIGHT Management Center Virtual Appliance', 'http://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/tsd-products-support-series-home.html')
+7452 2016-09-30 12:28:44,647 http://www.cisco.com/c/en/us/support/switches/catalyst-3560c-8pc-s-switch/model.html
+6256 2016-09-30 12:28:44,692 Adding pid into db_q
+5092 2016-09-30 12:28:44,698 http://www.cisco.com/c/en/us/support/switches/catalyst-3560x-24p-e-switch/model.html
+8936 2016-09-30 12:28:44,698 Adding pid into db_q
+9088 2016-09-30 12:28:44,713 Parsing ME 3400-24FS-A Switch
+432 2016-09-30 12:28:44,718 http://www.cisco.com/c/en/us/support/switches/catalyst-3560cx-8pc-s-switch/model.html
+7672 2016-09-30 12:28:44,728 ('IOS Easy VPN', 'http://www.cisco.com/c/en/us/support/security/ios-easy-vpn/tsd-products-support-series-home.html')
+8156 2016-09-30 12:28:44,753 Gathering PN assosiated with this device and some eos info
+8328 2016-09-30 12:28:44,753 Parsing MGX 8950 Multiservice Switch
+7528 2016-09-30 12:28:44,768 http://www.cisco.com/c/en/us/support/switches/catalyst-3560e-12d-e-switch/model.html
+4296 2016-09-30 12:28:44,808  
+8168 2016-09-30 12:28:44,819 http://www.cisco.com/c/en/us/support/routers/809-industrial-router/model.html
+8572 2016-09-30 12:28:44,824 Starting new HTTP connection (1): www.cisco.com
+3888 2016-09-30 12:28:44,836 Parsing ASA 5505 Adaptive Security Appliance
+8632 2016-09-30 12:28:44,837 Parsing FirePOWER Appliance 8120
+4352 2016-09-30 12:28:44,839 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:28:44,865 http://www.cisco.com/c/en/us/support/switches/catalyst-3650-8x24pd-e-switch/model.html
+7640 2016-09-30 12:28:44,896 http://www.cisco.com/c/en/us/support/switches/catalyst-3750e-24pd-e-switch/model.html
+8396 2016-09-30 12:28:44,902 Starting new HTTP connection (1): www.cisco.com
+1328 2016-09-30 12:28:44,908 http://www.cisco.com/c/en/us/support/switches/catalyst-3k-x-fan-module/model.html
+8964 2016-09-30 12:28:44,908 Starting new HTTP connection (1): www.cisco.com
+5140 2016-09-30 12:28:44,914 http://www.cisco.com/c/en/us/support/switches/catalyst-3750-24fs-switch/model.html
+8784 2016-09-30 12:28:44,919 http://www.cisco.com/c/en/us/support/switches/catalyst-3750-metro-24-ac-switch/model.html
+7612 2016-09-30 12:28:44,929 Gathering PN assosiated with this device and some eos info
+8576 2016-09-30 12:28:44,945 Starting new HTTP connection (1): www.cisco.com
+7776 2016-09-30 12:28:44,951 {'endOfSaleDate': 'None Announced', 'pn': '4G-CAB-LMR400-10=', 'status': 'Orderable How to Buy', 'sourceTitle': '1905 Serial Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html', 'series': 'Cisco 1900 Series Integrated Services Routers'}
+7060 2016-09-30 12:28:44,957 Starting new HTTP connection (1): www.cisco.com
+4076 2016-09-30 12:28:44,958 http://www.cisco.com/c/en/us/support/switches/catalyst-3850-12s-e-switch/model.html
+7568 2016-09-30 12:28:45,020 Starting new HTTP connection (1): www.cisco.com
+8768 2016-09-30 12:28:45,041 Gathering PN assosiated with this device and some eos info
+9108 2016-09-30 12:28:45,071 Parsing Catalyst 4500X-16 SFP+ Switch
+9108 2016-09-30 12:28:46,871 http://www.cisco.com/c/en/us/support/switches/catalyst-4500x-16-sfp-switch/model.html
+8256 2016-09-30 12:28:45,231 url:http://www.cisco.com/c/en/us/support/security/adaptive-security-device-manager/tsd-products-support-series-home.html
+1436 2016-09-30 12:28:45,306 http://www.cisco.com/c/en/us/support/switches/catalyst-4503-switch/model.html
+8956 2016-09-30 12:28:45,311 Gathering PN assosiated with this device and some eos info
+3468 2016-09-30 12:28:45,331 http://www.cisco.com/c/en/us/support/switches/catalyst-6800ia-switch/model.html
+4868 2016-09-30 12:28:45,341 http://www.cisco.com/c/en/us/support/switches/catalyst-6500-borderless-services-node/model.html
+7456 2016-09-30 12:28:45,363 Adding pid into db_q
+5948 2016-09-30 12:28:45,381 {'endOfSaleDate': '30-JAN-2013', 'pn': '1000684', 'status': 'End of Sale EOL', 'sourceTitle': '2801 Integrated Services Router', 'endOfSupportDate': '31-JAN-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2801-integrated-services-router-isr/model.html', 'series': 'Cisco 2800 Series Integrated Services Routers'}
+7512 2016-09-30 12:28:45,423 Starting new HTTP connection (1): www.cisco.com
+8276 2016-09-30 12:28:45,453 {'endOfSaleDate': 'None Announced', 'pn': '1941-2901-FANBLWR=', 'status': 'Orderable How to Buy', 'sourceTitle': '2901 Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html', 'series': 'Cisco 2900 Series Integrated Services Routers'}
+8884 2016-09-30 12:28:45,458 http://www.cisco.com/c/en/us/support/switches/sf220-24-24-port-10-100-smart-plus-switch/model.html
+4728 2016-09-30 12:28:45,514 http://www.cisco.com/c/en/us/support/switches/catalyst-4900m-switch/model.html
+5536 2016-09-30 12:28:45,529 http://www.cisco.com/c/en/us/support/switches/sf100-16-16-port-10-100-switch/model.html
+5888 2016-09-30 12:28:45,539 Gathering PN assosiated with this device and some eos info
+1540 2016-09-30 12:28:45,554 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:45,604 http://www.cisco.com/c/en/us/support/switches/sf200-24-24-port-10-100-smart-switch/model.html
+7440 2016-09-30 12:28:45,619 http://www.cisco.com/c/en/us/support/switches/sf90-24-24-port-10-100-switch/model.html
+7472 2016-09-30 12:28:45,676 Adding pid into db_q
+8608 2016-09-30 12:28:45,701 Starting new HTTP connection (1): www.cisco.com
+4028 2016-09-30 12:28:45,703 http://www.cisco.com/c/en/us/support/switches/sf300-08-8-port-10-100-managed-switch/model.html
+3148 2016-09-30 12:28:45,718 Starting new HTTP connection (1): www.cisco.com
+4388 2016-09-30 12:28:45,748 http://www.cisco.com/c/en/us/support/switches/sf500-24-24-port-10-100-stackable-managed-switch/model.html
+4136 2016-09-30 12:28:45,763 http://www.cisco.com/c/en/us/support/switches/slm224g2-24-port-10-100-smart-switch-2-combo-gigabit-sfp-ports/model.html
+6196 2016-09-30 12:28:45,780 Gathering PN assosiated with this device and some eos info
+8524 2016-09-30 12:28:45,786 Starting new HTTP connection (1): www.cisco.com
+8548 2016-09-30 12:28:45,813 Starting new HTTP connection (1): www.cisco.com
+7368 2016-09-30 12:28:45,831 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:28:45,841 Starting new HTTP connection (1): www.cisco.com
+8496 2016-09-30 12:28:45,853 http://www.cisco.com/c/en/us/support/switches/nexus-2148t-fabric-extender/model.html
+6048 2016-09-30 12:28:45,858 Gathering PN assosiated with this device and some eos info
+7384 2016-09-30 12:28:45,875 url:http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html
+5752 2016-09-30 12:28:45,875 Starting new HTTP connection (1): www.cisco.com
+5764 2016-09-30 12:28:45,876 Gathering PN assosiated with this device and some eos info
+5876 2016-09-30 12:28:45,891 Starting new HTTP connection (1): www.cisco.com
+7944 2016-09-30 12:28:45,903 http://www.cisco.com/c/en/us/support/switches/nexus-3016-switch/model.html
+8424 2016-09-30 12:28:45,925 http://www.cisco.com/c/en/us/support/switches/nexus-4001i-switch-module-ibm-bladecenter/model.html
+1216 2016-09-30 12:28:45,935 Starting new HTTP connection (1): www.cisco.com
+8220 2016-09-30 12:28:45,940 Gathering PN assosiated with this device and some eos info
+6236 2016-09-30 12:28:45,945 Starting new HTTP connection (1): www.cisco.com
+8984 2016-09-30 12:28:46,008 Starting new HTTP connection (1): www.cisco.com
+5916 2016-09-30 12:28:46,008 Gathering PN assosiated with this device and some eos info
+3480 2016-09-30 12:28:46,014 http://www.cisco.com/c/en/us/support/switches/sfe1000p-8-port-10-100-ethernet-switch-poe-fanless/model.html
+7696 2016-09-30 12:28:46,034 http://www.cisco.com/c/en/us/support/switches/catalyst-2960-8tc-l-compact-switch/model.html
+7488 2016-09-30 12:28:46,059 http://www.cisco.com/c/en/us/support/switches/nexus-7000-4-slot-switch/model.html
+7736 2016-09-30 12:28:46,079 http://www.cisco.com/c/en/us/support/switches/nexus-92160yc-switch/model.html
+9056 2016-09-30 12:28:46,089 http://www.cisco.com/c/en/us/support/switches/sd205-5-port-10-100-switch/model.html
+8440 2016-09-30 12:28:46,099 http://www.cisco.com/c/en/us/support/switches/nexus-1000v-switch/model.html
+8196 2016-09-30 12:28:46,149 Starting new HTTP connection (1): www.cisco.com
+8820 2016-09-30 12:28:46,159 url:http://www.cisco.com/c/en/us/support/security/asa-1000v-cloud-firewall/tsd-products-support-series-home.html
+8116 2016-09-30 12:28:46,178 http://www.cisco.com/c/en/us/support/switches/me-3600x-24cx-m-switch/model.html
+6596 2016-09-30 12:28:46,183 url:http://www.cisco.com/c/en/us/support/security/virtual-adaptive-security-appliance-firewall/tsd-products-support-series-home.html
+9000 2016-09-30 12:28:46,208 url:http://www.cisco.com/c/en/us/support/security/asa-next-generation-firewall-services/tsd-products-support-series-home.html
+6348 2016-09-30 12:28:46,210 Starting new HTTP connection (1): www.cisco.com
+1036 2016-09-30 12:28:46,227 Starting new HTTP connection (1): www.cisco.com
+8856 2016-09-30 12:28:46,234 Gathering PN assosiated with this device and some eos info
+8308 2016-09-30 12:28:46,234 http://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client-v2-x/model.html
+8472 2016-09-30 12:28:46,245 Starting new HTTP connection (1): www.cisco.com
+8624 2016-09-30 12:28:46,284 {'endOfSaleDate': '01-NOV-2011', 'pn': 'ACS-3825-FANS=', 'status': 'End of Sale EOL', 'sourceTitle': '3825 IP RAN Integrated Services Router', 'endOfSupportDate': '01-NOV-2016', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3825-ip-ran-integrated-services-router-isr/model.html', 'series': 'Cisco 3800 Series Integrated Services Routers'}
+7460 2016-09-30 12:28:46,293 url:http://www.cisco.com/c/en/us/support/security/defense-center/tsd-products-support-series-home.html
+7676 2016-09-30 12:28:46,294 http://www.cisco.com/c/en/us/support/switches/me-3800x-24fs-m-switch-router/model.html
+5660 2016-09-30 12:28:46,295 Checking FireSIGHT Management Center Virtual Appliance series
+7592 2016-09-30 12:28:46,309 Gathering PN assosiated with this device and some eos info
+6256 2016-09-30 12:28:46,309 {'endOfSaleDate': '29-SEP-2012', 'pn': '7300-1OC12POS-SMI', 'status': 'End of Sale EOL Replacement: ASR 1001 Router', 'sourceTitle': '7301 Router', 'endOfSupportDate': '30-SEP-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/7301-router/model.html', 'series': 'Cisco 7300 Series Routers'}
+7452 2016-09-30 12:28:46,357 Starting new HTTP connection (1): www.cisco.com
+5092 2016-09-30 12:28:46,367 Starting new HTTP connection (1): www.cisco.com
+8936 2016-09-30 12:28:46,378 {'endOfSaleDate': 'None Announced', 'pn': '3900-BEZEL=', 'status': 'Orderable How to Buy', 'sourceTitle': '3925 Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3925-integrated-services-router-isr/model.html', 'series': 'Cisco 3900 Series Integrated Services Routers'}
+8968 2016-09-30 12:28:46,383 Gathering PN assosiated with this device and some eos info
+9088 2016-09-30 12:28:46,413 http://www.cisco.com/c/en/us/support/switches/me-3400-24fs-a-switch/model.html
+7768 2016-09-30 12:28:46,424 Adding pid into db_q
+432 2016-09-30 12:28:46,450 Starting new HTTP connection (1): www.cisco.com
+8328 2016-09-30 12:28:46,465 http://www.cisco.com/c/en/us/support/switches/mgx-8950-multiservice-switch/model.html
+4296 2016-09-30 12:28:46,487 Parsing FirePOWER Appliance 7010
+7528 2016-09-30 12:28:46,500 Starting new HTTP connection (1): www.cisco.com
+7520 2016-09-30 12:28:46,519 Gathering PN assosiated with this device and some eos info
+3888 2016-09-30 12:28:46,530 http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html
+8632 2016-09-30 12:28:46,555 http://www.cisco.com/c/en/us/support/security/firepower-appliance-8120/model.html
+8168 2016-09-30 12:28:46,576 Starting new HTTP connection (1): www.cisco.com
+3896 2016-09-30 12:28:46,638 Gathering PN assosiated with this device and some eos info
+5548 2016-09-30 12:28:46,649 Starting new HTTP connection (1): www.cisco.com
+7640 2016-09-30 12:28:46,666 Starting new HTTP connection (1): www.cisco.com
+8572 2016-09-30 12:28:46,689 Gathering PN assosiated with this device and some eos info
+1328 2016-09-30 12:28:46,690 Starting new HTTP connection (1): www.cisco.com
+5140 2016-09-30 12:28:46,738 Starting new HTTP connection (1): www.cisco.com
+8784 2016-09-30 12:28:46,759 Starting new HTTP connection (1): www.cisco.com
+8964 2016-09-30 12:28:46,841 Gathering PN assosiated with this device and some eos info
+4076 2016-09-30 12:28:46,852 Starting new HTTP connection (1): www.cisco.com
+8396 2016-09-30 12:28:46,864 Gathering PN assosiated with this device and some eos info
+4352 2016-09-30 12:28:46,865 Gathering PN assosiated with this device and some eos info
+6780 2016-09-30 12:28:45,146 {'endOfSaleDate': 'None Announced', 'pn': 'ACS-4320-BEZEL=', 'status': 'Orderable How to Buy', 'sourceTitle': '4321 Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html', 'series': 'Cisco 4000 Series Integrated Services Routers'}
+8576 2016-09-30 12:28:46,948 Gathering PN assosiated with this device and some eos info
+7060 2016-09-30 12:28:46,963 Gathering PN assosiated with this device and some eos info
+9108 2016-09-30 12:28:47,022 Starting new HTTP connection (1): www.cisco.com
+8256 2016-09-30 12:28:47,150 Starting new HTTP connection (1): www.cisco.com
+7612 2016-09-30 12:28:47,191 Adding pid into db_q
+1436 2016-09-30 12:28:47,206 Starting new HTTP connection (1): www.cisco.com
+7568 2016-09-30 12:28:47,211 Gathering PN assosiated with this device and some eos info
+3468 2016-09-30 12:28:47,395 Starting new HTTP connection (1): www.cisco.com
+8768 2016-09-30 12:28:47,445 Adding pid into db_q
+7456 2016-09-30 12:28:47,501 {'endOfSaleDate': '27-MAY-2011', 'pn': '3201FESMIC', 'status': 'End of Support EOL', 'sourceTitle': '3220 Rugged Integrated Services Router', 'endOfSupportDate': '27-MAY-2016', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/3220-rugged-integrated-services-router-isr/model.html', 'series': 'Cisco 3200 Series Rugged Integrated Services Routers'}
+8156 2016-09-30 12:28:47,534 Adding pid into db_q
+8156 2016-09-30 12:28:50,967 {'endOfSaleDate': '24-JUL-2016', 'pn': '12-MINISMB/OPEN', 'status': 'End of Sale EOL', 'sourceTitle': '7603 Router', 'endOfSupportDate': '31-JUL-2021', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/7603-router/model.html', 'series': 'Cisco 7600 Series Routers'}
+8956 2016-09-30 12:28:47,611 Adding pid into db_q
+8884 2016-09-30 12:28:47,613 Starting new HTTP connection (1): www.cisco.com
+7512 2016-09-30 12:28:47,629 Gathering PN assosiated with this device and some eos info
+5536 2016-09-30 12:28:47,642 Starting new HTTP connection (1): www.cisco.com
+4728 2016-09-30 12:28:47,647 Starting new HTTP connection (1): www.cisco.com
+7472 2016-09-30 12:28:47,716 {'endOfSaleDate': 'None Announced', 'pn': '12000/10-DC-PEM-RF', 'status': 'Orderable How to Buy', 'sourceTitle': '12004 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/12004-router/model.html', 'series': 'Cisco 12000 Series Routers'}
+7440 2016-09-30 12:28:47,716 Starting new HTTP connection (1): www.cisco.com
+9096 2016-09-30 12:28:47,748 Starting new HTTP connection (1): www.cisco.com
+4028 2016-09-30 12:28:47,779 Starting new HTTP connection (1): www.cisco.com
+1540 2016-09-30 12:28:47,816 Gathering PN assosiated with this device and some eos info
+4388 2016-09-30 12:28:47,836 Starting new HTTP connection (1): www.cisco.com
+4136 2016-09-30 12:28:47,845 Starting new HTTP connection (1): www.cisco.com
+8496 2016-09-30 12:28:47,947 Starting new HTTP connection (1): www.cisco.com
+7384 2016-09-30 12:28:47,992 Starting new HTTP connection (1): www.cisco.com
+8524 2016-09-30 12:28:48,079 Gathering PN assosiated with this device and some eos info
+8608 2016-09-30 12:28:48,079 Gathering PN assosiated with this device and some eos info
+3148 2016-09-30 12:28:48,115 Gathering PN assosiated with this device and some eos info
+4676 2016-09-30 12:28:48,140 Gathering PN assosiated with this device and some eos info
+8548 2016-09-30 12:28:48,161 Gathering PN assosiated with this device and some eos info
+7944 2016-09-30 12:28:48,217 Starting new HTTP connection (1): www.cisco.com
+8424 2016-09-30 12:28:48,264 Starting new HTTP connection (1): www.cisco.com
+5752 2016-09-30 12:28:48,306 Gathering PN assosiated with this device and some eos info
+7368 2016-09-30 12:28:48,312 Gathering PN assosiated with this device and some eos info
+5876 2016-09-30 12:28:48,502 Gathering PN assosiated with this device and some eos info
+3480 2016-09-30 12:28:48,515 Starting new HTTP connection (1): www.cisco.com
+1216 2016-09-30 12:28:48,548 Gathering PN assosiated with this device and some eos info
+5916 2016-09-30 12:28:48,588 Adding pid into db_q
+6048 2016-09-30 12:28:48,594 Adding pid into db_q
+5888 2016-09-30 12:28:48,600 Adding pid into db_q
+8984 2016-09-30 12:28:48,616 Gathering PN assosiated with this device and some eos info
+7696 2016-09-30 12:28:48,646 Starting new HTTP connection (1): www.cisco.com
+7736 2016-09-30 12:28:48,655 Starting new HTTP connection (1): www.cisco.com
+7488 2016-09-30 12:28:48,667 Starting new HTTP connection (1): www.cisco.com
+8220 2016-09-30 12:28:48,694 Adding pid into db_q
+9056 2016-09-30 12:28:48,700 Starting new HTTP connection (1): www.cisco.com
+8440 2016-09-30 12:28:48,710 Starting new HTTP connection (1): www.cisco.com
+6236 2016-09-30 12:28:48,716 Gathering PN assosiated with this device and some eos info
+6196 2016-09-30 12:28:48,744 Adding pid into db_q
+8820 2016-09-30 12:28:48,751 Starting new HTTP connection (1): www.cisco.com
+6596 2016-09-30 12:28:48,808 Starting new HTTP connection (1): www.cisco.com
+8116 2016-09-30 12:28:48,818 Starting new HTTP connection (1): www.cisco.com
+5764 2016-09-30 12:28:48,860 Adding pid into db_q
+9000 2016-09-30 12:28:48,871 Starting new HTTP connection (1): www.cisco.com
+8196 2016-09-30 12:28:48,891 Gathering PN assosiated with this device and some eos info
+7460 2016-09-30 12:28:49,012 Starting new HTTP connection (1): www.cisco.com
+8440 2016-09-30 12:28:53,929 Gathering PN assosiated with this device and some eos info
+5660 2016-09-30 12:28:49,026 url:http://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/tsd-products-support-series-home.html
+7676 2016-09-30 12:28:49,067 Starting new HTTP connection (1): www.cisco.com
+8856 2016-09-30 12:28:49,103 Adding pid into db_q
+6348 2016-09-30 12:28:49,134 Gathering PN assosiated with this device and some eos info
+1036 2016-09-30 12:28:49,144 Gathering PN assosiated with this device and some eos info
+7768 2016-09-30 12:28:49,187 {'endOfSaleDate': '30-JUN-2004', 'pn': '7500-SW-SPARE-CD', 'status': 'End of Support EOL Replacement: 12816 Router', 'sourceTitle': '7505 Router', 'endOfSupportDate': '01-JUL-2009', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/7505-router/model.html', 'series': 'Cisco 7500 Series Routers'}
+8472 2016-09-30 12:28:49,232 Gathering PN assosiated with this device and some eos info
+9088 2016-09-30 12:28:49,267 Starting new HTTP connection (1): www.cisco.com
+4296 2016-09-30 12:28:49,316 http://www.cisco.com/c/en/us/support/security/firepower-appliance-7010/model.html
+8328 2016-09-30 12:28:49,321 Starting new HTTP connection (1): www.cisco.com
+7452 2016-09-30 12:28:49,366 Gathering PN assosiated with this device and some eos info
+5092 2016-09-30 12:28:49,384 Gathering PN assosiated with this device and some eos info
+3888 2016-09-30 12:28:49,395 Starting new HTTP connection (1): www.cisco.com
+8632 2016-09-30 12:28:49,432 Starting new HTTP connection (1): www.cisco.com
+7528 2016-09-30 12:28:49,620 Gathering PN assosiated with this device and some eos info
+8968 2016-09-30 12:28:49,626 Adding pid into db_q
+432 2016-09-30 12:28:49,678 Gathering PN assosiated with this device and some eos info
+7640 2016-09-30 12:28:49,762 Gathering PN assosiated with this device and some eos info
+8168 2016-09-30 12:28:49,817 Gathering PN assosiated with this device and some eos info
+5548 2016-09-30 12:28:49,822 Gathering PN assosiated with this device and some eos info
+8572 2016-09-30 12:28:49,924 Adding pid into db_q
+1328 2016-09-30 12:28:50,059 Gathering PN assosiated with this device and some eos info
+8784 2016-09-30 12:28:50,094 Gathering PN assosiated with this device and some eos info
+4076 2016-09-30 12:28:50,362 Gathering PN assosiated with this device and some eos info
+5140 2016-09-30 12:28:50,392 Gathering PN assosiated with this device and some eos info
+8576 2016-09-30 12:28:50,456 Adding pid into db_q
+8396 2016-09-30 12:28:50,508 Adding pid into db_q
+7520 2016-09-30 12:28:50,511 Adding pid into db_q
+7612 2016-09-30 12:28:50,527 {'endOfSaleDate': '22-FEB-2003', 'pn': '10000-MSC-100', 'status': 'End of Support EOL', 'sourceTitle': '10005 Router', 'endOfSupportDate': '23-FEB-2008', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/10005-router/model.html', 'series': 'Cisco 10000 Series Routers'}
+8964 2016-09-30 12:28:50,635 Adding pid into db_q
+8768 2016-09-30 12:28:50,688 {'endOfSaleDate': '31-DEC-2009', 'pn': '10720-AC-RPS', 'status': 'End of Support EOL', 'sourceTitle': '10720 Router', 'endOfSupportDate': '01-JAN-2015', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/10720-router/model.html', 'series': 'Cisco 10700 Series Routers'}
+9108 2016-09-30 12:28:50,749 Gathering PN assosiated with this device and some eos info
+1436 2016-09-30 12:28:50,930 Gathering PN assosiated with this device and some eos info
+4868 2016-09-30 12:28:47,556 Starting new HTTP connection (1): www.cisco.com
+4352 2016-09-30 12:28:50,998 Adding pid into db_q
+3468 2016-09-30 12:28:51,038 Gathering PN assosiated with this device and some eos info
+8956 2016-09-30 12:28:51,048 {'endOfSaleDate': 'None Announced', 'pn': '4G-CAB-LMR400-10=', 'status': 'Orderable How to Buy', 'sourceTitle': '1905 Serial Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1905-serial-integrated-services-router-isr/model.html', 'series': 'Cisco 1900 Series Integrated Services Routers'}
+7060 2016-09-30 12:28:51,133 Adding pid into db_q
+8256 2016-09-30 12:28:51,156 Cant find devices for this serices
+7592 2016-09-30 12:28:51,326 Adding pid into db_q
+8884 2016-09-30 12:28:51,481 Gathering PN assosiated with this device and some eos info
+4388 2016-09-30 12:28:51,581 Gathering PN assosiated with this device and some eos info
+4028 2016-09-30 12:28:51,582 Gathering PN assosiated with this device and some eos info
+4728 2016-09-30 12:28:51,650 Gathering PN assosiated with this device and some eos info
+5536 2016-09-30 12:28:51,677 Gathering PN assosiated with this device and some eos info
+4136 2016-09-30 12:28:51,842 Gathering PN assosiated with this device and some eos info
+8496 2016-09-30 12:28:51,870 Gathering PN assosiated with this device and some eos info
+7440 2016-09-30 12:28:51,960 Gathering PN assosiated with this device and some eos info
+3896 2016-09-30 12:28:51,961 Adding pid into db_q
+9096 2016-09-30 12:28:52,492 Gathering PN assosiated with this device and some eos info
+7944 2016-09-30 12:28:52,542 Gathering PN assosiated with this device and some eos info
+7384 2016-09-30 12:28:52,615 Cant find devices for this serices
+8424 2016-09-30 12:28:52,672 Gathering PN assosiated with this device and some eos info
+7568 2016-09-30 12:28:52,477 Adding pid into db_q
+5916 2016-09-30 12:28:52,757 {'endOfSaleDate': 'None Announced', 'pn': 'A901S-2SG-F-AH', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 901S-2SG-F-AH Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-901s-2sg-f-ah-router/model.html', 'series': 'Cisco ASR 901S Series Aggregation Services Routers'}
+7512 2016-09-30 12:28:52,862 Adding pid into db_q
+6048 2016-09-30 12:28:52,903 {'endOfSaleDate': 'None Announced', 'pn': 'A901-4C-F-D', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 901-4C-F-D Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-901-4c-f-d-router/model.html', 'series': 'Cisco ASR 901 Series Aggregation Services Routers'}
+4676 2016-09-30 12:28:53,186 Adding pid into db_q
+8524 2016-09-30 12:28:53,290 Adding pid into db_q
+5888 2016-09-30 12:28:53,309 {'endOfSaleDate': 'None Announced', 'pn': '7200-CABLE-MGMT=', 'status': 'Orderable How to Buy', 'sourceTitle': '7201 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/7201-router/model.html', 'series': 'Cisco 7200 Series Routers'}
+7368 2016-09-30 12:28:53,313 Adding pid into db_q
+3480 2016-09-30 12:28:53,369 Gathering PN assosiated with this device and some eos info
+8608 2016-09-30 12:28:53,379 Adding pid into db_q
+3148 2016-09-30 12:28:53,403 Adding pid into db_q
+3148 2016-09-30 12:28:59,427 {'endOfSaleDate': '01-MAR-2012', 'pn': 'ACS-UC500RM-19=', 'status': 'End of Support EOL', 'sourceTitle': 'Small Business SRP520 Models', 'endOfSupportDate': '28-FEB-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/small-business-srp520-models/model.html', 'series': 'Cisco Small Business SRP500 Series Services Ready Platforms'}
+1540 2016-09-30 12:28:53,523 Adding pid into db_q
+8984 2016-09-30 12:28:53,594 Adding pid into db_q
+5752 2016-09-30 12:28:53,596 Adding pid into db_q
+6196 2016-09-30 12:28:53,675 {'endOfSaleDate': 'None Announced', 'pn': '12K-ETHERNET-BUN=', 'status': 'Orderable How to Buy', 'sourceTitle': 'XR 12404 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/xr-12404-router/model.html', 'series': 'Cisco XR 12000 Series Router'}
+7696 2016-09-30 12:28:53,805 Gathering PN assosiated with this device and some eos info
+9056 2016-09-30 12:28:53,835 Gathering PN assosiated with this device and some eos info
+7488 2016-09-30 12:28:53,881 Gathering PN assosiated with this device and some eos info
+7736 2016-09-30 12:28:53,891 Gathering PN assosiated with this device and some eos info
+5764 2016-09-30 12:28:53,899 {'endOfSaleDate': 'None Announced', 'pn': 'A900-CM-BLANK=', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 903 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-903-router/model.html', 'series': 'Cisco ASR 900 Series Aggregation Services Routers'}
+8308 2016-09-30 12:28:49,013 Starting new HTTP connection (1): www.cisco.com
+5876 2016-09-30 12:28:54,062 Adding pid into db_q
+8820 2016-09-30 12:28:54,126 Cant find devices for this serices
+5660 2016-09-30 12:28:54,219 Starting new HTTP connection (1): www.cisco.com
+8548 2016-09-30 12:28:54,222 Adding pid into db_q
+8856 2016-09-30 12:28:54,379 {'endOfSaleDate': 'None Announced', 'pn': 'CMP-CBLE-GRD', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 2960C-8PC-L Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960c-8pc-l-switch/model.html', 'series': 'Cisco Catalyst 2960-C Series Switches'}
+6596 2016-09-30 12:28:54,422 Cant find devices for this serices
+8196 2016-09-30 12:28:54,494 Adding pid into db_q
+8116 2016-09-30 12:28:54,525 Gathering PN assosiated with this device and some eos info
+7676 2016-09-30 12:28:54,540 Gathering PN assosiated with this device and some eos info
+6236 2016-09-30 12:28:54,798 Adding pid into db_q
+1036 2016-09-30 12:28:54,829 Adding pid into db_q
+4296 2016-09-30 12:28:54,849 Starting new HTTP connection (1): www.cisco.com
+7460 2016-09-30 12:28:54,918 Found 2 models
+9000 2016-09-30 12:28:54,924 Cant find devices for this serices
+9088 2016-09-30 12:28:55,012 Gathering PN assosiated with this device and some eos info
+8472 2016-09-30 12:28:55,308 Adding pid into db_q
+7452 2016-09-30 12:28:55,344 Adding pid into db_q
+8968 2016-09-30 12:28:55,377 {'endOfSaleDate': 'None Announced', 'pn': 'ANT-1.4-PNL-OUT-N=', 'status': 'Orderable How to Buy', 'sourceTitle': '1120 Connected Grid Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1120-connected-grid-router/model.html', 'series': 'Cisco 1000 Series Connected Grid Routers'}
+8328 2016-09-30 12:28:55,412 Gathering PN assosiated with this device and some eos info
+6348 2016-09-30 12:28:55,422 Adding pid into db_q
+8572 2016-09-30 12:28:55,494 Done. Found 0 pids
+5092 2016-09-30 12:28:55,861 Adding pid into db_q
+8632 2016-09-30 12:28:55,939 Gathering PN assosiated with this device and some eos info
+1216 2016-09-30 12:28:55,965 Adding pid into db_q
+8168 2016-09-30 12:28:56,044 Adding pid into db_q
+8168 2016-09-30 12:29:01,201 {'endOfSaleDate': 'None Announced', 'pn': 'C1F1AISR800SK9=', 'status': 'Orderable How to Buy', 'sourceTitle': '809 Industrial Integrated Services Routers', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/809-industrial-router/model.html', 'series': 'Cisco 800 Series Industrial Integrated Services Routers'}
+3888 2016-09-30 12:28:56,240 Gathering PN assosiated with this device and some eos info
+432 2016-09-30 12:28:56,311 Adding pid into db_q
+5548 2016-09-30 12:28:56,386 Adding pid into db_q
+8784 2016-09-30 12:28:56,409 Adding pid into db_q
+8396 2016-09-30 12:28:56,460 {'endOfSaleDate': '15-SEP-2016', 'pn': 'ACC-IR910-H-M=', 'status': 'End of Sale EOL', 'sourceTitle': '910 Industrial Router', 'endOfSupportDate': '28-FEB-2022', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/910-industrial-router/model.html', 'series': 'Cisco 900 Series Industrial Routers'}
+7520 2016-09-30 12:28:56,515 {'endOfSaleDate': '29-JUL-2013', 'pn': 'C3560-8PC-S-SW', 'status': 'End of Sale EOL', 'sourceTitle': 'Catalyst 3560-8PC Compact Switch', 'endOfSupportDate': '31-JUL-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560-8pc-compact-switch/model.html', 'series': 'Cisco Catalyst 3560 Series Switches'}
+1328 2016-09-30 12:28:56,529 Adding pid into db_q
+8964 2016-09-30 12:28:56,565 {'endOfSaleDate': '05-MAR-2004', 'pn': 'ACS-1900RM-19-RF', 'status': 'End of Support EOL Replacement: MWR 1941-DC-A Mobile Wireless Edge Router', 'sourceTitle': '1900 Mobile Wireless Edge Router', 'endOfSupportDate': '06-MAR-2009', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/1900-mobile-wireless-edge-router/model.html', 'series': 'Cisco MWR 1900 Mobile Wireless Routers'}
+7640 2016-09-30 12:28:56,738 Adding pid into db_q
+4352 2016-09-30 12:28:56,852 {'endOfSaleDate': 'None Announced', 'pn': 'ASA5506-FTD-K9', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASA 5506-X with FirePOWER Services', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/security/asa-5506-x-firepower-services/model.html', 'series': 'Cisco ASA 5500-X with FirePOWER Services'}
+9108 2016-09-30 12:28:56,880 Adding pid into db_q
+7060 2016-09-30 12:28:57,054 {'endOfSaleDate': 'None Announced', 'pn': '1941-2901-FANBLWR=', 'status': 'Orderable How to Buy', 'sourceTitle': '2901 Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2901-integrated-services-router-isr/model.html', 'series': 'Cisco 2900 Series Integrated Services Routers'}
+4076 2016-09-30 12:28:57,056 Adding pid into db_q
+3468 2016-09-30 12:28:57,144 Adding pid into db_q
+4868 2016-09-30 12:28:57,146 Gathering PN assosiated with this device and some eos info
+7592 2016-09-30 12:28:57,239 {'endOfSaleDate': 'None Announced', 'pn': '100GE-CFP-COVER', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 9001 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-9001-router/model.html', 'series': 'Cisco ASR 9000 Series Aggregation Services Routers'}
+8256 2016-09-30 12:28:57,262 ('Adaptive Security Device Manager', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-device-manager/tsd-products-support-series-home.html')
+7528 2016-09-30 12:28:57,373 Adding pid into db_q
+5140 2016-09-30 12:28:57,599 Adding pid into db_q
+7528 2016-09-30 12:29:01,823 {'endOfSaleDate': '30-JAN-2013', 'pn': '3560E-12D-LIC=', 'status': 'End of Sale EOL', 'sourceTitle': 'Catalyst 3560E-12D-E Switch', 'endOfSupportDate': '31-JAN-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560e-12d-e-switch/model.html', 'series': 'Cisco Catalyst 3560-E Series Switches'}
+8884 2016-09-30 12:28:58,151 Adding pid into db_q
+8440 2016-09-30 12:28:58,598 Adding pid into db_q
+7384 2016-09-30 12:28:58,637 ('Adaptive Security Appliance (ASA) Software', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html')
+4136 2016-09-30 12:28:58,647 Adding pid into db_q
+4388 2016-09-30 12:28:58,737 Adding pid into db_q
+4028 2016-09-30 12:28:58,755 Adding pid into db_q
+7440 2016-09-30 12:28:58,764 Adding pid into db_q
+5536 2016-09-30 12:28:58,816 Adding pid into db_q
+7568 2016-09-30 12:28:58,847 {'endOfSaleDate': 'None Announced', 'pn': '4G-CAB-LMR400-5=', 'status': 'Orderable How to Buy', 'sourceTitle': '800M Integrated Services Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'series': 'Cisco 800 Series Routers'}
+7512 2016-09-30 12:28:58,977 {'endOfSaleDate': '02-JUL-2012', 'pn': 'NAL-FOC-SR520', 'status': 'End of Sale EOL', 'sourceTitle': 'SR 520 Secure Router', 'endOfSupportDate': '31-JUL-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/sr-520-secure-router/model.html', 'series': 'Cisco SR 500 Series Secure Routers'}
+4676 2016-09-30 12:28:59,102 Done. Found 0 pids
+8496 2016-09-30 12:28:59,132 Adding pid into db_q
+8524 2016-09-30 12:28:59,172 {'endOfSaleDate': 'None Announced', 'pn': 'L-CSR-100M-ADV-1Y=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Cloud Services Router 1000V', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v/model.html', 'series': 'Cisco Cloud Services Router 1000V Series'}
+9096 2016-09-30 12:28:59,199 Adding pid into db_q
+1436 2016-09-30 12:28:59,255 Adding pid into db_q
+4728 2016-09-30 12:28:59,304 Adding pid into db_q
+7368 2016-09-30 12:28:59,335 {'endOfSaleDate': 'None Announced', 'pn': 'NC5K-PDC-930W-BK=', 'status': 'Orderable How to Buy', 'sourceTitle': 'NCS 6008 - 8-Slot Chassis', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/ncs-6008-8-slot-chassis/model.html', 'series': 'Cisco Network Convergence System 6000 Series Routers'}
+8608 2016-09-30 12:28:59,392 Done. Found 0 pids
+8424 2016-09-30 12:28:59,432 Adding pid into db_q
+8220 2016-09-30 12:28:53,523 {'endOfSaleDate': 'None Announced', 'pn': 'A901-6CZ-F-A', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 901-6CZ-F-A Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-901-6cz-f-a-router/model.html', 'series': 'Cisco ASR 901 10G Series Aggregation Services Routers'}
+1540 2016-09-30 12:28:59,496 {'endOfSaleDate': 'None Announced', 'pn': 'CVR100W', 'status': 'Orderable How to Buy', 'sourceTitle': 'CVR100W Wireless-N VPN Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/cvr100w-wireless-n-vpn-router/model.html', 'series': 'Cisco Small Business RV Series Routers'}
+8984 2016-09-30 12:28:59,531 {'endOfSaleDate': 'None Announced', 'pn': 'CMPCT-CBLE-GRD=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 2960CX-8PC-L Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960cx-8pc-l-switch/model.html', 'series': 'Cisco Catalyst 2960-CX Series Switches'}
+5752 2016-09-30 12:28:59,571 {'endOfSaleDate': '01-AUG-2013', 'pn': 'STK-RACKMNT-2955=', 'status': 'End of Sale EOL', 'sourceTitle': 'Catalyst 2955C 12 Switch', 'endOfSupportDate': '31-JUL-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2955c-12-switch/model.html', 'series': 'Cisco Catalyst 2955 Series Switches'}
+3480 2016-09-30 12:28:59,668 Adding pid into db_q
+7944 2016-09-30 12:28:59,974 Adding pid into db_q
+7944 2016-09-30 12:29:02,734 {'endOfSaleDate': 'None Announced', 'pn': 'CAB-HVAC-C14-2M', 'status': 'Orderable How to Buy', 'sourceTitle': 'Nexus 3016 Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-3016-switch/model.html', 'series': 'Cisco Nexus 3000 Series Switches'}
+8820 2016-09-30 12:29:00,154 ('ASA 1000V Cloud Firewall', 'http://www.cisco.com/c/en/us/support/security/asa-1000v-cloud-firewall/tsd-products-support-series-home.html')
+8548 2016-09-30 12:29:00,172 {'endOfSaleDate': 'None Announced', 'pn': '10GE-EMSE-140G-RF', 'status': 'Orderable How to Buy', 'sourceTitle': 'CRS Line Card Chassis Enhanced', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/crs-line-card-chassis-enhanced/model.html', 'series': 'Cisco Carrier Routing System'}
+8196 2016-09-30 12:29:00,227 {'endOfSaleDate': 'None Announced', 'pn': 'C2960S-DP-DLR=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 2960S-24PD-L Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960s-24pd-l-switch/model.html', 'series': 'Cisco Catalyst 2960-S Series Switches'}
+6596 2016-09-30 12:29:00,238 ('Adaptive Security Virtual Appliance (ASAv)', 'http://www.cisco.com/c/en/us/support/security/virtual-adaptive-security-appliance-firewall/tsd-products-support-series-home.html')
+8308 2016-09-30 12:29:00,277 Gathering PN assosiated with this device and some eos info
+9056 2016-09-30 12:29:00,351 Adding pid into db_q
+6236 2016-09-30 12:29:00,440 {'endOfSaleDate': 'None Announced', 'pn': 'C1-N6001-64T', 'status': 'Orderable How to Buy', 'sourceTitle': 'Nexus 6001 Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-6001-switch/model.html', 'series': 'Cisco Nexus 6000 Series Switches'}
+1036 2016-09-30 12:29:00,531 {'endOfSaleDate': 'None Announced', 'pn': 'ACS-2000-RMRGD-19=', 'status': 'Orderable How to Buy', 'sourceTitle': '2010 Connected Grid Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/2010-connected-grid-router/model.html', 'series': 'Cisco 2000 Series Connected Grid Routers'}
+7460 2016-09-30 12:29:00,556  
+7736 2016-09-30 12:29:00,559 Adding pid into db_q
+9000 2016-09-30 12:29:00,566 ('ASA Next-Generation Firewall Services', 'http://www.cisco.com/c/en/us/support/security/asa-next-generation-firewall-services/tsd-products-support-series-home.html')
+8472 2016-09-30 12:29:00,654 {'endOfSaleDate': 'None Announced', 'pn': '2D-C2960XR-24PD-I', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 2960XR-24PD-I Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960xr-24pd-i-switch/model.html', 'series': 'Cisco Catalyst 2960-XR Series Switches'}
+7452 2016-09-30 12:29:00,754 {'endOfSaleDate': '30-OCT-2016', 'pn': 'CMP-FIPS-KIT=', 'status': 'Orderable EOL Announced | How to Buy', 'sourceTitle': 'Catalyst 3560C-8PC-S Switch', 'endOfSupportDate': '31-OCT-2021', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560c-8pc-s-switch/model.html', 'series': 'Cisco Catalyst 3560-C Series Switches'}
+7696 2016-09-30 12:29:00,783 Adding pid into db_q
+6348 2016-09-30 12:29:01,060 {'endOfSaleDate': 'None Announced', 'pn': 'C1-C2960X-24PD-L', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 2960X-24PD-L Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960x-24pd-l-switch/model.html', 'series': 'Cisco Catalyst 2960-X Series Switches'}
+9088 2016-09-30 12:29:01,069 Adding pid into db_q
+8572 2016-09-30 12:29:01,075 Searching for EOS documents
+5092 2016-09-30 12:29:01,087 {'endOfSaleDate': 'None Announced', 'pn': 'C3560X-24P-10G', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3560X-24P-E Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560x-24p-e-switch/model.html', 'series': 'Cisco Catalyst 3560-X Series Switches'}
+7676 2016-09-30 12:29:01,132 Adding pid into db_q
+5660 2016-09-30 12:29:01,136 Cant find devices for this serices
+7488 2016-09-30 12:29:01,139 Adding pid into db_q
+1216 2016-09-30 12:29:01,146 {'endOfSaleDate': '27-NOV-2012', 'pn': '5R210N-N5K-5B-1', 'status': 'End of Sale EOL Replacement: Nexus 5000 Series Switches', 'sourceTitle': 'Nexus 5010 Switch', 'endOfSupportDate': '28-NOV-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-5010-switch/model.html', 'series': 'Cisco Nexus 5000 Series Switches'}
+8328 2016-09-30 12:29:01,154 Adding pid into db_q
+4296 2016-09-30 12:29:01,200 Gathering PN assosiated with this device and some eos info
+8576 2016-09-30 12:28:56,105 {'endOfSaleDate': 'None Announced', 'pn': 'ACS-1900RM-19-RF', 'status': 'Orderable How to Buy', 'sourceTitle': 'MWR 2941-DC Mobile Wireless Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/mwr-2941-dc-mobile-wireless-router/model.html', 'series': 'Cisco MWR 2900 Series Mobile Wireless Routers'}
+432 2016-09-30 12:29:01,337 {'endOfSaleDate': 'None Announced', 'pn': 'C3560CX-RTU=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3560CX-8PC-S Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3560cx-8pc-s-switch/model.html', 'series': 'Cisco Catalyst 3560-CX Series Switches'}
+5548 2016-09-30 12:29:01,377 Done. Found 0 pids
+8784 2016-09-30 12:29:01,392 {'endOfSaleDate': 'None Announced', 'pn': 'CAB-STACK-1M-RF', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3750 Metro 24-AC Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-metro-24-ac-switch/model.html', 'series': 'Cisco Catalyst 3750 Metro Series Switches'}
+8116 2016-09-30 12:29:01,405 Adding pid into db_q
+1328 2016-09-30 12:29:01,511 {'endOfSaleDate': 'None Announced', 'pn': '2D-FAN-23CFM=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3K-X Fan Module', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3k-x-fan-module/model.html', 'series': 'Cisco Catalyst 3750-X Series Switches'}
+7640 2016-09-30 12:29:01,571 {'endOfSaleDate': '30-JAN-2013', 'pn': '3750E-AISK9-LIC-B=', 'status': 'End of Sale EOL', 'sourceTitle': 'Catalyst 3750E-24PD-E Switch', 'endOfSupportDate': '31-JAN-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750e-24pd-e-switch/model.html', 'series': 'Cisco Catalyst 3750-E Series Switches'}
+8632 2016-09-30 12:29:01,584 Adding pid into db_q
+9108 2016-09-30 12:29:01,636 {'endOfSaleDate': 'None Announced', 'pn': 'C1-C4500X-16SFP+', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 4500X-16 SFP+ Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-4500x-16-sfp-switch/model.html', 'series': 'Cisco Catalyst 4500-X Series Switches'}
+4076 2016-09-30 12:29:01,666 {'endOfSaleDate': 'None Announced', 'pn': 'C1-WS3850-12S/K9', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3850-12S-E Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3850-12s-e-switch/model.html', 'series': 'Cisco Catalyst 3850 Series Switches'}
+3468 2016-09-30 12:29:01,686 {'endOfSaleDate': 'None Announced', 'pn': '2D-C6800IA-48TD', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 6800ia Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-6800ia-switch/model.html', 'series': 'Cisco Catalyst 6800 Series Switches'}
+5140 2016-09-30 12:29:01,823 {'endOfSaleDate': '18-SEP-2012', 'pn': '19INCH-BRKT-1RU=', 'status': 'End of Sale EOL Replacement: Catalyst 3750V2-24FS Switch', 'sourceTitle': 'Catalyst 3750-24FS Switch', 'endOfSupportDate': '30-SEP-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3750-24fs-switch/model.html', 'series': 'Cisco Catalyst 3750 Series Switches'}
+3896 2016-09-30 12:28:58,142 {'endOfSaleDate': '29-APR-2016', 'pn': 'ASR1000-2T+20X1GE=', 'status': 'End of Sale EOL', 'sourceTitle': 'ASR 1001 Router', 'endOfSupportDate': '30-APR-2021', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-1001-router/model.html', 'series': 'Cisco ASR 1000 Series Aggregation Services Routers'}
+8884 2016-09-30 12:29:01,868 {'endOfSaleDate': 'None Announced', 'pn': 'SF220-24-K9-AU', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF220-24 24-Port 10/100 Smart Plus Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf220-24-24-port-10-100-smart-plus-switch/model.html', 'series': 'Cisco Small Business 220 Series Smart Plus Switches'}
+8440 2016-09-30 12:29:01,868 Done. Found 0 pids
+4136 2016-09-30 12:29:01,953 {'endOfSaleDate': 'None Announced', 'pn': 'SLM224G', 'status': 'Orderable How to Buy', 'sourceTitle': 'SLM224G2 24-port 10/100 Smart Switch + 2 Combo Gigabit SFP ports', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/slm224g2-24-port-10-100-smart-switch-2-combo-gigabit-sfp-ports/model.html', 'series': 'Cisco Small Business Smart Switches'}
+4388 2016-09-30 12:29:01,978 {'endOfSaleDate': 'None Announced', 'pn': 'SF500-24-K9-AR', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF500-24 24-Port 10/100 Stackable Managed Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf500-24-24-port-10-100-stackable-managed-switch/model.html', 'series': 'Cisco Small Business 500 Series Stackable Managed Switches'}
+4028 2016-09-30 12:29:02,043 {'endOfSaleDate': 'None Announced', 'pn': 'SG300-10SFPK9UK-RF', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF300-08 8-Port 10/100 Managed Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf300-08-8-port-10-100-managed-switch/model.html', 'series': 'Cisco Small Business 300 Series Managed Switches'}
+7440 2016-09-30 12:29:02,078 {'endOfSaleDate': 'None Announced', 'pn': 'SF90-24-AS', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF90-24 24-Port 10/100 Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf90-24-24-port-10-100-switch/model.html', 'series': 'Cisco Small Business 90 Series Unmanaged Switches'}
+5536 2016-09-30 12:29:02,118 {'endOfSaleDate': 'None Announced', 'pn': 'SF100-16-AU', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF100-16 16-Port 10/100 Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf100-16-16-port-10-100-switch/model.html', 'series': 'Cisco Small Business 100 Series Unmanaged Switches'}
+4676 2016-09-30 12:29:02,238 Searching for EOS documents
+8496 2016-09-30 12:29:02,248 {'endOfSaleDate': '24-NOV-2012', 'pn': 'CAB-C13-CBN=', 'status': 'End of Sale EOL', 'sourceTitle': 'Nexus 2148T Fabric Extender', 'endOfSupportDate': '30-NOV-2017', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-2148t-fabric-extender/model.html', 'series': 'Cisco Nexus 2000 Series Fabric Extenders'}
+9096 2016-09-30 12:29:02,351 {'endOfSaleDate': 'None Announced', 'pn': 'SLM224GT-AR', 'status': 'Orderable How to Buy', 'sourceTitle': 'SF200-24 24-Port 10/100 Smart Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sf200-24-24-port-10-100-smart-switch/model.html', 'series': 'Cisco Small Business 200 Series Smart Switches'}
+1436 2016-09-30 12:29:02,395 {'endOfSaleDate': '31-JUL-2010', 'pn': 'BN-CF2-SBA-K9', 'status': 'End of Support EOL Replacement: Catalyst 4503-E Switch', 'sourceTitle': 'Catalyst 4503 Switch', 'endOfSupportDate': '31-JUL-2015', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-4503-switch/model.html', 'series': 'Cisco Catalyst 4500 Series Switches'}
+4728 2016-09-30 12:29:02,417 {'endOfSaleDate': '30-OCT-2016', 'pn': '4900M-BLK-CVR=', 'status': 'Orderable EOL Announced | How to Buy', 'sourceTitle': 'Catalyst 4900M Switch', 'endOfSupportDate': '31-OCT-2021', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-4900m-switch/model.html', 'series': 'Cisco Catalyst 4900 Series Switches'}
+8608 2016-09-30 12:29:02,517 Searching for EOS documents
+3888 2016-09-30 12:29:02,581 Adding pid into db_q
+8424 2016-09-30 12:29:02,581 {'endOfSaleDate': 'None Announced', 'pn': 'CAB-CON-RJ45-I', 'status': 'Orderable How to Buy', 'sourceTitle': 'Nexus 4001I Switch Module for IBM BladeCenter', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-4001i-switch-module-ibm-bladecenter/model.html', 'series': 'Cisco Nexus 4000 Series Switches'}
+3480 2016-09-30 12:29:02,733 {'endOfSaleDate': '20-MAY-2011', 'pn': 'NIM-ES2-4', 'status': 'End of Support EOL', 'sourceTitle': 'SFE1000P 8-port 10/100 Ethernet Switch - PoE/fanless', 'endOfSupportDate': '20-MAY-2016', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sfe1000p-8-port-10-100-ethernet-switch-poe-fanless/model.html', 'series': 'Cisco Small Business Stackable Managed Switches'}
+5876 2016-09-30 12:29:00,129 {'endOfSaleDate': 'None Announced', 'pn': 'A920-AIR-PLENUM', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASR 920 Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/asr-920-router/model.html', 'series': 'Cisco ASR 920 Series Aggregation Services Router'}
+9056 2016-09-30 12:29:02,944 {'endOfSaleDate': '11-AUG-2010', 'pn': 'SD205', 'status': 'End of Support EOL', 'sourceTitle': 'SD205 5-port 10/100 Switch', 'endOfSupportDate': '12-AUG-2015', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/sd205-5-port-10-100-switch/model.html', 'series': 'Cisco Small Business Unmanaged Switches'}
+7460 2016-09-30 12:29:02,974 Parsing Firepower Management Center 2000
+7736 2016-09-30 12:29:02,983 {'endOfSaleDate': 'None Announced', 'pn': 'C1-N9K-ADD', 'status': 'Orderable How to Buy', 'sourceTitle': 'Cisco Nexus 92160YC Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-92160yc-switch/model.html', 'series': 'Cisco Nexus 9000 Series Switches'}
+4868 2016-09-30 12:29:03,001 Adding pid into db_q
+7696 2016-09-30 12:29:03,040 {'endOfSaleDate': '29-JUL-2013', 'pn': 'C2960-8TC-L-SW', 'status': 'End of Sale EOL', 'sourceTitle': 'Catalyst 2960-8TC-L Compact Switch', 'endOfSupportDate': '31-JUL-2018', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-2960-8tc-l-compact-switch/model.html', 'series': 'Cisco Catalyst 2960 Series Switches'}
+9088 2016-09-30 12:29:03,096 {'endOfSaleDate': '05-JAN-2016', 'pn': 'CAB-IND=', 'status': 'End of Sale EOL', 'sourceTitle': 'ME 3400-24FS-A Switch', 'endOfSupportDate': '31-JAN-2021', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/me-3400-24fs-a-switch/model.html', 'series': 'Cisco ME 3400 Series Ethernet Access Switches'}
+7676 2016-09-30 12:29:03,224 {'endOfSaleDate': 'None Announced', 'pn': 'ACCKIT-ME3KX=', 'status': 'Orderable How to Buy', 'sourceTitle': 'ME 3800X-24FS-M Switch Router', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/me-3800x-24fs-m-switch-router/model.html', 'series': 'Cisco ME 3800X Series Carrier Ethernet Switch Routers'}
+5660 2016-09-30 12:29:03,260 ('FireSIGHT Management Center Virtual Appliance', 'http://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/tsd-products-support-series-home.html')
+8572 2016-09-30 12:29:03,261 There are no EOS for this device. Skiping
+7488 2016-09-30 12:29:03,262 {'endOfSaleDate': 'None Announced', 'pn': '15216-ATT-LC-10=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Nexus 7000 4-Slot Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/nexus-7000-4-slot-switch/model.html', 'series': 'Cisco Nexus 7000 Series Switches'}
+8308 2016-09-30 12:29:03,295 Adding pid into db_q
+8328 2016-09-30 12:29:03,307 {'endOfSaleDate': 'None Announced', 'pn': '2-2FE-MMF', 'status': 'Orderable How to Buy', 'sourceTitle': 'MGX 8950 Multiservice Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/mgx-8950-multiservice-switch/model.html', 'series': 'Cisco MGX 8900 Series Switches'}
+5548 2016-09-30 12:29:03,399 Searching for EOS documents
+8116 2016-09-30 12:29:03,479 {'endOfSaleDate': 'None Announced', 'pn': 'ACCKIT-ME3CX=', 'status': 'Orderable How to Buy', 'sourceTitle': 'ME 3600X-24CX-M Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/me-3600x-24cx-m-switch/model.html', 'series': 'Cisco ME 3600X Series Ethernet Access Switches'}
+8632 2016-09-30 12:29:03,544 {'endOfSaleDate': 'None Announced', 'pn': 'AMP8150-K9', 'status': 'Orderable How to Buy', 'sourceTitle': 'FirePOWER Appliance 8120', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/security/firepower-appliance-8120/model.html', 'series': 'Cisco FirePOWER 8000 Series Appliances'}
+4296 2016-09-30 12:29:03,602 Adding pid into db_q
+8440 2016-09-30 12:29:03,645 Searching for EOS documents
+3888 2016-09-30 12:29:03,852 {'endOfSaleDate': 'None Announced', 'pn': 'ASA-180W-PWR-AC', 'status': 'Orderable How to Buy', 'sourceTitle': 'ASA 5505 Adaptive Security Appliance', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/security/asa-5505-adaptive-security-appliance/model.html', 'series': 'Cisco ASA 5500-X Series Firewalls'}
+7460 2016-09-30 12:29:03,938 http://www.cisco.com/c/en/us/support/security/firesight-management-center-2000/model.html
+4676 2016-09-30 12:29:03,948 There are no EOS for this device. Skiping
+4868 2016-09-30 12:29:03,968 {'endOfSaleDate': '15-AUG-2011', 'pn': 'MEM-A-MSFC3-1GB=', 'status': 'End of Support EOL', 'sourceTitle': 'Catalyst 6500 Borderless Services Node', 'endOfSupportDate': '15-AUG-2016', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-borderless-services-node/model.html', 'series': 'Cisco Catalyst 6500 Series Switches'}
+8572 2016-09-30 12:29:04,033  
+8308 2016-09-30 12:29:04,054 Done. Found 0 pids
+4296 2016-09-30 12:29:04,179 {'endOfSaleDate': 'None Announced', 'pn': '3D1000-IPS-C4-K9', 'status': 'Orderable How to Buy', 'sourceTitle': 'FirePOWER Appliance 7010', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/security/firepower-appliance-7010/model.html', 'series': 'Cisco FirePOWER 7000 Series Appliances'}
+7460 2016-09-30 12:29:04,274 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:29:04,310  
+5548 2016-09-30 12:29:04,334 There are no EOS for this device. Skiping
+8572 2016-09-30 12:29:04,343 Parsing 529 WPAN Industrial Router
+8308 2016-09-30 12:29:04,378 Searching for EOS documents
+4676 2016-09-30 12:29:05,470 Parsing WAE Automation
+5548 2016-09-30 12:29:05,470  
+8572 2016-09-30 12:29:05,481 http://www.cisco.com/c/en/us/support/routers/529-wpan-industrial-router/model.html
+4676 2016-09-30 12:29:05,516 http://www.cisco.com/c/en/us/support/routers/wae-automation/model.html
+5548 2016-09-30 12:29:05,536 Parsing Catalyst 3650-8X24PD-L Switch
+8572 2016-09-30 12:29:05,559 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:29:05,590 http://www.cisco.com/c/en/us/support/switches/catalyst-3650-8x24pd-l-switch/model.html
+5548 2016-09-30 12:29:05,612 Starting new HTTP connection (1): www.cisco.com
+4676 2016-09-30 12:29:05,630 Starting new HTTP connection (1): www.cisco.com
+7460 2016-09-30 12:29:05,699 Gathering PN assosiated with this device and some eos info
+8572 2016-09-30 12:29:05,710 Gathering PN assosiated with this device and some eos info
+4676 2016-09-30 12:29:05,868 Gathering PN assosiated with this device and some eos info
+5548 2016-09-30 12:29:05,928 Gathering PN assosiated with this device and some eos info
+8572 2016-09-30 12:29:05,997 Adding pid into db_q
+8572 2016-09-30 12:29:06,007 Done. Found 0 pids
+8572 2016-09-30 12:29:06,031 Searching for EOS documents
+8572 2016-09-30 12:29:06,260 There are no EOS for this device. Skiping
+8572 2016-09-30 12:29:06,312  
+4676 2016-09-30 12:29:06,317 Adding pid into db_q
+4676 2016-09-30 12:29:06,373 Done. Found 0 pids
+4676 2016-09-30 12:29:06,388 Searching for EOS documents
+5548 2016-09-30 12:29:06,416 Adding pid into db_q
+5548 2016-09-30 12:29:06,426 Done. Found 0 pids
+5548 2016-09-30 12:29:06,427 Searching for EOS documents
+7460 2016-09-30 12:29:06,464 Adding pid into db_q
+7460 2016-09-30 12:29:06,479 {'endOfSaleDate': 'None Announced', 'pn': 'FMC-PWR-AC-770W=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Firepower Management Center 2000', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/security/firesight-management-center-2000/model.html', 'series': 'Cisco Firepower Management Center'}
+4676 2016-09-30 12:29:06,627 There are no EOS for this device. Skiping
+4676 2016-09-30 12:29:06,648  
+4676 2016-09-30 12:29:06,694 Parsing WAE Planning
+4676 2016-09-30 12:29:06,694 http://www.cisco.com/c/en/us/support/routers/wae-planning/model.html
+5548 2016-09-30 12:29:06,704 There are no EOS for this device. Skiping
+5548 2016-09-30 12:29:06,728  
+5548 2016-09-30 12:29:06,738 Parsing Catalyst 3650-8X24PD-S Switch
+4676 2016-09-30 12:29:06,745 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:29:06,750 http://www.cisco.com/c/en/us/support/switches/catalyst-3650-8x24pd-s-switch/model.html
+5548 2016-09-30 12:29:06,782 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:29:06,927 Gathering PN assosiated with this device and some eos info
+4676 2016-09-30 12:29:06,933 Gathering PN assosiated with this device and some eos info
+4676 2016-09-30 12:29:07,252 Adding pid into db_q
+4676 2016-09-30 12:29:07,268 Done. Found 0 pids
+5548 2016-09-30 12:29:07,279 Adding pid into db_q
+4676 2016-09-30 12:29:07,279 Searching for EOS documents
+5548 2016-09-30 12:29:07,289 Done. Found 0 pids
+5548 2016-09-30 12:29:07,338 Searching for EOS documents
+4676 2016-09-30 12:29:07,605 There are no EOS for this device. Skiping
+4676 2016-09-30 12:29:07,620  
+5548 2016-09-30 12:29:07,696 There are no EOS for this device. Skiping
+5548 2016-09-30 12:29:07,706  
+5548 2016-09-30 12:29:07,716 Parsing Catalyst 3650-8X24UQ-E Switch
+5548 2016-09-30 12:29:07,726 http://www.cisco.com/c/en/us/support/switches/catalyst-3650-8x24uq-e-switch/model.html
+5548 2016-09-30 12:29:07,756 Starting new HTTP connection (1): www.cisco.com
+5548 2016-09-30 12:29:07,889 Gathering PN assosiated with this device and some eos info
+5548 2016-09-30 12:29:08,136 Adding pid into db_q
+5548 2016-09-30 12:29:08,146 {'endOfSaleDate': 'None Announced', 'pn': 'L-C3650-ADD-12P=', 'status': 'Orderable How to Buy', 'sourceTitle': 'Catalyst 3650-8X24UQ-E Switch', 'endOfSupportDate': 'None Announced', 'sourceLink': 'http://www.cisco.com/c/en/us/support/switches/catalyst-3650-8x24uq-e-switch/model.html', 'series': 'Cisco Catalyst 3650 Series Switches'}

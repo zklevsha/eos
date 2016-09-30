@@ -1,0 +1,2 @@
+2016-09-22 13:59:12,908  * Debugger is active!
+2016-09-22 13:59:23,286 Cant find this PN

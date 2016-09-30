@@ -1,0 +1,461 @@
+10608 2016-09-29 12:49:01,021 Starting script at 2016-09-29 12:49:01.021981
+10608 2016-09-29 12:49:01,131 PHASE 2: COLLECTING EOS FROM SUPPORT
+10608 2016-09-29 12:49:01,131 Gathering routers
+10608 2016-09-29 12:49:01,151 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,331 Gathering switches
+10608 2016-09-29 12:49:01,331 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,381 Gathering security
+10608 2016-09-29 12:49:01,391 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,451 Gathering wireless
+10608 2016-09-29 12:49:01,461 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,541 Gathering serversunifiedcomputing
+10608 2016-09-29 12:49:01,541 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,601 Gathering applicationnetworkingservices
+10608 2016-09-29 12:49:01,601 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,651 Gathering cloudandsystemsmanagement
+10608 2016-09-29 12:49:01,661 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,711 Gathering collaborationendpoints
+10608 2016-09-29 12:49:01,711 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,771 Gathering conferencing
+10608 2016-09-29 12:49:01,771 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,821 Gathering connectedsafetyandsecurity
+10608 2016-09-29 12:49:01,831 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,891 Gathering customercollaboration
+10608 2016-09-29 12:49:01,901 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:01,951 Gathering ciscointerfacesandmodules
+10608 2016-09-29 12:49:01,951 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:02,021 Gathering opticalnetworking
+10608 2016-09-29 12:49:02,021 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:02,081 Gathering serviceexchange
+10608 2016-09-29 12:49:02,081 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:02,181 Gathering storagenetworking
+10608 2016-09-29 12:49:02,181 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:02,241 Gathering video
+10608 2016-09-29 12:49:02,241 Starting new HTTP connection (1): www.cisco.com
+10608 2016-09-29 12:49:02,301 Done.
+10608 2016-09-29 12:49:02,311 Starting workers
+9440 2016-09-29 12:49:02,311 Starting Wokrer-0
+9440 2016-09-29 12:49:02,311 Wokrer-0 processing (800, 'http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html')
+9440 2016-09-29 12:49:02,311 Checking 800 series
+9440 2016-09-29 12:49:02,311 url:http://www.cisco.com/c/en/us/support/routers/800-series-routers/tsd-products-support-series-home.html
+9440 2016-09-29 12:49:02,311 Starting new HTTP connection (1): www.cisco.com
+6596 2016-09-29 12:49:02,321 Starting control
+6596 2016-09-29 12:49:02,321 CONTROL: Queue length:509DB length: 0
+10544 2016-09-29 12:49:02,321 Starting db
+9440 2016-09-29 12:49:02,741 Found 96 models
+9440 2016-09-29 12:49:02,751  
+9440 2016-09-29 12:49:02,781 Parsing 800M Integrated Services Router
+9440 2016-09-29 12:49:02,791 http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:02,872 Starting new HTTP connection (1): www.cisco.com
+9440 2016-09-29 12:49:03,312 Gathering PN assosiated with this device and some eos info
+9440 2016-09-29 12:49:03,582 Adding pid into db_q
+10544 2016-09-29 12:49:03,612 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'PWR-66W-AC=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:03,622 Done. Found 35 pids
+9440 2016-09-29 12:49:03,642 Searching for EOS documents
+10544 2016-09-29 12:49:03,782 Row added
+10544 2016-09-29 12:49:03,862 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:03,972 Parsing 810 Integrated Services Routers
+9440 2016-09-29 12:49:03,992 http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html
+9440 2016-09-29 12:49:04,012 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:04,112 Row added
+10544 2016-09-29 12:49:04,152 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:04,189 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:04,453 Row added
+10544 2016-09-29 12:49:04,473 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:04,603 Adding pid into db_q
+9440 2016-09-29 12:49:04,613 Done. Found 30 pids
+9440 2016-09-29 12:49:04,623 Searching for EOS documents
+9440 2016-09-29 12:49:04,833 Parsing 812 3G Integrated Services Router
+9440 2016-09-29 12:49:04,833 http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:04,883 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:05,033 Row added
+10544 2016-09-29 12:49:05,103 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:05,143 Gathering PN assosiated with this device and some eos info
+9440 2016-09-29 12:49:05,633 Adding pid into db_q
+9440 2016-09-29 12:49:05,663 Done. Found 48 pids
+9440 2016-09-29 12:49:05,673 Searching for EOS documents
+10544 2016-09-29 12:49:05,683 Row added
+10544 2016-09-29 12:49:05,743 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:06,043 Parsing 812 CiFi Integrated Services Router
+9440 2016-09-29 12:49:06,053 http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:06,073 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:06,133 Row added
+10544 2016-09-29 12:49:06,133 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:06,183 Gathering PN assosiated with this device and some eos info
+9440 2016-09-29 12:49:06,503 Adding pid into db_q
+9440 2016-09-29 12:49:06,503 Done. Found 46 pids
+9440 2016-09-29 12:49:06,503 Searching for EOS documents
+10544 2016-09-29 12:49:06,523 Row added
+10544 2016-09-29 12:49:06,623 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:06,793 Parsing 819 Hardened 3G with Dual Radio 802.11n WiFi Integrated Services Router
+9440 2016-09-29 12:49:06,813 http://www.cisco.com/c/en/us/support/routers/819-hardened-3g-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:06,873 Starting new HTTP connection (1): www.cisco.com
+9440 2016-09-29 12:49:07,003 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:07,013 Row added
+10544 2016-09-29 12:49:07,123 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:07,403 Adding pid into db_q
+9440 2016-09-29 12:49:07,423 Done. Found 67 pids
+9440 2016-09-29 12:49:07,463 Searching for EOS documents
+10544 2016-09-29 12:49:07,573 Row added
+10544 2016-09-29 12:49:07,613 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:07,643 Parsing 819 Hardened Dual Radio 802.11n WiFi Integrated Services Router
+9440 2016-09-29 12:49:07,653 http://www.cisco.com/c/en/us/support/routers/819-hardened-dual-radio-802-11n-wifi-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:07,663 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:07,673 Row added
+10544 2016-09-29 12:49:07,673 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:07,703 Row added
+10544 2016-09-29 12:49:07,703 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:07,723 Row added
+10544 2016-09-29 12:49:07,723 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:07,743 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:07,793 Row added
+10544 2016-09-29 12:49:07,823 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:08,003 Adding pid into db_q
+9440 2016-09-29 12:49:08,003 Done. Found 57 pids
+9440 2016-09-29 12:49:08,003 Searching for EOS documents
+10544 2016-09-29 12:49:08,012 Row added
+10544 2016-09-29 12:49:08,022 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:08,184 Parsing 819 Hardened Integrated Services Router
+9440 2016-09-29 12:49:08,184 http://www.cisco.com/c/en/us/support/routers/819-hardened-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:08,184 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:08,204 Row added
+10544 2016-09-29 12:49:08,204 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,254 Row added
+10544 2016-09-29 12:49:08,254 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,284 Row added
+10544 2016-09-29 12:49:08,284 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:08,284 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:08,444 Row added
+10544 2016-09-29 12:49:08,464 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:08,514 Adding pid into db_q
+9440 2016-09-29 12:49:08,514 Done. Found 93 pids
+9440 2016-09-29 12:49:08,514 Searching for EOS documents
+10544 2016-09-29 12:49:08,684 Row added
+10544 2016-09-29 12:49:08,704 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+9440 2016-09-29 12:49:08,724 Parsing 819 Integrated Services Router
+9440 2016-09-29 12:49:08,724 http://www.cisco.com/c/en/us/support/routers/819-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:08,734 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:08,744 Row added
+10544 2016-09-29 12:49:08,754 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,764 Row added
+10544 2016-09-29 12:49:08,764 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,785 Row added
+10544 2016-09-29 12:49:08,785 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,835 Row added
+10544 2016-09-29 12:49:08,835 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,855 Row added
+10544 2016-09-29 12:49:08,855 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,875 Row added
+10544 2016-09-29 12:49:08,875 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,895 Row added
+10544 2016-09-29 12:49:08,895 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,915 Row added
+10544 2016-09-29 12:49:08,915 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,945 Row added
+10544 2016-09-29 12:49:08,945 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:08,985 Row added
+10544 2016-09-29 12:49:08,985 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,025 Row added
+10544 2016-09-29 12:49:09,025 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,045 Row added
+10544 2016-09-29 12:49:09,045 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,065 Row added
+10544 2016-09-29 12:49:09,075 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,085 Row added
+10544 2016-09-29 12:49:09,095 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,105 Row added
+10544 2016-09-29 12:49:09,115 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router'})
+10544 2016-09-29 12:49:09,145 Row added
+10544 2016-09-29 12:49:09,145 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,165 Row added
+10544 2016-09-29 12:49:09,165 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,185 Row added
+10544 2016-09-29 12:49:09,195 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,265 Row added
+10544 2016-09-29 12:49:09,275 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:09,275 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:09,335 Row added
+10544 2016-09-29 12:49:09,355 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,485 Row added
+10544 2016-09-29 12:49:09,505 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:09,545 Adding pid into db_q
+9440 2016-09-29 12:49:09,555 Done. Found 97 pids
+9440 2016-09-29 12:49:09,555 Searching for EOS documents
+10544 2016-09-29 12:49:09,655 Row added
+10544 2016-09-29 12:49:09,715 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:09,715 Parsing 819 Non-Hardened 4G LTE M2M with Dual Radio 802.11n WiFi Router
+9440 2016-09-29 12:49:09,725 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-4g-lte-m2m-dual-radio-802-11n-wifi-router/model.html
+9440 2016-09-29 12:49:09,735 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:09,745 Row added
+10544 2016-09-29 12:49:09,745 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,775 Row added
+10544 2016-09-29 12:49:09,775 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,805 Row added
+10544 2016-09-29 12:49:09,805 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:09,825 Row added
+10544 2016-09-29 12:49:09,825 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:09,845 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:09,915 Row added
+10544 2016-09-29 12:49:09,935 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,095 Adding pid into db_q
+9440 2016-09-29 12:49:10,095 Done. Found 0 pids
+9440 2016-09-29 12:49:10,095 Searching for EOS documents
+10544 2016-09-29 12:49:10,165 Row added
+10544 2016-09-29 12:49:10,195 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,275 Parsing 819 Non-Hardened Integrated Services Router
+9440 2016-09-29 12:49:10,275 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:10,285 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:10,295 Row added
+10544 2016-09-29 12:49:10,295 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:10,325 Row added
+10544 2016-09-29 12:49:10,325 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:10,345 Row added
+10544 2016-09-29 12:49:10,345 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,365 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:10,395 Row added
+10544 2016-09-29 12:49:10,455 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:10,615 Row added
+9440 2016-09-29 12:49:10,615 Adding pid into db_q
+10544 2016-09-29 12:49:10,615 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,615 Done. Found 81 pids
+9440 2016-09-29 12:49:10,615 Searching for EOS documents
+10544 2016-09-29 12:49:10,715 Row added
+10544 2016-09-29 12:49:10,735 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,815 Parsing 819 Non-Hardened Secure Multi-mode 4G LTE M2M ISR Router
+9440 2016-09-29 12:49:10,815 http://www.cisco.com/c/en/us/support/routers/819-non-hardened-secure-multi-mode-4g-lte-m2m-isr-router/model.html
+9440 2016-09-29 12:49:10,825 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:10,865 Row added
+10544 2016-09-29 12:49:10,865 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:10,905 Row added
+10544 2016-09-29 12:49:10,905 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:10,915 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:10,945 Row added
+10544 2016-09-29 12:49:10,975 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:11,135 Adding pid into db_q
+9440 2016-09-29 12:49:11,135 Done. Found 44 pids
+9440 2016-09-29 12:49:11,145 Searching for EOS documents
+10544 2016-09-29 12:49:11,175 Row added
+10544 2016-09-29 12:49:11,195 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:11,295 Parsing 851 Integrated Services Router
+9440 2016-09-29 12:49:11,295 http://www.cisco.com/c/en/us/support/routers/851-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:11,295 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:11,315 Row added
+10544 2016-09-29 12:49:11,315 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:11,335 Row added
+10544 2016-09-29 12:49:11,335 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:11,355 Row added
+10544 2016-09-29 12:49:11,355 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:11,385 Row added
+10544 2016-09-29 12:49:11,385 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:11,405 Row added
+10544 2016-09-29 12:49:11,405 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:11,415 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:11,475 Row added
+10544 2016-09-29 12:49:11,495 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+10544 2016-09-29 12:49:11,605 Row added
+10544 2016-09-29 12:49:11,625 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/810-integrated-services-routers-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'SL-810-AIS=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '810 Integrated Services Routers'})
+9440 2016-09-29 12:49:11,695 Adding pid into db_q
+9440 2016-09-29 12:49:11,695 Done. Found 78 pids
+9440 2016-09-29 12:49:11,695 Searching for EOS documents
+10544 2016-09-29 12:49:11,795 Row added
+10544 2016-09-29 12:49:11,815 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:11,865 Parsing 857 Integrated Services Router
+9440 2016-09-29 12:49:11,865 http://www.cisco.com/c/en/us/support/routers/857-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:11,875 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:11,915 Row added
+10544 2016-09-29 12:49:11,915 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:11,935 Row added
+10544 2016-09-29 12:49:11,935 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:11,945 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:11,975 Row added
+10544 2016-09-29 12:49:11,995 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,175 Row added
+9440 2016-09-29 12:49:12,185 Adding pid into db_q
+10544 2016-09-29 12:49:12,185 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,185 Done. Found 77 pids
+9440 2016-09-29 12:49:12,185 Searching for EOS documents
+10544 2016-09-29 12:49:12,275 Row added
+10544 2016-09-29 12:49:12,295 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,375 Parsing 860 Integrated Services Routers
+9440 2016-09-29 12:49:12,375 http://www.cisco.com/c/en/us/support/routers/860-integrated-services-routers-isr/model.html
+9440 2016-09-29 12:49:12,375 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:12,385 Row added
+10544 2016-09-29 12:49:12,385 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,415 Row added
+10544 2016-09-29 12:49:12,415 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,445 Row added
+10544 2016-09-29 12:49:12,445 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,445 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:12,595 Row added
+10544 2016-09-29 12:49:12,615 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,645 Adding pid into db_q
+9440 2016-09-29 12:49:12,655 Done. Found 19 pids
+9440 2016-09-29 12:49:12,655 Searching for EOS documents
+10544 2016-09-29 12:49:12,745 Row added
+10544 2016-09-29 12:49:12,765 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,795 Parsing 860VAE-W Integrated Services Router
+9440 2016-09-29 12:49:12,795 http://www.cisco.com/c/en/us/support/routers/860vae-w-integrated-services-router-isr/model.html
+10544 2016-09-29 12:49:12,795 Row added
+10544 2016-09-29 12:49:12,795 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:12,795 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:12,845 Row added
+10544 2016-09-29 12:49:12,845 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,875 Row added
+10544 2016-09-29 12:49:12,875 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,905 Row added
+10544 2016-09-29 12:49:12,905 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,945 Row added
+10544 2016-09-29 12:49:12,945 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:12,975 Row added
+10544 2016-09-29 12:49:12,975 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:13,025 Row added
+10544 2016-09-29 12:49:13,025 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:13,055 Row added
+10544 2016-09-29 12:49:13,055 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:13,082 Row added
+10544 2016-09-29 12:49:13,082 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:13,156 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:13,256 Row added
+10544 2016-09-29 12:49:13,276 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:13,376 Adding pid into db_q
+9440 2016-09-29 12:49:13,376 Done. Found 45 pids
+9440 2016-09-29 12:49:13,386 Searching for EOS documents
+10544 2016-09-29 12:49:13,456 Row added
+10544 2016-09-29 12:49:13,466 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:13,556 Parsing 861 Integrated Services Router
+9440 2016-09-29 12:49:13,566 http://www.cisco.com/c/en/us/support/routers/861-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:13,566 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:13,566 Row added
+10544 2016-09-29 12:49:13,566 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:13,596 Row added
+10544 2016-09-29 12:49:13,596 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:13,656 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:13,696 Row added
+10544 2016-09-29 12:49:13,736 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:13,886 Adding pid into db_q
+9440 2016-09-29 12:49:13,886 Done. Found 72 pids
+9440 2016-09-29 12:49:13,886 Searching for EOS documents
+10544 2016-09-29 12:49:13,896 Row added
+10544 2016-09-29 12:49:13,906 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:14,006 Row added
+10544 2016-09-29 12:49:14,026 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,036 Parsing 861W Integrated Services Router
+9440 2016-09-29 12:49:14,046 http://www.cisco.com/c/en/us/support/routers/861w-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:14,046 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:14,056 Row added
+10544 2016-09-29 12:49:14,056 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:14,106 Row added
+10544 2016-09-29 12:49:14,106 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,126 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:14,196 Row added
+10544 2016-09-29 12:49:14,226 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:14,386 Row added
+9440 2016-09-29 12:49:14,386 Adding pid into db_q
+10544 2016-09-29 12:49:14,386 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,386 Done. Found 80 pids
+9440 2016-09-29 12:49:14,386 Searching for EOS documents
+10544 2016-09-29 12:49:14,447 Row added
+10544 2016-09-29 12:49:14,467 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,567 Parsing 866VAE Integrated Services Router
+9440 2016-09-29 12:49:14,567 http://www.cisco.com/c/en/us/support/routers/866vae-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:14,577 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:14,607 Row added
+10544 2016-09-29 12:49:14,607 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:14,627 Row added
+10544 2016-09-29 12:49:14,627 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,647 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:14,667 Row added
+10544 2016-09-29 12:49:14,687 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:14,857 Row added
+9440 2016-09-29 12:49:14,867 Adding pid into db_q
+10544 2016-09-29 12:49:14,867 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:14,867 Done. Found 47 pids
+9440 2016-09-29 12:49:14,867 Searching for EOS documents
+10544 2016-09-29 12:49:15,017 Row added
+10544 2016-09-29 12:49:15,037 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,067 Parsing 867 Integrated Services Router
+9440 2016-09-29 12:49:15,077 http://www.cisco.com/c/en/us/support/routers/867-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:15,077 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:15,097 Row added
+10544 2016-09-29 12:49:15,097 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:15,127 Row added
+10544 2016-09-29 12:49:15,127 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,157 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:15,167 Row added
+10544 2016-09-29 12:49:15,187 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:15,337 Row added
+10544 2016-09-29 12:49:15,337 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:15,387 Row added
+10544 2016-09-29 12:49:15,407 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,407 Adding pid into db_q
+9440 2016-09-29 12:49:15,407 Done. Found 75 pids
+9440 2016-09-29 12:49:15,407 Searching for EOS documents
+10544 2016-09-29 12:49:15,507 Row added
+10544 2016-09-29 12:49:15,517 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,577 Parsing 867VAE Integrated Services Router
+9440 2016-09-29 12:49:15,577 http://www.cisco.com/c/en/us/support/routers/867vae-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:15,577 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:15,587 Row added
+10544 2016-09-29 12:49:15,587 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:15,627 Row added
+10544 2016-09-29 12:49:15,637 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,667 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:15,707 Row added
+10544 2016-09-29 12:49:15,727 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:15,907 Row added
+10544 2016-09-29 12:49:15,927 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+9440 2016-09-29 12:49:15,937 Adding pid into db_q
+9440 2016-09-29 12:49:15,937 Done. Found 58 pids
+9440 2016-09-29 12:49:15,937 Searching for EOS documents
+10544 2016-09-29 12:49:16,047 Row added
+10544 2016-09-29 12:49:16,067 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-3g-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 3G Integrated Services Router'})
+10544 2016-09-29 12:49:16,087 Row added
+10544 2016-09-29 12:49:16,097 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:16,117 Parsing 871 Integrated Services Router
+9440 2016-09-29 12:49:16,117 http://www.cisco.com/c/en/us/support/routers/871-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:16,117 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:16,137 Row added
+10544 2016-09-29 12:49:16,137 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+10544 2016-09-29 12:49:16,197 Row added
+10544 2016-09-29 12:49:16,197 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:16,207 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:16,237 Row added
+10544 2016-09-29 12:49:16,247 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+10544 2016-09-29 12:49:16,347 Row added
+10544 2016-09-29 12:49:16,367 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+10544 2016-09-29 12:49:16,467 Row added
+10544 2016-09-29 12:49:16,487 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:16,507 Adding pid into db_q
+9440 2016-09-29 12:49:16,507 Done. Found 101 pids
+9440 2016-09-29 12:49:16,507 Searching for EOS documents
+10544 2016-09-29 12:49:16,587 Row added
+10544 2016-09-29 12:49:16,607 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:16,707 Parsing 876 Integrated Services Router
+9440 2016-09-29 12:49:16,707 http://www.cisco.com/c/en/us/support/routers/876-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:16,707 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:16,757 Row added
+10544 2016-09-29 12:49:16,757 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+10544 2016-09-29 12:49:16,787 Row added
+10544 2016-09-29 12:49:16,787 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:16,817 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:16,867 Row added
+10544 2016-09-29 12:49:16,917 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:17,239 Adding pid into db_q
+9440 2016-09-29 12:49:17,239 Done. Found 97 pids
+9440 2016-09-29 12:49:17,239 Searching for EOS documents
+10544 2016-09-29 12:49:17,282 Row added
+10544 2016-09-29 12:49:17,320 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:17,460 Parsing 877 Integrated Services Router
+9440 2016-09-29 12:49:17,460 http://www.cisco.com/c/en/us/support/routers/877-integrated-services-router-isr/model.html
+9440 2016-09-29 12:49:17,460 Starting new HTTP connection (1): www.cisco.com
+10544 2016-09-29 12:49:17,490 Row added
+10544 2016-09-29 12:49:17,490 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+10544 2016-09-29 12:49:17,540 Row added
+10544 2016-09-29 12:49:17,540 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:17,540 Gathering PN assosiated with this device and some eos info
+10544 2016-09-29 12:49:17,630 Row added
+10544 2016-09-29 12:49:17,640 Adding to db: (<class 'web.db.schema.PidSummary'>, {'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/812-cifi-integrated-services-router-isr/model.html', 'endOfSupportDate': 'None Announced', 'endOfSaleDate': 'None Announced', 'status': 'Orderable How to Buy', 'pn': 'WIM-BLANK=', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '812 CiFi Integrated Services Router'})
+9440 2016-09-29 12:49:17,790 Adding pid into db_q
+9440 2016-09-29 12:49:17,800 Done. Found 101 pids
+9440 2016-09-29 12:49:17,800 Searching for EOS documents
+10544 2016-09-29 12:49:17,850 Row added

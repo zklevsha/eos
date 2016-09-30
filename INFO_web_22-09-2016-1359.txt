@@ -1,0 +1,6 @@
+12456 2016-09-22 13:59:12,908  * Debugger is active!
+12456 2016-09-22 13:59:12,911  * Debugger pin code: 812-954-732
+10904 2016-09-22 13:59:23,213708 2016-09-22 14:16:00,511  * Restarting with stat
+nd this PN
+10904 2016-09-22 13:59:23,289 127.0.0.1 - - [22/Sep/2016 13:59:23] "POST / HTTP/1.1" 200 -
+12456 2016-09-22 14:16:00,270  * Detected change in 'C:\\Users\\k_zhukov\\Documents\\GitHub\\eos\\web.py', reloading

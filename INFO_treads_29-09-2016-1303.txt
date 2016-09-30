@@ -1,0 +1,45 @@
+7572 2016-09-29 13:03:51,366 Starting script at 2016-09-29 13:03:51.366947
+7572 2016-09-29 13:03:51,416 PHASE 2: COLLECTING EOS FROM SUPPORT
+7572 2016-09-29 13:03:51,416 Gathering routers
+7572 2016-09-29 13:03:51,426 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,516 Gathering switches
+7572 2016-09-29 13:03:51,516 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,566 Gathering security
+7572 2016-09-29 13:03:51,576 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,676 Gathering wireless
+7572 2016-09-29 13:03:51,676 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,726 Gathering serversunifiedcomputing
+7572 2016-09-29 13:03:51,736 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,786 Gathering applicationnetworkingservices
+7572 2016-09-29 13:03:51,786 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,866 Gathering cloudandsystemsmanagement
+7572 2016-09-29 13:03:51,866 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,926 Gathering collaborationendpoints
+7572 2016-09-29 13:03:51,926 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:51,976 Gathering conferencing
+7572 2016-09-29 13:03:51,976 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,026 Gathering connectedsafetyandsecurity
+7572 2016-09-29 13:03:52,036 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,096 Gathering customercollaboration
+7572 2016-09-29 13:03:52,096 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,146 Gathering ciscointerfacesandmodules
+7572 2016-09-29 13:03:52,146 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,206 Gathering opticalnetworking
+7572 2016-09-29 13:03:52,206 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,256 Gathering serviceexchange
+7572 2016-09-29 13:03:52,266 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,356 Gathering storagenetworking
+7572 2016-09-29 13:03:52,356 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,406 Gathering video
+7572 2016-09-29 13:03:52,406 Starting new HTTP connection (1): www.cisco.com
+7572 2016-09-29 13:03:52,496 Done.
+7572 2016-09-29 13:03:52,496 Starting workers
+10264 2016-09-29 13:03:52,496 Starting Wokrer-0
+7012 2016-09-29 13:03:52,506 Starting control
+9144 2016-09-29 13:03:52,526 Starting db
+9144 2016-09-29 13:03:52,656 Adding to db: (<class 'web.db.schema.PidSummary'>, {'status': 'Orderable How to Buy', 'endOfSupportDate': 'None Announced', 'series': 'Cisco 800 Series Routers', 'sourceTitle': '800M Integrated Services Router', 'sourceLink': 'http://www.cisco.com/c/en/us/support/routers/800m-integrated-services-router-isr/model.html', 'endOfSaleDate': 'None Announced', 'pn': 'WIM-BLANK='})
+10264 2016-09-29 13:03:52,656 Exiting Wokrer-0
+7012 2016-09-29 13:03:52,656 CONTROL: Queue length:0DB length: 0
+9144 2016-09-29 13:03:52,726 Row added
+9144 2016-09-29 13:03:52,726 Exiting db
+7012 2016-09-29 13:04:22,674 Exiting control

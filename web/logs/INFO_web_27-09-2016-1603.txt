@@ -1,0 +1,16 @@
+6424 2016-09-27 16:03:21,839 SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+6424 2016-09-27 16:03:21,840 ()
+6424 2016-09-27 16:03:21,843 SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+6424 2016-09-27 16:03:21,844 ()
+6424 2016-09-27 16:03:21,847 BEGIN (implicit)
+6424 2016-09-27 16:03:21,849 SELECT data.id AS data_id, data.pn AS data_pn, data.description AS data_description, data."endOfSaleData" AS "data_endOfSaleData", data."endOfNewServiceAttachmentDate" AS "data_endOfNewServiceAttachmentDate", data."endOfNewServiceContractRenewalDate" AS "data_endOfNewServiceContractRenewalDate", data."lastDateOfSupport" AS "data_lastDateOfSupport", data.replacement AS data_replacement, data."sourceLink" AS "data_sourceLink" 
+FROM data
+6424 2016-09-27 16:03:21,855 ()
+6424 2016-09-27 16:03:24,449 SELECT pid_summary.id AS pid_summary_id, pid_summary.pn AS pid_summary_pn, pid_summary.status AS pid_summary_status, pid_summary."endOfSaleDate" AS "pid_summary_endOfSaleDate", pid_summary."endOfSupportDate" AS "pid_summary_endOfSupportDate", pid_summary.series AS pid_summary_series, pid_summary."sourceLink" AS "pid_summary_sourceLink" 
+FROM pid_summary
+6424 2016-09-27 16:03:24,454 ()
+6424 2016-09-27 16:03:24,458 SELECT pid_bad.id AS pid_bad_id, pid_bad.pn AS pid_bad_pn, pid_bad."sourceLink" AS "pid_bad_sourceLink" 
+FROM pid_bad
+6424 2016-09-27 16:03:24,461 ()
+6424 2016-09-27 16:03:24,484  * Debugger is active!
+6424 2016-09-27 16:03:24,487  * Debugger pin code: 182-825-385

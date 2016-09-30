@@ -1,0 +1,18 @@
+2016-09-30 12:31:56,636 Cant find devices for this serices
+2016-09-30 12:31:58,460 Error code :404 url http://www.cisco.com/c/en/us/support/switches/nexus-1100-series-cloud-services-platforms/tsd-products-support-series-home.html 
+2016-09-30 12:32:01,931 ('6500 Virtual Switching System 1440', 'http://www.cisco.com/c/en/us/support/switches/catalyst-6500-virtual-switching-system-1440/tsd-products-support-series-home.html')
+2016-09-30 12:32:04,072 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-3000-series-switches/tsd-products-support-series-home.html 
+2016-09-30 12:32:07,862 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-2000-series-switches/tsd-products-support-series-home.html 
+2016-09-30 12:32:08,242 Cant find devices for this serices
+2016-09-30 12:32:08,352 Cant find devices for this serices
+2016-09-30 12:32:08,552 Cant find devices for this serices
+2016-09-30 12:32:11,743 Error code :404 url http://www.cisco.com/c/en/us/support/switches/industrial-ethernet-4000-series-switches/tsd-products-support-series-home.html 
+2016-09-30 12:32:12,163 ('IOS Easy VPN', 'http://www.cisco.com/c/en/us/support/security/ios-easy-vpn/tsd-products-support-series-home.html')
+2016-09-30 12:32:12,233 ('Dynamic Multipoint (DMVPN)', 'http://www.cisco.com/c/en/us/support/security/dynamic-multipoint-vpn-dmvpn/tsd-products-support-series-home.html')
+2016-09-30 12:32:12,303 ('Flex VPN', 'http://www.cisco.com/c/en/us/support/security/flexvpn/tsd-products-support-series-home.html')
+2016-09-30 12:32:18,458 Cant find devices for this serices
+2016-09-30 12:32:23,481 ('Adaptive Security Device Manager', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-device-manager/tsd-products-support-series-home.html')
+2016-09-30 12:32:25,491 Cant find devices for this serices
+2016-09-30 12:32:26,891 Cant find devices for this serices
+2016-09-30 12:32:29,413 ('Adaptive Security Virtual Appliance (ASAv)', 'http://www.cisco.com/c/en/us/support/security/virtual-adaptive-security-appliance-firewall/tsd-products-support-series-home.html')
+2016-09-30 12:32:29,503 ('Adaptive Security Appliance (ASA) Software', 'http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html')
