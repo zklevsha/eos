@@ -8,7 +8,7 @@ from mylibs.utils import *
 import datetime
 import platform
 import os
-
+from web.db_populate import *
 import threading
 import queue
 import time
@@ -208,15 +208,6 @@ def parse_eos(name,q):
                 log.info('Title:' + str(eos[0]))
                 log.info('Url:' + str(eos[1]))
 
-                document_date = soup.find("div",{"class":"updatedDate"})
-                if document_date is None:
-                    document_date = parse ("jun 1 100")
-                else:
-                    document_date = parse(document_date.text.replace("Updated:",""))
-
-                eos = (eos[0],eos[1],document_date)
-                if eos not in parsed_eos: parsed_eos.append(eos) 
-
                 if "Change in Product Part Number Announcement" in eos[0]:
                     log.info('This one not EOS page but only information about EoS change. Skiping')
                     log.info(' ')
@@ -230,13 +221,20 @@ def parse_eos(name,q):
                     continue
 
                 soup = BeautifulSoup(content.text,"html.parser")
-                p = soup.find_all('p',{'class':'pTableCaptionCMT'})
 
+                document_date = soup.find("div",{"class":"updatedDate"})
+                if document_date is None:
+                    document_date = parse ("jun 1 100")
+                else:
+                    document_date = parse(document_date.text.replace("Updated:",""))
 
+                eos = (eos[0],eos[1],document_date)
+                
                 dates = {}
                 devices = {}
                 dv_dt = []
 
+                p = soup.find_all('p',{'class':'pTableCaptionCMT'})
                 for item in p:
                     if "milestone" in item.text.lower().replace(' ','').replace('-','').replace('\n',''):
                         date_soup = BeautifulSoup( str(item.find_next('table')) , "html.parser" )
@@ -490,7 +488,7 @@ engine = create_engine('sqlite:///web/db/eos.db',echo=False)
 session = sessionmaker(bind=engine)()
 header = "http://www.cisco.com"
 all_device_support_page = []
-workers_names = ['Wokrer-' + str(i) for i in range(100)]
+workers_names = ['Wokrer-' + str(i) for i in range(1)]
 support_deviceTypes = ['routers','switches','security','wireless','serversunifiedcomputing','applicationnetworkingservices',
                 'cloudandsystemsmanagement',
                 'collaborationendpoints','conferencing','connectedsafetyandsecurity',
@@ -609,70 +607,87 @@ if platform.system() =="Windows":
 # log.info('Done')
 # psave(db_q,'db_q')
 
-db_q = pickle.load(open('db_q_2016-09-30-1320.p','rb'))
-db_q = [i[1] for i in db_q]
-log.info('Adding to ParsedPages')
-for pid_info in db_q:
-    log.info(pid_info)
-    session = sessionmaker(bind=engine)()
-    row = PidSummary(**pid_info)
-    try:
-        session.add(row)
-        session.commit()
+# db_q = pickle.load(open('db_q_2016-09-30-1320.p','rb'))
+# db_q = [i[1] for i in db_q]
+# log.info('Adding to ParsedPages')
+# for pid_info in db_q:
+#     log.info(pid_info)
+#     session = sessionmaker(bind=engine)()
+#     row = PidSummary(**pid_info)
+#     try:
+#         session.add(row)
+#         session.commit()
 
-    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
-        session.rollback()
-        query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
-        if query.endOfSaleDate == "None Announced":
-            pass
-        elif pid_info['endOfSaleDate'] == "None Announced" :
-            session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-            session.commit()
-        else:
-            if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-                session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-                session.commit()
-            else: 
-                pass
-    finally:
-        session.close()
+#     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
+#         session.rollback()
+#         query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
+#         if query.endOfSaleDate == "None Announced":
+#             pass
+#         elif pid_info['endOfSaleDate'] == "None Announced" :
+#             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+#             session.commit()
+#         else:
+#             if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
+#                 session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+#                 session.commit()
+#             else: 
+#                 pass
+#     finally:
+#         session.close()
 
 
 # # log.info("Exiting Main Thread")
 # # psave(all_eos_pages,'all_eos_pages')
 # # psave(pid_summary,'pid_summary')
 
-# all_eos_pages = pickle.load(open('all_eos_pages_2016-09-23-1459.p','rb'))
-# log.info('PHASE 3 PARSING EOS PAGES')
-# q = queue.Queue()
-# queueLock = threading.Lock()
-# for i in all_eos_pages: q.put(i)
-# log.info('Starting workers')
-# exitFlag = 0
-# workers =[]
-# for name in workers_names:
-#     thread = myThread(name,parse_eos,q,log)
-#     thread.start()
-#     workers.append(thread)
+all_eos_pages = pickle.load(open('all_eos_pages_2016-09-23-1459.p','rb'))
+log.info('PHASE 3 PARSING EOS PAGES')
+q = queue.Queue()
+queueLock = threading.Lock()
+for i in all_eos_pages: q.put(i);break
+log.info('Starting workers')
+exitFlag = 0
+workers =[]
+for name in workers_names:
+    thread = myThread(name,parse_eos,q,log)
+    thread.start()
+    workers.append(thread)
 
-# thread = myThread('Control',control,q,log)
-# thread.start()
-# workers.append(thread)
+thread = myThread('Control',control,q,log)
+thread.start()
+workers.append(thread)
    
-# # Wait for queue to empty
-# while not q.empty():
-#     pass
+# Wait for queue to empty
+while not q.empty():
+    pass
 
-# # Notify threads it's time to exit
-# exitFlag = 1
+# Notify threads it's time to exit
+exitFlag = 1
 
-# # Wait for all threads to complete
-# for t in workers:
-#     t.join()
+# Wait for all threads to complete
+for t in workers:
+    t.join()
 
-# log.info('Done')
+log.info('Done')
+data = data_normalize(data)
+for d in data: print(d.pn,d.endOfSaleData)
+session = sessionmaker(bind=engine)()
+for row in data:
+    print (row.pn)
+    try:
+            session.add(row)
+            session.commit()
 
-
+    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
+        session.rollback()
+        query = session.query(Data).filter_by(pn = row.pn).first()        
+        if parse(row.endOfSaleData) > parse(query.endOfSaleData): # Записываем более позднюю дату End of Sale
+            session.query(Data).filter_by(pn = row.pn).update(row)
+            session.commit()
+        else: 
+            pass
+    finally:
+        session.close()
 
 
 # log.info("Exiting Main Thread")
