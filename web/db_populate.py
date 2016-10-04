@@ -1,6 +1,6 @@
 
 from sqlalchemy import create_engine
-from db.schema import PidBad,PidSummary,Data
+from web.db.schema import PidBad,PidSummary,Data
 from sqlalchemy.orm import sessionmaker
 import pickle
 import sys
@@ -60,49 +60,51 @@ os.system('chcp 65001')
 
 data = pickle.load(open('data.p','rb'))
 
-for data_k in data.keys():
-	#print (data_k)
-	endofsale = []
-	attachment = []
-	renewal = []
-	lastdateofsupport = []
-	description = []
-	sourceLink= ""
-	sourceTitle = ""
-	replacement = []
-	dev = data[data_k]
-	for k in dev.keys():
-		print("key is ",k)
-		search_k = k.lower().replace('-','').replace(' ','').replace('\n','')
-		if 'endofsale' in search_k:
-			if len(k.split(':')) == 2:
-				dev[k] = k.split(':')[1]+":"+dev[k] # Добавляем HW,SW,OS
-			endofsale.append(dev[k])
 
-		if 'attachment' in search_k:
-			if len(k.split(':')) == 2:
-				dev[k] = k.split(':')[1]+":"+dev[k]
-			attachment.append(dev[k])
+def data_normalize(data):
+	res = []
+	for data_k in data.keys():
+		endofsale = []
+		attachment = []
+		renewal = []
+		lastdateofsupport = []
+		description = []
+		sourceLink= ""
+		sourceTitle = ""
+		replacement = []
+		dev = data[data_k]
+		#print (dev)
+		for k in dev.keys():
+			search_k = k.lower().replace('-','').replace(' ','').replace('\n','')
+			if 'endofsale' in search_k:
+				if len(k.split(':')) == 2:
+					dev[k] = k.split(':')[1]+":"+dev[k] # Добавляем HW,SW,OS
+				endofsale.append(dev[k])
 
-		if 'renewal' in search_k:
-			if len(k.split(':')) == 2:
-				dev[k] = k.split(':')[1]+":"+dev[k]
-			renewal.append(dev[k])
+			if 'attachment' in search_k:
+				if len(k.split(':')) == 2:
+					dev[k] = k.split(':')[1]+":"+dev[k]
+				attachment.append(dev[k])
 
-		if 'lastdateofsupport' in search_k and 'phone' not in search_k:
-			if len(k.split(':')) == 2:
-				dev[k] = k.split(':')[1]+":"+dev[k]
-			lastdateofsupport.append(dev[k])
+			if 'renewal' in search_k:
+				if len(k.split(':')) == 2:
+					dev[k] = k.split(':')[1]+":"+dev[k]
+				renewal.append(dev[k])
 
-		if k == 'description':
-			description.append(dev[k])
+			if 'lastdateofsupport' in search_k and 'phone' not in search_k:
+				if len(k.split(':')) == 2:
+					dev[k] = k.split(':')[1]+":"+dev[k]
+				lastdateofsupport.append(dev[k])
 
-		if k == 'replacement':
-			replacement = dev[k]
+			if k == 'description':
+				description.append(dev[k])
 
-		if k == "doc":
-			sourceTitle = dev[k][0]
-			sourceLink = dev[k][1]
+			if k == 'replacement':
+				replacement = dev[k]
+
+			if k == "doc":
+				sourceTitle = dev[k][0]
+				sourceLink = dev[k][1]
 
 		device = Data(
 				pn=data_k,
@@ -115,5 +117,7 @@ for data_k in data.keys():
 				sourceTitle = sourceTitle,
 				sourceLink = sourceLink	
 			)
-	session.add(device)
-	session.commit()
+		#print('resulted device is ', device.pn,device.description)
+		res.append(device)
+	return res
+			
