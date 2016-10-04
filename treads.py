@@ -18,6 +18,66 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.exc import IntegrityError
 
+
+def normalize(data):
+    res = []
+    for data_k in data.keys():
+    #print (data_k)
+        endofsale = []
+        attachment = []
+        renewal = []
+        lastdateofsupport = []
+        description = []
+        sourceLink= ""
+        sourceTitle = ""
+        replacement = []
+        dev = data[data_k]
+        for k in dev.keys():
+            search_k = k.lower().replace('-','').replace(' ','').replace('\n','')
+            print (search_k)
+            if 'endofsale' in search_k:
+                if len(k.split(':')) == 2:
+                    dev[k] = k.split(':')[1]+":"+dev[k] # Добавляем HW,SW,OS
+                endofsale.append(dev[k])
+
+            if 'attachment' in search_k:
+                if len(k.split(':')) == 2:
+                    dev[k] = k.split(':')[1]+":"+dev[k]
+                attachment.append(dev[k])
+
+            if 'renewal' in search_k:
+                if len(k.split(':')) == 2:
+                    dev[k] = k.split(':')[1]+":"+dev[k]
+                renewal.append(dev[k])
+
+            if 'lastdateofsupport' in search_k and 'phone' not in search_k:
+                if len(k.split(':')) == 2:
+                    dev[k] = k.split(':')[1]+":"+dev[k]
+                lastdateofsupport.append(dev[k])
+
+            if k == 'description':
+                description.append(dev[k])
+
+            if k == 'replacement':
+                replacement = dev[k]
+
+            if k == "doc":
+                sourceTitle = dev[k][0]
+                sourceLink = dev[k][1]
+
+        device = {
+                'pn':data_k,
+                'description':' '.join(description),
+                'endOfSaleData':' '.join(endofsale),
+                'endOfNewServiceAttachmentDate': ' '.join(attachment),
+                'endOfNewServiceContractRenewalDate': ' '.join(renewal),
+                'lastDateOfSupport':' '.join(lastdateofsupport),
+                'replacement': ' '.join(replacement),
+                'sourceTitle':sourceTitle,
+                'sourceLink':sourceLink 
+            }
+        res.append(device)
+    return res
 def insert_update(cname,kwargs):
     session = sessionmaker(bind=engine)()
     row = cname(**kwargs)
@@ -120,7 +180,7 @@ def support_get_eos(name,q):
                     pid_info['sourceTitle'] = model[0]
                     pid_info['sourceLink'] = model[1]
                     
-                    #for p in pids: pid_summary[p] =  pid_info
+                    
                     log.info('Adding pid into db_q')
                     for p in pids:
                         pid_info['pn'] = p
@@ -214,9 +274,7 @@ def parse_eos(name,q):
                 else:
                     document_date = parse(document_date.text.replace("Updated:",""))
 
-                eos = (eos[0],eos[1],document_date)
-                if eos not in parsed_eos: parsed_eos.append(eos) 
-
+              
                 if "Change in Product Part Number Announcement" in eos[0]:
                     log.info('This one not EOS page but only information about EoS change. Skiping')
                     log.info(' ')
@@ -291,7 +349,7 @@ def parse_eos(name,q):
 
                         for pn in pns:
                             queueLock.acquire()
-                            pid_bad[pn] = eos
+                            pid_bad.append({'pn':pn,'sourceTitle':eos[0],'sourceLink':eos[1]})
                             queueLock.release()
                         log.error('Added ' + str(len(pns)) + 'pns')
                     log.error('Done.')
@@ -314,7 +372,7 @@ def parse_eos(name,q):
 
                             for pn in pns:
                                 queueLock.acquire()
-                                pid_bad[pn] = eos
+                                pid_bad.append({'pn':pn,'sourceTitle':eos[0],'sourceLink':eos[1]})
                                 queueLock.release()
                             log.error(' Added ' + str(len(pns)) + 'pns')
                         log.error('Done')
@@ -348,7 +406,7 @@ def parse_eos(name,q):
                         pns.pop(0)
                         for pn in pns:
                             queueLock.acquire()
-                            pid_bad[pn] = eos
+                            pid_bad.append({'pn':pn,'sourceTitle':eos[0],'sourceLink':eos[1]})
                             queueLock.release()
 
                         log.error(' Added ' + str(len(pns)) + 'pns')
@@ -440,6 +498,7 @@ def parse_eos(name,q):
                 
             else:
                 queueLock.release()
+
         except Exception as e:
             queueLock.release()
             log.error(e)
@@ -500,8 +559,7 @@ support_deviceTypes = ['routers','switches','security','wireless','serversunifie
 
 # SHARED VARIABLES
 data = {}
-pid_summary = {}
-pid_bad = {}
+pid_bad = []
 log = get_logger('treads')
 parsed_eos_listing_products = []
 all_eos_pages = []  # [(eos title, link)] - для всех eos которые нашли
@@ -514,7 +572,7 @@ log.info('Starting script at ' + str(startTime) )
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
 
-#Парсим http://www.cisco.com/c/en/us/products/index.html#products
+# #Парсим http://www.cisco.com/c/en/us/products/index.html#products
 # log.info('PHASE 1: GATHERING EOS FROM PRODUCTS  ')
 # log.info('Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')
 # content = get_page('http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')	
@@ -534,6 +592,7 @@ if platform.system() =="Windows":
 # q = queue.Queue()
 # queueLock = threading.Lock()
 # for i in products: q.put(i)
+# db_q = []
 # log.info('Starting workers')
 # exitFlag = 0
 # workers =[]
@@ -558,6 +617,9 @@ if platform.system() =="Windows":
 #     t.join()
 
 # log.info('Done')
+
+# psave(db_q,'db_q')
+
 
 # log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
 # for device in support_deviceTypes:
@@ -609,40 +671,39 @@ if platform.system() =="Windows":
 # log.info('Done')
 # psave(db_q,'db_q')
 
-db_q = pickle.load(open('db_q_2016-09-30-1320.p','rb'))
-db_q = [i[1] for i in db_q]
-log.info('Adding to ParsedPages')
-for pid_info in db_q:
-    log.info(pid_info)
-    session = sessionmaker(bind=engine)()
-    row = PidSummary(**pid_info)
-    try:
-        session.add(row)
-        session.commit()
 
-    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
-        session.rollback()
-        query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
-        if query.endOfSaleDate == "None Announced":
-            pass
-        elif pid_info['endOfSaleDate'] == "None Announced" :
-            session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-            session.commit()
-        else:
-            if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-                session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-                session.commit()
-            else: 
-                pass
-    finally:
-        session.close()
+# log.info('Adding to PidSummary')
+# for pid_info in db_q:
+#     log.info(pid_info)
+#     session = sessionmaker(bind=engine)()
+#     row = PidSummary(**pid_info)
+#     try:
+#         session.add(row)
+#         session.commit()
+
+#     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
+#         session.rollback()
+#         query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
+#         if query.endOfSaleDate == "None Announced":
+#             pass
+#         elif pid_info['endOfSaleDate'] == "None Announced" :
+#             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+#             session.commit()
+#         else:
+#             if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
+#                 session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+#                 session.commit()
+#             else: 
+#                 pass
+#     finally:
+#         session.close()
 
 
 # # log.info("Exiting Main Thread")
 # # psave(all_eos_pages,'all_eos_pages')
-# # psave(pid_summary,'pid_summary')
 
-# all_eos_pages = pickle.load(open('all_eos_pages_2016-09-23-1459.p','rb'))
+
+
 # log.info('PHASE 3 PARSING EOS PAGES')
 # q = queue.Queue()
 # queueLock = threading.Lock()
@@ -673,9 +734,46 @@ for pid_info in db_q:
 # log.info('Done')
 
 
+# psave(pid_bad,'pid_bad')
+# psave(data,'data')
+
+data = pickle.load(open('data.p','rb'))
+
+# Приводим data[k] к нормальному виду
+nomalize_data = normalize(data)
+psave(nomalize_data,'nomalize_data')
+# Добавляем данные в базу
+for data in nomalize_data:
+    try:
+        session.add(Data(**data))
+        session.commit()
+    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN то оставляем более новое значение
+        session.rollback()
+        query = session.query(Data).filter_by(pn = data['pn'])
+        if parse(data['endOfSaleData']) > parse(query.endOfSaleData):
+            session.query(Data).filter_by(pn = data['pn']).update(data)
+    finally:
+        session.close()
 
 
-# log.info("Exiting Main Thread")
+
+log.info('Adding data to PidBad:') 
+for p_k in pid_bad.keys():
+    log.info(p_k)
+    session = sessionmaker(bind=engine)()
+    kwargs = pid_bad[p_k]
+    kwargs['pn'] = p_k
+    row = PidBad(**kwargs)
+    try:
+        session.add(row)
+        session.commit()
+    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN то пропускаем
+        session.rollback()
+    finally:
+        session.close()
+
+
+log.info("Exiting Main Thread")
 # psave(pid_bad,'pid_bad')
 # psave(data,'data')
 log.info("Execution time:" + str(datetime.datetime.now() - startTime))
