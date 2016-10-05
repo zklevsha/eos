@@ -106,18 +106,63 @@ def data_normalize(data):
 				sourceTitle = dev[k][0]
 				sourceLink = dev[k][1]
 
-		device = Data(
-				pn=data_k,
-				description=' '.join(description),
-				endOfSaleData=' '.join(endofsale),
-				endOfNewServiceAttachmentDate = ' '.join(attachment),
-				endOfNewServiceContractRenewalDate = ' '.join(renewal),
-				lastDateOfSupport=' '.join(lastdateofsupport),
-				replacement = ' '.join(replacement),
-				sourceTitle = sourceTitle,
-				sourceLink = sourceLink	
-			)
+		# device = Data(
+		# 		pn=data_k,
+		# 		description=' '.join(description),
+		# 		endOfSaleData=' '.join(endofsale),
+		# 		endOfNewServiceAttachmentDate = ' '.join(attachment),
+		# 		endOfNewServiceContractRenewalDate = ' '.join(renewal),
+		# 		lastDateOfSupport=' '.join(lastdateofsupport),
+		# 		replacement = ' '.join(replacement),
+		# 		sourceTitle = sourceTitle,
+		# 		sourceLink = sourceLink	
+		# 	)
+
+
+		device = {
+				'pn':data_k,
+				'description':' '.join(description),
+				'endOfSaleData':' '.join(endofsale),
+				'endOfNewServiceAttachmentDate' : ' '.join(attachment),
+				'endOfNewServiceContractRenewalDate' : ' '.join(renewal),
+				'lastDateOfSupport':' '.join(lastdateofsupport),
+				'replacement' : ' '.join(replacement),
+				'sourceTitle' : sourceTitle,
+				'sourceLink' : sourceLink	
+			}
 		#print('resulted device is ', device.pn,device.description)
 		res.append(device)
 	return res
 			
+
+
+def pid_bad_normalize(pid_bad):
+	rows = []
+	for k in pid_bad.keys():
+		item = pid_bad[k]
+		row = {'pn':k, 'sourceTitle':item[0], 'sourceLink':item[1] } 
+		rows.append(row)
+	return rows
+
+
+
+
+def pid_summary_normalize(pid_summary):
+	rows = []
+	for k in pid_summary.keys():
+		item = pid_summary[k]
+		for   check  in ['series','endOfSaleData','endOfSupportDate','series','sourceTitle','sourceLink']:
+			if check not in item.keys(): 
+				item[check] = 'N/A'
+
+		row = {
+				'pn':k, 
+				'status':item['status'],
+				'endOfSaleDate':item['endOfSaleDate'],
+				'endOfSupportDate':item['endOfSupportDate'],
+				'series':item['series'],
+				'sourceTitle':item['sourceTitle'], 
+				'sourceLink':item['sourceLink'] 
+			} 
+		rows.append(row)
+	return rows

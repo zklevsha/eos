@@ -28,7 +28,7 @@ class PidSummary(Base):
 	__tablename__ = 'pid_summary'
 
 	id = Column(Integer, primary_key=True)
-	pn = Column(String,unique=True)
+	pn = Column(String,unique=True,nullable=False)
 	status = Column(String)
 	endOfSaleDate = Column(String)
 	endOfSupportDate = Column(String)
@@ -45,13 +45,13 @@ class PidBad(Base):
 	sourceLink = Column(String)
 
 
-class ParsedPages(Base):
-	__tablename__ = 'parsed_pages'
+# class ParsedPages(Base):
+# 	__tablename__ = 'parsed_pages'
 
-	id = Column(Integer, primary_key=True)
-	pageTitle = Column(String)
-	pageLink = Column(String,unique=True)
-	parseDate = Column(String)
+# 	id = Column(Integer, primary_key=True)
+# 	pageTitle = Column(String)
+# 	pageLink = Column(String,unique=True)
+# 	parseDate = Column(String)
 
 
 	

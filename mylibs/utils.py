@@ -1,10 +1,14 @@
 import requests
 import logging
 from py_bing_search import PyBingWebSearch
-
+import pickle
+import datetime
 
 class Object(object):
     pass
+
+def psave (data,fname):
+	pickle.dump(data,open(fname+'_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M") + '.p','wb'))
 
 def get_tables(soup):
 	arr_tables = []
@@ -64,13 +68,13 @@ def get_logger(filename):
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
-	handler = logging.FileHandler("INFO_"+filename,mode='w')
+	handler = logging.FileHandler("INFO_"+filename + '_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' ,mode='w')
 	handler.setLevel(logging.INFO)
 	formatter = logging.Formatter("%(asctime)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
-	handler = logging.FileHandler("ERROR_"+filename,mode='w')
+	handler = logging.FileHandler("ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' ,mode='w')
 	handler.setLevel(logging.WARNING)
 	formatter = logging.Formatter("%(asctime)s %(message)s")
 	handler.setFormatter(formatter)
