@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block body %}
+<table class="pure-table pure-table-bordered">
+	<thead>
+		<tr>
+		{% for i in header[:7] %}	
+			<th>{{i}}</th>    
+		{% endfor %}
+		<th>Source</th>
+		<th>Status</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for row in data %}
+		<tr>
+			{% for i in row[:7] %}
+				<td>{{i}}</td>
+			{% endfor %}
+
+			{% if row[8] != 'NULL' %}
+				<td><a href= {{row[8]}} > {{row[7]}} </a></td>
+			{% else %}
+				<td> {{row[7]}} </td>
+			{% endif %}
+
+			<td> {{row[9]}} </td>
+	    </tr>
+	{% endfor %}
+	</tbody>
+</table>
+{% endblock %}

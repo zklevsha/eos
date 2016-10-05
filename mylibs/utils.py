@@ -3,6 +3,8 @@ import logging
 from py_bing_search import PyBingWebSearch
 import pickle
 import datetime
+import os
+import sys
 
 class Object(object):
     pass
@@ -57,26 +59,37 @@ def get_page(url):
 	return content
 
 
-def get_logger(filename):
+def get_logger(filename,rootDir=os.path.dirname(sys.argv[0])):
+
+	if os.path.exists(os.path.join(rootDir,'logs')):
+		logPath = os.path.join(rootDir,'logs')
+	else:
+		logPath = rootDir
+
+	print('Dir path is:', logPath)
+
 	logger = logging.getLogger()
 	logger.setLevel(logging.DEBUG)
 
 	# create console handler and set level to info
 	handler = logging.StreamHandler()
 	handler.setLevel(logging.INFO)
-	formatter = logging.Formatter(" %(message)s")
+	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
-	handler = logging.FileHandler("INFO_"+filename + '_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' ,mode='w')
+
+	fname = "INFO_"+filename + '_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt'
+	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
 	handler.setLevel(logging.INFO)
-	formatter = logging.Formatter("%(asctime)s %(message)s")
+	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
-	handler = logging.FileHandler("ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' ,mode='w')
+	fname ="ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
+	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
 	handler.setLevel(logging.WARNING)
-	formatter = logging.Formatter("%(asctime)s %(message)s")
+	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
