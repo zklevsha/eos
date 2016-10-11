@@ -1,5 +1,6 @@
 DEBUG*
 INFO*
 ERROR*
-.p
-.pyc
+CRITICAL*
+*.p
+*.pyc

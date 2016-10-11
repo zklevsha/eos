@@ -73,13 +73,13 @@ def data_normalize(data):
 		sourceTitle = ""
 		replacement = []
 		dev = data[data_k]
-		#print (dev)
 		for k in dev.keys():
-			search_k = k.lower().replace('-','').replace(' ','').replace('\n','')
-			if 'endofsale' in search_k:
+			search_k = k.lower().replace('-','').replace(' ','').replace('\n','').replace('–','')
+			#print('Search_k=',search_k,'k:',k)
+			if any(i in search_k for i in ['endofsaledate','endofavailabilitydate']) : # end of availibility для софта
 				if len(k.split(':')) == 2:
 					dev[k] = k.split(':')[1]+":"+dev[k] # Добавляем HW,SW,OS
-				endofsale.append(dev[k])
+				endofsale.append(dev[k].replace('(note 1)',''))
 
 			if 'attachment' in search_k:
 				if len(k.split(':')) == 2:
@@ -106,6 +106,7 @@ def data_normalize(data):
 				sourceTitle = dev[k][0]
 				sourceLink = dev[k][1]
 
+
 		# device = Data(
 		# 		pn=data_k,
 		# 		description=' '.join(description),
@@ -118,7 +119,6 @@ def data_normalize(data):
 		# 		sourceLink = sourceLink	
 		# 	)
 
-
 		device = {
 				'pn':data_k,
 				'description':' '.join(description),
@@ -130,7 +130,17 @@ def data_normalize(data):
 				'sourceTitle' : sourceTitle,
 				'sourceLink' : sourceLink	
 			}
+		for k in device.keys():
+			device[k] = device[k].replace('*','')
 		#print('resulted device is ', device.pn,device.description)
+		# if len(endofsale) > 1:
+		# 	if sourceLink =='sourceLink http://www.cisco.com/c/en/us/products/collateral/routers/7200-series-routers/prod_end-of-life_notice09186a008032d6ad.html':
+		# 		continue
+		# 	print ("Error:",search_k)
+
+		# 	for k in device.keys():
+		# 		print(k,device[k])
+		# 	sys.exit()
 		res.append(device)
 	return res
 			

@@ -19,11 +19,6 @@ class Data(Base):
 	sourceTitle = Column(String)
 	sourceLink = Column(String)
 
-	# def __init__(self, name):
-	# 	self.name = name 
-
-
-
 class PidSummary(Base):
 	__tablename__ = 'pid_summary'
 
@@ -44,14 +39,6 @@ class PidBad(Base):
 	sourceTitle = Column(String)
 	sourceLink = Column(String)
 
-
-# class ParsedPages(Base):
-# 	__tablename__ = 'parsed_pages'
-
-# 	id = Column(Integer, primary_key=True)
-# 	pageTitle = Column(String)
-# 	pageLink = Column(String,unique=True)
-# 	parseDate = Column(String)
 
 
 	

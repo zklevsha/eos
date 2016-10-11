@@ -1,22 +1,20 @@
 import json
-import requests
-from bs4 import BeautifulSoup, SoupStrainer
-from dateutil.parser import parse
 import pickle
 import sys
-from mylibs.utils import *
 import datetime
 import platform
 import os
-from db.db_utils import *
 import threading
 import queue
 import time
-
+from db.db_utils import *
 from db.schema import Data,PidSummary,PidBad
+from mylibs.utils import *
+from bs4 import BeautifulSoup, SoupStrainer
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.exc import IntegrityError
+from dateutil.parser import parse
 
 def support_get_eos(name,q):
     while not exitFlag:
@@ -89,21 +87,13 @@ def support_get_eos(name,q):
                                     pid_info[k] = v
 
                         except Exception as e: 
-                            pass           
+                            pass  
+
                     pid_info['sourceTitle'] = model[0]
                     pid_info['sourceLink'] = model[1]
                     
+                    queueLock.acquire()
                     for p in pids: pid_summary[p] =  pid_info
-                    log.info('Adding pid into db_q')
-                    for p in pids:
-                        pid_info['pn'] = p
-                        log.info(pid_info)
-                        queueLock.acquire()
-                        db_q.append(pid_info)
-                        queueLock.release()
-
-                    queueLock.acquire()  
-                    insert_update( ParsedPages,{'pageTitle':model[0],'pageLink':model[1],'parseDate':datetime.datetime.now()} )
                     queueLock.release()
 
                     log.info('Done. Found ' + str(len(pids)) + ' pids' )
@@ -129,7 +119,7 @@ def support_get_eos(name,q):
             else:
                 queueLock.release()
         except Exception as e:
-            log.error(e)
+            log.critial(e)
             queueLock.release()
 
 
@@ -381,6 +371,8 @@ def parse_eos(name,q):
                                 continue
                             else:
                                 log.error('Stored document is older. Updating')
+                                data[pn]={}
+                                data[pn]['replacement'] = []
                         
                         else:
                             data[pn] = {}
@@ -445,7 +437,7 @@ class myThread(threading.Thread):
         log.info("Exiting " + self.name)
 
 
-engine = create_engine('sqlite:///web/db/eos.db',echo=False) 
+engine = create_engine('sqlite:///db/eos.db',echo=False) 
 session = sessionmaker(bind=engine)()
 header = "http://www.cisco.com"
 all_device_support_page = []
@@ -463,9 +455,9 @@ pid_summary = {}
 pid_bad = {}
 log = get_logger('treads')
 parsed_eos_listing_products = []
-all_eos_pages = []  # [(eos title, link)] - для всех eos которые нашли
-parsed_pages = [] #[(doc title,link,date)] для пропасенных eos и support страниц
-pid_info_array =[] # В данном списке будут строки для добовления в PidSummary
+all_eos_pages = []  # - для всех eos которые нашли
+parsed_pages = [] # для пропасенных eos и support страниц
+pid_info_array =[] # В данном списке будут строки для добавления в PidSummary
 
 
 startTime = datetime.datetime.now()
@@ -473,103 +465,104 @@ log.info('Starting script at ' + str(startTime) )
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
 
-#Парсим http://www.cisco.com/c/en/us/products/index.html#products
-log.info('PHASE 1: GATHERING EOS FROM PRODUCTS  ')
-log.info('Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')
-content = get_page('http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')	
-strainer = SoupStrainer("div",{'class':'list-section'},)
-soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
-log.info('Done')
+# #Парсим http://www.cisco.com/c/en/us/products/index.html#products
+# log.info('PHASE 1: GATHERING EOS FROM PRODUCTS  ')
+# log.info('Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')
+# content = get_page('http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')	
+# strainer = SoupStrainer("div",{'class':'list-section'},)
+# soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
+# products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
+# log.info('Done')
 
-log.info('Gathering devices from eos list (http://www.cisco.com/c/en/us/products/eos-eol-listing.html) ')
-content = get_page('http://www.cisco.com/c/en/us/products/eos-eol-listing.html')	
-strainer = SoupStrainer("div",{'class':'eol-listing-cq section'},)
-soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-eos_products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
-products  = products + eos_products
-log.info('Done')
+# log.info('Gathering devices from eos list (http://www.cisco.com/c/en/us/products/eos-eol-listing.html) ')
+# content = get_page('http://www.cisco.com/c/en/us/products/eos-eol-listing.html')	
+# strainer = SoupStrainer("div",{'class':'eol-listing-cq section'},)
+# soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
+# eos_products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
+# products  = products + eos_products
+# log.info('Done')
 
-q = queue.Queue()
-queueLock = threading.Lock()
-for i in products: q.put(i)
-log.info('Starting workers')
-exitFlag = 0
-workers =[]
-for name in workers_names:
-    thread = myThread(name,products_get_eos,q,log)
-    thread.start()
-    workers.append(thread)
+# q = queue.Queue()
+# queueLock = threading.Lock()
+# for i in products: q.put(i)
+# log.info('Starting workers')
+# exitFlag = 0
+# workers =[]
+# for name in workers_names:
+#     thread = myThread(name,products_get_eos,q,log)
+#     thread.start()
+#     workers.append(thread)
 
-thread = myThread('control',control,q,log)
-thread.start()
-workers.append(thread)
+# thread = myThread('control',control,q,log)
+# thread.start()
+# workers.append(thread)
    
-# Wait for queue to empty
-while not q.empty():
-    pass
+# # Wait for queue to empty
+# while not q.empty():
+#     pass
 
-# Notify threads it's time to exit
-exitFlag = 1
+# # Notify threads it's time to exit
+# exitFlag = 1
 
-# Wait for all threads to complete
-for t in workers:
-    t.join()
+# # Wait for all threads to complete
+# for t in workers:
+#     t.join()
 
-log.info('Done')
+# log.info('P1: All treads have finished')
 
-log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
-for device in support_deviceTypes:
-  log.info('Gathering ' + device)
-  content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
-  #print (content.text)
-  diction = json.loads(content.text)
-  #json['subCats'][0]['series'][6]
+# log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
+# for device in support_deviceTypes:
+#   log.info('Gathering ' + device)
+#   content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
+#   #print (content.text)
+#   diction = json.loads(content.text)
+#   #json['subCats'][0]['series'][6]
 
-  for subcat in diction['subCats']:
-      for model in subcat['series']:
-          all_device_support_page.append( (model['title'],header + model['url']) )
-psave(all_device_support_page,'all_device_support_page')
-log.info("Done.")
+#   for subcat in diction['subCats']:
+#       for model in subcat['series']:
+#           all_device_support_page.append( (model['title'],header + model['url']) )
+# psave(all_device_support_page,'all_device_support_page')
+# log.info("Done.")
 
 
-q = queue.Queue()
-queueLock = threading.Lock()
-for i in all_device_support_page: q.put(i)
-exitFlag = 0
-workers =[]
-for name in workers_names:
-    thread = myThread(name,support_get_eos,q,log)
-    thread.start()
-    workers.append(thread)
+# q = queue.Queue()
+# queueLock = threading.Lock()
+# for i in all_device_support_page: q.put(i)
+# exitFlag = 0
+# workers =[]
+# for name in workers_names:
+#     thread = myThread(name,support_get_eos,q,log)
+#     thread.start()
+#     workers.append(thread)
 
-thread = myThread('control',control,q,log)
-thread.start()
-workers.append(thread)
+# thread = myThread('control',control,q,log)
+# thread.start()
+# workers.append(thread)
 
 
    
-# Wait for queue to empty
-while True:
-    if  q.empty():
-        break
+# # Wait for queue to empty
+# while True:
+#     if  q.empty():
+#         break
 
-# Notify threads it's time to exit
-log.info('seting Exit flag')
-exitFlag = 1
+# # Notify threads it's time to exit
+# log.info('seting Exit flag')
+# exitFlag = 1
 
-# Wait for all threads to complete
-for t in workers:
-    t.join()
+# # Wait for all threads to complete
+# for t in workers:
+#     t.join()
 
-log.info('Done')
-psave(pid_summary,'pid_summary')
+# log.info(' Phase 2: All treads have finished')
+# psave(pid_summary,'pid_summary')
 
 
 #Пишем в pid_summary
 pid_summary = pid_summary_normalize(pid_summary)
+log.info('P2: Start to adding  PNs to PidSummary Table')
 for pid_info in pid_summary:
-    log.info(pid_info)
+    log.info(pid_info['pn'])
 
     session = sessionmaker(bind=engine)()
     try:
@@ -586,71 +579,86 @@ for pid_info in pid_summary:
             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
             session.commit()
         else:
-            if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-                session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-                session.commit()
+            try:
+                if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
+                    session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+                    session.commit()
+            except:
+                log.critical('pn:' + pid_info['pn']+ " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
             else: 
                 pass
     finally:
         session.close()
 
-
-psave(pid_summary,'pid_summary')
+# log.info('P2: All PNs are added to tables')
 
 
 log.info('PHASE 3 PARSING EOS PAGES')
 q = queue.Queue()
 queueLock = threading.Lock()
 for i in all_eos_pages: q.put(i)
-log.info('Starting workers')
-exitFlag = 0
-workers =[]
-for name in workers_names:
-    thread = myThread(name,parse_eos,q,log)
-    thread.start()
-    workers.append(thread)
+#q.put(('title','http://www.cisco.com/c/en/us/products/collateral/wireless/asr-5000-series/eos-eol-notice_C51-734559.html'))
+# log.info('Starting workers')
+# exitFlag = 0
+# workers =[]
+# for name in workers_names:
+#     thread = myThread(name,parse_eos,q,log)
+#     thread.start()
+#     workers.append(thread)
 
-thread = myThread('Control',control,q,log)
-thread.start()
-workers.append(thread)
+# thread = myThread('Control',control,q,log)
+# thread.start()
+# workers.append(thread)
    
-# Wait for queue to empty
-while not q.empty():
-    pass
+# # Wait for queue to empty
+# while not q.empty():
+#     pass
 
-# Notify threads it's time to exit
-exitFlag = 1
+# # Notify threads it's time to exit
+# exitFlag = 1
 
-# Wait for all threads to complete
-for t in workers:
-    t.join()
+# # Wait for all threads to complete
+# for t in workers:
+#     t.join()
+
+# psave(pid_bad,'pid_bad')
+# psave(data,'data')
+log.info('Phase 3: All treads are finished')
+data = pickle.load(open('data_2016-10-10-1454.p','rb'))
+data = data_normalize(data)
 
 #Пишем в таблицу data
-log.info('Done')
-data = data_normalize(data)
 session = sessionmaker(bind=engine)()
 for row in data:
+    log.info(row['pn'])
     try:
             session.add(Data(**row))
             session.commit()
 
     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
         session.rollback()
-        query = session.query(Data).filter_by(pn = row['pn']).first()      
-        if parse(row['endOfSaleData']) > parse(query.endOfSaleData): # Записываем более позднюю дату End of Sale
+        query = session.query(Data).filter_by(pn = row['pn']).first()
+        try:      
+            if parse(row['endOfSaleData']) > parse(query.endOfSaleData): 
+                session.query(Data).filter_by(pn = row['pn']).update(row)
+                session.commit()
+            else: 
+                pass
+        except:
+            log.critical('parser error: pn: ' + row['pn'] + " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
             session.query(Data).filter_by(pn = row['pn']).update(row)
             session.commit()
-        else: 
-            pass
+        finally:
+            session.close()
     finally:
         session.close()
+log.info(' All PNs added to table Data')
 
-
-#Пишем в таблицу PidBad
-pid_bad = pickle.load(open('pid_bad.p','rb'))
+# log.info('P3: start adding data to PidBad table')
+pid_bad = pickle.load(open('pid_bad_2016-10-10-1454.p','rb'))
 pid_bad = pid_bad_normalize(pid_bad)
-
 for row in pid_bad:
+    log.info(row['pn'])
     try:
             session.add(PidBad(**row))
             session.commit()
@@ -661,8 +669,7 @@ for row in pid_bad:
         session.commit()
     finally:
         session.close()
+log.info('All Pns are added to table PidBad')
 
 log.info("Exiting Main Thread")
-psave(pid_bad,'pid_bad')
-psave(data,'data')
 log.info("Execution time:" + str(datetime.datetime.now() - startTime))

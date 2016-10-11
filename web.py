@@ -1,12 +1,14 @@
-from flask import Flask
-from flask import Flask, request, render_template
-from db.schema import PidBad,PidSummary,Data
-from flask_sqlalchemy import SQLAlchemy
-from mylibs.utils import *
-import pickle
-from dateutil.parser import parse
 import platform
 import os
+import pickle
+from flask import Flask
+from flask import Flask, request, render_template
+from dateutil.parser import parse
+from flask_sqlalchemy import SQLAlchemy
+from mylibs.utils import *
+from db.schema import PidBad,PidSummary,Data
+
+
 
 
 def table_generate(arr):

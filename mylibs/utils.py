@@ -66,14 +66,13 @@ def get_logger(filename,rootDir=os.path.dirname(sys.argv[0])):
 	else:
 		logPath = rootDir
 
-	print('Dir path is:', logPath)
 
 	logger = logging.getLogger()
 	logger.setLevel(logging.DEBUG)
 
 	# create console handler and set level to info
 	handler = logging.StreamHandler()
-	handler.setLevel(logging.INFO)
+	handler.setLevel(logging.DEBUG)
 	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
@@ -89,6 +88,13 @@ def get_logger(filename,rootDir=os.path.dirname(sys.argv[0])):
 	fname ="ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
 	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
 	handler.setLevel(logging.WARNING)
+	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
+	handler.setFormatter(formatter)
+	logger.addHandler(handler)
+
+	fname ="CRITICAL_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
+	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+	handler.setLevel(logging.CRITICAL)
 	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
