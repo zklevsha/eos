@@ -7,7 +7,6 @@ import sys
 import os
 engine = create_engine('sqlite:///db/eos.db',echo=True) 
 session = sessionmaker(bind=engine)()
-os.system('chcp 65001')
 
 
 # pid_summary_pns = [i.pn for i in session.query(PidSummary).all() if i.pn != '']

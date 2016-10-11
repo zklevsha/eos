@@ -7,6 +7,7 @@ import os
 import threading
 import queue
 import time
+import shutil
 from db.db_utils import *
 from db.schema import Data,PidSummary,PidBad
 from mylibs.utils import *
@@ -437,8 +438,8 @@ class myThread(threading.Thread):
         log.info("Exiting " + self.name)
 
 
-engine = create_engine('sqlite:///db/eos.db',echo=False) 
-session = sessionmaker(bind=engine)()
+
+
 header = "http://www.cisco.com"
 all_device_support_page = []
 workers_names = ['Wokrer-' + str(i) for i in range(100)]
@@ -449,6 +450,9 @@ support_deviceTypes = ['routers','switches','security','wireless','serversunifie
                 'opticalnetworking','serviceexchange','storagenetworking',
                 'video']
 
+
+
+
 # SHARED VARIABLES
 data = {}
 pid_summary = {}
@@ -458,104 +462,114 @@ parsed_eos_listing_products = []
 all_eos_pages = []  # - для всех eos которые нашли
 parsed_pages = [] # для пропасенных eos и support страниц
 pid_info_array =[] # В данном списке будут строки для добавления в PidSummary
+root = os.path.dirname(os.path.abspath(sys.argv[0]))
 
+
+
+
+if os.path.isfile(os.path.join(root,'db/eos.db')):
+    log.info('Backing old eos.db')
+    shutil.copy('db/eos.db','db/bak/eos_bak.db' )
+engine = create_engine('sqlite:///db/eos.db',echo=False) 
+session = sessionmaker(bind=engine)()
 
 startTime = datetime.datetime.now()
 log.info('Starting script at ' + str(startTime) )
 if platform.system() =="Windows":
 	os.system('chcp 65001') # for windows systems only
 
-# #Парсим http://www.cisco.com/c/en/us/products/index.html#products
-# log.info('PHASE 1: GATHERING EOS FROM PRODUCTS  ')
-# log.info('Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')
-# content = get_page('http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')	
-# strainer = SoupStrainer("div",{'class':'list-section'},)
-# soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-# products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
-# log.info('Done')
 
-# log.info('Gathering devices from eos list (http://www.cisco.com/c/en/us/products/eos-eol-listing.html) ')
-# content = get_page('http://www.cisco.com/c/en/us/products/eos-eol-listing.html')	
-# strainer = SoupStrainer("div",{'class':'eol-listing-cq section'},)
-# soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
-# eos_products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
-# products  = products + eos_products
-# log.info('Done')
+#Парсим http://www.cisco.com/c/en/us/products/index.html#products
+log.info('PHASE 1: GATHERING EOS FROM PRODUCTS  ')
+log.info('Gathering products from http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')
+content = get_page('http://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all')	
+strainer = SoupStrainer("div",{'class':'list-section'},)
+soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
+products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
+log.info('Done')
 
-# q = queue.Queue()
-# queueLock = threading.Lock()
-# for i in products: q.put(i)
-# log.info('Starting workers')
-# exitFlag = 0
-# workers =[]
-# for name in workers_names:
-#     thread = myThread(name,products_get_eos,q,log)
-#     thread.start()
-#     workers.append(thread)
+log.info('Gathering devices from eos list (http://www.cisco.com/c/en/us/products/eos-eol-listing.html) ')
+content = get_page('http://www.cisco.com/c/en/us/products/eos-eol-listing.html')	
+strainer = SoupStrainer("div",{'class':'eol-listing-cq section'},)
+soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
+eos_products = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True) ]
+products  = products + eos_products
+log.info('Done')
 
-# thread = myThread('control',control,q,log)
-# thread.start()
-# workers.append(thread)
+q = queue.Queue()
+queueLock = threading.Lock()
+for i in products: q.put(i)
+log.info('Starting workers')
+exitFlag = 0
+workers =[]
+for name in workers_names:
+    thread = myThread(name,products_get_eos,q,log)
+    thread.start()
+    workers.append(thread)
+
+thread = myThread('control',control,q,log)
+thread.start()
+workers.append(thread)
    
-# # Wait for queue to empty
-# while not q.empty():
-#     pass
+# Wait for queue to empty
+while not q.empty():
+    pass
 
-# # Notify threads it's time to exit
-# exitFlag = 1
+# Notify threads it's time to exit
+exitFlag = 1
 
-# # Wait for all threads to complete
-# for t in workers:
-#     t.join()
+# Wait for all threads to complete
+for t in workers:
+    t.join()
 
-# log.info('P1: All treads have finished')
+log.info('P1: All treads have finished')
 
-# log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
-# for device in support_deviceTypes:
-#   log.info('Gathering ' + device)
-#   content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
-#   #print (content.text)
-#   diction = json.loads(content.text)
-#   #json['subCats'][0]['series'][6]
+log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
+for device in support_deviceTypes:
+  log.info('Gathering ' + device)
+  content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
+  #print (content.text)
+  diction = json.loads(content.text)
+  #json['subCats'][0]['series'][6]
 
-#   for subcat in diction['subCats']:
-#       for model in subcat['series']:
-#           all_device_support_page.append( (model['title'],header + model['url']) )
-# psave(all_device_support_page,'all_device_support_page')
-# log.info("Done.")
+  for subcat in diction['subCats']:
+      for model in subcat['series']:
+          all_device_support_page.append( (model['title'],header + model['url']) )
+psave(all_device_support_page,'all_device_support_page')
+log.info("Done.")
 
 
-# q = queue.Queue()
-# queueLock = threading.Lock()
-# for i in all_device_support_page: q.put(i)
-# exitFlag = 0
-# workers =[]
-# for name in workers_names:
-#     thread = myThread(name,support_get_eos,q,log)
-#     thread.start()
-#     workers.append(thread)
+q = queue.Queue()
+queueLock = threading.Lock()
+for i in all_device_support_page: q.put(i)
+exitFlag = 0
+workers =[]
+for name in workers_names:
+    thread = myThread(name,support_get_eos,q,log)
+    thread.start()
+    workers.append(thread)
 
-# thread = myThread('control',control,q,log)
-# thread.start()
-# workers.append(thread)
+thread = myThread('control',control,q,log)
+thread.start()
+workers.append(thread)
 
 
    
-# # Wait for queue to empty
-# while True:
-#     if  q.empty():
-#         break
+# Wait for queue to empty
+while True:
+    if  q.empty():
+        break
 
-# # Notify threads it's time to exit
-# log.info('seting Exit flag')
-# exitFlag = 1
+# Notify threads it's time to exit
+log.info('seting Exit flag')
+exitFlag = 1
 
-# # Wait for all threads to complete
-# for t in workers:
-#     t.join()
+# Wait for all threads to complete
+for t in workers:
+    t.join()
 
-# log.info(' Phase 2: All treads have finished')
-# psave(pid_summary,'pid_summary')
+log.info(' Phase 2: All treads have finished')
+psave(pid_summary,'pid_summary')
 
 
 #Пишем в pid_summary
@@ -598,33 +612,32 @@ q = queue.Queue()
 queueLock = threading.Lock()
 for i in all_eos_pages: q.put(i)
 #q.put(('title','http://www.cisco.com/c/en/us/products/collateral/wireless/asr-5000-series/eos-eol-notice_C51-734559.html'))
-# log.info('Starting workers')
-# exitFlag = 0
-# workers =[]
-# for name in workers_names:
-#     thread = myThread(name,parse_eos,q,log)
-#     thread.start()
-#     workers.append(thread)
+log.info('Starting workers')
+exitFlag = 0
+workers =[]
+for name in workers_names:
+    thread = myThread(name,parse_eos,q,log)
+    thread.start()
+    workers.append(thread)
 
-# thread = myThread('Control',control,q,log)
-# thread.start()
-# workers.append(thread)
+thread = myThread('Control',control,q,log)
+thread.start()
+workers.append(thread)
    
-# # Wait for queue to empty
-# while not q.empty():
-#     pass
+# Wait for queue to empty
+while not q.empty():
+    pass
 
-# # Notify threads it's time to exit
-# exitFlag = 1
+# Notify threads it's time to exit
+exitFlag = 1
 
-# # Wait for all threads to complete
-# for t in workers:
-#     t.join()
+# Wait for all threads to complete
+for t in workers:
+    t.join()
 
-# psave(pid_bad,'pid_bad')
-# psave(data,'data')
+psave(pid_bad,'pid_bad')
+psave(data,'data')
 log.info('Phase 3: All treads are finished')
-data = pickle.load(open('data_2016-10-10-1454.p','rb'))
 data = data_normalize(data)
 
 #Пишем в таблицу data
@@ -655,7 +668,6 @@ for row in data:
 log.info(' All PNs added to table Data')
 
 # log.info('P3: start adding data to PidBad table')
-pid_bad = pickle.load(open('pid_bad_2016-10-10-1454.p','rb'))
 pid_bad = pid_bad_normalize(pid_bad)
 for row in pid_bad:
     log.info(row['pn'])
