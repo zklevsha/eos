@@ -28,7 +28,9 @@ def get_table(soup,log):
 	for table in soup:
 		arr_table = []
 		rows = table.findAll('tr')
-		header = table.find('tr').text.strip().split('\n')
+		header = [i.text for i in  table.find('tr').findAll('td')]
+		print('Header')
+		print(repr(header))
 		for row in rows:
 			cols = row.findAll('td')
 			#cols = [ele.text.strip() for ele in cols]
@@ -38,6 +40,8 @@ def get_table(soup,log):
 					cols.insert(0,'null')
 
 			arr_table.append(cols)
+	print('Table:')
+	print(arr_table)
 	return arr_table
 
 def get_page(url):

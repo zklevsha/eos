@@ -94,7 +94,23 @@ def support_get_eos(name,q):
                     pid_info['sourceLink'] = model[1]
                     
                     queueLock.acquire()
-                    for p in pids: pid_summary[p] =  pid_info
+                    for p in pids:          # Стараемся найти хоть один сайт в котором есть None Annonced для нашей железки. Если находим
+                        if p in pid_summary:# такую то записываем самую позднюю дату
+                            if  'None' in pid_summary[p]['endOfSaleDate']:
+                                pass
+                            elif 'None' in pid_info['endOfSaleDate']:
+                                pid_summary[p]=pid_info
+                            else:
+                                try:
+                                    old = parser(pid_summary[p]['endOfSaleDate'])
+                                    new = parser(pid_info['endOfSaleDate'])
+                                    if new > old :
+                                        pid_summary[p] = pid_info[p]
+                                except:
+                                    log.critical('dateparse error at pid_summary. old:' + pid_summary[p]['endOfSaleDate']+' '+ 'new:' +pid_info['endOfSaleDate'] )
+                                    log.critical('saving old data')
+                        else:
+                             pid_summary[p]=pid_info
                     queueLock.release()
 
                     log.info('Done. Found ' + str(len(pids)) + ' pids' )
@@ -330,7 +346,7 @@ def parse_eos(name,q):
                     dt = get_table(dates[dtk],log)
                     dt.pop(0)
 
-                    
+                    sys.exit()
                     dv_header = [i.replace(" ","").replace('\n','').replace('\xa0','') for i in dv[0]]
                     pns = [ [i[0].replace(" ", "").replace('\n','')] + i[1:] for i in dv if all(i[0] != a for a in ['Change','null']) ] 
                     
@@ -343,7 +359,7 @@ def parse_eos(name,q):
                             
                         
                     pns.pop(0)
-
+                    print (dt)
                     log.info('Adding pn to dictionary')
                     for pn_row in pns:
                         pn = pn_row[0]
@@ -573,6 +589,7 @@ psave(pid_summary,'pid_summary')
 
 
 #Пишем в pid_summary
+pid_summary = pickle.load(open('pid_summary_2016-10-11-1846.p','rb'))
 pid_summary = pid_summary_normalize(pid_summary)
 log.info('P2: Start to adding  PNs to PidSummary Table')
 for pid_info in pid_summary:
@@ -586,32 +603,34 @@ for pid_info in pid_summary:
     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN Логика такая: если есть хоть 1 железка с None Annonced то считаем что pn тоже None Annonced, если такой нет то 
                            # то пишем самую позднюю дату
         session.rollback()
-        query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
-        if query.endOfSaleDate == "None Announced":
-            pass
-        elif pid_info['endOfSaleDate'] == "None Announced" :
-            session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-            session.commit()
-        else:
-            try:
-                if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-                    session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-                    session.commit()
-            except:
-                log.critical('pn:' + pid_info['pn']+ " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
-            else: 
-                pass
+        session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+        session.commit()
+        # query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
+        # if query.endOfSaleDate == "None Announced":
+        #     pass
+        # elif pid_info['endOfSaleDate'] == "None Announced" :
+        #     session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+        #     session.commit()
+        # else:
+        #     try:
+        #         if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
+        #             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+        #             session.commit()
+        #     except:
+        #         log.critical('pn:' + pid_info['pn']+ " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
+        #     else: 
+        #         pass
     finally:
         session.close()
 
-# log.info('P2: All PNs are added to tables')
+log.info('P2: All PNs are added to tables')
 
 
 log.info('PHASE 3 PARSING EOS PAGES')
 q = queue.Queue()
 queueLock = threading.Lock()
 for i in all_eos_pages: q.put(i)
-#q.put(('title','http://www.cisco.com/c/en/us/products/collateral/wireless/asr-5000-series/eos-eol-notice_C51-734559.html'))
+#q.put(('title','http://www.cisco.com/c/en/us/products/collateral/application-networking-services/ace-gss-4400-series-global-site-selector-appliances/eol_C51-728977.html'))
 log.info('Starting workers')
 exitFlag = 0
 workers =[]
@@ -650,24 +669,27 @@ for row in data:
 
     except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
         session.rollback()
-        query = session.query(Data).filter_by(pn = row['pn']).first()
-        try:      
-            if parse(row['endOfSaleData']) > parse(query.endOfSaleData): 
-                session.query(Data).filter_by(pn = row['pn']).update(row)
-                session.commit()
-            else: 
-                pass
-        except:
-            log.critical('parser error: pn: ' + row['pn'] + " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
-            session.query(Data).filter_by(pn = row['pn']).update(row)
-            session.commit()
-        finally:
-            session.close()
+        session.query(Data).filter_by(pn = row['pn']).update(row)
+        session.commit()
+        
+        # query = session.query(Data).filter_by(pn = row['pn']).first()
+        # try:      
+        #     if parse(row['endOfSaleData']) > parse(query.endOfSaleData): 
+        #         session.query(Data).filter_by(pn = row['pn']).update(row)
+        #         session.commit()
+        #     else: 
+        #         pass
+        # except:
+        #     log.critical('parser error: pn: ' + row['pn'] + " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
+        #     session.query(Data).filter_by(pn = row['pn']).update(row)
+        #     session.commit()
+        # finally:
+        #     session.close()
     finally:
         session.close()
 log.info(' All PNs added to table Data')
 
-# log.info('P3: start adding data to PidBad table')
+log.info('P3: start adding data to PidBad table')
 pid_bad = pid_bad_normalize(pid_bad)
 for row in pid_bad:
     log.info(row['pn'])
@@ -682,6 +704,8 @@ for row in pid_bad:
     finally:
         session.close()
 log.info('All Pns are added to table PidBad')
+
+
 
 log.info("Exiting Main Thread")
 log.info("Execution time:" + str(datetime.datetime.now() - startTime))
