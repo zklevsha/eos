@@ -41,4 +41,17 @@ class PidBad(Base):
 
 
 
-	
+class DataManual(Base):
+	__tablename__ = "dataManual"
+
+	id = Column(Integer, primary_key=True)
+	pn = Column(String,unique=True)
+	description = Column(String)
+	endOfSaleDate = Column(String)
+	endOfNewServiceAttachmentDate = Column(String)
+	endOfNewServiceContractRenewalDate = Column(String)
+	lastDateOfSupport = Column(String)
+	replacement = Column(String)
+	sourceTitle = Column(String)
+	sourceLink = Column(String)
+	notes = Column(String)

@@ -3,6 +3,9 @@
 	<h2>Введите список PN для поиска</h2>
 	<form  class="pure-form pure-form-stacked" role="form" method='POST' action='/'>
 		 <textarea name="input" cols="40" rows="20"></textarea><br>
-		 <input type="submit" value="Искать">
+		 <input type="checkbox" name="check"> При поиске добавить/убрать = <br><br>
+		 <input type="submit" value="Искать"> 
 	</form> 
+	<div class="checkbox">
+
 {% endblock %}

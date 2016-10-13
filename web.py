@@ -1,17 +1,18 @@
 import platform
 import os
 import pickle
-from flask import Flask
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, Response,redirect,url_for,flash
+from functools import wraps
 from dateutil.parser import parse
 from flask_sqlalchemy import SQLAlchemy
 from mylibs.utils import *
-from db.schema import PidBad,PidSummary,Data
+from db.schema import PidBad,PidSummary,Data,DataManual
+from sqlalchemy.exc import IntegrityError
 
 
 
 
-def table_generate(arr):
+def table_generate(arr,add_remove_eq=False):
 	res_array = []
 	header = ['PN',
 				'Description',
@@ -25,6 +26,16 @@ def table_generate(arr):
 				 #'Found as']
 
 	res_array.append(header)
+
+	if add_remove_eq:
+		new_arr = []
+		for pn in arr:
+			new_arr.append(pn)
+			if pn[-1] == '=':
+				new_arr.append(pn[:-1])
+			else:
+				new_arr.append(pn + "=")
+		arr = new_arr
 
 	for pn in arr:
 		log.info('Processing: ' + str(pn))
@@ -75,24 +86,74 @@ def table_generate(arr):
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/eos.db'
+app.secret_key = '0330431079'
 db = SQLAlchemy(app)
 
 log = get_logger('web')
-
+res_array = []
+data_manual_pns = [i.pn for i in db.session.query(DataManual).all() if i.pn != '']
 data_pns = [i.pn for i in db.session.query(Data).all() if i.pn != '']
 pid_summary_pns = [i.pn for i in db.session.query(PidSummary).all() if i.pn != '']
 pid_bad_pns = [i.pn for i in db.session.query(PidBad).all() if i.pn != '']
 
 @app.route("/",methods=['GET', 'POST'])
-def hello():
+def index():
     if request.method == 'POST':
     	arr = [s.strip() for s in request.form['input'].splitlines() if s is not ""]
-    	table = table_generate(arr)
+    	add_remove_eq = 'check' in request.form # Если true ищем с = и без =
+    	table = table_generate(arr,add_remove_eq)
     	return render_template('table.html',header=table[0], data=table[1:])
+
 
     else: 
 	    return render_template('index.html')
 
 
+@app.route("/add",methods=['GET', 'POST'])
+def add():
+
+	form = [
+			['PN','pn'],
+			['Description','description'],
+			['Replacement','replacement'],
+			['End-of-Sale Date','endOfSaleDate'],
+			['End of New Service Attachment Date','endOfNewServiceAttachmentDate'],
+			['End of Service Contract Renewal Date','endOfNewServiceContractRenewalDate'],
+			['Last Date of Support','lastDateOfSupport'],
+			['Source Title','sourceTitle'],
+			['Source Link','sourceLink'],
+			['Notes','notes']
+	]
+
+	if request.method == 'POST':
+		data = request.form.to_dict()
+		print (data)
+		print('here!!!')
+		try:
+			print('i am here')
+			add = db.session.add(DataManual(**data))
+			print(add)
+			db.session.commit()
+
+		except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
+			print ('error')
+			db.session.rollback()   
+			res = db.session.query(DataManual).filter_by(pn=data['pn']).update(data)
+			print('res is',res)
+			print(data['pn'])
+			db.session.commit()
+		finally:
+			db.session.close()
+			print('SESSION CLOSED')
+
+		flash('Device '+ data['pn'] + ' was added to db')
+		data_manual_pns = [i.pn for i in db.session.query(DataManual).all() if i.pn != '']
+		table = table_generate([data['pn']],False)
+		return render_template('table.html',header=table[0], data=table[1:])
+
+
+	return render_template('add.html',form=form)
+
 if __name__ == "__main__":
-	app.run(debug = True,host='0.0.0.0')
+	app.run(debug = True,)
+

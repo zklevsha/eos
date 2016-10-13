@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+    <h2>Добавление PN вручную</h2>
+    <form class="pure-form pure-form-stacked" role="form" action="/add" method="post">
+    	{% for i in form %}  
+             <div>
+                <label for={{i[1]}}>{{i[0]}}:</label>
+                <input type="text" name={{i[1]}}>
+            </div>       
+         <br>   
+        {% endfor %}
+        <input type="submit" value="Добавить"> 
+    </form>
+
+
+
+   
+
+ 
+{% endblock %}
