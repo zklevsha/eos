@@ -10,4 +10,4 @@
   
   
 ## Установка 
-  1) Скачиваем git clone https://github.com/zklevsha/eos/
+  1) Скачиваем ```git clone https://github.com/zklevsha/eos/```
