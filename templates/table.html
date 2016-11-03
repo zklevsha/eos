@@ -22,8 +22,8 @@
 			{% else %}
 				<td> {{row[7]}} </td>
 			{% endif %}
-
-			<td> {{row[9]}} </td>
+			
+			<td> {{row[9]}} <a href=/add_update?pn={{row[0].replace(' ','')}}> Add/Edit</a>  </td>
 
 	    </tr>
 	{% endfor %}

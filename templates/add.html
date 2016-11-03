@@ -1,20 +1,19 @@
 {% extends "base.html" %}
 {% block body %}
-    <h2>Добавление PN вручную</h2>
-    <form class="pure-form pure-form-stacked" role="form" action="/add" method="post">
+    <h2>Добавление/Изменение PN</h2> 
+    {% if can_delete %}
+    <a href=/delete?pn={{form[0][-1]}}>удалить</a>
+    {% endif %}
+    <form class="pure-form pure-form-stacked" role="form" action="/add_update" method="post">
+    <br>
     	{% for i in form %}  
              <div>
                 <label for={{i[1]}}>{{i[0]}}:</label>
-                <input type="text" name={{i[1]}}>
+                <input type="text" name={{i[1]}}   value="{{i[2].replace('N/A','')}}" >
+
             </div>       
          <br>   
         {% endfor %}
-        <input type="submit" value="Добавить"> 
+        <input type="submit" value="Применить"> 
     </form>
-
-
-
-   
-
- 
 {% endblock %}

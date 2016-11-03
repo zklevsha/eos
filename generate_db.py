@@ -16,14 +16,20 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.exc import IntegrityError
 from dateutil.parser import parse
+import traceback
+
+
+#FUNCTIONS
 
 def support_get_eos(name,q):
     while not exitFlag:
         queueLock.acquire()
+        log.info('Lock acquried')
         try:
             if not q.empty():
                 device = q.get()
                 queueLock.release()
+                log.info('Lock released')
                 log.info("%s processing %s" % (name, device))
                 log.info('Checking ' + str(device[0]) + ' series')
                 log.info("url:" + device[1])
@@ -49,7 +55,6 @@ def support_get_eos(name,q):
 
                 log.info('Found ' + str( len(devices_in_series) )  + ' models')
                 log.info(" ")
-
                 for model in devices_in_series:
                     log.info('Parsing ' + model[0])
                     log.info(model[1])
@@ -94,24 +99,35 @@ def support_get_eos(name,q):
                     pid_info['sourceLink'] = model[1]
                     
                     queueLock.acquire()
+                    log.info('Lock acquried')
                     for p in pids:          # Стараемся найти хоть один сайт в котором есть None Annonced для нашей железки. Если находим
+                        log.info(p)
                         if p in pid_summary:# такую то записываем самую позднюю дату
                             if  'None' in pid_summary[p]['endOfSaleDate']:
                                 pass
                             elif 'None' in pid_info['endOfSaleDate']:
                                 pid_summary[p]=pid_info
                             else:
-                                try:
-                                    old = parser(pid_summary[p]['endOfSaleDate'])
-                                    new = parser(pid_info['endOfSaleDate'])
-                                    if new > old :
-                                        pid_summary[p] = pid_info[p]
-                                except:
-                                    log.critical('dateparse error at pid_summary. old:' + pid_summary[p]['endOfSaleDate']+' '+ 'new:' +pid_info['endOfSaleDate'] )
-                                    log.critical('saving old data')
+                                old = parse(pid_summary[p]['endOfSaleDate'])
+                                new = parse(pid_info['endOfSaleDate'])
+                                if new > old:
+                                    pid_summary[p] = pid_info
+        
+                                # try:
+                                #     old = parser(pid_summary[p]['endOfSaleDate'])
+                                #     new = parser(pid_info['endOfSaleDate'])
+                                #     if new > old :
+                                #         pid_summary[p] = pid_info[p]
+                                # except:
+                                #     log.critical('dateparse error at pid_summary. old:' + repr(pid_summary[p]['endOfSaleDate'])+' '+ 'new:' +repr(pid_info['endOfSaleDate']) )
+                                #     log.critical('saving old data')
+                                #     log.critical('old data',pid_summary[p])
+                                #     log.critical('new data',pid_info)
                         else:
+
                              pid_summary[p]=pid_info
                     queueLock.release()
+                    log.info('Lock released')
 
                     log.info('Done. Found ' + str(len(pids)) + ' pids' )
 
@@ -126,6 +142,7 @@ def support_get_eos(name,q):
                     
                     eos_pages = [(link.text,link['href']) for link in uls.findAll('a', href=True) if '-fr' not in link['href']]
                     queueLock.acquire()
+                    log.info('Lock acquried')
                     for eos_page in eos_pages:
                         if eos_page[1][0] == '/':eos_page = (eos_page[0],header+eos_page[1])
 
@@ -133,11 +150,13 @@ def support_get_eos(name,q):
                             all_eos_pages.append(eos_page)
 
                     queueLock.release()
+                    log.info('Lock released')
             else:
                 queueLock.release()
-        except Exception as e:
-            log.critial(e)
-            queueLock.release()
+                log.info('Queue is empty. Lock is released')
+        except:
+            #log.critical(traceback.print_exc())
+            log.exception('Exeption:')
 
 
 def products_get_eos(name,q):
@@ -147,6 +166,7 @@ def products_get_eos(name,q):
             if not q.empty():
                 url = q.get()
                 queueLock.release()
+                log.info('Lock released')
                 log.info("%s processing %s" % (name, url))
                 content = get_page(url[1])
                 soup = BeautifulSoup(content.text,"html.parser")
@@ -162,27 +182,31 @@ def products_get_eos(name,q):
                         soup = BeautifulSoup(content.text,"html.parser",parse_only=strainer)
                         eos_product_page = [ (link.text,header+link['href']) for link in soup.findAll('a', href=True)  if '-fr' not in link['href']]
                         queueLock.acquire()
+                        log.info('Lock acquried')
                         for i in eos_product_page:
                             if i[1][0] == '/':i = (i[0],header+i[1])
                             if i not in all_eos_pages:
                                 all_eos_pages.append(i)
                         parsed_eos_listing_products.append(listing)
                         queueLock.release()
+                        log.info('Lock released')
                 log.info('Done')
             else:
                 queueLock.release()
-        except Exception as e:
-            queueLock.release()
-            log.error(e)
+                log.info('Queue is empty. Lock  released')
 
+        except Exception as e:
+            log.exception('Exeption:')
 
 def parse_eos(name,q):
     while not exitFlag:
         queueLock.acquire()
+        log.info('Lock acquried')
         try:
             if not q.empty():
                 eos = q.get()
                 queueLock.release()
+                log.info('Lock released')
                 log.info("%s processing %s" % (name, eos))
                 if eos[1][0] == '/':eos = (eos[0],header+eos[1]) # Нужен абсолютный путь
 
@@ -270,8 +294,10 @@ def parse_eos(name,q):
 
                         for pn in pns:
                             queueLock.acquire()
+                            log.info('Lock acquried')
                             pid_bad[pn] = eos
                             queueLock.release()
+                            log.info('Lock released')
                         log.error('Added ' + str(len(pns)) + 'pns')
                     log.error('Done.')
                     log.error('')
@@ -293,8 +319,10 @@ def parse_eos(name,q):
 
                             for pn in pns:
                                 queueLock.acquire()
+                                log.info('Lock acquried')
                                 pid_bad[pn] = eos
                                 queueLock.release()
+                                log.info('Lock released')
                             log.error(' Added ' + str(len(pns)) + 'pns')
                         log.error('Done')
                         log.error('')
@@ -327,8 +355,10 @@ def parse_eos(name,q):
                         pns.pop(0)
                         for pn in pns:
                             queueLock.acquire()
+                            log.info('Lock acquried')
                             pid_bad[pn] = eos
                             queueLock.release()
+                            log.info('Lock released')
 
                         log.error(' Added ' + str(len(pns)) + 'pns')
                     log.error('Done')
@@ -345,8 +375,6 @@ def parse_eos(name,q):
                     log.info('Assosiate dates title ' + dtk)
                     dt = get_table(dates[dtk],log)
                     dt.pop(0)
-
-                    sys.exit()
                     dv_header = [i.replace(" ","").replace('\n','').replace('\xa0','') for i in dv[0]]
                     pns = [ [i[0].replace(" ", "").replace('\n','')] + i[1:] for i in dv if all(i[0] != a for a in ['Change','null']) ] 
                     
@@ -367,6 +395,7 @@ def parse_eos(name,q):
 
                         # check for duplicate keys
                         queueLock.acquire() #  < ------------------------------------------ lock starts here 
+                        log.info('Lock acquried')
                         if pn in data.keys():
                             log.error('Duplicate PN ' + str(pn))
                             log.error('Stored doc url :'+ data[pn]['doc'][1])
@@ -378,6 +407,7 @@ def parse_eos(name,q):
                                 except KeyError:
                                     log.error('No Replacement column. Here are table header: '+ str(dv_header))
                                 queueLock.release()
+                                log.info('Lock released')
                                 continue 
                             log.error("Document date(stored):"  + str(data[pn]['doc'][2]))
                             log.error("Document date(new): " + str(document_date))
@@ -385,6 +415,7 @@ def parse_eos(name,q):
                                 log.error('Stored document is newer. Sciping new values')
                                 log.error('')
                                 queueLock.release() # < -------------------------------- lock finishied here (first case)
+                                log.info('Lock released')
                                 continue
                             else:
                                 log.error('Stored document is older. Updating')
@@ -418,27 +449,40 @@ def parse_eos(name,q):
                             data[pn]['replacement'].append("N/A")
                             
                         queueLock.release() # < ------------------------------------------ lock finished here (second case)
-                
+                        log.info('Lock released')
             else:
                 queueLock.release()
+                log.info('Queue is empty. Release Lock')
+
         except Exception as e:
-            queueLock.release()
-            log.error(e)
+            log.exception('Exeption:')
 
 
 def control(name,q):
-     while not exitFlag:
-        queueLock.acquire()
+    last_qs = 0
+    err_counter = 0
+    while not exitFlag:
         try:
             if not q.empty():
+                qs = q.qsize()
+                if last_qs == qs:
+                    if err_counter == 4:
+                        log.critical('Queue does not changed for 60 seconds, releasing stucked lock')
+                        queueLock.release()
+                        err_counter = 0
+                    else:
+                        err_counter = err_counter + 1
+                        log.critical ('Queue does not changed for '  + str(15*err_counter) + ' seconds')
+                else:
+                    err_counter = 0
+
+                last_qs = qs
                 log.info('CONTROL: Queue length:'  + str(q.qsize()))
-                queueLock.release()
-                time.sleep(30)
+                time.sleep(15)
             else:
-                queueLock.release()
+                log.info('Queue is empty.')
         except Exception as e:
-            queueLock.release()
-            log.error(e)
+            log.critical(e)
 
 
 class myThread(threading.Thread):
@@ -455,7 +499,7 @@ class myThread(threading.Thread):
 
 
 
-
+# VARIABLES
 header = "http://www.cisco.com"
 all_device_support_page = []
 workers_names = ['Wokrer-' + str(i) for i in range(100)]
@@ -482,6 +526,9 @@ root = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
 
+
+
+# ENTRY POINT
 
 if os.path.isfile(os.path.join(root,'db/eos.db')):
     log.info('Backing old eos.db')
@@ -596,32 +643,38 @@ for pid_info in pid_summary:
     log.info(pid_info['pn'])
 
     session = sessionmaker(bind=engine)()
-    try:
+    result = session.query(PidSummary).filter_by(pn=pid_info['pn']).update(pid_info)
+    if result == 0:
         session.add(PidSummary(**pid_info))
-        session.commit()
 
-    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN Логика такая: если есть хоть 1 железка с None Annonced то считаем что pn тоже None Annonced, если такой нет то 
-                           # то пишем самую позднюю дату
-        session.rollback()
-        session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-        session.commit()
-        # query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
-        # if query.endOfSaleDate == "None Announced":
-        #     pass
-        # elif pid_info['endOfSaleDate'] == "None Announced" :
-        #     session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-        #     session.commit()
-        # else:
-        #     try:
-        #         if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
-        #             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
-        #             session.commit()
-        #     except:
-        #         log.critical('pn:' + pid_info['pn']+ " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
-        #     else: 
-        #         pass
-    finally:
-        session.close()
+    session.commit()
+    session.close()
+    # try:
+    #     session.add(PidSummary(**pid_info))
+    #     session.commit()
+
+    # except IntegrityError: # Если нарушаем UNIQE CONSTRAIN Логика такая: если есть хоть 1 железка с None Annonced то считаем что pn тоже None Annonced, если такой нет то 
+    #                        # то пишем самую позднюю дату
+    #     session.rollback()
+    #     session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+    #     session.commit()
+    #     # query = session.query(PidSummary).filter_by(pn = pid_info['pn']).first()
+    #     # if query.endOfSaleDate == "None Announced":
+    #     #     pass
+    #     # elif pid_info['endOfSaleDate'] == "None Announced" :
+    #     #     session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+    #     #     session.commit()
+    #     # else:
+    #     #     try:
+    #     #         if parse(pid_info['endOfSaleDate']) < parse(query.endOfSaleDate): # Записываем более ранюю дату End of Sale
+    #     #             session.query(PidSummary).filter_by(pn = pid_info['pn']).update(pid_info)
+    #     #             session.commit()
+    #     #     except:
+    #     #         log.critical('pn:' + pid_info['pn']+ " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
+    #     #     else: 
+    #     #         pass
+    # finally:
+    #     session.close()
 
 log.info('P2: All PNs are added to tables')
 
@@ -663,6 +716,13 @@ data = data_normalize(data)
 session = sessionmaker(bind=engine)()
 for row in data:
     log.info(row['pn'])
+
+    session = sessionmaker(bind=engine)()
+    result = session.query(Data).filter_by(pn=row['pn']).update(row)
+    if result == 0:
+        session.add(Data(**row))
+    session.commit()
+    session.close()
     try:
             session.add(Data(**row))
             session.commit()
@@ -672,19 +732,7 @@ for row in data:
         session.query(Data).filter_by(pn = row['pn']).update(row)
         session.commit()
         
-        # query = session.query(Data).filter_by(pn = row['pn']).first()
-        # try:      
-        #     if parse(row['endOfSaleData']) > parse(query.endOfSaleData): 
-        #         session.query(Data).filter_by(pn = row['pn']).update(row)
-        #         session.commit()
-        #     else: 
-        #         pass
-        # except:
-        #     log.critical('parser error: pn: ' + row['pn'] + " " +  'row:'+ row['endOfSaleData'] +" "+ "db:"+ query.endOfSaleData)
-        #     session.query(Data).filter_by(pn = row['pn']).update(row)
-        #     session.commit()
-        # finally:
-        #     session.close()
+       
     finally:
         session.close()
 log.info(' All PNs added to table Data')
@@ -692,17 +740,26 @@ log.info(' All PNs added to table Data')
 log.info('P3: start adding data to PidBad table')
 pid_bad = pid_bad_normalize(pid_bad)
 for row in pid_bad:
+    log.info(row)
     log.info(row['pn'])
-    try:
-            session.add(PidBad(**row))
-            session.commit()
 
-    except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
-        session.rollback()   
-        session.query(PidBad).filter_by(pn = row['pn']).update(row)
-        session.commit()
-    finally:
-        session.close()
+    session = sessionmaker(bind=engine)()
+    result = session.query(PidBad).filter_by(pn=row['pn']).update(row)
+    if result == 0:
+        session.add(PidBad(**row))
+    session.commit()
+    session.close()
+
+    # try:
+    #         session.add(PidBad(**row))
+    #         session.commit()
+
+    # except IntegrityError: # Если нарушаем UNIQE CONSTRAIN
+    #     session.rollback()   
+    #     session.query(PidBad).filter_by(pn = row['pn']).update(row)
+    #     session.commit()
+    # finally:
+    #     session.close()
 log.info('All Pns are added to table PidBad')
 
 
