@@ -194,7 +194,9 @@ def add():
 				i = i+1 
 			form[-1][-1]=''
 
-		return render_template('add.html',form=form, can_delete=can_delete(pn))
+			return render_template('add_update.html',form=form, can_delete=can_delete(pn))
+		else:
+			return render_template('add_update.html',form=form, can_delete=False)
 
 
 
