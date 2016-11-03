@@ -126,7 +126,7 @@ def index():
     if request.method == 'POST':
     	arr = [s.strip() for s in request.form['input'].splitlines() if s is not ""]
     	if len(arr) == 0:
-    		flash('Не указан ни один PN')
+    		flash('Не указан ни один PN','warning')
     		return redirect(url_for('index'))
     	add_remove_eq = 'check' in request.form # Если true ищем с = и без =
     	table = table_generate(arr,add_remove_eq)
@@ -176,7 +176,7 @@ def add():
 			db.session.close()
 			print('SESSION CLOSED')
 
-		flash('Device '+ data['pn'] + ' was added to db')
+		flash('Устройсво '+ data['pn'] + ' добавлено','success')
 		table = table_generate([data['pn']],False)
 	 
 		return render_template('table.html',header=table[0], data=table[1:])
@@ -207,10 +207,10 @@ def delete():
 		row = db.session.query(DataManual).filter_by(pn=request.args.get('pn')).first()
 		db.session.delete(row)
 		db.session.commit()
-		flash('Устройство удалено')
+		flash('Устройство удалено','success')
 		return redirect(url_for('index'))
 	except Exception as e:
-		flash('Не удалось удалить устройство ' +  str(e))
+		flash('Не удалось удалить устройство ' +  str(e),'danger')
 		return redirect(url_for('index'))
 
 if __name__ == "__main__":
