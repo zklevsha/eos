@@ -155,7 +155,6 @@ def support_get_eos(name,q):
                 queueLock.release()
                 log.info('Queue is empty. Lock is released')
         except:
-            #log.critical(traceback.print_exc())
             log.exception('Exeption:')
 
 
@@ -312,10 +311,6 @@ def parse_eos(name,q):
                             dv = get_table(devices[dvk],log)
                             pns = [ i[0].replace(" ", "").replace('\n','') for i in dv if all(i[0] != a for a in ['Change','null']) ]
                             pns.pop(0)
-                            print(dv)
-                            print("")
-                            print (pns)
-                            print('')
 
                             for pn in pns:
                                 queueLock.acquire()
@@ -387,7 +382,6 @@ def parse_eos(name,q):
                             
                         
                     pns.pop(0)
-                    print (dt)
                     log.info('Adding pn to dictionary')
                     for pn_row in pns:
                         pn = pn_row[0]
@@ -591,7 +585,6 @@ log.info('PHASE 2: COLLECTING EOS FROM SUPPORT')
 for device in support_deviceTypes:
   log.info('Gathering ' + device)
   content = get_page("http://www.cisco.com/c/dam/en/us/support/home/json/overlays/"+device+".json")
-  #print (content.text)
   diction = json.loads(content.text)
   #json['subCats'][0]['series'][6]
 
@@ -710,7 +703,7 @@ exitFlag = 1
 # Wait for all threads to complete
 for t in workers:
     t.join()
-    
+
 if DEBUG:
     psave(pid_bad,'pid_bad')
     psave(data,'data')
