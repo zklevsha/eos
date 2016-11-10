@@ -510,7 +510,7 @@ support_deviceTypes = ['routers','switches','security','wireless','serversunifie
                 'opticalnetworking','serviceexchange','storagenetworking',
                 'video']
 
-
+DEBUG = False
 
 
 # SHARED VARIABLES
@@ -598,7 +598,10 @@ for device in support_deviceTypes:
   for subcat in diction['subCats']:
       for model in subcat['series']:
           all_device_support_page.append( (model['title'],header + model['url']) )
-psave(all_device_support_page,'all_device_support_page')
+
+if DEBUG:
+    psave(all_device_support_page,'all_device_support_page')
+
 log.info("Done.")
 
 
@@ -632,7 +635,9 @@ for t in workers:
     t.join()
 
 log.info(' Phase 2: All treads have finished')
-psave(pid_summary,'pid_summary')
+
+if DEBUG:
+    psave(pid_summary,'pid_summary')
 
 
 #Пишем в pid_summary
@@ -705,9 +710,11 @@ exitFlag = 1
 # Wait for all threads to complete
 for t in workers:
     t.join()
+    
+if DEBUG:
+    psave(pid_bad,'pid_bad')
+    psave(data,'data')
 
-psave(pid_bad,'pid_bad')
-psave(data,'data')
 log.info('Phase 3: All treads are finished')
 data = data_normalize(data)
 
