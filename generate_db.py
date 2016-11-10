@@ -636,7 +636,6 @@ psave(pid_summary,'pid_summary')
 
 
 #Пишем в pid_summary
-pid_summary = pickle.load(open('pid_summary_2016-10-11-1846.p','rb'))
 pid_summary = pid_summary_normalize(pid_summary)
 log.info('P2: Start to adding  PNs to PidSummary Table')
 for pid_info in pid_summary:

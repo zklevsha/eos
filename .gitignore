@@ -4,3 +4,4 @@ ERROR*
 CRITICAL*
 *.p
 *.pyc
+*.db
