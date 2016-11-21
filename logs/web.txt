@@ -1,2 +1,15 @@
-MainThread 2016-11-21 12:46:35,107  * Debugger is active!
-MainThread 2016-11-21 12:46:35,111  * Debugger pin code: 171-115-556
+MainThread 2016-11-21 12:50:50,334  * Debugger is active!
+MainThread 2016-11-21 12:50:50,336  * Debugger pin code: 211-854-530
+MainThread 2016-11-21 12:MainThread 2016-11-21 12:55:39,234  * Restarting with stat
+tils.py', reloading
+MainThread 2016-11-21 12:55:40,188  * Debugger is active!
+MainThread 2016-11-21 12:55:40,190  * Debugger pin code: 211-854-530
+MainThread 2016-11-21 12:55:54,358  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+MainThread 2016-11-21 12:55:54,362  * Restarting with stat
+MainThread 2016-11-21 12:55:55,402  * Debugger is active!
+MainThread 2016-11-21 12:55:55,404  * Debugger pin code: 211-854-530
+Thread-1 2016-11-21 12:56:35,671 Processing: 1323rfwd
+Thread-1 2016-11-21 12:56:35,695 Cant find this PN
+Thread-1 2016-11-21 12:56:35,746 10.225.151.37 - - [21/Nov/2016 12:56:35] "POST / HTTP/1.1" 200 -
+Thread-1 2016-11-21 12:56:35,780 10.225.151.37 - - [21/Nov/2016 12:56:35] "GET /js/scripts.js HTTP/1.1" 404 -
+Thread-1 2016-11-21 12:56:35,867 10.225.151.37 - - [21/Nov/2016 12:56:35] "GET /js/scripts.js HTTP/1.1" 404 -

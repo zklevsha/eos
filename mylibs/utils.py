@@ -83,7 +83,7 @@ def get_logger(filename,rootDir=os.path.dirname(sys.argv[0]),withoutSeverity=Fal
 
 	if withoutSeverity == True:
 		fname = filename +'.txt'
-		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='a+')
 		handler.setLevel(logging.DEBUG)
 		formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
 		handler.setFormatter(formatter)
