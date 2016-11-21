@@ -63,7 +63,7 @@ def get_page(url):
 	return content
 
 
-def get_logger(filename,rootDir=os.path.dirname(sys.argv[0])):
+def get_logger(filename,rootDir=os.path.dirname(sys.argv[0]),withoutSeverity=False):
 
 	if os.path.exists(os.path.join(rootDir,'logs')):
 		logPath = os.path.join(rootDir,'logs')
@@ -81,29 +81,38 @@ def get_logger(filename,rootDir=os.path.dirname(sys.argv[0])):
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
+	if withoutSeverity == True:
+		fname = filename +'.txt'
+		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+		handler.setLevel(logging.DEBUG)
+		formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
+		handler.setFormatter(formatter)
+		logger.addHandler(handler)
+		return logger
 
-	fname = "INFO_"+filename + '_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt'
-	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
-	handler.setLevel(logging.INFO)
-	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
-	handler.setFormatter(formatter)
-	logger.addHandler(handler)
+	else:
+		fname = "INFO_"+filename + '_'+ datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt'
+		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+		handler.setLevel(logging.INFO)
+		formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
+		handler.setFormatter(formatter)
+		logger.addHandler(handler)
 
-	fname ="ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
-	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
-	handler.setLevel(logging.WARNING)
-	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
-	handler.setFormatter(formatter)
-	logger.addHandler(handler)
+		fname ="ERROR_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
+		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+		handler.setLevel(logging.WARNING)
+		formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
+		handler.setFormatter(formatter)
+		logger.addHandler(handler)
 
-	fname ="CRITICAL_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
-	handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
-	handler.setLevel(logging.CRITICAL)
-	formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
-	handler.setFormatter(formatter)
-	logger.addHandler(handler)
+		fname ="CRITICAL_"+filename + '_'+datetime.datetime.now().strftime("%Y-%m-%d-%H%M")+'.txt' 
+		handler = logging.FileHandler(os.path.join(logPath,fname) , mode='w')
+		handler.setLevel(logging.CRITICAL)
+		formatter = logging.Formatter("%(threadName)s %(asctime)s %(message)s")
+		handler.setFormatter(formatter)
+		logger.addHandler(handler)
 
-	return logger
+		return logger
 
 def get_cisco_links(search_list):
 	all_links = []

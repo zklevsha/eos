@@ -1,0 +1,2 @@
+MainThread 2016-11-21 12:46:35,107  * Debugger is active!
+MainThread 2016-11-21 12:46:35,111  * Debugger pin code: 171-115-556

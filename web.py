@@ -40,12 +40,12 @@ def table_generate(arr,add_remove_eq=False):
 		arr = new_arr
 
 	for pn in arr:
-		log.info('Processing: ' + str(pn))
+		log.debug('Processing: ' + str(pn))
 
 		#PN был добавлен вручную
 		row = db.session.query(DataManual).filter_by(pn=pn).first()
 		if row is not None:
-			log.info('pn in data_manual_pns')
+			log.debug('pn in data_manual_pns')
 			line = [row.pn,row.description,row.replacement,
 							row.endOfSaleDate,row.endOfNewServiceAttachmentDate,
 							row.endOfNewServiceContractRenewalDate,
@@ -59,7 +59,7 @@ def table_generate(arr,add_remove_eq=False):
 		# Нашли всю информацию
 		row = db.session.query(Data).filter_by(pn=pn).first()
 		if row is not None:                         
-			log.info('pn in data') 
+			log.debug('pn in data') 
 			line = [row.pn,row.description,row.replacement,
 							row.endOfSaleData,row.endOfNewServiceAttachmentDate,
 							row.endOfNewServiceContractRenewalDate,
@@ -80,7 +80,7 @@ def table_generate(arr,add_remove_eq=False):
 		# Нет самого EOS
 		row = db.session.query(PidSummary).filter_by(pn=pn).first()
 		if row is not None:
-			log.info('pn in pid_summary')
+			log.debug('pn in pid_summary')
 
 			# # Приводим даты к единому формату
 			if row.endOfSaleDate != 'None Announced':
@@ -118,7 +118,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/eos.db'
 app.secret_key = '0330431079'
 db = SQLAlchemy(app)
 
-log = get_logger('web')
+log = get_logger('web',withoutSeverity=True)
 res_array = []
 
 @app.route("/",methods=['GET', 'POST'])
@@ -214,15 +214,7 @@ def delete():
 		return redirect(url_for('index'))
 
 if __name__ == "__main__":
-	app.run(debug = True,)
+	app.run(debug = True,host='0.0.0.0')
 
 
 
-## НЕ ДОЛЖНА ПРИ ЗАПУСКЕ СКРИПТА ПРОИСХОДИТЬ ВЫБОРКА ВСЕХ ДАННЫХ
-## ВОТ ЭТО 
-#data_manual_pns = [i.pn for i in db.session.query(DataManual).all() if i.pn != '']
-#data_pns = [i.pn for i in db.session.query(Data).all() if i.pn != '']
-#pid_summary_pns = [i.pn for i in db.session.query(PidSummary).all() if i.pn != '']
-#pid_bad_pns = [i.pn for i in db.session.query(PidBad).all() if i.pn != '']
-
-# Убрать!!
